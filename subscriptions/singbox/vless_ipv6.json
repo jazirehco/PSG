@@ -94,12 +94,12 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @customvpnserver [11]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [56]",
                 "❔ XX | 🔓 VLESS | @father_vpn [5]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
-                "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
                 "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
@@ -126,12 +126,12 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @customvpnserver [11]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [56]",
                 "❔ XX | 🔓 VLESS | @father_vpn [5]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
-                "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
                 "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
@@ -268,6 +268,22 @@
             }
         },
         {
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [56]",
+            "type": "vless",
+            "server": "[2a12:5940:1527::2]",
+            "server_port": 8880,
+            "uuid": "baa10442-7622-4b96-bd86-9f72aaac9846",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2a12:5940:1527::2]"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @father_vpn [5]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
@@ -350,22 +366,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
-            "type": "vless",
-            "server": "[2a12:5940:1527::2]",
-            "server_port": 8880,
-            "uuid": "baa10442-7622-4b96-bd86-9f72aaac9846",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2a12:5940:1527::2]"
                 }
             }
         },
