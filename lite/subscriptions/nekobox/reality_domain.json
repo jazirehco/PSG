@@ -84,7 +84,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
@@ -108,7 +108,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇺🇸 US | 🔒 VLESS | @qrv2ray [13]",
+                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [13]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇵🇱 PL | 🔒 VLESS | @satellitenewspersian [18]",
@@ -139,7 +139,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
@@ -163,7 +163,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇺🇸 US | 🔒 VLESS | @qrv2ray [13]",
+                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [13]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇵🇱 PL | 🔒 VLESS | @satellitenewspersian [18]",
@@ -370,26 +370,30 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "de.maketunnelim.lat",
-            "server_port": 443,
-            "uuid": "e5256aba-41f9-231f-04e0-8e787a555d87",
+            "server": "t.me",
+            "server_port": 0,
+            "uuid": "97c4e3db-7835-45c2-ef88-946ca39feb23",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "miro.com",
+                "server_name": "sain.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qty5-NiOdcTWUTIZBVCPjXVe2zSLeb5GoLdXIi-QTSo",
-                    "short_id": "9fc2d4a1e8b7a3c5"
+                    "public_key": "M5Tspmlf2U1KKCFR5KlO5-hUlsRuOpa6q6CeZO9zGSs",
+                    "short_id": "5c727ea917"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -966,7 +970,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @qrv2ray [13]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @qrv2ray [13]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
