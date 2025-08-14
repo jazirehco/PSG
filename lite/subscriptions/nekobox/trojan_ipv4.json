@@ -83,6 +83,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -91,7 +92,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [17]",
@@ -110,6 +110,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -118,7 +119,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [17]",
@@ -262,6 +262,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "190.93.245.69",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "fcspring.ggff.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tr?ed",
+                "headers": {
+                    "Host": "fcspring.ggff.net"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
             "type": "trojan",
             "server": "104.149.155.13",
@@ -389,22 +412,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
-            "type": "trojan",
-            "server": "13.37.204.11",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
