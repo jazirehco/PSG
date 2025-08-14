@@ -98,12 +98,13 @@
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+                "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [55]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
-                "🇷🇺 RU | 🔒 VLESS | @game_file2020 [8]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [7]",
@@ -144,7 +145,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇧🇪 BE | 🔒 VLESS | @vpnod [2]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
@@ -163,12 +163,13 @@
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+                "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [55]",
+                "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [56]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
+                "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇬🇧 GB | 🔒 VLESS | @freevlessvpn [1]",
-                "🇷🇺 RU | 🔒 VLESS | @game_file2020 [8]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [7]",
@@ -209,7 +210,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇧🇪 BE | 🔒 VLESS | @vpnod [2]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
@@ -444,6 +444,56 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [55]",
+            "type": "vless",
+            "server": "213.183.41.63",
+            "server_port": 443,
+            "uuid": "3c631fef-c28c-4dfe-aacc-9e67ace7d5b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "skyroom.online",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9tNnOU3bIHtyZfWaPv1J1ns78jDfzCdh6dRLjhQGlX8",
+                    "short_id": "1f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "free"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @fastfreeconfig [56]",
+            "type": "vless",
+            "server": "65.109.192.110",
+            "server_port": 55953,
+            "uuid": "b5ee8f67-0f25-467b-aca4-01001f00d802",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
+                    "short_id": "ec01ceda"
+                }
+            }
+        },
+        {
             "tag": "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
             "type": "vless",
             "server": "82.153.220.10",
@@ -467,7 +517,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "209.38.246.53",
             "server_port": 51927,
@@ -560,33 +610,6 @@
                     "public_key": "GGlKs0cQDaQoDkiDlpeIWE-h0K3ohsHr7u9B3A9GODU",
                     "short_id": "17ce7de25d262bbe"
                 }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @game_file2020 [8]",
-            "type": "vless",
-            "server": "213.183.41.63",
-            "server_port": 443,
-            "uuid": "3c631fef-c28c-4dfe-aacc-9e67ace7d5b3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "skyroom.online",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9tNnOU3bIHtyZfWaPv1J1ns78jDfzCdh6dRLjhQGlX8",
-                    "short_id": "1f"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "free"
             }
         },
         {
@@ -1549,29 +1572,6 @@
                     "enabled": true,
                     "public_key": "EXDIPc_-7wSk5LI0JH0fyaN3bc_kIgEe3fu2hIOBtWs",
                     "short_id": "3dd812"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-            "type": "vless",
-            "server": "65.109.192.110",
-            "server_port": 55953,
-            "uuid": "b5ee8f67-0f25-467b-aca4-01001f00d802",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
-                    "short_id": "ec01ceda"
                 }
             }
         },
