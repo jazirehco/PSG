@@ -142,9 +142,9 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [10]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayopen [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [1]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesc [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesc [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesc [9]",
@@ -223,9 +223,9 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [10]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayopen [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [1]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesc [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesc [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesc [9]",
@@ -1082,6 +1082,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [10]",
+            "type": "vless",
+            "server": "free-httpcustommfree-httpcustom-free-httpcustom-free-httpcustom.vip-f.top",
+            "server_port": 80,
+            "uuid": "Free_HTTPCustom",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2rayopen [5]",
             "type": "vless",
             "server": "speedtest.net",
@@ -1101,24 +1110,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "sss2180.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [1]",
-            "type": "vless",
-            "server": "sss93336.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss93336.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
