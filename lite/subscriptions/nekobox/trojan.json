@@ -89,8 +89,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-                "🇷🇺 RU | 🔓 TROJAN | @hope_net [20]",
+                "🇷🇺 RU | 🔓 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -123,8 +123,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-                "🇷🇺 RU | 🔓 TROJAN | @hope_net [20]",
+                "🇷🇺 RU | 🔓 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -395,30 +395,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "162.159.152.2",
-            "server_port": 443,
-            "password": "dns68",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.putata.us.kg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "trojan.putata.us.kg"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🇷🇺 RU | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "185.148.106.44",
             "server_port": 443,
@@ -430,6 +407,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.21.19.243",
+            "server_port": 443,
+            "password": "WOeXShhJpL",
+            "tls": {
+                "enabled": true,
+                "server_name": "06jzus.zdzdzd.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/juzigongyi",
+                "headers": {
+                    "Host": "06jzus.zdzdzd.xyz"
                 }
             }
         },
