@@ -84,7 +84,6 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
@@ -108,7 +107,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [13]",
+                "🇺🇸 US | 🔒 VLESS | @qrv2ray [13]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇵🇱 PL | 🔒 VLESS | @satellitenewspersian [18]",
@@ -131,6 +130,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [58]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -197,7 +197,6 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
@@ -221,7 +220,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [13]",
+                "🇺🇸 US | 🔒 VLESS | @qrv2ray [13]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇵🇱 PL | 🔒 VLESS | @satellitenewspersian [18]",
@@ -244,6 +243,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [58]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -483,33 +483,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "t.me",
-            "server_port": 0,
-            "uuid": "97c4e3db-7835-45c2-ef88-946ca39feb23",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sain.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "M5Tspmlf2U1KKCFR5KlO5-hUlsRuOpa6q6CeZO9zGSs",
-                    "short_id": "5c727ea917"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -1086,7 +1059,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @qrv2ray [13]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @qrv2ray [13]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
@@ -1631,6 +1604,29 @@
                     "enabled": true,
                     "public_key": "OkwhFGkP6NhXbmfBpBKqJ_HDNEcqbkp0mMc9HeYVBBE",
                     "short_id": "9f2b1f07"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "139.162.146.9",
+            "server_port": 443,
+            "uuid": "b5e5c843-eb6b-438d-93c5-4faa71780ac4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "eu.account.battle.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JrQipo4fliL8f9hLW49Wpr96XjYFaZPsom7hzlvaMio",
+                    "short_id": "02"
                 }
             }
         },
