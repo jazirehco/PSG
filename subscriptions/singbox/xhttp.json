@@ -163,8 +163,8 @@
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [4]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -182,7 +182,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [25]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [12]",
@@ -212,8 +211,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [5]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [7]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
+                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [9]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -295,8 +295,8 @@
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [4]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -314,7 +314,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [25]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [12]",
@@ -344,8 +343,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [5]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [7]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
+                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [9]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1309,34 +1309,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
-            "type": "vless",
-            "server": "45.150.33.157",
-            "server_port": 50810,
-            "uuid": "9d21a437-dbae-4995-949b-d9920f2613a9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
-                    "short_id": "aa60a00122200b76"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @dailytek [4]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "0b4e0f6a-98a2-468a-910f-4a0b3fbeec36",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [54]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "24dd368a-1ce6-493b-a036-0f4d479f4540",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1569,15 +1555,6 @@
             "server": "185.18.250.67",
             "server_port": 8080,
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "24dd368a-1ce6-493b-a036-0f4d479f4540",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2139,6 +2116,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "9d21a437-dbae-4995-949b-d9920f2613a9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
             "type": "vless",
             "server": "45.150.33.157",
@@ -2162,7 +2162,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [9]",
             "type": "vless",
             "server": "91.99.15.181",
             "server_port": 443,
