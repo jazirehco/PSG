@@ -97,6 +97,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [5]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -123,7 +124,7 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [23]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [28]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [5]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [15]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
@@ -159,8 +160,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayopen [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [6]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [10]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [8]",
                 "❔ XX | 🔓 VLESS | @vpnfree_irann [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [5]",
@@ -180,6 +180,7 @@
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [5]",
                 "❔ XX | 🔒 VLESS | @canfing_vpn [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @dailytek [3]",
@@ -206,7 +207,7 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [19]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [23]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [28]",
-                "🇩🇪 DE | 🔓 VLESS | @falcunargo [5]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [15]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
@@ -242,8 +243,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2rayopen [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [13]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [6]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesc [10]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [8]",
                 "❔ XX | 🔓 VLESS | @vpnfree_irann [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnfree_irann [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [5]",
@@ -389,6 +389,24 @@
                     "enabled": true,
                     "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
                     "short_id": "aeba"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "sss86065.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss86065.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -650,7 +668,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [5]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [3]",
             "type": "vless",
             "server": "sss94870.tas-bazi.com",
             "server_port": 443,
@@ -1157,25 +1175,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [6]",
-            "type": "vless",
-            "server": "sss48716.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "92b022a6-67f3-4406-840b-8fec2f4aace8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss48716.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [10]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [8]",
             "type": "vless",
             "server": "sss93336.tas-bazi.com",
             "server_port": 443,

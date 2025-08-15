@@ -86,7 +86,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -99,17 +98,18 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇬🇧 GB | 🔒 VLESS | @lexernet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇬🇧 GB | 🔒 VLESS | @outline_ir [17]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
+                "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+                "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [18]",
@@ -141,7 +141,6 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -154,17 +153,18 @@
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇬🇧 GB | 🔒 VLESS | @lexernet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇬🇧 GB | 🔒 VLESS | @outline_ir [17]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
+                "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+                "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [18]",
@@ -417,33 +417,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
-            "type": "vless",
-            "server": "vpncustomize.cam",
-            "server_port": 443,
-            "uuid": "4fd0c05c-3d20-4512-9628-0eeade38d4c4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.iranserver.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I",
-                    "short_id": "6b0541cd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE"
             }
         },
         {
@@ -751,7 +724,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
             "type": "vless",
             "server": "direct.mizbandana.org",
             "server_port": 443,
@@ -874,6 +847,33 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+            "type": "vless",
+            "server": "vpncustomize.cam",
+            "server_port": 443,
+            "uuid": "4fd0c05c-3d20-4512-9628-0eeade38d4c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.iranserver.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I",
+                    "short_id": "6b0541cd"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE"
+            }
+        },
+        {
             "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
             "type": "vless",
             "server": "dl-04.saitsazs.ir",
@@ -989,7 +989,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
