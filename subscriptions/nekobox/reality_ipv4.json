@@ -87,8 +87,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [35]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -207,6 +206,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_sub [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -264,8 +264,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [35]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -384,6 +383,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray_sub [3]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -691,53 +691,26 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [35]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "213.232.204.253",
-            "server_port": 29081,
-            "uuid": "fb9ecf47-af0d-4827-b2ae-5234be3bffdb",
+            "server": "165.227.47.123",
+            "server_port": 10111,
+            "uuid": "f00219c8-f56a-4bd6-b10d-2977b631c83e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "zhaket.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "p1VhzV2eKjCREAeT7rOcUqgGFfKhFLvOAi_U6L_XqUY",
-                    "short_id": "0b"
+                    "public_key": "-zmK35zG93jnC-XsTg3Tf_OkVmX84G0ysDK74efg5BY",
+                    "short_id": "d3d74a1320acdc3a"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "91.99.236.124",
-            "server_port": 51479,
-            "uuid": "8cec3732-7131-46bc-c485-7b1d5fd776ba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ywnxBH4IYI83aaL9k0og1Slb9CU-eEhPypH3pXD0VSg",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPN_ROOM----------@VPN_ROOM--------%"
             }
         },
         {
@@ -3607,6 +3580,33 @@
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "91.98.34.130",
+            "server_port": 1000,
+            "uuid": "a3e9d932-b585-47f6-9162-e6ae127f0885",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "android.yas-nowin.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GZGflJvjxR9ovjiS7IUbatB1ge0sUteUOT1RcDxJCHY",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android/Telegram,@Archive_Android"
             }
         },
         {
