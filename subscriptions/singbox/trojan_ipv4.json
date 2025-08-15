@@ -106,13 +106,14 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
+                "🇺🇸 US | 🔒 TROJAN | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [11]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [13]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [11]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [14]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [16]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
@@ -187,13 +188,14 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [13]",
+                "🇺🇸 US | 🔒 TROJAN | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [11]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [13]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [11]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [14]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [16]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
@@ -561,6 +563,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @fastfreeconfig [55]",
+            "type": "trojan",
+            "server": "198.23.229.250",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "tls": {
+                "enabled": true,
+                "server_name": "rc6.freeguard.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔒 TROJAN | @free_serverir [11]",
             "type": "trojan",
             "server": "192.3.107.252",
@@ -600,7 +618,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [13]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [11]",
             "type": "trojan",
             "server": "188.114.99.91",
             "server_port": 443,
@@ -623,7 +641,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [16]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [14]",
             "type": "trojan",
             "server": "172.67.232.40",
             "server_port": 443,
@@ -646,7 +664,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [16]",
             "type": "trojan",
             "server": "104.17.147.167",
             "server_port": 443,
@@ -669,18 +687,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
             "type": "trojan",
-            "server": "198.23.229.250",
+            "server": "104.17.169.219",
             "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
+            "password": "blue2024",
             "tls": {
                 "enabled": true,
-                "server_name": "rc6.freeguard.org",
+                "server_name": "ha.lii2010.us.kg",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed",
+                "headers": {
+                    "Host": "ha.lii2010.us.kg"
                 }
             }
         },
