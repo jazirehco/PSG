@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VLESS | @config_proxy [50]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [5]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
@@ -123,6 +124,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VLESS | @config_proxy [50]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [5]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
@@ -226,6 +228,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "[2604:a880:4:1d0::e833:b000]",
+            "server_port": 443,
+            "uuid": "f2fdcc30-a0c1-434d-94a7-dc8fc2c11a45",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.icloud.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oRDRYCRgGMbdf0Vw2qxYZm65qED5k8sFjLxAisMU6W8",
+                    "short_id": "7487b1"
                 }
             }
         },
