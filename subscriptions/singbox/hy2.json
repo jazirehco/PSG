@@ -91,7 +91,8 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi"
+                "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 HY2 | @config_proxy [35]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +102,8 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi"
+                "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 HY2 | @config_proxy [35]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -185,6 +187,25 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 HY2 | @config_proxy [35]",
+            "type": "hysteria2",
+            "server": "net2025.afsharidempire.uk",
+            "server_port": 30205,
+            "password": "8864aa9f-7517-4fd5-aef1-32050eb3095d",
+            "obfs": {
+                "type": "salamander",
+                "password": "GdQ4bgvT8RFwuWi2"
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "net2025.afsharidempire.uk",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
             }
         }
     ],
