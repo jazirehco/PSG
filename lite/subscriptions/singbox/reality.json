@@ -114,12 +114,14 @@
                 "🇩🇪 DE | 🔒 VLESS | @outline_vpn [18]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [17]",
@@ -188,7 +190,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [13]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]",
@@ -227,12 +229,14 @@
                 "🇩🇪 DE | 🔒 VLESS | @outline_vpn [18]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [17]",
@@ -301,7 +305,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
-                "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [13]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]",
@@ -952,6 +956,52 @@
             }
         },
         {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
+            "type": "vless",
+            "server": "cf-assets-blog.cyberscaler.net",
+            "server_port": 443,
+            "uuid": "277f230b-638b-47c9-95d5-032f99186283",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WEf1JX6bG0hGjlSacn2r32T2IZhifBsl2g7qqZoUPAw",
+                    "short_id": "14"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @proxy_mtproto_vpns_free [17]",
+            "type": "vless",
+            "server": "edge-gw-lb.cyberscaler.net",
+            "server_port": 10022,
+            "uuid": "3ff672c6-6e12-481a-82be-0b6bf10a4be6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nJhrThyrsiOOgKVKSkxsBwzsWEHqprdF8gejMucJSwQ",
+                    "short_id": "1b"
+                }
+            }
+        },
+        {
             "tag": "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
             "type": "vless",
             "server": "dl-04.saitsazs.ir",
@@ -1067,7 +1117,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+            "tag": "🇯🇵 JP | 🔒 VLESS | @qrv2ray [11]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
@@ -2725,7 +2775,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "194.87.87.30",
             "server_port": 34045,
