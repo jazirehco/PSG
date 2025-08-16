@@ -96,12 +96,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [10]",
-                "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [21]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [15]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
+                "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -127,12 +128,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [10]",
-                "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
+                "🇩🇪 DE | 🔓 VLESS | @kingofilter [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [21]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [15]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
+                "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -308,7 +310,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kingofilter [4]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 2009,
@@ -381,7 +383,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
             "type": "vless",
             "server": "172.234.236.56",
             "server_port": 443,
@@ -395,6 +397,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
+            "type": "vless",
+            "server": "162.243.29.50",
+            "server_port": 443,
+            "uuid": "413008af-9dea-4cfc-b21c-dcf2a1a3ddb8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vqG3LKhczhCYrah0ClGd0XFrYGWCvBrpp_EChAw0k0A",
+                    "short_id": "5df40b"
                 }
             }
         },
