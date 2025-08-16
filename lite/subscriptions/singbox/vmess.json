@@ -95,7 +95,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇯🇵 JP | 🔓 VMESS | @config_proxy [37]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [45]",
                 "🇳🇱 NL | 🔓 VMESS | @configfast [1]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -121,7 +121,8 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [6]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
+                "🚩 CF | 🔓 VMESS | @hope_net [19]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [17]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
@@ -147,7 +148,6 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇷🇺 RU | 🔓 VMESS | @mowjproxy [3]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -214,7 +214,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇯🇵 JP | 🔓 VMESS | @config_proxy [37]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [45]",
                 "🇳🇱 NL | 🔓 VMESS | @configfast [1]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -240,7 +240,8 @@
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [6]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [18]",
+                "🚩 CF | 🔓 VMESS | @hope_net [19]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇯🇵 JP | 🔓 VMESS | @ipv2rayng [17]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
@@ -266,7 +267,6 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇷🇺 RU | 🔓 VMESS | @mowjproxy [3]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -472,13 +472,20 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔓 VMESS | @config_proxy [37]",
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [45]",
             "type": "vmess",
-            "server": "45.159.51.28",
-            "server_port": 47118,
-            "uuid": "ea034172-f33d-4f2b-a4a7-c700ca773f7a",
+            "server": "104.18.114.161",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/github.com/Alvin9999",
+                "headers": {
+                    "Host": "104.18.114.161"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔓 VMESS | @configfast [1]",
@@ -899,18 +906,34 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [18]",
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [19]",
             "type": "vmess",
-            "server": "104.18.114.161",
-            "server_port": 8880,
-            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
+            "server": "104.26.0.239",
+            "server_port": 2086,
+            "uuid": "bc65fac2-7dc7-426f-acdd-0779a5035bde",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
                 "path": "/github.com/Alvin9999",
                 "headers": {
-                    "Host": "104.18.114.161"
+                    "Host": "104.26.0.239"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "104.18.114.117",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/github.com/Alvin9999",
+                "headers": {
+                    "Host": "104.18.114.117"
                 }
             }
         },
@@ -1289,15 +1312,6 @@
             "server": "migping.mani83.shop",
             "server_port": 40678,
             "uuid": "ad687825-5f77-428f-d3b0-34e59db68fa2",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @mowjproxy [3]",
-            "type": "vmess",
-            "server": "45.67.230.79",
-            "server_port": 11052,
-            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
             "security": "auto",
             "alter_id": 0
         },
