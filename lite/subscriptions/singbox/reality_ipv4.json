@@ -98,6 +98,7 @@
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇳🇱 NL | 🔒 VLESS | @evay_vpn [20]",
+                "🇮🇪 IE | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [19]",
@@ -125,6 +126,7 @@
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [14]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
+                "🇮🇹 IT | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
                 "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
                 "🇸🇬 SG | 🔒 VLESS | @proxycrone [17]",
                 "🇳🇱 NL | 🔒 VLESS | @proxycrone [18]",
@@ -167,6 +169,7 @@
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇳🇱 NL | 🔒 VLESS | @evay_vpn [20]",
+                "🇮🇪 IE | 🔒 VLESS | @fastfreeconfig [60]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [19]",
@@ -194,6 +197,7 @@
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [14]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [5]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_emperor [6]",
+                "🇮🇹 IT | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
                 "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
                 "🇸🇬 SG | 🔒 VLESS | @proxycrone [17]",
                 "🇳🇱 NL | 🔒 VLESS | @proxycrone [18]",
@@ -444,6 +448,29 @@
                     "enabled": true,
                     "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
                     "short_id": "e8ab71d0"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇪 IE | 🔒 VLESS | @fastfreeconfig [60]",
+            "type": "vless",
+            "server": "52.156.208.215",
+            "server_port": 33371,
+            "uuid": "a41ec4d6-1ef3-4a00-bd24-5abcce37a40f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XknqXVFBQSpJEmo0oeKsLDeOGfhtmuurXd75BywgUlg",
+                    "short_id": "456ad3a1b9f0"
                 }
             }
         },
@@ -1098,6 +1125,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @proxy_mtproto_vpns_free [15]",
+            "type": "vless",
+            "server": "188.213.165.231",
+            "server_port": 8585,
+            "uuid": "56c04341-2180-4e1f-9646-cdeb79cbbbad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "58yfyRJyku8oddKvCIBHz0K8LrTWKr3qTe-DMUcrWEg",
+                    "short_id": "ea0e387f2b260e0d"
+                }
             }
         },
         {
