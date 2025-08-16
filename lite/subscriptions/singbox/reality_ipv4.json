@@ -93,8 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [37]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
+                "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
@@ -161,8 +162,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [37]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
+                "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
@@ -331,6 +333,29 @@
             }
         },
         {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "91.242.241.45",
+            "server_port": 8443,
+            "uuid": "b1fa2fab-e268-46af-a38c-219c6682de82",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -354,11 +379,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @customvpnserver [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
-            "uuid": "Parsashonam-298",
+            "uuid": "Parsashonam-299",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
