@@ -162,8 +162,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -178,9 +178,9 @@
                 "🇳🇱 NL | 🔓 VMESS | @vipv2rayvip [1]",
                 "🇩🇪 DE | 🔓 VMESS | @vipv2rayvip [3]",
                 "❔ XX | 🔓 VMESS | @vpn_proxy_v2ry [4]",
-                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [16]",
-                "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [17]",
                 "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
+                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🚩 CF | 🔒 VMESS | @vpnv2rayonline [11]",
@@ -282,8 +282,8 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -298,9 +298,9 @@
                 "🇳🇱 NL | 🔓 VMESS | @vipv2rayvip [1]",
                 "🇩🇪 DE | 🔓 VMESS | @vipv2rayvip [3]",
                 "❔ XX | 🔓 VMESS | @vpn_proxy_v2ry [4]",
-                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [16]",
-                "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [17]",
                 "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
+                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [19]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🚩 CF | 🔒 VMESS | @vpnv2rayonline [11]",
@@ -1703,23 +1703,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "162.159.45.167",
-            "server_port": 8880,
-            "uuid": "90f8f4dc-8092-4355-9047-05f506f5e9ab",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": "162.159.45.167"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "104.21.16.100",
             "server_port": 2053,
@@ -1742,6 +1726,15 @@
                     "Host": "qurantv.iribquran.com"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "127.0.0.53",
+            "server_port": 87,
+            "uuid": "88888888-8888-8888-8888-888888888888",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @v2ray_n [18]",
@@ -1942,40 +1935,6 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [16]",
-            "type": "vmess",
-            "server": "134.195.198.147",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "134.195.198.147",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "134.195.198.147"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇳 IN | 🔓 VMESS | @vpnfail_v2ray [17]",
-            "type": "vmess",
-            "server": "94.136.185.230",
-            "server_port": 10534,
-            "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
             "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
             "server": "15.235.83.228",
@@ -1997,6 +1956,40 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [19]",
+            "type": "vmess",
+            "server": "51.79.86.182",
+            "server_port": 42610,
+            "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+            "type": "vmess",
+            "server": "57.129.28.65",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "kapelleng.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "kapelleng.com"
                 }
             }
         },

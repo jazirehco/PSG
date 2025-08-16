@@ -109,6 +109,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇭🇷 HR | 🔒 VLESS | @mowjproxy [2]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -118,7 +119,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+                "🇺🇸 US | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [17]",
@@ -162,6 +163,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jedal_vpn [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇭🇷 HR | 🔒 VLESS | @mowjproxy [2]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -171,7 +173,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+                "🇺🇸 US | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [17]",
@@ -705,6 +707,29 @@
             }
         },
         {
+            "tag": "🇭🇷 HR | 🔒 VLESS | @mowjproxy [2]",
+            "type": "vless",
+            "server": "deu246.bypassall.org",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
             "type": "vless",
             "server": "Sadaf.Netherlands.mehrdadsadaf.com",
@@ -924,7 +949,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @qrv2ray [11]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @qrv2ray [11]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,

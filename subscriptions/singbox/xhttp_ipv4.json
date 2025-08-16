@@ -93,7 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
-                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [46]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [56]",
+                "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [8]",
@@ -138,7 +139,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [2]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [3]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [5]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [7]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
@@ -154,7 +154,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
-                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [46]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [56]",
+                "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [8]",
@@ -199,7 +200,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [2]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [3]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [5]",
-                "🇳🇱 NL | 🔒 VLESS | @vpncostumer [7]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [9]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpncostumer [13]",
@@ -299,7 +299,30 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [46]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [56]",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "88903270-dc79-4dc2-9ce8-3c230eca3cf6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
             "type": "vless",
             "server": "91.99.126.93",
             "server_port": 8443,
@@ -1056,29 +1079,6 @@
             "server": "45.150.33.157",
             "server_port": 50810,
             "uuid": "79de9b1e-d75e-4962-bbd8-42e9a6702033",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
-                    "short_id": "aa60a00122200b76"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpncostumer [7]",
-            "type": "vless",
-            "server": "45.150.33.157",
-            "server_port": 50810,
-            "uuid": "88903270-dc79-4dc2-9ce8-3c230eca3cf6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
