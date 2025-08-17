@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @config_proxy [30]",
                 "❔ XX | 🔓 VLESS | @customvpnserver [14]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [3]",
@@ -105,7 +104,8 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [15]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [9]",
-                "❔ XX | 🔓 VLESS | @v2ryngfree [11]"
+                "❔ XX | 🔓 VLESS | @v2ryngfree [11]",
+                "❔ XX | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -116,7 +116,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @config_proxy [30]",
                 "❔ XX | 🔓 VLESS | @customvpnserver [14]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [3]",
@@ -129,7 +128,8 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [15]",
                 "❔ XX | 🔓 VLESS | @v2ryngfree [9]",
-                "❔ XX | 🔓 VLESS | @v2ryngfree [11]"
+                "❔ XX | 🔓 VLESS | @v2ryngfree [11]",
+                "❔ XX | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -214,15 +214,6 @@
                     "Host": "127.0.0.1"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [30]",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-298",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @customvpnserver [14]",
@@ -425,6 +416,15 @@
                     "Host": "[2a05:f480:1000:0300:5400:04ff:fef0:6bd0]"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1a:dc2b::1]",
+            "server_port": 8888,
+            "uuid": "Parsashonam-298",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
