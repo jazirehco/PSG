@@ -112,16 +112,16 @@
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [2]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [14]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [21]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [20]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @mowjproxy [1]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [2]",
                 "🇮🇹 IT | 🔓 VLESS | @netmellianti [8]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [6]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [3]",
@@ -188,16 +188,16 @@
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [2]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @farahvpn [14]",
-                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [5]",
                 "🇺🇸 US | 🔓 VLESS | @free_serverir [21]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [20]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "🇺🇸 US | 🔓 VLESS | @mowjproxy [1]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [2]",
                 "🇮🇹 IT | 🔓 VLESS | @netmellianti [8]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [6]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [3]",
@@ -655,29 +655,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
-            "type": "vless",
-            "server": "45.grizzzlyyyy.ir",
-            "server_port": 26790,
-            "uuid": "bc465b6c-cf16-46e9-83aa-2a4eb1c34f29",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "init.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r8WfLlHqw76XJkfJKHMgk0MlDAL6n7Mu5lQqvezgAjI",
-                    "short_id": "bba58c5a0af751"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
             "type": "vless",
             "server": "alman.netblocksir.ir",
@@ -712,6 +689,29 @@
             "uuid": "6a45de8b-46e5-4da4-b242-3e18f3228087",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
+            "type": "vless",
+            "server": "45.grizzzlyyyy.ir",
+            "server_port": 26790,
+            "uuid": "bc465b6c-cf16-46e9-83aa-2a4eb1c34f29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "init.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r8WfLlHqw76XJkfJKHMgk0MlDAL6n7Mu5lQqvezgAjI",
+                    "short_id": "bba58c5a0af751"
+                }
+            }
         },
         {
             "tag": "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [3]",
@@ -764,7 +764,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [1]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "vpconnect.ahadbala.ir",
             "server_port": 80,

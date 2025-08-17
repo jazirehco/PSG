@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [52]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -124,8 +125,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
-                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [2]",
-                "🇺🇸 US | 🔓 VLESS | @vpnod [4]",
+                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [7]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [9]"
             ],
             "tag": "proxy",
@@ -138,6 +138,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @canfing_vpn [10]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [52]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
@@ -181,8 +182,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
-                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [2]",
-                "🇺🇸 US | 🔓 VLESS | @vpnod [4]",
+                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [7]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [9]"
             ],
             "tag": "auto",
@@ -281,6 +281,24 @@
             "uuid": "724383d8-33c6-4e8d-9db4-0184a89efa33",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [52]",
+            "type": "vless",
+            "server": "147.135.77.156",
+            "server_port": 443,
+            "uuid": "f6f442e3-69d1-4a83-bb78-241152eed859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "147.135.77.156",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @flyv2ray [1]",
@@ -1012,25 +1030,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [2]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [7]",
             "type": "vless",
-            "server": "91.99.169.64",
-            "server_port": 8443,
-            "uuid": "b1fe7cec-3028-4cf0-b1c3-af55efd23ad8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnod [4]",
-            "type": "vless",
-            "server": "147.135.77.156",
+            "server": "188.245.228.94",
             "server_port": 443,
-            "uuid": "f6f442e3-69d1-4a83-bb78-241152eed859",
+            "uuid": "d7ed8991-e019-47c1-b578-93a8d8443830",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "147.135.77.156",
+                "server_name": "188.245.228.94",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
