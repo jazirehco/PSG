@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [86]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -102,18 +103,17 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kafing_2 [23]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @kingofilter [7]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [5]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇳🇱 NL | 🔒 VLESS | @lexernet [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇦🇲 AM | 🔒 VLESS | @mowjproxy [5]",
+                "🇦🇲 AM | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @netmellianti [15]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
-                "🇫🇮 FI | 🔒 VLESS | @outline_ir [18]",
-                "🇬🇧 GB | 🔒 VLESS | @outline_ir [19]",
+                "🇬🇧 GB | 🔒 VLESS | @outline_ir [18]",
                 "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
                 "🇸🇬 SG | 🔒 VLESS | @proxycrone [17]",
                 "🇳🇱 NL | 🔒 VLESS | @proxycrone [18]",
@@ -150,6 +150,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [86]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [12]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -172,18 +173,17 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kafing_2 [23]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @kingofilter [7]",
+                "🇩🇪 DE | 🔒 VLESS | @kingofilter [5]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇳🇱 NL | 🔒 VLESS | @lexernet [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇦🇲 AM | 🔒 VLESS | @mowjproxy [5]",
+                "🇦🇲 AM | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [13]",
                 "🇫🇮 FI | 🔒 VLESS | @netmellianti [15]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
-                "🇫🇮 FI | 🔒 VLESS | @outline_ir [18]",
-                "🇬🇧 GB | 🔒 VLESS | @outline_ir [19]",
+                "🇬🇧 GB | 🔒 VLESS | @outline_ir [18]",
                 "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
                 "🇸🇬 SG | 🔒 VLESS | @proxycrone [17]",
                 "🇳🇱 NL | 🔒 VLESS | @proxycrone [18]",
@@ -296,6 +296,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [86]",
+            "type": "vless",
+            "server": "80.74.29.212",
+            "server_port": 8443,
+            "uuid": "86645e42-96c4-42db-bc17-e1266c99ee04",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "short_id": ""
                 }
             }
         },
@@ -826,7 +849,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @kingofilter [5]",
             "type": "vless",
             "server": "91.99.216.9",
             "server_port": 8443,
@@ -968,7 +991,7 @@
             }
         },
         {
-            "tag": "🇦🇲 AM | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🇦🇲 AM | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "77.91.68.70",
             "server_port": 55983,
@@ -1060,30 +1083,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @outline_ir [18]",
-            "type": "vless",
-            "server": "212.87.222.42",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @outline_ir [19]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @outline_ir [18]",
             "type": "vless",
             "server": "185.139.7.238",
             "server_port": 34045,
