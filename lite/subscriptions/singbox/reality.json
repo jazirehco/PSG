@@ -98,6 +98,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -110,7 +111,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇸🇪 SE | 🔒 VLESS | @orange_vpns [12]",
+                "🇸🇬 SG | 🔒 VLESS | @orange_vpns [12]",
                 "🇭🇷 HR | 🔒 VLESS | @outline_ir [20]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -131,7 +132,7 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -208,6 +209,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
+                "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -220,7 +222,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇸🇪 SE | 🔒 VLESS | @orange_vpns [12]",
+                "🇸🇬 SG | 🔒 VLESS | @orange_vpns [12]",
                 "🇭🇷 HR | 🔒 VLESS | @outline_ir [20]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -241,7 +243,7 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -535,6 +537,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [57]",
+            "type": "vless",
+            "server": "ms.victor77.website",
+            "server_port": 20158,
+            "uuid": "f09a3c7b-cf5b-4697-8140-19c1749480c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Discord.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bf0D8kLkfGVYP8NVpiOGKcm-wutxlcLXua3760tRgkI",
+                    "short_id": "adf6b90c"
+                }
             }
         },
         {
@@ -846,7 +871,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @orange_vpns [12]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @orange_vpns [12]",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
@@ -1345,16 +1370,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "64.44.158.121",
-            "server_port": 80,
-            "uuid": "4342b5a9-ccc2-46fa-8e12-f9ba36259d3b",
+            "server": "80.74.29.212",
+            "server_port": 8443,
+            "uuid": "1ebde444-f630-49b7-b8ce-4ccf89c791c8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1362,8 +1387,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "c3skAokcLEgTyB4A2qEidFSBNvvlJB6AUSH1RAvUc2s",
-                    "short_id": "9fd097cb4d"
+                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "short_id": ""
                 }
             }
         },
