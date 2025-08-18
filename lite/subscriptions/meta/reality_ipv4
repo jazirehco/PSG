@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @config_proxy [53]","type":"vless","server":"91.99.175.173","port":1001,"uuid":"84aa3429-f49a-4fa4-9fc5-621569975120","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"ea.com","reality-opts":{"public-key":"PJJAwYggwp2gu5_oXIr_1Q02OM6-DrCCEd0y1NF5vSs"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]","type":"vless","server":"217.69.6.138","port":442,"uuid":"db47858f-d33d-4177-a1d8-80898cf99af9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"sourceforge.net","grpc-opts":{"grpc-service-name":"FOX_VPN66"},"reality-opts":{"public-key":"5ymESWL8fiNj53FXaFl9VoiyP775drBZ9t97Ie_luwY","short-id":"d8c6a509"}}
@@ -53,7 +52,6 @@ proxies:
   - {"name":"🇫🇮 FI | 🔒 VLESS | @netmellianti [14]","type":"vless","server":"65.109.187.52","port":80,"uuid":"cb212ce0-be0b-4d69-a80c-0b3904764f21","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"connectivitycheck.gstatic.com","reality-opts":{"public-key":"qz662d61nkl7U5m4wCNCQJBNDVVFrMlCKOovQFEg8mk"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @novavpn1984 [1]","type":"vless","server":"116.203.75.81","port":36313,"uuid":"010ddaac-7bac-4dcc-a353-215d01feb06e","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"khor.sarezh.click","reality-opts":{"public-key":"UKw4crSzH0M3eceNPmo4bNs4NyIfhaCUEMi52k6J5DI","short-id":"c74cb910"}}
   - {"name":"🇫🇮 FI | 🔒 VLESS | @oonfig [1]","type":"vless","server":"31.56.206.70","port":443,"uuid":"b67ddb53-9e46-492a-84be-0f5b752d7e83","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"s7Ai9wZFZdDEA3ox2FSjMAqaugUFKja-7TMNCu2GYmo","short-id":"c6d0465acae1"}}
-  - {"name":"🇬🇧 GB | 🔒 VLESS | @outline_ir [18]","type":"vless","server":"185.139.7.238","port":34045,"uuid":"d8dd94fd-540e-461d-b5d4-acebef02c22a","tls":true,"network":"tcp","client-fingerprint":null,"udp":true,"servername":"visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me","reality-opts":{"public-key":"cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA","short-id":"e8ab71d0"}}
   - {"name":"🇬🇧 GB | 🔒 VLESS | @proxycrone [16]","type":"vless","server":"85.239.60.43","port":8443,"uuid":"2fd1b67f-bc9e-4a66-a4c3-73599997d001","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE"}}
   - {"name":"🇸🇬 SG | 🔒 VLESS | @proxycrone [17]","type":"vless","server":"91.242.241.45","port":8443,"uuid":"bdb50d95-fcd3-451c-9473-466b4529af2c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM"}}
   - {"name":"🇳🇱 NL | 🔒 VLESS | @proxycrone [18]","type":"vless","server":"80.74.29.212","port":8443,"uuid":"4808ded8-1646-4c3c-8b4c-6b6fedc3cde9","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA"}}
@@ -94,7 +92,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔒 VLESS | @config_proxy [53]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]'
@@ -124,7 +121,6 @@ proxy-groups:
       - '🇫🇮 FI | 🔒 VLESS | @netmellianti [14]'
       - '🇩🇪 DE | 🔒 VLESS | @novavpn1984 [1]'
       - '🇫🇮 FI | 🔒 VLESS | @oonfig [1]'
-      - '🇬🇧 GB | 🔒 VLESS | @outline_ir [18]'
       - '🇬🇧 GB | 🔒 VLESS | @proxycrone [16]'
       - '🇸🇬 SG | 🔒 VLESS | @proxycrone [17]'
       - '🇳🇱 NL | 🔒 VLESS | @proxycrone [18]'
