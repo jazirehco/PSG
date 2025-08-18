@@ -84,9 +84,10 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [20]",
+                "🇸🇬 SG | 🔒 VLESS | @freakconfig [20]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -107,7 +108,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇩🇪 DE | 🔒 VLESS | @qrv2ray [11]",
+                "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [16]",
@@ -116,6 +117,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [11]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "🇬🇧 GB | 🔒 VLESS | @v2trayproxy [19]",
+                "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @vpnplusee_free [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [4]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -135,9 +137,10 @@
                 "🇫🇮 FI | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [20]",
+                "🇸🇬 SG | 🔒 VLESS | @freakconfig [20]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -158,7 +161,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇩🇪 DE | 🔒 VLESS | @qrv2ray [11]",
+                "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [16]",
@@ -167,6 +170,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2graphy [11]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "🇬🇧 GB | 🔒 VLESS | @v2trayproxy [19]",
+                "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @vpnplusee_free [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [4]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -362,6 +366,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "kanale-dailyconfigs.easypeasytech.ir",
+            "server_port": 51709,
+            "uuid": "2e57ed87-30e8-45a7-82fd-a74a29eb8872",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cHOnubHyIw_PcVvrDACg0vEkLYjQnLbhloeP9SoGoC4",
+                    "short_id": "eb"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs-Daily_Configs?ed=1024"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -412,7 +443,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [20]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @freakconfig [20]",
             "type": "vless",
             "server": "amazon-17.cristiano.name.ng",
             "server_port": 443,
@@ -931,7 +962,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @qrv2ray [11]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
@@ -1143,6 +1174,33 @@
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
+            "type": "vless",
+            "server": "blog.curfuffled.com",
+            "server_port": 443,
+            "uuid": "8e70959a-e9bf-4287-a980-1d9a31965f35",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-BtPlG7KnJIIIgh77udPqDKTOIMPsJUy0kYhp3CWBwA",
+                    "short_id": "975cfc3c7441"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
             }
         },
         {
