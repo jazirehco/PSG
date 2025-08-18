@@ -94,10 +94,9 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @argo_vpn1 [6]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [50]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
-                "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
@@ -109,7 +108,8 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [9]",
                 "❔ XX | 🔓 VLESS | @parsashonam [13]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
-                "❔ XX | 🔓 VLESS | @v2rayngninja [2]"
+                "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
+                "❔ XX | 🔒 VLESS | @v2raytg [74]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -122,10 +122,9 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 VLESS | @argo_vpn1 [6]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [50]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
-                "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
@@ -137,7 +136,8 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [9]",
                 "❔ XX | 🔓 VLESS | @parsashonam [13]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
-                "❔ XX | 🔓 VLESS | @v2rayngninja [2]"
+                "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
+                "❔ XX | 🔒 VLESS | @v2raytg [74]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -260,27 +260,20 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [60]",
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [50]",
             "type": "vless",
-            "server": "[2a06:98c1:3120::1]",
+            "server": "[2a12:5940:1527::2]",
             "server_port": 443,
-            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d1b9f9",
+            "uuid": "bd4de7ea-d6cc-492c-88a6-f1278b9210c3",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "MypHOtomoments.iR",
+                "server_name": "[2a12:5940:1527::2]",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/PSZPkYG71g6bn84o/MTQxLjE0OC4yMDMuNg==?ed=2560",
-                "headers": {
-                    "Host": "MypHOtomoments.iR"
                 }
             }
         },
@@ -313,24 +306,6 @@
                     "enabled": true,
                     "public_key": "Uu4tcBEWuNn0SKnDk2Jy_o5Te2VA76M68hMlVYj9kiQ",
                     "short_id": "6412"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
-            "type": "vless",
-            "server": "[2a12:5940:1527::2]",
-            "server_port": 443,
-            "uuid": "bd4de7ea-d6cc-492c-88a6-f1278b9210c3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2a12:5940:1527::2]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -517,6 +492,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "[::ffff:6812:cae8]"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2raytg [74]",
+            "type": "vless",
+            "server": "[2a06:98c1:3120::1]",
+            "server_port": 443,
+            "uuid": "4d91916f-a7fd-419b-8b90-640bb8d1b9f9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "MypHOtomoments.iR",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/PSZPkYG71g6bn84o/MTQxLjE0OC4yMDMuNg==?ed=2560",
+                "headers": {
+                    "Host": "MypHOtomoments.iR"
                 }
             }
         }
