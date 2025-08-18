@@ -144,6 +144,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
+                "❔ XX | 🔒 VMESS | @mowjproxy [5]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -172,7 +173,6 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -257,6 +257,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
+                "❔ XX | 🔒 VMESS | @mowjproxy [5]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -285,7 +286,6 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -1254,6 +1254,24 @@
             "alter_id": 0
         },
         {
+            "tag": "❔ XX | 🔒 VMESS | @mowjproxy [5]",
+            "type": "vmess",
+            "server": "raimoooooon.igram.sbs",
+            "server_port": 49597,
+            "uuid": "d500e784-4c49-43af-d8c1-9e88aef40294",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
             "type": "vmess",
             "server": "ime4.istorevpn.tk",
@@ -1677,22 +1695,6 @@
             "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 8080,
-            "uuid": "pmxnbcrrfd",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/download/cdn",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @v2ray_n [18]",
