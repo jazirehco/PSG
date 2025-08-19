@@ -81,13 +81,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [59]",
+                "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [7]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [4]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
-                "🇺🇸 US | 🔓 VLESS | @lexernet [3]",
+                "🇺🇸 US | 🔓 VLESS | @lexernet [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -113,13 +113,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [59]",
+                "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [7]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [4]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
-                "🇺🇸 US | 🔓 VLESS | @lexernet [3]",
+                "🇺🇸 US | 🔓 VLESS | @lexernet [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -247,13 +247,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [59]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "5c46a07c-aef0-4c3c-96ac-fe6f8a91ee4e",
+            "server": "91.99.219.10",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.219.10",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [7]",
@@ -333,7 +342,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lexernet [3]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @lexernet [2]",
             "type": "vless",
             "server": "135.148.232.166",
             "server_port": 443,
