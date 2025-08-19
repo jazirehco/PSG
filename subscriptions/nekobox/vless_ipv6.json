@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [34]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
@@ -93,10 +92,9 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @parsashonam [9]",
-                "❔ XX | 🔓 VLESS | @parsashonam [13]",
-                "❔ XX | 🔓 VLESS | @parsashonam [17]",
-                "❔ XX | 🔒 VLESS | @proxy_mtproto_vpns_free [4]",
+                "❔ XX | 🔓 VLESS | @parsashonam [8]",
+                "❔ XX | 🔓 VLESS | @parsashonam [12]",
+                "❔ XX | 🔓 VLESS | @parsashonam [16]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
                 "❔ XX | 🔒 VLESS | @v2raytg [59]"
@@ -110,7 +108,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [34]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
@@ -123,10 +120,9 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @parsashonam [9]",
-                "❔ XX | 🔓 VLESS | @parsashonam [13]",
-                "❔ XX | 🔓 VLESS | @parsashonam [17]",
-                "❔ XX | 🔒 VLESS | @proxy_mtproto_vpns_free [4]",
+                "❔ XX | 🔓 VLESS | @parsashonam [8]",
+                "❔ XX | 🔓 VLESS | @parsashonam [12]",
+                "❔ XX | 🔓 VLESS | @parsashonam [16]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
                 "❔ XX | 🔒 VLESS | @v2raytg [59]"
@@ -216,31 +212,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [34]",
-            "type": "vless",
-            "server": "[2606:4700:20::ac43:4a85]",
-            "server_port": 443,
-            "uuid": "69050db0-292b-4b33-a15d-a1780c07e7bb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "servpn.my.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sg4",
-                "headers": {
-                    "Host": "servpn.my.id"
                 }
             }
         },
@@ -458,7 +429,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @parsashonam [9]",
+            "tag": "❔ XX | 🔓 VLESS | @parsashonam [8]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
             "server_port": 8888,
@@ -467,7 +438,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @parsashonam [13]",
+            "tag": "❔ XX | 🔓 VLESS | @parsashonam [12]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
             "server_port": 8888,
@@ -476,38 +447,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @parsashonam [17]",
+            "tag": "❔ XX | 🔓 VLESS | @parsashonam [16]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
             "server_port": 8888,
             "uuid": "Parsashonam-300",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @proxy_mtproto_vpns_free [4]",
-            "type": "vless",
-            "server": "[2606:4700:20::ac43:4a85]",
-            "server_port": 443,
-            "uuid": "69050db0-292b-4b33-a15d-a1780c07e7bb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "servpn.my.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sg4",
-                "headers": {
-                    "Host": "servpn.my.id"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
