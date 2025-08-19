@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 TUIC | @vipv2rey [25]",
-                "❔ XX | 🔒 TUIC | @vipv2rey [28]"
+                "❔ XX | 🔒 TUIC | @fastfreeconfig [52]",
+                "❔ XX | 🔒 TUIC | @vipv2rey [25]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 TUIC | @vipv2rey [25]",
-                "❔ XX | 🔒 TUIC | @vipv2rey [28]"
+                "❔ XX | 🔒 TUIC | @fastfreeconfig [52]",
+                "❔ XX | 🔒 TUIC | @vipv2rey [25]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,6 +192,25 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 TUIC | @fastfreeconfig [52]",
+            "type": "tuic",
+            "server": "tuic4.cpionline.us",
+            "server_port": 443,
+            "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
+            "password": "Mahsaamini",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "tuic4.cpionline.us",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy/3.1"
+                ]
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 TUIC | @vipv2rey [25]",
             "type": "tuic",
             "server": "tuic61.cpionline.us",
@@ -203,25 +222,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "www.apple.com",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TUIC | @vipv2rey [28]",
-            "type": "tuic",
-            "server": "tuic4.cpionline.us",
-            "server_port": 443,
-            "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
-            "password": "Mahsaamini",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "tuic4.cpionline.us",
                 "insecure": true,
                 "alpn": [
                     "h3",
