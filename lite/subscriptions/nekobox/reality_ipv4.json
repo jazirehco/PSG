@@ -107,6 +107,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇨🇭 CH | 🔒 VLESS | @outline_vpn [18]",
+                "🇩🇪 DE | 🔒 VLESS | @outlinev2rayng [16]",
                 "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
                 "🇸🇬 SG | 🔒 VLESS | @proxycrone [17]",
                 "🇳🇱 NL | 🔒 VLESS | @proxycrone [18]",
@@ -171,6 +172,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [14]",
                 "🇫🇮 FI | 🔒 VLESS | @oonfig [1]",
                 "🇨🇭 CH | 🔒 VLESS | @outline_vpn [18]",
+                "🇩🇪 DE | 🔒 VLESS | @outlinev2rayng [16]",
                 "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
                 "🇸🇬 SG | 🔒 VLESS | @proxycrone [17]",
                 "🇳🇱 NL | 🔒 VLESS | @proxycrone [18]",
@@ -930,6 +932,33 @@
                     "public_key": "wYtc0dMr5fw5bBQkbLNpTqtu0m4B9NKnOyEWjRJUmzk",
                     "short_id": "910aab"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @outlinev2rayng [16]",
+            "type": "vless",
+            "server": "87.120.205.207",
+            "server_port": 2025,
+            "uuid": "ebac2049-8367-4eab-a1a5-8b742b2fd3b6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Cnuh4bNEBvRIjrYBEWSVhX8nr5j46lHuyen_IU2rbSk",
+                    "short_id": "a76e2f1d45"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "das12327gsgsyu"
             }
         },
         {
