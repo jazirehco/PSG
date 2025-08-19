@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [52]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -96,7 +97,6 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [13]",
                 "❔ XX | 🔓 VLESS | @parsashonam [17]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
-                "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
                 "❔ XX | 🔒 VLESS | @v2raytg [59]"
             ],
             "tag": "proxy",
@@ -109,6 +109,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [52]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -124,7 +125,6 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [13]",
                 "❔ XX | 🔓 VLESS | @parsashonam [17]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
-                "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
                 "❔ XX | 🔒 VLESS | @v2raytg [59]"
             ],
             "tag": "auto",
@@ -240,6 +240,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [52]",
+            "type": "vless",
+            "server": "[::ffff:6812:cae8]",
+            "server_port": 8080,
+            "uuid": "c3077f1d-3b94-4a83-aecb-f4e9beb4dc7e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[::ffff:6812:cae8]"
+                }
             }
         },
         {
@@ -468,22 +484,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "[::ffff:b992:ad3b]"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @v2rayngninja [2]",
-            "type": "vless",
-            "server": "[::ffff:6812:cae8]",
-            "server_port": 8080,
-            "uuid": "c3077f1d-3b94-4a83-aecb-f4e9beb4dc7e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[::ffff:6812:cae8]"
                 }
             }
         },
