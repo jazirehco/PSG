@@ -106,7 +106,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -117,10 +116,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [15]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [12]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -157,7 +153,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -168,10 +163,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [15]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [12]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [8]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -597,15 +589,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [15]",
-            "type": "vless",
-            "server": "91.99.183.30",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
             "type": "vless",
             "server": "147.182.183.207",
@@ -813,51 +796,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.99.89.156",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]",
-            "type": "vless",
-            "server": "91.99.132.59",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [11]",
-            "type": "vless",
-            "server": "91.99.89.156",
-            "server_port": 443,
-            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.89.156",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [12]",
-            "type": "vless",
-            "server": "188.245.228.94",
-            "server_port": 443,
-            "uuid": "d7ed8991-e019-47c1-b578-93a8d8443830",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "188.245.228.94",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
