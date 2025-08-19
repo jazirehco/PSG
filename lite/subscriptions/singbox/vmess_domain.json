@@ -145,8 +145,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇮🇩 ID | 🔓 VMESS | @mowjproxy [2]",
-                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [3]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -175,6 +174,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -260,8 +260,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇮🇩 ID | 🔓 VMESS | @mowjproxy [2]",
-                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [3]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -290,6 +289,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -1274,34 +1274,27 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇩 ID | 🔓 VMESS | @mowjproxy [2]",
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
             "type": "vmess",
-            "server": "119.235.249.154",
-            "server_port": 20086,
-            "uuid": "a067283b-3d00-4b0a-9ffb-3c184c83c089",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [3]",
-            "type": "vmess",
-            "server": "51.68.191.233",
-            "server_port": 80,
-            "uuid": "f0eda072-9ae8-494c-a495-215fa5729467",
-            "security": "auto",
-            "alter_id": 0,
+            },
             "transport": {
                 "type": "ws",
-                "path": "/vmess/",
+                "path": "/panel?ed=2560",
                 "headers": {
-                    "Host": ""
+                    "Host": "api3.waltonweb.ir"
                 }
             }
         },
@@ -1729,6 +1722,22 @@
             "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "137.175.124.167",
+            "server_port": 20086,
+            "uuid": "b4bce500-11fe-4f8f-a344-01ac247af9bd",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @v2ray_n [18]",
