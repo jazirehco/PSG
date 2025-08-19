@@ -94,18 +94,19 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [7]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [4]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
-                "🇺🇸 US | 🔓 VLESS | @lexernet [2]",
+                "🇺🇸 US | 🔓 VLESS | @lexernet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
-                "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -126,18 +127,19 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+                "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [7]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [4]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [5]",
-                "🇺🇸 US | 🔓 VLESS | @lexernet [2]",
+                "🇺🇸 US | 🔓 VLESS | @lexernet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
-                "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -273,6 +275,33 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
+            "type": "vless",
+            "server": "23.80.81.249",
+            "server_port": 8880,
+            "uuid": "123428d5-a0be-411c-a502-56f37b124c74",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "91.99.114.25",
+            "server_port": 443,
+            "uuid": "82aa1f3f-29d4-42ab-a5d5-66b13ba13545",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.114.25",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [7]",
             "type": "vless",
             "server": "104.17.148.22",
@@ -350,7 +379,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lexernet [2]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @lexernet [1]",
             "type": "vless",
             "server": "135.148.232.166",
             "server_port": 443,
@@ -439,24 +468,6 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
-            "type": "vless",
-            "server": "91.99.114.25",
-            "server_port": 443,
-            "uuid": "82aa1f3f-29d4-42ab-a5d5-66b13ba13545",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.114.25",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
