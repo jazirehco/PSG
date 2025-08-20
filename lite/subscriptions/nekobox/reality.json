@@ -105,13 +105,12 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
+                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇬🇧 GB | 🔒 VLESS | @v2trayproxy [19]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [16]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
@@ -125,6 +124,8 @@
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇳🇱 NL | 🔒 VLESS | @evay_vpn [19]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [31]",
+                "🇫🇷 FR | 🔒 VLESS | @fastfreeconfig [58]",
+                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -215,13 +216,12 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
-                "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
+                "🇯🇵 JP | 🔒 VLESS | @qrv2ray [11]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
-                "🇬🇧 GB | 🔒 VLESS | @v2trayproxy [19]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [16]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
@@ -235,6 +235,8 @@
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
                 "🇳🇱 NL | 🔒 VLESS | @evay_vpn [19]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [31]",
+                "🇫🇷 FR | 🔒 VLESS | @fastfreeconfig [58]",
+                "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
@@ -1003,7 +1005,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @qrv2ray [11]",
+            "tag": "🇯🇵 JP | 🔒 VLESS | @qrv2ray [11]",
             "type": "vless",
             "server": "amazon-13.cristiano.name.ng",
             "server_port": 443,
@@ -1146,29 +1148,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @v2trayproxy [19]",
-            "type": "vless",
-            "server": "eng13.netliberated.org",
-            "server_port": 443,
-            "uuid": "c40cf4b2-c6c6-4d7d-a385-4d95008c0079",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.halfords.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1491,6 +1470,52 @@
                     "enabled": true,
                     "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
                     "short_id": "370dd394052f2386"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @fastfreeconfig [58]",
+            "type": "vless",
+            "server": "146.70.158.111",
+            "server_port": 443,
+            "uuid": "00c6043f-a2c6-4b15-bd30-344378f0e5da",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "equal-eyes.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dgepztJbOmZaaP3xQX6K3fozDsrTL7a60w1SjN4jBTw",
+                    "short_id": "e120bf2fd2d7453b"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "51.195.169.100",
+            "server_port": 443,
+            "uuid": "e02208b6-2626-49ef-8b93-0d80ed33f4ac",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "p0Q_UwGTMDM4Hk1v-2F43NO4AekmT1crXiPIJS_NzF8",
+                    "short_id": "01417ce2"
                 }
             }
         },
