@@ -92,12 +92,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 TUIC | @fastfreeconfig [58]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [24]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [26]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [27]",
                 "🇩🇪 DE | 🔒 TUIC | @vipv2rey [29]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [31]",
+                "🇸🇪 SE | 🔒 TUIC | @vipv2rey [32]",
                 "🇳🇱 NL | 🔒 TUIC | @vipv2rey [36]"
             ],
             "tag": "proxy",
@@ -109,12 +109,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 TUIC | @fastfreeconfig [58]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [24]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [26]",
                 "🇬🇧 GB | 🔒 TUIC | @vipv2rey [27]",
                 "🇩🇪 DE | 🔒 TUIC | @vipv2rey [29]",
                 "🇸🇪 SE | 🔒 TUIC | @vipv2rey [31]",
+                "🇸🇪 SE | 🔒 TUIC | @vipv2rey [32]",
                 "🇳🇱 NL | 🔒 TUIC | @vipv2rey [36]"
             ],
             "tag": "auto",
@@ -199,25 +199,6 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 TUIC | @fastfreeconfig [58]",
-            "type": "tuic",
-            "server": "70.34.208.3",
-            "server_port": 443,
-            "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
-            "password": "crivAv10hAdr-fop4Lne",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "tls": {
-                "enabled": true,
-                "server_name": "70.34.208.3",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy/3.1"
-                ]
             }
         },
         {
@@ -307,6 +288,25 @@
             "tls": {
                 "enabled": true,
                 "server_name": "70.34.197.98",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy/3.1"
+                ]
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 TUIC | @vipv2rey [32]",
+            "type": "tuic",
+            "server": "70.34.208.3",
+            "server_port": 443,
+            "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+            "password": "crivAv10hAdr-fop4Lne",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "tls": {
+                "enabled": true,
+                "server_name": "70.34.208.3",
                 "insecure": true,
                 "alpn": [
                     "h3",
