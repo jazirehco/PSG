@@ -83,7 +83,7 @@
                 "❔ XX | 🔓 VLESS | @appsooner [2]",
                 "🇺🇸 US | 🔓 VLESS | @appsooner [3]",
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [2]",
@@ -130,6 +130,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [8]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [10]",
@@ -150,7 +151,7 @@
                 "❔ XX | 🔓 VLESS | @appsooner [2]",
                 "🇺🇸 US | 🔓 VLESS | @appsooner [3]",
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @dalton_ping [2]",
@@ -197,6 +198,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayopen [8]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [10]",
@@ -321,13 +323,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "connectbeman.iranazizm.com",
-            "server_port": 80,
-            "uuid": "0c37e450-477d-4d6a-9857-67289ecadf9f",
+            "server": "sss52355.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "ee845a26-9d15-4cac-b3a0-fc0c0c8135af",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss52355.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -880,6 +891,29 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "ppower.teammplusss.ir",
+            "server_port": 4653,
+            "uuid": "8601651b-b3bc-4381-af95-a63171d02f03",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayngrit [17]",
