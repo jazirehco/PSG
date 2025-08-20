@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [13]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -140,8 +141,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [12]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
             "tag": "proxy",
@@ -155,6 +155,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [13]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [15]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -213,8 +214,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [12]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
             "tag": "auto",
@@ -357,6 +357,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "80.74.29.212",
+            "server_port": 8443,
+            "uuid": "ac50ada3-b777-44f6-a840-dc6b11bb6930",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1745,30 +1768,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "5.75.204.130",
-            "server_port": 443,
-            "uuid": "2c8ea36b-6b32-4eba-a849-04fd7016dd6f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmfji-6_nybS7g9wiHL1Lbsi832zO31E-_mbhnQd01w",
-                    "short_id": "5977"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "46.62.163.94",
             "server_port": 22222,
