@@ -113,7 +113,6 @@
                 "🇨🇭 CH | 🔒 VLESS | @outline_vpn [16]",
                 "🇫🇮 FI | 🔒 VLESS | @outline_vpn [18]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
                 "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
                 "🇸🇬 SG | 🔒 VLESS | @proxycrone [17]",
                 "🇳🇱 NL | 🔒 VLESS | @proxycrone [18]",
@@ -141,6 +140,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [12]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
             "tag": "proxy",
@@ -185,7 +186,6 @@
                 "🇨🇭 CH | 🔒 VLESS | @outline_vpn [16]",
                 "🇫🇮 FI | 🔒 VLESS | @outline_vpn [18]",
                 "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [12]",
-                "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
                 "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
                 "🇸🇬 SG | 🔒 VLESS | @proxycrone [17]",
                 "🇳🇱 NL | 🔒 VLESS | @proxycrone [18]",
@@ -213,6 +213,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [12]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
             ],
             "tag": "auto",
@@ -1095,29 +1097,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [16]",
-            "type": "vless",
-            "server": "5.75.204.130",
-            "server_port": 443,
-            "uuid": "2c8ea36b-6b32-4eba-a849-04fd7016dd6f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Fmfji-6_nybS7g9wiHL1Lbsi832zO31E-_mbhnQd01w",
-                    "short_id": "5977"
-                }
-            }
-        },
-        {
             "tag": "🇬🇧 GB | 🔒 VLESS | @proxycrone [16]",
             "type": "vless",
             "server": "85.239.60.43",
@@ -1762,6 +1741,52 @@
                     "enabled": true,
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "5.75.204.130",
+            "server_port": 443,
+            "uuid": "2c8ea36b-6b32-4eba-a849-04fd7016dd6f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmfji-6_nybS7g9wiHL1Lbsi832zO31E-_mbhnQd01w",
+                    "short_id": "5977"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "46.62.163.94",
+            "server_port": 22222,
+            "uuid": "8a3e475c-b2f2-44fe-82fd-5cb4d87fbee8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nobitex.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Gu0N2cbeLwNm0Vwr5ex2AYecfnp8h3hYguy6UzoM8V4",
+                    "short_id": "8789760e67ce"
                 }
             }
         },
