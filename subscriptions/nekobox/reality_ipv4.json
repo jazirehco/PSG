@@ -85,7 +85,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [10]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [7]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [48]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -240,7 +241,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @appsooner [10]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [7]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [48]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -593,11 +595,34 @@
             }
         },
         {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [48]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [33]",
             "type": "vless",
-            "server": "185.239.48.109",
+            "server": "185.189.13.79",
+            "server_port": 443,
+            "uuid": "7fae47b1-6bcc-4ebc-8713-f6fb59dc613a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.vpber.store",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fhacrLdXUT3a0PjnL5EVARAmGiNBn_0ysfCJfL3n_gQ",
+                    "short_id": "4be4130078ebed0a"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "95.164.68.37",
             "server_port": 8443,
-            "uuid": "7fbee43f-f099-45bf-b5f0-03021d5cc728",
+            "uuid": "c06281c3-4a44-42b0-9e42-b0230fe0f615",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -610,7 +635,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
                     "short_id": ""
                 }
             }
