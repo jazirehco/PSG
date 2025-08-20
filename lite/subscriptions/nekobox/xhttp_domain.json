@@ -90,6 +90,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [13]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [11]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -115,6 +116,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [13]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [11]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -310,6 +312,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "sss93336.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+            "type": "vless",
+            "server": "sss13712.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss13712.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
