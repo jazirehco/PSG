@@ -115,9 +115,10 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [6]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [10]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "❔ XX | 🔒 TROJAN | @hope_net [8]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "❔ XX | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -147,9 +148,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [6]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2raych [7]",
-                "🇨🇳 CN | 🔒 TROJAN | @v2raych [8]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -203,9 +201,10 @@
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [6]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [10]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "❔ XX | 🔒 TROJAN | @hope_net [8]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [17]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "❔ XX | 🔒 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -235,9 +234,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [6]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2raych [7]",
-                "🇨🇳 CN | 🔒 TROJAN | @v2raych [8]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -708,7 +704,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [10]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [8]",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -724,7 +720,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [19]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [17]",
             "type": "trojan",
             "server": "104.16.129.193",
             "server_port": 443,
@@ -740,7 +736,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "104.19.182.150",
             "server_port": 443,
@@ -748,6 +744,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "104.19.182.150",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "password": "abbacac-caab-cbaa-bacd-cbabcbabaacc",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1228,68 +1240,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [6]",
-            "type": "trojan",
-            "server": "162.159.44.230",
-            "server_port": 2053,
-            "password": "Aimer",
-            "tls": {
-                "enabled": true,
-                "server_name": "epgb.aimercc.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "epgb.aimercc.dpdns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2raych [7]",
-            "type": "trojan",
-            "server": "185.208.207.217",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "tls": {
-                "enabled": true,
-                "server_name": "dus.freeguard.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳 CN | 🔒 TROJAN | @v2raych [8]",
-            "type": "trojan",
-            "server": "176.124.223.40",
-            "server_port": 2053,
-            "password": "Aimer",
-            "tls": {
-                "enabled": true,
-                "server_name": "epgb.aimercc.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "epgb.aimercc.dpdns.org"
                 }
             }
         },
