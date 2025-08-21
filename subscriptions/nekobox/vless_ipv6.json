@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @config_proxy [57]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
@@ -97,7 +96,6 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
                 "❔ XX | 🔓 VLESS | @parsashonam [12]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]"
             ],
@@ -110,7 +108,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @config_proxy [57]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
@@ -127,7 +124,6 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
                 "❔ XX | 🔓 VLESS | @parsashonam [12]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]"
             ],
@@ -216,22 +212,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "[2400:8d60:7::928f:c7f0]",
-            "server_port": 47559,
-            "uuid": "7fb47b7e-6347-4cac-b4ae-2d408e4deb1b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/SAFGASFASZ",
-                "headers": {
-                    "Host": "[2400:8d60:7::928f:c7f0]"
                 }
             }
         },
@@ -483,33 +463,6 @@
             "uuid": "Parsashonam-300",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
-            "type": "vless",
-            "server": "2001:19f0:6001:bad:5400:5ff:fe94:f284",
-            "server_port": 7787,
-            "uuid": "f03c4c87-431c-456a-a2d1-28dc83f4b389",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fZlxWuS-vWZhQ5PQ1VwBWsKxL6T5uKn5zSzGvnUeKhM",
-                    "short_id": "9912311de4630f2d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyzfpeufihefefwdfg"
-            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
