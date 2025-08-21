@@ -105,7 +105,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [32]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [35]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -135,7 +135,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [10]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [58]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @fastvpnorummobile [2]",
@@ -397,7 +397,7 @@
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [4]",
                 "❔ XX | 🔓 VLESS | @ch_a2l [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [32]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [35]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @configscenter [1]",
@@ -427,7 +427,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [10]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [58]",
+                "❔ XX | 🔓 VLESS | @fastfreeconfig [59]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [15]",
                 "🚩 CF | 🔓 VLESS | @fastkanfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @fastvpnorummobile [2]",
@@ -997,25 +997,20 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [32]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [35]",
             "type": "vless",
-            "server": "ru.spirako.com",
+            "server": "free-sg.vpnkey.dev",
             "server_port": 443,
-            "uuid": "42d43fbd-7a28-4f38-8d22-0cb63c793a6f",
+            "uuid": "e5ba9c7e-6d29-4d3e-9e39-91112201a480",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vdsina.ru",
+                "server_name": "free-sg.vpnkey.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
-                    "short_id": ""
                 }
             }
         },
@@ -1484,27 +1479,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [58]",
+            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [59]",
             "type": "vless",
-            "server": "berovps.masoodbiranvand-230.workers.dev",
-            "server_port": 2083,
-            "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
+            "server": "svnteam.aeza.nisvn.ir",
+            "server_port": 80,
+            "uuid": "c29ec2b7-331b-4d6e-88a1-0398d510c9da",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "berovps.masoodbiranvand-230.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/vless-ws/?ed=2048",
+                "path": "/@SvnProBot?ed=2560",
                 "headers": {
-                    "Host": "berovps.masoodbiranvand-230.workers.dev"
+                    "Host": "svnteam.aeza.nisvn.ir"
                 }
             }
         },
