@@ -95,8 +95,9 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🇸🇪 SE | 🔒 TROJAN | @farahvpn [20]",
-                "🇸🇬 SG | 🔒 TROJAN | @hope_net [21]",
+                "🇸🇪 SE | 🔒 TROJAN | @farahvpn [18]",
+                "🇸🇬 SG | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [21]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -106,7 +107,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇮🇳 IN | 🔒 TROJAN | @v2ray_collector [25]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [17]",
@@ -125,8 +126,9 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🇸🇪 SE | 🔒 TROJAN | @farahvpn [20]",
-                "🇸🇬 SG | 🔒 TROJAN | @hope_net [21]",
+                "🇸🇪 SE | 🔒 TROJAN | @farahvpn [18]",
+                "🇸🇬 SG | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [21]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -136,7 +138,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇮🇳 IN | 🔒 TROJAN | @v2ray_collector [25]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [17]",
@@ -276,7 +278,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 TROJAN | @farahvpn [20]",
+            "tag": "🇸🇪 SE | 🔒 TROJAN | @farahvpn [18]",
             "type": "trojan",
             "server": "16.16.73.187",
             "server_port": 22222,
@@ -292,7 +294,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 TROJAN | @hope_net [21]",
+            "tag": "🇸🇬 SG | 🔒 TROJAN | @hope_net [19]",
             "type": "trojan",
             "server": "206.238.237.1",
             "server_port": 2087,
@@ -311,6 +313,29 @@
                 "path": "/?ed",
                 "headers": {
                     "Host": "trojan.putata.us.kg"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [21]",
+            "type": "trojan",
+            "server": "141.101.113.119",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "fcspring.ggff.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tr?ed",
+                "headers": {
+                    "Host": "fcspring.ggff.net"
                 }
             }
         },
@@ -473,9 +498,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
             "type": "trojan",
-            "server": "13.37.25.118",
+            "server": "18.194.71.13",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
