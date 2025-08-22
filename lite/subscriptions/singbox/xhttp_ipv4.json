@@ -94,8 +94,9 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [18]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
-                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
-                "🇮🇹 IT | 🔓 VLESS | @freakconfig [16]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
+                "🇮🇹 IT | 🔓 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @info_2it_channel [3]",
@@ -104,6 +105,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
@@ -126,8 +128,9 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [18]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
-                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
-                "🇮🇹 IT | 🔓 VLESS | @freakconfig [16]",
+                "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
+                "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
+                "🇮🇹 IT | 🔓 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @info_2it_channel [3]",
@@ -136,6 +139,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
@@ -273,7 +277,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [32]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -282,7 +286,30 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @freakconfig [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-299",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔓 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "151.101.242.172",
             "server_port": 80,
@@ -398,6 +425,24 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
+            "type": "vless",
+            "server": "188.245.228.94",
+            "server_port": 443,
+            "uuid": "d7ed8991-e019-47c1-b578-93a8d8443830",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "188.245.228.94",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
