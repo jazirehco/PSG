@@ -84,8 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [18]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]",
@@ -127,7 +127,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
-                "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
+                "🇳🇱 NL | 🔒 VLESS | @vpn451 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
@@ -145,8 +145,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [18]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
+                "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇵🇱 PL | 🔒 VLESS | @freenapsternetv [5]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]",
@@ -188,7 +188,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇫🇮 FI | 🔒 VLESS | @vipv2rayvip [2]",
-                "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
+                "🇳🇱 NL | 🔒 VLESS | @vpn451 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇴 NO | 🔒 VLESS | @vpnv2rayonline [9]"
@@ -378,6 +378,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [59]",
+            "type": "vless",
+            "server": "176.124.199.193",
+            "server_port": 8443,
+            "uuid": "3af3fa1b-19c1-4036-a934-fa890536ff71",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.arbeitsagentur.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
+                    "short_id": "a4eed13ebbf2f9d2"
+                }
+            }
+        },
+        {
             "tag": "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
             "type": "vless",
             "server": "82.153.220.10",
@@ -398,33 +421,6 @@
                     "public_key": "Uu4tcBEWuNn0SKnDk2Jy_o5Te2VA76M68hMlVYj9kiQ",
                     "short_id": "6412"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
-            "type": "vless",
-            "server": "91.98.69.20",
-            "server_port": 443,
-            "uuid": "5e648dc8-162e-487f-ca9f-664403eb84a4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mabnatelecom.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qOdLW9WHrl7u8j3DMubeZ3eP60yZM_pBBo0BQNaiw18",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "/@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config"
             }
         },
         {
@@ -1410,11 +1406,11 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpn451 [9]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpn451 [10]",
             "type": "vless",
             "server": "89.110.104.14",
             "server_port": 4434,
-            "uuid": "faca76fe-79d3-46d1-88b0-c34bf948e303",
+            "uuid": "ea0df280-e1df-45c8-bcca-f5765a8833a3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1435,14 +1431,14 @@
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @vpn451 [11]",
             "type": "vless",
-            "server": "89.110.104.14",
-            "server_port": 4434,
-            "uuid": "ea0df280-e1df-45c8-bcca-f5765a8833a3",
+            "server": "176.124.199.193",
+            "server_port": 8443,
+            "uuid": "56082965-4881-48fd-8c97-463ea76fd0a4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "teamdocs.su",
+                "server_name": "www.arbeitsagentur.de",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1450,8 +1446,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "jRReXVS85X0Qm7jovHgNSOyz7BuS7p3iMPE4EfUHRlk",
-                    "short_id": "1ae2fd1e1ace9935"
+                    "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
+                    "short_id": "a4eed13ebbf2f9d2"
                 }
             }
         },
