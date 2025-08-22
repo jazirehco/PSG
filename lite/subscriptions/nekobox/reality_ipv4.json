@@ -81,8 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [46]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [18]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -153,8 +152,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [46]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [18]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -331,39 +329,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "3.131.98.153",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "server": "194.182.79.64",
+            "server_port": 14074,
+            "uuid": "96095804-6e2b-4ed4-8bd5-49c28cb73679",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "85.239.60.43",
-            "server_port": 8443,
-            "uuid": "e14acdc1-57ce-465f-b0ec-bd68cf6dc9b1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -371,9 +346,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
-                    "short_id": ""
+                    "public_key": "B-hICgbbnIsubfTgqZknMtYp-iY1VndOynbv_iXcEng",
+                    "short_id": "61"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
