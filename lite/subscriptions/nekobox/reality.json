@@ -84,7 +84,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
@@ -123,7 +122,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
-                "🇫🇷 FR | 🔒 VLESS | @farahvpn [18]",
+                "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
@@ -188,7 +187,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
@@ -227,7 +225,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
-                "🇫🇷 FR | 🔒 VLESS | @farahvpn [18]",
+                "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
@@ -465,29 +463,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [63]",
-            "type": "vless",
-            "server": "ru.sfasti.ru",
-            "server_port": 443,
-            "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.sfasti.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
-                }
             }
         },
         {
@@ -1429,16 +1404,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @farahvpn [18]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
             "type": "vless",
-            "server": "80.13.135.11",
-            "server_port": 57546,
-            "uuid": "4aae04fa-f390-44bb-9558-a344c8baed36",
+            "server": "91.98.76.73",
+            "server_port": 2052,
+            "uuid": "797d8132-6c08-4d5f-accc-eba1d6fdc9c5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ratp.fr",
+                "server_name": "cp7.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1446,13 +1421,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "G4WqyBonyjuo6n6pIL_yLN33T9e8BNHIUlrVnqZPpTY",
-                    "short_id": "e9da"
+                    "public_key": "B4bL5jZotLi91qBuoZjrl5wI4txIa5GmgS2ifinc7VA",
+                    "short_id": "6a"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "probrain-etl"
             }
         },
         {
