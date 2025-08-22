@@ -98,16 +98,14 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [56]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [57]",
-                "🇺🇸 US | 🔒 TROJAN | @farahvpn [12]",
+                "🇺🇸 US | 🔒 TROJAN | @farahvpn [10]",
+                "🚩 CF | 🔒 TROJAN | @fastfreeconfig [55]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "❔ XX | 🔓 TROJAN | @hope_net [15]",
+                "❔ XX | 🔓 TROJAN | @hope_net [13]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianssr [3]",
                 "❔ XX | 🔒 TROJAN | @public504 [4]",
-                "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
@@ -137,16 +135,14 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [56]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [57]",
-                "🇺🇸 US | 🔒 TROJAN | @farahvpn [12]",
+                "🇺🇸 US | 🔒 TROJAN | @farahvpn [10]",
+                "🚩 CF | 🔒 TROJAN | @fastfreeconfig [55]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "❔ XX | 🔓 TROJAN | @hope_net [15]",
+                "❔ XX | 🔓 TROJAN | @hope_net [13]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianssr [3]",
                 "❔ XX | 🔒 TROJAN | @public504 [4]",
-                "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [2]",
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
@@ -352,21 +348,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @config_proxy [56]",
-            "type": "trojan",
-            "server": "aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz",
-            "server_port": 27001,
-            "password": "67aae342-d53e-4b33-bc16-b70e15b30dc4"
-        },
-        {
-            "tag": "❔ XX | 🔓 TROJAN | @config_proxy [57]",
-            "type": "trojan",
-            "server": "sla.cn.964e995b760.gogodns.xin",
-            "server_port": 27102,
-            "password": "22b34bca-5208-4eb1-94c8-53e77077a32e"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @farahvpn [12]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @farahvpn [10]",
             "type": "trojan",
             "server": "us.blazeppn.info",
             "server_port": 443,
@@ -378,6 +360,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @fastfreeconfig [55]",
+            "type": "trojan",
+            "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+            "server_port": 443,
+            "password": "22f86840-bcac-11ee-abea-1239d0255272",
+            "tls": {
+                "enabled": true,
+                "server_name": "de1.test3.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/howdy",
+                "headers": {
+                    "Host": "de1.test3.net"
                 }
             }
         },
@@ -398,7 +403,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @hope_net [15]",
+            "tag": "❔ XX | 🔓 TROJAN | @hope_net [13]",
             "type": "trojan",
             "server": "eyJhZGQiOiIxMDQuMjEuODQuMTE0IiwiYWlkIjoiMSIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJiZS5oa2RkaXNuZXkub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiJsaW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiSVItQFYycmF5X0FscGhhLTExIiwic2N5IjoiYXV0byIsInNuaSI6ImJlLmhrZGRpc25leS5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
             "server_port": 0,
@@ -465,29 +470,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Amsterdam"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @teamvpnpro [1]",
-            "type": "trojan",
-            "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
-            "server_port": 443,
-            "password": "22f86840-bcac-11ee-abea-1239d0255272",
-            "tls": {
-                "enabled": true,
-                "server_name": "de1.test3.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/howdy",
-                "headers": {
-                    "Host": "de1.test3.net"
-                }
             }
         },
         {
