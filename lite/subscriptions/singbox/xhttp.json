@@ -93,10 +93,11 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
-                "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @info_2it_channel [3]",
@@ -142,10 +143,11 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
-                "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @info_2it_channel [3]",
@@ -289,6 +291,52 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "74.63.11.211",
+            "server_port": 1002,
+            "uuid": "f9044026-202b-4879-a684-b7c2f295645f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "185.254.220.229",
+            "server_port": 1002,
+            "uuid": "f9044026-202b-4879-a684-b7c2f295645f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
             "type": "vless",
             "server": "91.99.16.244",
@@ -337,29 +385,6 @@
             "uuid": "f51667a2-c1e6-5321-9d51-f03be3fc8d02",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
-            "type": "vless",
-            "server": "91.98.76.73",
-            "server_port": 2052,
-            "uuid": "797d8132-6c08-4d5f-accc-eba1d6fdc9c5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cp7.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B4bL5jZotLi91qBuoZjrl5wI4txIa5GmgS2ifinc7VA",
-                    "short_id": "6a"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",

@@ -93,11 +93,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
-                "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
@@ -156,11 +157,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
                 "🇺🇦 UA | 🔒 VLESS | @dashv2ray [8]",
-                "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
                 "🇭🇰 HK | 🔒 VLESS | @fire_vpn_channel [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
@@ -317,6 +319,52 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "74.63.11.211",
+            "server_port": 1002,
+            "uuid": "f9044026-202b-4879-a684-b7c2f295645f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "185.254.220.229",
+            "server_port": 1002,
+            "uuid": "f9044026-202b-4879-a684-b7c2f295645f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -409,29 +457,6 @@
                     "enabled": true,
                     "public_key": "n9OO75eOaHXQyfUByQSZviDY4RmSUQyoU1YSs4yQXEs",
                     "short_id": "7f700392"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @farahvpn [18]",
-            "type": "vless",
-            "server": "91.98.76.73",
-            "server_port": 2052,
-            "uuid": "797d8132-6c08-4d5f-accc-eba1d6fdc9c5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cp7.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B4bL5jZotLi91qBuoZjrl5wI4txIa5GmgS2ifinc7VA",
-                    "short_id": "6a"
                 }
             }
         },

@@ -98,9 +98,8 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [46]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "❔ XX | 🔓 TROJAN | @hope_net [18]",
+                "❔ XX | 🔓 TROJAN | @hope_net [16]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianssr [3]",
@@ -110,6 +109,7 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2aryng_vpn [9]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [11]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -135,9 +135,8 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [46]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
-                "❔ XX | 🔓 TROJAN | @hope_net [18]",
+                "❔ XX | 🔓 TROJAN | @hope_net [16]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
                 "❔ XX | 🔒 TROJAN | @jiedianssr [3]",
@@ -147,6 +146,7 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2aryng_vpn [9]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [11]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -348,13 +348,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @config_proxy [46]",
-            "type": "trojan",
-            "server": "aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz",
-            "server_port": 43583,
-            "password": "67aae342-d53e-4b33-bc16-b70e15b30dc4"
-        },
-        {
             "tag": "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
             "type": "trojan",
             "server": "us2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen",
@@ -371,7 +364,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @hope_net [18]",
+            "tag": "❔ XX | 🔓 TROJAN | @hope_net [16]",
             "type": "trojan",
             "server": "eyJhZGQiOiJiZS50YXdhcmQub3JnIiwiYWlkIjoiMSIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJiZS50YXdhcmQub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IklSLUBWMnJheV9BbHBoYS0xMiIsInNjeSI6ImF1dG8iLCJzbmkiOiJiZS50YXdhcmQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=",
             "server_port": 0,
@@ -538,6 +531,29 @@
                 "path": "/trfrcjlzXxwTT5XGKk/NDQuMjI0LjI0LjkxLDE4LjE4My4xNTguMjEx?ed=2560",
                 "headers": {
                     "Host": "SCHQqN0Yhrrs34qn3a2K4i6g9XAp1tPh.PaGEs.dEv"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [11]",
+            "type": "trojan",
+            "server": "chatgpt.com",
+            "server_port": 2087,
+            "password": "15f34214-d8de-41e9-ba72-93daeafc59ef",
+            "tls": {
+                "enabled": true,
+                "server_name": "subhiddify.mmdv2.host",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "subhiddify.mmdv2.host"
                 }
             }
         },
