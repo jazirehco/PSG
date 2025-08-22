@@ -96,10 +96,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "❔ XX | 🔒 VLESS | @config_proxy [48]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "🇦🇱 AL | 🔒 VLESS | @freakconfig [14]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -145,10 +144,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "❔ XX | 🔒 VLESS | @config_proxy [48]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
-                "🇦🇱 AL | 🔒 VLESS | @freakconfig [14]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [2]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [3]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [4]",
@@ -366,30 +364,26 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [48]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [63]",
             "type": "vless",
-            "server": "dlarm2.kuckenpq.ir",
-            "server_port": 32135,
-            "uuid": "fa37c0b5-8e65-475c-b575-7f87135fd8ed",
+            "server": "ru.sfasti.ru",
+            "server_port": 443,
+            "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
+                "server_name": "ru.sfasti.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0nV4IrMDDWiuFhntmuTBnQT3Q2uPagsRV1p4KXRnzCk",
-                    "short_id": "085753500f657097"
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -440,29 +434,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @freakconfig [14]",
-            "type": "vless",
-            "server": "al.spirako.com",
-            "server_port": 443,
-            "uuid": "f2a4624b-4efc-4409-bf2f-c7ec5f77503a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "spirako.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
-                    "short_id": ""
-                }
             }
         },
         {
