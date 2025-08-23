@@ -83,7 +83,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
-                "🇬🇧 GB | 🔓 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔒 TROJAN | @farahvpn [18]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -94,7 +94,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇮🇳 IN | 🔒 TROJAN | @v2ray_collector [11]",
                 "🇹🇼 TW | 🔒 TROJAN | @v2ray_collector [12]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [16]",
@@ -113,7 +112,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
-                "🇬🇧 GB | 🔓 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔒 TROJAN | @farahvpn [18]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -124,7 +123,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇮🇳 IN | 🔒 TROJAN | @v2ray_collector [11]",
                 "🇹🇼 TW | 🔒 TROJAN | @v2ray_collector [12]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [16]",
@@ -268,11 +266,27 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔓 TROJAN | @hope_net [18]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @farahvpn [18]",
             "type": "trojan",
-            "server": "3.9.88.185",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns"
+            "server": "23.150.248.153",
+            "server_port": 443,
+            "password": "b4e8771997c94732acbc9ec4d19c2589",
+            "tls": {
+                "enabled": true,
+                "server_name": "jobscareerforstudent.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6b777a91",
+                "headers": {
+                    "Host": "jobscareerforstudent.com"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -452,22 +466,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "ttfang.fange.me"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
-            "type": "trojan",
-            "server": "13.37.138.103",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
