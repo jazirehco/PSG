@@ -86,7 +86,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [51]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [54]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
@@ -104,8 +104,7 @@
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [38]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [39]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [40]",
-                "❔ XX | 🔒 TROJAN | @v2rayngconfig [41]",
-                "❔ XX | 🔒 TROJAN | @v2rayngconfig [42]"
+                "❔ XX | 🔒 TROJAN | @v2rayngconfig [41]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -122,7 +121,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [51]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [54]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔓 TROJAN | @ip_cf_config [8]",
                 "❔ XX | 🔒 TROJAN | @iraniv2ray [4]",
@@ -140,8 +139,7 @@
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [38]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [39]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [40]",
-                "❔ XX | 🔒 TROJAN | @v2rayngconfig [41]",
-                "❔ XX | 🔒 TROJAN | @v2rayngconfig [42]"
+                "❔ XX | 🔒 TROJAN | @v2rayngconfig [41]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -338,11 +336,20 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @config_proxy [51]",
+            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [54]",
             "type": "trojan",
-            "server": "aafrtpfxr.arl01i9zjfegelp.5xfsur8v62.gosdk.xyz",
-            "server_port": 43590,
-            "password": "67aae342-d53e-4b33-bc16-b70e15b30dc4"
+            "server": "170-187-134-190.ipv4.rush.ml",
+            "server_port": 8443,
+            "password": "cf4295378e209e70d12c5bdd017144dfd1c772d3",
+            "tls": {
+                "enabled": true,
+                "server_name": "170-187-134-190.ipv4.rush.ml",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
@@ -645,22 +652,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "1.mg.us.cat77.cloud",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 TROJAN | @v2rayngconfig [42]",
-            "type": "trojan",
-            "server": "170-187-134-190.ipv4.rush.ml",
-            "server_port": 8443,
-            "password": "cf4295378e209e70d12c5bdd017144dfd1c772d3",
-            "tls": {
-                "enabled": true,
-                "server_name": "170-187-134-190.ipv4.rush.ml",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
