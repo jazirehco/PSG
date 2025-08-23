@@ -93,6 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [5]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [24]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [13]",
@@ -115,8 +117,8 @@
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
-                "🇳🇱 NL | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+                "🇳🇱 NL | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [1]",
@@ -147,6 +149,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @argo_vpn1 [5]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [24]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [13]",
@@ -169,8 +173,8 @@
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [4]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
-                "🇳🇱 NL | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
-                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+                "🇳🇱 NL | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
+                "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [1]",
@@ -295,6 +299,42 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [24]",
+            "type": "vless",
+            "server": "104.21.48.1",
+            "server_port": 2083,
+            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "40.160.50.44",
+            "server_port": 443,
+            "uuid": "f6f442e3-69d1-4a83-bb78-241152eed859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "40.160.50.44",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -608,7 +648,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @proxy_mtproto_vpns_free [13]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
             "type": "vless",
             "server": "89.34.230.161",
             "server_port": 8880,
@@ -617,7 +657,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [15]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
             "type": "vless",
             "server": "91.99.217.44",
             "server_port": 443,
