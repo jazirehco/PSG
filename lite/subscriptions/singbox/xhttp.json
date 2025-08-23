@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @info_2it_channel [3]",
@@ -144,6 +145,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @info_2it_channel [3]",
@@ -335,6 +337,24 @@
             "uuid": "f51667a2-c1e6-5321-9d51-f03be3fc8d02",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
+            "type": "vless",
+            "server": "91.99.219.15",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.219.15",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
