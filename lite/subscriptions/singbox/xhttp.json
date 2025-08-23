@@ -98,7 +98,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
-                "🇺🇸 US | 🔓 VLESS | @fnet00 [4]",
+                "🇺🇸 US | 🔓 VLESS | @fnet00 [2]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
@@ -129,7 +129,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]",
+                "🇳🇱 NL | 🔒 VLESS | @vaynora [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -146,7 +147,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @fastvpnorummobile [4]",
-                "🇺🇸 US | 🔓 VLESS | @fnet00 [4]",
+                "🇺🇸 US | 🔓 VLESS | @fnet00 [2]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
@@ -177,7 +178,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]",
+                "🇳🇱 NL | 🔒 VLESS | @vaynora [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -318,7 +320,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [4]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @fnet00 [2]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -833,6 +835,29 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vaynora [5]",
+            "type": "vless",
+            "server": "193.233.19.17",
+            "server_port": 2053,
+            "uuid": "d6873a1d-38bf-430d-a701-a874b9be3982",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "liDJBs0Z831sti-z1AqSshl-QKcJqjxLAdADy1uXvzg",
+                    "short_id": "96c58a92f1dd5eaa"
                 }
             }
         }
