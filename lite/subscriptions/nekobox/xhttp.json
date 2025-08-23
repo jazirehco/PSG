@@ -96,7 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @info_2it_channel [3]",
@@ -107,6 +107,7 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [15]",
+                "🇺🇸 US | 🔒 VLESS | @proxycrone [13]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -114,7 +115,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayng_ip [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayng_ip [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]"
             ],
@@ -143,7 +144,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [9]",
                 "🇩🇪 DE | 🔓 VLESS | @info_2it_channel [3]",
@@ -154,6 +155,7 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [15]",
+                "🇺🇸 US | 🔒 VLESS | @proxycrone [13]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
@@ -161,7 +163,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayng_ip [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayng_ip [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngninja [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [14]"
             ],
@@ -444,7 +446,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
             "type": "vless",
             "server": "91.99.219.15",
             "server_port": 443,
@@ -607,6 +609,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @proxycrone [13]",
+            "type": "vless",
+            "server": "159.203.141.231",
+            "server_port": 2053,
+            "uuid": "6d5afbb4-450c-4798-91ab-71a792b487bb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "openstreetmap.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lHqhMsZfvb_xaxQPKOyIDlaSREGM9tFWjVxl4k9aiBg",
+                    "short_id": "60f78c"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
             "type": "vless",
             "server": "147.182.183.207",
@@ -749,7 +774,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayng_ip [14]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayng_ip [12]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
