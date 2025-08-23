@@ -93,7 +93,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -142,7 +141,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🇩🇪 DE | 🔓 VLESS | @proxy_v2box [15]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -456,29 +454,6 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
-            "type": "vless",
-            "server": "91.98.76.73",
-            "server_port": 2052,
-            "uuid": "797d8132-6c08-4d5f-accc-eba1d6fdc9c5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cp7.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B4bL5jZotLi91qBuoZjrl5wI4txIa5GmgS2ifinc7VA",
-                    "short_id": "6a"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @proxie [18]",

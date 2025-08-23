@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [68]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [57]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -102,7 +102,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -127,7 +127,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "❔ XX | 🔓 TROJAN | @config_proxy [68]",
+                "❔ XX | 🔒 TROJAN | @fastfreeconfig [57]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
@@ -136,7 +136,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
                 "🇷🇺 RU | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
@@ -250,11 +250,24 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 TROJAN | @config_proxy [68]",
+            "tag": "❔ XX | 🔒 TROJAN | @fastfreeconfig [57]",
             "type": "trojan",
-            "server": "aafrtpfxr.idl01i9zjfegelp.5xfsur8v62.gosdk.xyz",
-            "server_port": 43394,
-            "password": "67aae342-d53e-4b33-bc16-b70e15b30dc4"
+            "server": "amin.karkas1.ir",
+            "server_port": 443,
+            "password": "e6b506e9-2d37-40cb-aff9-35678d0e6c69",
+            "tls": {
+                "enabled": true,
+                "server_name": "amin.karkas1.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "6vuNVgOFnqUEvj0rcXIcStL"
+            }
         },
         {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -410,25 +423,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
-            "server": "172.64.35.176",
+            "server": "104.23.109.158",
             "server_port": 443,
-            "password": "auto",
+            "password": "bpb-trojan",
             "tls": {
                 "enabled": true,
-                "server_name": "trojanmz.pages.dev",
+                "server_name": "adagio.us.kg",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "trojanmz.pages.dev"
                 }
             }
         },
