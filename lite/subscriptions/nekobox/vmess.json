@@ -131,8 +131,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
-                "🇹🇷 TR | 🔓 VMESS | @mowjproxy [2]",
+                "🇹🇷 TR | 🔓 VMESS | @mowjproxy [1]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇩🇪 DE | 🔓 VMESS | @netmellianti [13]",
@@ -161,7 +161,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -244,8 +244,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
-                "🇹🇷 TR | 🔓 VMESS | @mowjproxy [2]",
+                "🇹🇷 TR | 🔓 VMESS | @mowjproxy [1]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
                 "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇩🇪 DE | 🔓 VMESS | @netmellianti [13]",
@@ -274,7 +274,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -1237,7 +1237,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
+            "tag": "🇹🇷 TR | 🔓 VMESS | @mowjproxy [1]",
+            "type": "vmess",
+            "server": "tr.snapppro.nikastoring.ir",
+            "server_port": 1616,
+            "uuid": "e86bcd55-d45e-4388-b19c-d61b648462b8",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
             "type": "vmess",
             "server": "104.17.148.22",
             "server_port": 2083,
@@ -1260,15 +1269,6 @@
                     "Host": "api3.waltonweb.ir"
                 }
             }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @mowjproxy [2]",
-            "type": "vmess",
-            "server": "tr.snapppro.nikastoring.ir",
-            "server_port": 1616,
-            "uuid": "e86bcd55-d45e-4388-b19c-d61b648462b8",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @napsterntvtm [1]",
@@ -1687,29 +1687,13 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "57.129.28.65",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "lovetest.te1450.ir",
+            "server_port": 777,
+            "uuid": "6aa4f7df-6595-4f0c-b6cb-d0fe3ff57424",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "kapelleng.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "kapelleng.com"
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VMESS | @v2ray_n [18]",
