@@ -101,7 +101,8 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [2]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [9]",
@@ -125,7 +126,8 @@
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [2]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [6]",
                 "🇩🇪 DE | 🔓 VLESS | @iseqaro [1]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [9]",
@@ -297,7 +299,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
             "type": "vless",
             "server": "sss94870.tas-bazi.com",
             "server_port": 443,
@@ -307,6 +309,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "sss94870.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
+            "type": "vless",
+            "server": "sss71534.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "aa077dd1-0a53-4313-8800-c9ac79a97003",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss71534.tas-bazi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
