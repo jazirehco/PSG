@@ -83,6 +83,7 @@
                 "❔ XX | 🔓 VLESS | @appsooner [2]",
                 "🇺🇸 US | 🔓 VLESS | @appsooner [3]",
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [42]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
                 "❔ XX | 🔓 VLESS | @dgkbza [8]",
@@ -116,10 +117,10 @@
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [4]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
-                "🇩🇪 DE | 🔓 VLESS | @proxycrone [2]",
+                "🇩🇪 DE | 🔓 VLESS | @proxycrone [1]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
+                "🇺🇸 US | 🔒 VLESS | @proxystore11 [4]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "❔ XX | 🔓 VLESS | @v2graphy [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
@@ -144,6 +145,7 @@
                 "❔ XX | 🔓 VLESS | @appsooner [2]",
                 "🇺🇸 US | 🔓 VLESS | @appsooner [3]",
                 "🇺🇸 US | 🔓 VLESS | @appsooner [6]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [42]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [5]",
                 "❔ XX | 🔓 VLESS | @dgkbza [8]",
@@ -177,10 +179,10 @@
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [4]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
-                "🇩🇪 DE | 🔓 VLESS | @proxycrone [2]",
+                "🇩🇪 DE | 🔓 VLESS | @proxycrone [1]",
                 "🚩 CF | 🔒 VLESS | @proxycrone [9]",
                 "🇵🇱 PL | 🔒 VLESS | @proxygodratmand [2]",
-                "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
+                "🇺🇸 US | 🔒 VLESS | @proxystore11 [4]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [7]",
                 "❔ XX | 🔓 VLESS | @v2graphy [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_sub [1]",
@@ -307,6 +309,24 @@
             "uuid": "9072c5fd-dab0-4125-9465-3aa26de4defc",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "sss81493.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "94ccd7a6-d1f0-414c-8add-eaa4d0b68770",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss81493.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -693,7 +713,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @proxycrone [2]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @proxycrone [1]",
             "type": "vless",
             "server": "s5.1dnt.k-l.cloud",
             "server_port": 80,
@@ -743,7 +763,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @proxystore11 [4]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @proxystore11 [4]",
             "type": "vless",
             "server": "cname.proxystore11.news",
             "server_port": 8443,
