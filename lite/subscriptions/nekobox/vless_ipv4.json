@@ -93,7 +93,7 @@
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [15]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [16]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configfast [1]",
                 "🚩 CF | 🔓 VLESS | @configms [9]",
@@ -122,7 +122,7 @@
                 "🚩 CF | 🔒 VLESS | @farahvpn [17]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @fasst_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [58]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [10]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
@@ -350,7 +350,7 @@
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [15]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [16]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configfast [1]",
                 "🚩 CF | 🔓 VLESS | @configms [9]",
@@ -379,7 +379,7 @@
                 "🚩 CF | 🔒 VLESS | @farahvpn [17]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @fasst_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [58]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [10]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
@@ -908,13 +908,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
             "type": "vless",
-            "server": "91.99.224.243",
-            "server_port": 2081,
-            "uuid": "e145d18c-7b89-4ffe-8dae-00ef8203070f",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "85.239.60.43",
+            "server_port": 8443,
+            "uuid": "b466707d-ca06-4e0c-90e2-7ddb1f11c2ef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -1400,27 +1414,18 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [59]",
+            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [58]",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "TELEGRAM-CONFiGLiNE",
+            "server": "104.17.148.22",
+            "server_port": 8080,
+            "uuid": "f0ce50ac-f469-457d-c0d0-309391439014",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hE136.maShkesTan.CoM",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048",
+                "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
                 "headers": {
-                    "Host": "hE136.maShkesTan.CoM"
+                    "Host": "104.17.148.22"
                 }
             }
         },

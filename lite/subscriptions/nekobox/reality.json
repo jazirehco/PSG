@@ -116,6 +116,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [1]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -215,6 +216,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @vpnv2raytop [1]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇮 FI | 🔒 VLESS | @xyzquantvpn [1]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @customvpnserver [21]",
                 "🇫🇷 FR | 🔒 VLESS | @darkfiilter [1]",
@@ -1251,6 +1253,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "0VTuTCdLL8WUYSwaz2OnC5y"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "85.239.60.43",
+            "server_port": 8443,
+            "uuid": "b466707d-ca06-4e0c-90e2-7ddb1f11c2ef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
+                    "short_id": ""
+                }
             }
         },
         {

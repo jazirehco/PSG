@@ -147,10 +147,10 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [12]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [53]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [5]",
                 "🇮🇹 IT | 🔓 VLESS | @freakconfig [2]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [10]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [2]",
@@ -190,7 +190,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [5]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [9]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -256,10 +256,10 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [20]",
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🇩🇪 DE | 🔒 VLESS | @farahvpn [12]",
+                "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [53]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [5]",
                 "🇮🇹 IT | 🔓 VLESS | @freakconfig [2]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [10]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [12]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [2]",
@@ -299,7 +299,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [5]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [9]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1059,6 +1059,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @fastfreeconfig [53]",
+            "type": "vless",
+            "server": "159.203.141.231",
+            "server_port": 2053,
+            "uuid": "6d5afbb4-450c-4798-91ab-71a792b487bb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "openstreetmap.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lHqhMsZfvb_xaxQPKOyIDlaSREGM9tFWjVxl4k9aiBg",
+                    "short_id": "60f78c"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [5]",
             "type": "vless",
             "server": "104.17.148.22",
@@ -1100,29 +1123,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [12]",
-            "type": "vless",
-            "server": "159.203.141.231",
-            "server_port": 2053,
-            "uuid": "6d5afbb4-450c-4798-91ab-71a792b487bb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "openstreetmap.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lHqhMsZfvb_xaxQPKOyIDlaSREGM9tFWjVxl4k9aiBg",
-                    "short_id": "60f78c"
                 }
             }
         },
@@ -1747,7 +1747,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [10]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [9]",
             "type": "vless",
             "server": "91.99.181.47",
             "server_port": 8443,
