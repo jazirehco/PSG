@@ -97,7 +97,7 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
-                "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [3]",
+                "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -110,6 +110,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -132,7 +133,7 @@
                 "🇺🇸 US | 🔓 VLESS | @expressvpn_420 [31]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [7]",
-                "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [3]",
+                "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mehduox_vpn [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
@@ -145,6 +146,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -320,7 +322,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [3]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kanfig_majani [2]",
             "type": "vless",
             "server": "91.99.154.189",
             "server_port": 443,
@@ -516,6 +518,24 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.99.219.10",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
+            "type": "vless",
+            "server": "91.99.219.15",
+            "server_port": 443,
+            "uuid": "0f7e89d6-9f35-4e94-ba4b-509a724dc177",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.219.15",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
