@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [47]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -92,11 +91,12 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [11]",
                 "❔ XX | 🔓 VLESS | @parsashonam [15]",
-                "❔ XX | 🔓 VLESS | @prrofile_purple [138]",
+                "❔ XX | 🔓 VLESS | @prrofile_purple [131]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]"
             ],
@@ -110,7 +110,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [47]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -121,11 +120,12 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [11]",
                 "❔ XX | 🔓 VLESS | @parsashonam [15]",
-                "❔ XX | 🔓 VLESS | @prrofile_purple [138]",
+                "❔ XX | 🔓 VLESS | @prrofile_purple [131]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [1]",
                 "❔ XX | 🔓 VLESS | @v2rayngninja [2]"
             ],
@@ -242,29 +242,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [47]",
-            "type": "vless",
-            "server": "[2a03:b0c0:3:d0::10ad:7001]",
-            "server_port": 29360,
-            "uuid": "9e890db0-905d-41d2-8a69-0a35ff7d8ce3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -431,6 +408,29 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+            "type": "vless",
+            "server": "[2a03:b0c0:3:d0::10ad:7001]",
+            "server_port": 29360,
+            "uuid": "9e890db0-905d-41d2-8a69-0a35ff7d8ce3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @parsashonam [3]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
@@ -467,7 +467,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @prrofile_purple [138]",
+            "tag": "❔ XX | 🔓 VLESS | @prrofile_purple [131]",
             "type": "vless",
             "server": "[2a03:b0c0:1:e0::a400:5001]",
             "server_port": 24256,
