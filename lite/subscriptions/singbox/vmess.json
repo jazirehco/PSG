@@ -95,8 +95,6 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [34]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [36]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇷🇺 RU | 🔒 VMESS | @configsstore [6]",
@@ -175,7 +173,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -210,8 +208,6 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [34]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [36]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇷🇺 RU | 🔒 VMESS | @configsstore [6]",
@@ -290,7 +286,7 @@
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
@@ -462,40 +458,6 @@
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [34]",
-            "type": "vmess",
-            "server": "205.233.181.3",
-            "server_port": 443,
-            "uuid": "de94cc0a-0592-4969-b1fc-97ea8f0ea0b3",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "205.233.181.3",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/us.kkp.me.eu.org/aa",
-                "headers": {
-                    "Host": "205.233.181.3"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [36]",
-            "type": "vmess",
-            "server": "r1.xinyo.me",
-            "server_port": 40201,
-            "uuid": "41386ba6-b0fe-4070-be67-a6384cf6beb5",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -1733,18 +1695,27 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "v9.heduian.link",
-            "server_port": 30809,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "server": "57.129.28.65",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "kapelleng.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/oooo",
+                "path": "/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "kapelleng.com"
                 }
             }
         },
