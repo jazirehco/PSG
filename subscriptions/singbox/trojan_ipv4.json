@@ -108,14 +108,14 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔓 TROJAN | @farahvpn [4]",
+                "🚩 CF | 🔓 TROJAN | @farahvpn [2]",
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [6]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [7]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [7]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [14]",
                 "🚩 CF | 🔓 TROJAN | @hope_net [16]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🇨🇳 CN | 🔓 TROJAN | @hope_net [20]",
+                "🇨🇳 CN | 🔓 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -193,14 +193,14 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔓 TROJAN | @farahvpn [4]",
+                "🚩 CF | 🔓 TROJAN | @farahvpn [2]",
                 "🇺🇸 US | 🔒 TROJAN | @free_serverir [6]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [7]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [7]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [14]",
                 "🚩 CF | 🔓 TROJAN | @hope_net [16]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🇨🇳 CN | 🔓 TROJAN | @hope_net [20]",
+                "🇨🇳 CN | 🔓 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [5]",
                 "🚩 CF | 🔒 TROJAN | @ip_cf_config [9]",
                 "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [11]",
@@ -601,7 +601,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @farahvpn [4]",
+            "tag": "🚩 CF | 🔓 TROJAN | @farahvpn [2]",
             "type": "trojan",
             "server": "172.66.47.128",
             "server_port": 443,
@@ -656,30 +656,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-            "type": "trojan",
-            "server": "104.18.5.250",
-            "server_port": 443,
-            "password": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
-            "tls": {
-                "enabled": true,
-                "server_name": "iSaa1.PAGeS.DeV",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "iSaa1.PAGeS.DeV"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [16]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [14]",
             "type": "trojan",
             "server": "141.101.120.10",
             "server_port": 443,
@@ -695,7 +672,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [16]",
             "type": "trojan",
             "server": "104.17.58.219",
             "server_port": 443,
@@ -711,7 +688,7 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🇨🇳 CN | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "42.236.73.72",
             "server_port": 443,
@@ -719,6 +696,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "www.zitian.cn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.27.205.63",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "adagio.us.kg",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
