@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [53]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -89,6 +88,7 @@
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
+                "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
@@ -110,7 +110,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @fastfreeconfig [53]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔒 VLESS | @fire_vpn_channel [1]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -118,6 +117,7 @@
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
+                "❔ XX | 🔓 VLESS | @internet_nor [1]",
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
@@ -245,22 +245,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @fastfreeconfig [53]",
-            "type": "vless",
-            "server": "[2a01:4f9:c010:1ac8::1]",
-            "server_port": 8443,
-            "uuid": "12471e51-fcd4-421c-a71f-2ef755c34fec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@InterNet_Nor",
-                "headers": {
-                    "Host": "[2a01:4f9:c010:1ac8::1]"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔓 VLESS | @father_vpn [4]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
@@ -377,6 +361,22 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @internet_nor [1]",
+            "type": "vless",
+            "server": "[2a01:4f9:c010:1ac8::1]",
+            "server_port": 8443,
+            "uuid": "12471e51-fcd4-421c-a71f-2ef755c34fec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@InterNet_Nor",
+                "headers": {
+                    "Host": "[2a01:4f9:c010:1ac8::1]"
                 }
             }
         },

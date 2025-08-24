@@ -109,8 +109,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [9]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [43]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇹 IT | 🔒 VLESS | @freeiranianv2rey [6]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [1]",
@@ -126,6 +124,7 @@
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [6]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
+                "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @itv2ray [26]",
                 "❔ XX | 🔒 VLESS | @itv2ray [27]",
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
@@ -225,8 +224,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [9]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [43]",
-                "❔ XX | 🔒 VLESS | @fastfreeconfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇹 IT | 🔒 VLESS | @freeiranianv2rey [6]",
                 "❔ XX | 🔒 VLESS | @fsv2ray [1]",
@@ -242,6 +239,7 @@
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @iranbaxvpn [6]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
+                "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
                 "❔ XX | 🔒 VLESS | @itv2ray [26]",
                 "❔ XX | 🔒 VLESS | @itv2ray [27]",
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
@@ -843,56 +841,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [43]",
-            "type": "vless",
-            "server": "day.mtpmio.com",
-            "server_port": 443,
-            "uuid": "20cf1bfb-c5ad-4a5f-85bf-ec14e89b1406",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "duckduckgo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KrOQ6UIhM_AXIEJZ31FsIXRbtN7TtFBykqmnnFECkEM",
-                    "short_id": "1d72e9f5ba"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @fastfreeconfig [51]",
-            "type": "vless",
-            "server": "iranbaxvpn.v2rayn.com",
-            "server_port": 443,
-            "uuid": "5eb40b31-6d9b-461d-81c2-53909a01df5b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iranbax.spacex.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "skowtu_zROaa0Y7h0Gss2-4mPXvEAngSPxQVukyWO1U",
-                    "short_id": "9ff0c049e20b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "frangets.rtpxc.com",
@@ -1271,6 +1219,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
+            "type": "vless",
+            "server": "iranbaxvpn.v2rayn.com",
+            "server_port": 443,
+            "uuid": "5eb40b31-6d9b-461d-81c2-53909a01df5b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iranbax.spacex.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "skowtu_zROaa0Y7h0Gss2-4mPXvEAngSPxQVukyWO1U",
+                    "short_id": "9ff0c049e20b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@iranbaxvpn-@iranbaxvpn-@iranbaxvpn-@iranbaxvpn"
             }
         },
         {
