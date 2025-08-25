@@ -90,11 +90,12 @@
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [5]",
                 "🇬🇧 GB | 🔒 VLESS | @v2trayproxy [11]",
+                "🇮🇹 IT | 🔒 VLESS | @vpnowl [10]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [11]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [12]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [13]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [14]",
-                "🇮🇹 IT | 🔒 VLESS | @vpnowl [15]",
+                "🇮🇹 IT | 🔒 VLESS | @vpnowl [16]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
@@ -119,11 +120,12 @@
                 "❔ XX | 🔒 VLESS | @v2rayngconfings [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [5]",
                 "🇬🇧 GB | 🔒 VLESS | @v2trayproxy [11]",
+                "🇮🇹 IT | 🔒 VLESS | @vpnowl [10]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [11]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [12]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [13]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [14]",
-                "🇮🇹 IT | 🔒 VLESS | @vpnowl [15]",
+                "🇮🇹 IT | 🔒 VLESS | @vpnowl [16]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
@@ -464,7 +466,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [11]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [10]",
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
@@ -491,7 +493,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [12]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [11]",
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
@@ -518,7 +520,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [13]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [12]",
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
@@ -545,7 +547,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [14]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [13]",
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
@@ -572,7 +574,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [15]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [14]",
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
@@ -599,7 +601,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [16]",
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
@@ -626,7 +628,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
@@ -653,11 +655,38 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
             "type": "vless",
             "server": "blog.curfuffled.com",
             "server_port": 443,
             "uuid": "934964d0-3114-405a-a84c-f3fd37a8379e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-BtPlG7KnJIIIgh77udPqDKTOIMPsJUy0kYhp3CWBwA",
+                    "short_id": "975cfc3c7441"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
+            "type": "vless",
+            "server": "blog.curfuffled.com",
+            "server_port": 443,
+            "uuid": "8886725c-4799-4e86-8ef7-a8594fbb3226",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {

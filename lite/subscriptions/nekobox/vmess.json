@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇩🇪 DE | 🔒 VMESS | @config_proxy [50]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
@@ -92,8 +91,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -106,7 +105,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇩🇪 DE | 🔒 VMESS | @config_proxy [50]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
@@ -117,8 +115,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -231,31 +229,6 @@
                 "path": "/ad80f8ec-4861-11f0-a948-6a75f667b472?ed=2048",
                 "headers": {
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @config_proxy [50]",
-            "type": "vmess",
-            "server": "91.107.143.41",
-            "server_port": 443,
-            "uuid": "e723be74-afd6-455d-83d4-1415ca2cedb4",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "ognbqqfj1a49.greendop.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/1JN4ONIYlVjYpebWBPqDV7",
-                "headers": {
-                    "Host": "ognbqqfj1a49.greendop.com"
                 }
             }
         },
@@ -404,23 +377,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "37.143.129.238",
-            "server_port": 6616,
-            "uuid": "003f1279-c55d-427c-8327-9f71f8b1cc0b",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "37.143.129.238"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
             "server": "de1e-q6Fzg413C9.v2freevpn.com",
             "server_port": 80,
@@ -430,6 +387,22 @@
             "transport": {
                 "type": "ws",
                 "path": "/v1893293Py",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "188.212.96.235",
+            "server_port": 20521,
+            "uuid": "9fe28d12-8cf1-478d-b4d4-e38c5212354c",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
                 "headers": {
                     "Host": ""
                 }

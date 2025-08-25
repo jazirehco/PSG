@@ -84,7 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [66]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -122,7 +122,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [66]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -331,13 +331,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [66]",
             "type": "vless",
-            "server": "CONFiGLiNE.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "40cb7d82-5599-4c75-9fe3-2de4de2c1fe7",
+            "server": "sss75298.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "92b022a6-67f3-4406-840b-8fec2f4aace8",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss75298.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
