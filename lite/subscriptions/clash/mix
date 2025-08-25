@@ -25,9 +25,9 @@ dns:
 proxies: 
   - {"name":"❔ XX | 🔒 VMESS | @configforvpn01 [9]","type":"vmess","server":"join.melodyfreenet2.shop","port":443,"cipher":"auto","uuid":"50ef0b23-f14b-459f-97aa-d0f346189d2a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mail/","headers":{"Host":""}}}
   - {"name":"❔ XX | 🔓 VMESS | @configforvpn01 [10]","type":"vmess","server":"shahinnet-freenetcdn.melodyshopone2.ir","port":8080,"cipher":"auto","uuid":"96588912-3bcb-491c-8ce3-7a965bbec07f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sog.shahinnet.shop"}}}
-  - {"name":"🇸🇬 SG | 🔒 SS | @free1ss [15]","type":"ss","server":"167.172.69.97","port":8443,"password":"NobzSkOzD4WYlS0u5W1YDmVQq+mx9IZkzty0gPWSJuQ=","cipher":"aes-256-gcm"}
   - {"name":"🇹🇼 TW | 🔒 SS | @free1ss [16]","type":"ss","server":"125.228.180.215","port":10089,"password":"a10bc923-211e-4139-9233-831620779726","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🔒 SS | @free1ss [17]","type":"ss","server":"81.177.214.214","port":443,"password":"aObvLFQBhTQ1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🔒 SS | @free1ss [18]","type":"ss","server":"104.248.36.101","port":80,"password":"ckVxxBLAVbEQxxrRDSrHpY","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🔓 VMESS | @mahsaproxy [2]","type":"vmess","server":"khodaye.ranginkamaan.de","port":80,"cipher":"chacha20-poly1305","uuid":"b831381d-6324-4d53-ad4f-8cda48b30811","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/graphql","headers":{"Host":"khodaye.ranginkamaan.de"}}}
   - {"name":"❔ XX | 🔓 VMESS | @mahsaproxy [3]","type":"vmess","server":"kian.ranginkamaan.de","port":80,"cipher":"chacha20-poly1305","uuid":"b831381d-6324-4d53-ad4f-8cda48b30811","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/graphql","headers":{"Host":"kian.ranginkamaan.de"}}}
   - {"name":"🇬🇧 GB | 🔒 SS | @megavpn_link [12]","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
@@ -36,7 +36,8 @@ proxies:
   - {"name":"🇦🇹 AT | 🔓 VMESS | @rnrifci [4]","type":"vmess","server":"45.138.74.173","port":13700,"cipher":"auto","uuid":"6ddf3049-acea-47a3-899c-862e6e9d5d0f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Telegram@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci","grpc-mode":"none"}}
   - {"name":"🇦🇹 AT | 🔓 VMESS | @rnrifci [6]","type":"vmess","server":"45.138.74.173","port":13700,"cipher":"auto","uuid":"f38a5500-77de-4384-86f5-54d7ab5de2c8","alterId":0,"tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Telegram@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci","grpc-mode":"none"}}
   - {"name":"🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]","type":"vmess","server":"188.121.123.118","port":26210,"cipher":"auto","uuid":"a0a7f23d-9600-4d4c-9398-b80adcc3a3f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇳 IN | 🔒 SS | @v2ray_free_conf [20]","type":"ss","server":"103.111.114.29","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19]","type":"ss","server":"103.111.114.29","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]","type":"trojan","server":"52.47.53.180","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"dd1f5e36-fb05-45fd-b90d-38fb3bef5e59","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
@@ -53,9 +54,9 @@ proxy-groups:
     proxies: 
       - '❔ XX | 🔒 VMESS | @configforvpn01 [9]'
       - '❔ XX | 🔓 VMESS | @configforvpn01 [10]'
-      - '🇸🇬 SG | 🔒 SS | @free1ss [15]'
       - '🇹🇼 TW | 🔒 SS | @free1ss [16]'
       - '🇫🇮 FI | 🔒 SS | @free1ss [17]'
+      - '🇩🇪 DE | 🔒 SS | @free1ss [18]'
       - '❔ XX | 🔓 VMESS | @mahsaproxy [2]'
       - '❔ XX | 🔓 VMESS | @mahsaproxy [3]'
       - '🇬🇧 GB | 🔒 SS | @megavpn_link [12]'
@@ -64,7 +65,8 @@ proxy-groups:
       - '🇦🇹 AT | 🔓 VMESS | @rnrifci [4]'
       - '🇦🇹 AT | 🔓 VMESS | @rnrifci [6]'
       - '🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]'
-      - '🇮🇳 IN | 🔒 SS | @v2ray_free_conf [20]'
+      - '🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19]'
+      - '🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]'
       - '🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]'
 
   - name: 🌍 Global Media
