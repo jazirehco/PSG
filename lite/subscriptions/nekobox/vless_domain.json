@@ -103,8 +103,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [8]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [20]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -138,8 +138,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [8]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [19]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [20]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -647,32 +647,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [19]",
-            "type": "vless",
-            "server": "ava.game.naver.com.servpn.my.id",
-            "server_port": 443,
-            "uuid": "6cc53dc5-55b2-4968-bb7c-ee84e1429c63",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ava.game.naver.com.servpn.my.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/kr1?ed=2560",
-                "headers": {
-                    "Host": "ava.game.naver.com.servpn.my.id"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [20]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]",
             "type": "vless",
             "server": "shirehtoot.salamatmarel.ir",
             "server_port": 2087,
@@ -693,6 +668,15 @@
                     "short_id": "d583"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]",
+            "type": "vless",
+            "server": "Www.speedtest.net",
+            "server_port": 2095,
+            "uuid": "b6a137d5-2204-4f7c-cd4e-cb400e04b111",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

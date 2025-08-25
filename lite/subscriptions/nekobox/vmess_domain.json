@@ -81,8 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇮🇩 ID | 🔓 VMESS | @config_proxy [93]",
-                "🇬🇧 GB | 🔒 VMESS | @config_proxy [94]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇩🇪 DE | 🔓 VMESS | @freakconfig [13]",
@@ -93,7 +91,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [17]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -106,8 +105,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇮🇩 ID | 🔓 VMESS | @config_proxy [93]",
-                "🇬🇧 GB | 🔒 VMESS | @config_proxy [94]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇩🇪 DE | 🔓 VMESS | @freakconfig [13]",
@@ -118,7 +115,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [17]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -231,33 +229,6 @@
                 "path": "/ad80f8ec-4861-11f0-a948-6a75f667b472?ed=2048",
                 "headers": {
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇩 ID | 🔓 VMESS | @config_proxy [93]",
-            "type": "vmess",
-            "server": "154.90.49.57",
-            "server_port": 58868,
-            "uuid": "fbffeb6b-b5e5-4f77-8888-c7919fbeb0ad",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VMESS | @config_proxy [94]",
-            "type": "vmess",
-            "server": "uk-v2ray.freevmess.com",
-            "server_port": 2083,
-            "uuid": "d67d3e32-6988-4b13-974d-29751dc59556",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -406,7 +377,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
             "server": "v2ray.codefyinc.com",
             "server_port": 443,
@@ -427,6 +398,24 @@
                 "path": "/vmessws",
                 "headers": {
                     "Host": "v2ray.codefyinc.com"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "uk-v2ray.freevmess.com",
+            "server_port": 2083,
+            "uuid": "d67d3e32-6988-4b13-974d-29751dc59556",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
