@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]"
+                "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
+                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "❔ XX | 🔒 VLESS | @catvpns [11]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]"
+                "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
+                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "❔ XX | 🔒 VLESS | @catvpns [11]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,6 +186,52 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
+            "type": "vless",
+            "server": "de.multiapvps.ir",
+            "server_port": 4433,
+            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+            "type": "vless",
+            "server": "usa.multiapvps.ir",
+            "server_port": 4434,
+            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @catvpns [11]",
             "type": "vless",
             "server": "Def.irimcs.org",
@@ -208,29 +256,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "world-of.ru",
-            "server_port": 443,
-            "uuid": "69504e82-9b2a-4e3c-98fe-07f06794b5ca",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
-                    "short_id": "71e48a"
-                }
             }
         }
     ],
