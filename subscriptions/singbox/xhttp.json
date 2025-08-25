@@ -97,13 +97,17 @@
                 "🇩🇪 DE | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [9]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -119,13 +123,17 @@
                 "🇩🇪 DE | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [9]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [7]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -266,6 +274,24 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "sss13712.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss13712.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
             "type": "vless",
             "server": "fast-01.saitsazs.ir",
@@ -373,6 +399,33 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "91.99.126.93",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "91.99.145.167",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "91.99.220.150",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
