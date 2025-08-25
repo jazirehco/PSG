@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [53]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -108,16 +109,15 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [17]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [16]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -132,6 +132,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [53]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -144,16 +145,15 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [17]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [16]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -332,6 +332,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns"
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "dl-04.saitsazs.ir",
+            "server_port": 12127,
+            "uuid": "508d96e8-953f-4a67-bc7d-8aba5878f38a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
             }
         },
         {
@@ -576,32 +599,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [17]",
-            "type": "vless",
-            "server": "ip.sb",
-            "server_port": 443,
-            "uuid": "8df60790-c903-4661-b85d-64c0009378e5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "F1.paRsa.fiLegEar-Sg.Me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "F1.paRsa.fiLegEar-Sg.Me"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [16]",
             "type": "vless",
             "server": "oureverydaylife.com",
             "server_port": 443,
@@ -624,6 +622,15 @@
                     "Host": "taochan.sylphachan.ip-ddns.com"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "10f655e9-eb23-4f13-a9eb-b93c8057962c",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
@@ -706,31 +713,6 @@
                 "path": "/--ping--www.speedtest.net?ed=2080",
                 "headers": {
                     "Host": "turboo-server.sadafspace.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hetzner-8.cache.name.ng",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "hetzner-8.cache.name.ng"
                 }
             }
         }

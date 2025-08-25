@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [51]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @kafing_2 [13]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
@@ -96,7 +97,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [51]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @kafing_2 [13]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
@@ -192,11 +194,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "165.22.27.230",
-            "server_port": 10109,
-            "uuid": "9a412464-c195-4b0e-9a92-dab83adc1959",
+            "server": "3.96.213.22",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -205,12 +207,35 @@
                 "insecure": true,
                 "utls": {
                     "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "138.68.231.98",
+            "server_port": 7020,
+            "uuid": "7b5f4468-74e1-4cee-be76-80a6316deec9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
                     "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "oxEpb_A0oUGY0bpUQo3u1rjY_uMTbeo-37UEVYSYf0g",
-                    "short_id": "6aa9086a91fb6831"
+                    "public_key": "TmD2tgPqVKs9s4FiP6qgaRR1vE03_l30_PKlljwkJiQ",
+                    "short_id": "7fec3adb0c3aee58"
                 }
             }
         },
