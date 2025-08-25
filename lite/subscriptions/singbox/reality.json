@@ -95,14 +95,11 @@
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "❔ XX | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @kafing_2 [13]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -116,14 +113,11 @@
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "❔ XX | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @kafing_2 [13]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -283,33 +277,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [64]",
-            "type": "vless",
-            "server": "api.node.snap.com.digi-gamingzone.koalavault.servers807.ir",
-            "server_port": 2025,
-            "uuid": "9705cfd1-d9b6-4d46-831e-ad06550d8e9a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fhNhrO00QDSDI1CBmJY8RwK9t-zFmTjERgbgqcj8NTI",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @kafing_2 [13]",
             "type": "vless",
             "server": "89.58.1.98",
@@ -426,52 +393,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "188.92.28.204",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]",
-            "type": "vless",
-            "server": "77.246.109.191",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
-                }
             }
         }
     ],
