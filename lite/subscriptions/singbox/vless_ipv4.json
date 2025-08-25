@@ -92,9 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
-                "🇨🇾 CY | 🔒 VLESS | @config_proxy [41]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
@@ -113,11 +114,10 @@
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [17]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [36]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,9 +128,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
-                "🇨🇾 CY | 🔒 VLESS | @config_proxy [41]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
@@ -149,11 +150,10 @@
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [17]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [36]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -240,6 +240,15 @@
             }
         },
         {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+            "type": "vless",
+            "server": "94.182.142.28",
+            "server_port": 2020,
+            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @arv2ray [15]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -265,43 +274,48 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [39]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "172.67.65.158",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
+            "server": "34.218.231.186",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Etb1L6YUdZFZuTOr?ed=2560",
-                "headers": {
-                    "Host": "172.67.65.158"
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
         {
-            "tag": "🇨🇾 CY | 🔒 VLESS | @config_proxy [41]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "154.92.9.46",
-            "server_port": 443,
-            "uuid": "ec8a65ad-aafc-4095-9b8c-ea10890ca629",
-            "flow": "",
+            "server": "52.14.107.202",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "simorgh.hpcode.ir",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Javid-SHAH-KingRezaPahlavi/?ed=@vpnserverrr_vpnserverrr_vpnserverrr",
-                "headers": {
-                    "Host": "simorgh.hpcode.ir"
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
@@ -652,7 +666,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [19]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [17]",
             "type": "vless",
             "server": "51.44.110.242",
             "server_port": 22224,
@@ -747,15 +761,6 @@
                 "type": "grpc",
                 "service_name": "fix.ahwaz14.ir"
             }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [36]",
-            "type": "vless",
-            "server": "94.182.142.28",
-            "server_port": 2020,
-            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
