@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇮 GI | 🔒 SS | @outline_ir [19] = ss, imap.roomyinmita.name, 40565, encrypt-method = chacha20-ietf-poly1305, password = PXWJkSFnnX1SFSWW2B9GTYRTW5JQu2uzXCJcEjEUEV1sNn1y3m5qAREkhitCMBLnCZXDcHHpfqD3EGS4FhNht63snb55LQTv
+🇬🇮 GI | 🔒 SS | @outline_ir [18] = ss, imap.roomyinmita.name, 40565, encrypt-method = chacha20-ietf-poly1305, password = PXWJkSFnnX1SFSWW2B9GTYRTW5JQu2uzXCJcEjEUEV1sNn1y3m5qAREkhitCMBLnCZXDcHHpfqD3EGS4FhNht63snb55LQTv
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇮 GI | 🔒 SS | @outline_ir [19]
-PSG-AUTO = url-test, 🇬🇮 GI | 🔒 SS | @outline_ir [19]
-PSG-FALLBACK = fallback, 🇬🇮 GI | 🔒 SS | @outline_ir [19]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇮 GI | 🔒 SS | @outline_ir [18]
+PSG-AUTO = url-test, 🇬🇮 GI | 🔒 SS | @outline_ir [18]
+PSG-FALLBACK = fallback, 🇬🇮 GI | 🔒 SS | @outline_ir [18]
 
 [Rule]
 GEOIP,IR,DIRECT

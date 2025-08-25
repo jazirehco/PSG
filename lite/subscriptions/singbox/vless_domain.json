@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
+                "❔ XX | 🔒 VLESS | @config_proxy [64]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -108,7 +109,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [17]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -130,6 +131,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
+                "❔ XX | 🔒 VLESS | @config_proxy [64]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -142,7 +144,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [17]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -328,6 +330,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "api.node.snap.com.digi-gamingzone.koalavault.servers807.ir",
+            "server_port": 2025,
+            "uuid": "9705cfd1-d9b6-4d46-831e-ad06550d8e9a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fhNhrO00QDSDI1CBmJY8RwK9t-zFmTjERgbgqcj8NTI",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -572,7 +601,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [17]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
