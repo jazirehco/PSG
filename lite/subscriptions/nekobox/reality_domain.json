@@ -82,8 +82,7 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
-                "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]"
+                "❔ XX | 🔒 VLESS | @catvpns [11]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -96,8 +95,7 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
-                "❔ XX | 🔒 VLESS | @catvpns [11]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]"
+                "❔ XX | 🔒 VLESS | @catvpns [11]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -258,29 +256,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns@CatVpns"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "germany.webdesignernew.info",
-            "server_port": 5358,
-            "uuid": "147ef5ed-1553-4877-8fef-e760440fc4ba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LX5xXGMnMyrGl7gjHbZEzcRclDnsTKg2uZBSYwKp9iY",
-                    "short_id": ""
-                }
             }
         }
     ],

@@ -9,16 +9,17 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇹🇼 TW | 🔒 SS | @free1ss [16] = ss, 125.228.180.215, 10089, encrypt-method = chacha20-ietf-poly1305, password = a10bc923-211e-4139-9233-831620779726
-🇫🇮 FI | 🔒 SS | @free1ss [17] = ss, 81.177.214.214, 443, encrypt-method = chacha20-ietf-poly1305, password = aObvLFQBhTQ1
-🇩🇪 DE | 🔒 SS | @free1ss [18] = ss, 104.248.36.101, 80, encrypt-method = chacha20-ietf-poly1305, password = ckVxxBLAVbEQxxrRDSrHpY
+🇹🇼 TW | 🔒 SS | @free1ss [15] = ss, 125.228.180.215, 10089, encrypt-method = chacha20-ietf-poly1305, password = a10bc923-211e-4139-9233-831620779726
+🇫🇮 FI | 🔒 SS | @free1ss [16] = ss, 81.177.214.214, 443, encrypt-method = chacha20-ietf-poly1305, password = aObvLFQBhTQ1
+🇩🇪 DE | 🔒 SS | @free1ss [17] = ss, 104.248.36.101, 80, encrypt-method = chacha20-ietf-poly1305, password = ckVxxBLAVbEQxxrRDSrHpY
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19] = ss, 103.111.114.29, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
+🇨🇦 CA | 🔒 SS | @v2ray1_ng [8] = ss, 64.74.163.218, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇬🇮 GI | 🔒 SS | @outline_ir [19] = ss, imap.roomyinmita.name, 40565, encrypt-method = chacha20-ietf-poly1305, password = PXWJkSFnnX1SFSWW2B9GTYRTW5JQu2uzXCJcEjEUEV1sNn1y3m5qAREkhitCMBLnCZXDcHHpfqD3EGS4FhNht63snb55LQTv
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇹🇼 TW | 🔒 SS | @free1ss [16], 🇫🇮 FI | 🔒 SS | @free1ss [17], 🇩🇪 DE | 🔒 SS | @free1ss [18], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19]
-PSG-AUTO = url-test, 🇹🇼 TW | 🔒 SS | @free1ss [16], 🇫🇮 FI | 🔒 SS | @free1ss [17], 🇩🇪 DE | 🔒 SS | @free1ss [18], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19]
-PSG-FALLBACK = fallback, 🇹🇼 TW | 🔒 SS | @free1ss [16], 🇫🇮 FI | 🔒 SS | @free1ss [17], 🇩🇪 DE | 🔒 SS | @free1ss [18], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇹🇼 TW | 🔒 SS | @free1ss [15], 🇫🇮 FI | 🔒 SS | @free1ss [16], 🇩🇪 DE | 🔒 SS | @free1ss [17], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [8], 🇬🇮 GI | 🔒 SS | @outline_ir [19]
+PSG-AUTO = url-test, 🇹🇼 TW | 🔒 SS | @free1ss [15], 🇫🇮 FI | 🔒 SS | @free1ss [16], 🇩🇪 DE | 🔒 SS | @free1ss [17], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [8], 🇬🇮 GI | 🔒 SS | @outline_ir [19]
+PSG-FALLBACK = fallback, 🇹🇼 TW | 🔒 SS | @free1ss [15], 🇫🇮 FI | 🔒 SS | @free1ss [16], 🇩🇪 DE | 🔒 SS | @free1ss [17], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [8], 🇬🇮 GI | 🔒 SS | @outline_ir [19]
 
 [Rule]
 GEOIP,IR,DIRECT
