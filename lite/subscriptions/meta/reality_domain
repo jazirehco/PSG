@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔒 VLESS | @Fr33C0nfig [51]","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @freakconfig [12]","type":"vless","server":"frangets.rtpxc.com","port":8991,"uuid":"4ed90fc3-c483-4f0a-847c-2d57f2160546","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"Yahoo.com","reality-opts":{"public-key":"4iRgsprSY0pw6exP4rZhesdsjuLANTNEy2clmgh9i1Q","short-id":"ab23a2cd0e3de56a"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @config_proxy [47]","type":"vless","server":"world-of.ru","port":443,"uuid":"69504e82-9b2a-4e3c-98fe-07f06794b5ca","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs","short-id":"71e48a"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔒 VLESS | @Fr33C0nfig [51]'
-      - '🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]'
-      - '🇩🇪 DE | 🔒 VLESS | @freakconfig [12]'
+      - '🇳🇱 NL | 🔒 VLESS | @config_proxy [47]'
 
   - name: 🌍 Global Media
     type: select
