@@ -93,10 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [41]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [12]",
                 "🇦🇹 AT | 🔒 VLESS | @freakconfig [13]",
@@ -112,7 +111,7 @@
                 "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#🚩 CF | 🔒 VLESS | @outline_ir [16]",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#🚩 CF | 🔒 VLESS | @outline_ir [18]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
+                "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
@@ -134,10 +133,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [41]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [12]",
                 "🇦🇹 AT | 🔒 VLESS | @freakconfig [13]",
@@ -153,7 +151,7 @@
                 "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#🚩 CF | 🔒 VLESS | @outline_ir [16]",
                 "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&host=blog.ruangguru.com.servpn.my.id&type=ws&sni=blog.ruangguru.com.servpn.my.id#🚩 CF | 🔒 VLESS | @outline_ir [18]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
+                "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇮🇷 IR | 🔓 VLESS | @toucan_vpn [1]",
@@ -259,6 +257,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "141.95.52.109",
+            "server_port": 80,
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "141.95.52.109"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @arv2ray [13]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -284,71 +298,18 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [41]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "103.253.43.210",
-            "server_port": 8443,
-            "uuid": "56f1fec7-2747-4258-a7b4-3a10511f5c0c",
-            "flow": "xtls-rprx-vision",
+            "server": "178.162.245.230",
+            "server_port": 2052,
+            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [42]",
-            "type": "vless",
-            "server": "46.62.128.241",
-            "server_port": 8443,
-            "uuid": "96be492b-3388-4693-be03-9caefe6dfff5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "91.98.38.6",
-            "server_port": 8443,
-            "uuid": "96be492b-3388-4693-be03-9caefe6dfff5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "178.162.245.230"
                 }
             }
         },
@@ -638,7 +599,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
             "type": "vless",
             "server": "104.31.16.37",
             "server_port": 80,

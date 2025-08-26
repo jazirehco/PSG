@@ -91,9 +91,9 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [67]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [64]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [5]",
@@ -123,7 +123,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @jeyksatan [15]",
                 "🇩🇪 DE | 🔓 VLESS | @jeyksatan [16]",
                 "🇨🇦 CA | 🔒 VLESS | @jokerv2ray [3]",
-                "🇨🇦 CA | 🔒 VLESS | @jokerv2ray [4]",
+                "🇺🇸 US | 🔒 VLESS | @jokerv2ray [4]",
                 "🚩 CF | 🔒 VLESS | @jokerv2ray [5]",
                 "🇺🇸 US | 🔒 VLESS | @jokerv2ray [6]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [7]",
@@ -225,9 +225,9 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [67]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [64]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [1]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [5]",
@@ -257,7 +257,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @jeyksatan [15]",
                 "🇩🇪 DE | 🔓 VLESS | @jeyksatan [16]",
                 "🇨🇦 CA | 🔒 VLESS | @jokerv2ray [3]",
-                "🇨🇦 CA | 🔒 VLESS | @jokerv2ray [4]",
+                "🇺🇸 US | 🔒 VLESS | @jokerv2ray [4]",
                 "🚩 CF | 🔒 VLESS | @jokerv2ray [5]",
                 "🇺🇸 US | 🔒 VLESS | @jokerv2ray [6]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [7]",
@@ -614,52 +614,43 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [63]",
             "type": "vless",
-            "server": "45.88.183.158",
-            "server_port": 44629,
-            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8443,
-            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lease-15.access.name.ng",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "lease-15.access.name.ng"
+                    "Host": "57.129.132.223"
                 }
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [67]",
+            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [64]",
             "type": "vless",
-            "server": "62.60.192.209",
+            "server": "45.88.183.164",
+            "server_port": 49355,
+            "uuid": "ef246c6f-6e7d-4286-af33-5485544b0ba8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "141.95.52.109",
             "server_port": 80,
-            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "62.60.192.209"
+                    "Host": "141.95.52.109"
                 }
             }
         },
@@ -1161,7 +1152,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @jokerv2ray [4]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @jokerv2ray [4]",
             "type": "vless",
             "server": "104.31.16.133",
             "server_port": 2096,
