@@ -91,8 +91,7 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [17]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -115,8 +114,7 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [17]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -377,45 +375,18 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [17]",
+            "tag": "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "v2ray.codefyinc.com",
-            "server_port": 443,
-            "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
+            "server": "pubg.ac",
+            "server_port": 80,
+            "uuid": "a134e3de-b25a-4020-9998-05fa6b715f1a",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ray.codefyinc.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/vmessws",
+                "path": "/profile/telegram@ssrsub",
                 "headers": {
-                    "Host": "v2ray.codefyinc.com"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "uk-v2ray.freevmess.com",
-            "server_port": 2083,
-            "uuid": "d67d3e32-6988-4b13-974d-29751dc59556",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": "pubg.ac"
                 }
             }
         },
