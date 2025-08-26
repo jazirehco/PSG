@@ -97,7 +97,7 @@
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [61]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -115,8 +115,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [6]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [6]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -132,7 +131,7 @@
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [61]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -150,8 +149,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [6]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [6]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -349,18 +347,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [61]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [49]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "6b758c57-3a4b-41f3-be1e-25025eba8bfc",
+            "server": "advertisement.app-browser.org",
+            "server_port": 443,
+            "uuid": "22948aee-4981-4ba1-b8df-7a2b494a8a28",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Join----VPNCUSTOMIZE---Join----VPNCUSTOMIZE",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "advertisement.app-browser.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -668,31 +668,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "7195vless"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 443,
-            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "KlIi9Yc11L.lIrA0xC8.iNfO",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "KlIi9Yc11L.lIrA0xC8.iNfO"
-                }
             }
         }
     ],
