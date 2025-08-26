@@ -94,11 +94,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -118,7 +115,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [11]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -131,11 +128,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -155,7 +149,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [11]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -288,38 +282,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "obedient-menu.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "561623c8-4983-44d3-a6ef-92b803a74ee8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "obedient-menu.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "sweet-combination.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "05020a61-3c0c-4ead-b256-7851ff905a75",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "sweet-combination.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @catvpns [11]",
             "type": "vless",
             "server": "Def.irimcs.org",
@@ -367,15 +329,6 @@
                 "type": "grpc",
                 "service_name": "@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns"
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
-            "type": "vless",
-            "server": "s1.france-learns.ir",
-            "server_port": 42542,
-            "uuid": "6ce93d15-9488-4208-914b-6ee32af0df0e",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -709,7 +662,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "numberland.ir",
             "server_port": 8080,

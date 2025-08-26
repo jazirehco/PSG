@@ -93,7 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VMESS | @config_proxy [46]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [47]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
@@ -103,7 +104,7 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [16]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -116,7 +117,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VMESS | @config_proxy [46]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [47]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
@@ -126,7 +128,7 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [16]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -239,16 +241,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [53]",
+            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [46]",
             "type": "vmess",
-            "server": "23.154.136.2",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "orvps2.horsenma.net",
+            "server_port": 8443,
+            "uuid": "57e595e6-ef54-4e0d-b8df-e96db9612b99",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "orvps2.horsenma.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -257,7 +259,23 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/horsen",
+                "headers": {
+                    "Host": "orvps2.horsenma.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [47]",
+            "type": "vmess",
+            "server": "cdn.anymath.ir",
+            "server_port": 80,
+            "uuid": "a222c4e3-645a-4051-b62f-ddec1b2ef8e9",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/@CHANGE_IP1",
                 "headers": {
                     "Host": ""
                 }
@@ -399,13 +417,20 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [16]",
             "type": "vmess",
-            "server": "15.204.11.190",
-            "server_port": 15361,
-            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
+            "server": "64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net",
+            "server_port": 8080,
+            "uuid": "8f7cb770-1305-11ee-b107-f23c91cfbbc9",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
