@@ -96,8 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🇨🇳 CN | 🔒 VLESS | @config_proxy [55]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [54]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇹🇷 TR | 🔒 VLESS | @freakconfig [11]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [13]",
@@ -128,6 +127,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [52]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [53]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -161,8 +162,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🇨🇳 CN | 🔒 VLESS | @config_proxy [55]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [54]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇹🇷 TR | 🔒 VLESS | @freakconfig [11]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [13]",
@@ -193,6 +193,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [52]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [53]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -371,50 +373,13 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔒 VLESS | @config_proxy [55]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @config_proxy [54]",
             "type": "vless",
-            "server": "111.172.246.25",
-            "server_port": 40721,
-            "uuid": "bf3e8944-8d26-47de-8748-b9aa74cce974",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk",
-                    "short_id": "df8611c07d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "95.164.68.37",
-            "server_port": 8443,
-            "uuid": "9ecc1330-2c5d-4718-b35f-dd9142f0acfc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
-                    "short_id": ""
-                }
-            }
+            "server": "188.132.141.247",
+            "server_port": 8880,
+            "uuid": "f716fa40-e997-42d8-b93c-7122c63cc122",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
@@ -1011,6 +976,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns"
+            }
+        },
+        {
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 443,
+            "uuid": "ff2a01fb-903d-4ba4-8042-f1e2036771cc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
+                    "short_id": "06c6eb7423f24de5"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "52f1f24d-9cd9-468e-9f3b-6c2e918254e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
+                    "short_id": "71e48a"
+                }
             }
         },
         {

@@ -23,11 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇬 SG | 🔒 SS | @free1ss [16]","type":"ss","server":"165.22.61.177","port":18336,"password":"GhYEufnq9M9yvgAc1ylvfq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇷 TR | 🔒 SS | @free1ss [17]","type":"ss","server":"216.9.225.179","port":2020,"password":"rnnvS1UFeNOEvM8aAViqZA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🔒 SS | @free1ss [18]","type":"ss","server":"89.185.84.185","port":443,"password":"qvqJ7xrbnEpd7HEsbWC87w","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG | 🔒 SS | @free1ss [15]","type":"ss","server":"165.22.61.177","port":18336,"password":"GhYEufnq9M9yvgAc1ylvfq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷 TR | 🔒 SS | @free1ss [16]","type":"ss","server":"216.9.225.179","port":2020,"password":"rnnvS1UFeNOEvM8aAViqZA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🔒 SS | @free1ss [17]","type":"ss","server":"89.185.84.185","port":443,"password":"qvqJ7xrbnEpd7HEsbWC87w","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪 SE | 🔒 SS | @kafing_2 [15]","type":"ss","server":"4.223.100.248","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @megavpn_link [12]","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR | 🔒 SS | @v2ray_free_conf [18]","type":"ss","server":"77.105.166.12","port":8594,"password":"mSQiuT5jR17nyWgcXOPrTW","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | 🔒 SS | @free1ss [16]'
-      - '🇹🇷 TR | 🔒 SS | @free1ss [17]'
-      - '🇬🇧 GB | 🔒 SS | @free1ss [18]'
+      - '🇸🇬 SG | 🔒 SS | @free1ss [15]'
+      - '🇹🇷 TR | 🔒 SS | @free1ss [16]'
+      - '🇬🇧 GB | 🔒 SS | @free1ss [17]'
       - '🇸🇪 SE | 🔒 SS | @kafing_2 [15]'
       - '🇬🇧 GB | 🔒 SS | @megavpn_link [12]'
+      - '🇫🇷 FR | 🔒 SS | @v2ray_free_conf [18]'
 
   - name: 🌍 Global Media
     type: select
