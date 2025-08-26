@@ -96,7 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -131,7 +130,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -330,31 +328,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
-            "type": "vless",
-            "server": "edt-f5k.pages.dev",
-            "server_port": 443,
-            "uuid": "98371613-b71d-4185-9e8a-eb7ba73373b4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "edt-f5k.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "edt-f5k.pages.dev"
-                }
             }
         },
         {
