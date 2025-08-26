@@ -9,6 +9,7 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇺🇸 US | 🔓 VMESS | @config_proxy [32] = vmess, 198.23.174.168, 20086, username = 2b36304b-4f88-4ff5-9033-f4d57dbb5490, ws = true, tls = false, ws-path = /, ws-headers = Host:""
 ❔ XX | 🔒 VMESS | @configforvpn01 [9] = vmess, join.melodyfreenet2.shop, 443, username = 50ef0b23-f14b-459f-97aa-d0f346189d2a, ws = true, tls = true, ws-path = /mail/, ws-headers = Host:""
 ❔ XX | 🔓 VMESS | @configforvpn01 [10] = vmess, shahinnet-freenetcdn.melodyshopone2.ir, 8080, username = 96588912-3bcb-491c-8ce3-7a965bbec07f, ws = true, tls = false, ws-path = /, ws-headers = Host:"sog.shahinnet.shop"
 🇩🇪 DE | 🔓 VMESS | @freakconfig [13] = vmess, 91.99.2.86, 8880, username = 9a99466d-58ee-4f97-8a8b-cb0bd3d786a1, ws = false, tls = false
@@ -18,12 +19,13 @@ DIRECT = direct
 🇦🇹 AT | 🔓 VMESS | @rnrifci [4] = vmess, 45.138.74.173, 13700, username = 6ddf3049-acea-47a3-899c-862e6e9d5d0f, ws = false, tls = true
 🇦🇹 AT | 🔓 VMESS | @rnrifci [6] = vmess, 45.138.74.173, 13700, username = f38a5500-77de-4384-86f5-54d7ab5de2c8, ws = false, tls = true
 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2] = vmess, 188.121.123.118, 26210, username = a0a7f23d-9600-4d4c-9398-b80adcc3a3f0, ws = false, tls = false
+🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16] = vmess, panel1.ipyar.org, 12470, username = c01d13c4-4caa-4bb7-933f-e0beb6d872c9, ws = false, tls = false
 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11] = vmess, customers.tele-shop-too.studio, 33203, username = dd1f5e36-fb05-45fd-b90d-38fb3bef5e59, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇩🇪 DE | 🔓 VMESS | @freakconfig [13], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
-PSG-AUTO = url-test, ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇩🇪 DE | 🔓 VMESS | @freakconfig [13], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
-PSG-FALLBACK = fallback, ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇩🇪 DE | 🔓 VMESS | @freakconfig [13], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @config_proxy [32], ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇩🇪 DE | 🔓 VMESS | @freakconfig [13], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @config_proxy [32], ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇩🇪 DE | 🔓 VMESS | @freakconfig [13], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @config_proxy [32], ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], 🇩🇪 DE | 🔓 VMESS | @freakconfig [13], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
 
 [Rule]
 GEOIP,IR,DIRECT

@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [32]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇩🇪 DE | 🔓 VMESS | @freakconfig [13]",
@@ -91,6 +92,7 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -103,6 +105,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 VMESS | @bypass_filter [1]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [32]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇩🇪 DE | 🔓 VMESS | @freakconfig [13]",
@@ -113,6 +116,7 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -225,6 +229,22 @@
                 "path": "/ad80f8ec-4861-11f0-a948-6a75f667b472?ed=2048",
                 "headers": {
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [32]",
+            "type": "vmess",
+            "server": "198.23.174.168",
+            "server_port": 20086,
+            "uuid": "2b36304b-4f88-4ff5-9033-f4d57dbb5490",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -369,6 +389,15 @@
             "server": "188.121.123.118",
             "server_port": 26210,
             "uuid": "a0a7f23d-9600-4d4c-9398-b80adcc3a3f0",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
+            "type": "vmess",
+            "server": "panel1.ipyar.org",
+            "server_port": 12470,
+            "uuid": "c01d13c4-4caa-4bb7-933f-e0beb6d872c9",
             "security": "auto",
             "alter_id": 0
         },
