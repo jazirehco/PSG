@@ -96,9 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇯🇵 JP | 🔒 VLESS | @config_proxy [21]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [22]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [23]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -115,7 +113,7 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-                "🇬🇧 GB | 🔓 VLESS | @turboo_server [15]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [8]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
@@ -133,9 +131,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇯🇵 JP | 🔒 VLESS | @config_proxy [21]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [22]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [23]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -152,7 +148,7 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-                "🇬🇧 GB | 🔓 VLESS | @turboo_server [15]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [8]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
@@ -337,75 +333,27 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @config_proxy [21]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
             "type": "vless",
-            "server": "amazon-4.cristiano.name.ng",
+            "server": "edt-f5k.pages.dev",
             "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
+            "uuid": "98371613-b71d-4185-9e8a-eb7ba73373b4",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "edt-f5k.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [22]",
-            "type": "vless",
-            "server": "deepend.paneltelecode.xyz",
-            "server_port": 443,
-            "uuid": "028e0ae7-5640-492d-bdae-f3c44d47e42d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "afternic.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J5aaCYQft4PeaMxenmrVh5WUQYRXuKNUtblM9TRpXAk",
-                    "short_id": "cc26b226"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "Dev"
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [23]",
-            "type": "vless",
-            "server": "amazon-13.cristiano.name.ng",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "edt-f5k.pages.dev"
                 }
             }
         },
@@ -687,7 +635,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @turboo_server [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
             "type": "vless",
             "server": "turboo-server.com.co",
             "server_port": 80,
