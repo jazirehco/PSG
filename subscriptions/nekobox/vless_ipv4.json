@@ -91,11 +91,6 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [2]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [4]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [6]",
@@ -228,11 +223,6 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [2]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [4]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [6]",
@@ -618,99 +608,6 @@
             "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8443,
-            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lease-15.access.name.ng",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "lease-15.access.name.ng"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "188.166.144.24",
-            "server_port": 2053,
-            "uuid": "e207a4a0-0237-46f5-acd5-2410f1452de5",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "190.93.245.232",
-            "server_port": 8443,
-            "uuid": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bitget1.asdasd.click",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "bitget1.asdasd.click"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "62.60.192.209",
-            "server_port": 80,
-            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "62.60.192.209"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "91.99.216.235",
-            "server_port": 443,
-            "uuid": "bc4f49dc-2c50-49ac-b8fa-d3020a5e65de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.216.235",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @arv2ray [2]",
