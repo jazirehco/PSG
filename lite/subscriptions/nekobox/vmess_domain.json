@@ -91,7 +91,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -114,7 +115,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [17]",
+                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -375,7 +377,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
             "server": "pubg.ac",
             "server_port": 80,
@@ -387,6 +389,22 @@
                 "path": "/profile/telegram@ssrsub",
                 "headers": {
                     "Host": "pubg.ac"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "64.227.45.92",
+            "server_port": 20086,
+            "uuid": "5e02bc01-42a7-4609-b20a-4d93feea65c6",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
