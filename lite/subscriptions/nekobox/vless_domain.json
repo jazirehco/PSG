@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -89,7 +91,7 @@
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇦🇱 AL | 🔒 VLESS | @freakconfig [15]",
+                "🇦🇱 AL | 🔒 VLESS | @freakconfig [14]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -104,9 +106,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [6]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -119,6 +119,8 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -126,7 +128,7 @@
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇦🇱 AL | 🔒 VLESS | @freakconfig [15]",
+                "🇦🇱 AL | 🔒 VLESS | @freakconfig [14]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -141,9 +143,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [6]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -276,6 +276,38 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "magical-fish.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "magical-fish.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "dedicated-development.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dedicated-development.seotoolsforyou.co.uk"
                 }
             }
         },
@@ -429,7 +461,7 @@
             }
         },
         {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @freakconfig [15]",
+            "tag": "🇦🇱 AL | 🔒 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "al.spirako.com",
             "server_port": 443,
@@ -686,35 +718,29 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [6]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
             "type": "vless",
-            "server": "Vray.v2ray1ng.sbs",
-            "server_port": 7195,
-            "uuid": "50b25340-baf4-4e5b-b1d8-cba632e61623",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lease-17.access.name.ng",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "7195vless"
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "lease-17.access.name.ng"
+                }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "m24a.vip784.com",
-            "server_port": 33801,
-            "uuid": "ae109ce5-3256-436b-87e4-c47b03552da0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "injamyghost-de.my-teamspeak.ir",
-            "server_port": 2095,
-            "uuid": "a4278e51-3454-4473-abad-040dcf3ec78c",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
