@@ -9,7 +9,6 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69] = vmess, 51.79.102.253, 80, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:"51.79.102.253"
 ❔ XX | 🔒 VMESS | @configforvpn01 [9] = vmess, join.melodyfreenet2.shop, 443, username = 50ef0b23-f14b-459f-97aa-d0f346189d2a, ws = true, tls = true, ws-path = /mail/, ws-headers = Host:""
 ❔ XX | 🔓 VMESS | @configforvpn01 [10] = vmess, shahinnet-freenetcdn.melodyshopone2.ir, 8080, username = 96588912-3bcb-491c-8ce3-7a965bbec07f, ws = true, tls = false, ws-path = /, ws-headers = Host:"sog.shahinnet.shop"
 ❔ XX | 🔓 VMESS | @mahsaproxy [2] = vmess, khodaye.ranginkamaan.de, 80, username = b831381d-6324-4d53-ad4f-8cda48b30811, ws = true, tls = false, ws-path = /graphql, ws-headers = Host:"khodaye.ranginkamaan.de"
@@ -21,9 +20,9 @@ DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11] = vmess, customers.tele-shop-too.studio, 33203, username = dd1f5e36-fb05-45fd-b90d-38fb3bef5e59, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69], ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
-PSG-AUTO = url-test, 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69], ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
-PSG-FALLBACK = fallback, 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69], ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
+PSG-AUTO = url-test, ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
+PSG-FALLBACK = fallback, ❔ XX | 🔒 VMESS | @configforvpn01 [9], ❔ XX | 🔓 VMESS | @configforvpn01 [10], ❔ XX | 🔓 VMESS | @mahsaproxy [2], ❔ XX | 🔓 VMESS | @mahsaproxy [3], 🇮🇷 IR | 🔓 VMESS | @proxse11 [1], 🇦🇹 AT | 🔓 VMESS | @rnrifci [4], 🇦🇹 AT | 🔓 VMESS | @rnrifci [6], 🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2], 🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]
 
 [Rule]
 GEOIP,IR,DIRECT

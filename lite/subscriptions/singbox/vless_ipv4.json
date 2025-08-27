@@ -93,12 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [70]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
-                "❔ XX | 🔒 VLESS | @config_proxy [34]",
+                "🇮🇪 IE | 🔒 VLESS | @config_proxy [32]",
+                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [33]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
@@ -134,12 +131,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [70]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
-                "❔ XX | 🔒 VLESS | @config_proxy [34]",
+                "🇮🇪 IE | 🔒 VLESS | @config_proxy [32]",
+                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [33]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
@@ -259,40 +253,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "188.114.97.202",
-            "server_port": 8443,
-            "uuid": "c2e177d4-e610-4abd-85cd-1a869d158751",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "teslakit1.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "teslakit1.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "172.234.221.94",
-            "server_port": 56224,
-            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @arv2ray [13]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -318,16 +278,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
+            "tag": "🇮🇪 IE | 🔒 VLESS | @config_proxy [32]",
             "type": "vless",
-            "server": "151.101.2.228",
-            "server_port": 443,
-            "uuid": "99da33fe-ac40-4ef7-baf4-66d0d874f190",
+            "server": "54.76.231.122",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pscresearch.faculty.ucdavis.edu",
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -336,43 +296,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/?ed=2048",
+                "path": "/telegram-channel-vlessconfig-ws",
                 "headers": {
-                    "Host": "pscresearch.faculty.ucdavis.edu"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [33]",
             "type": "vless",
-            "server": "188.121.117.161",
-            "server_port": 80,
-            "uuid": "4b0c2314-1d81-445c-b936-c33d143a56c4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@V2Graphy/giveaway/ws1?ed=2560",
-                "headers": {
-                    "Host": "188.121.117.161"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [34]",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "acaacbb-baca-cbaa-adcb-bcaacbbcbcaa",
+            "server": "31.43.179.52",
+            "server_port": 443,
+            "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "cfed.tgzdyz2.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tg@zdyz2",
+                "headers": {
+                    "Host": "cfed.tgzdyz2.top"
                 }
             }
         },
