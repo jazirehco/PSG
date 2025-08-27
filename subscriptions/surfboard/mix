@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32] = vmess, movaghat.funfil.link, 48252, username = ab65e694-c044-46cf-802e-301dc9998c41, ws = false, tls = false
+🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46] = vmess, movaghat.funfil.link, 48252, username = ab65e694-c044-46cf-802e-301dc9998c41, ws = false, tls = false
+🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [70] = vmess, 62.146.235.193, 28011, username = cfc5a87f-3c13-4e25-b556-176cdd6b5c6a, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [70]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [70]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [70]
 
 [Rule]
 GEOIP,IR,DIRECT

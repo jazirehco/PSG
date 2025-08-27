@@ -80,7 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]"
+                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]",
+                "🚩 CF | 🔓 VMESS | @NamiraConfigs [68]",
+                "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [70]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]"
+                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]",
+                "🚩 CF | 🔓 VMESS | @NamiraConfigs [68]",
+                "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [70]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,11 +186,36 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [32]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]",
             "type": "vmess",
             "server": "movaghat.funfil.link",
             "server_port": 48252,
             "uuid": "ab65e694-c044-46cf-802e-301dc9998c41",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @NamiraConfigs [68]",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "d3m1xvk50k",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/download/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [70]",
+            "type": "vmess",
+            "server": "62.146.235.193",
+            "server_port": 28011,
+            "uuid": "cfc5a87f-3c13-4e25-b556-176cdd6b5c6a",
             "security": "auto",
             "alter_id": 0
         }
