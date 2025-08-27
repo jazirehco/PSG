@@ -96,10 +96,10 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [70]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [34]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
+                "❔ XX | 🔒 VLESS | @config_proxy [34]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🇦🇹 AT | 🔒 VLESS | @freakconfig [11]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [13]",
@@ -137,10 +137,10 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [70]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [34]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
+                "❔ XX | 🔒 VLESS | @config_proxy [34]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🇦🇹 AT | 🔒 VLESS | @freakconfig [11]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [13]",
@@ -318,16 +318,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [34]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [32]",
             "type": "vless",
-            "server": "108.162.194.232",
+            "server": "151.101.2.228",
             "server_port": 443,
-            "uuid": "27247e63-cb20-4447-b2eb-b8ac3fece98a",
+            "uuid": "99da33fe-ac40-4ef7-baf4-66d0d874f190",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "aegg0h.testsnew.com",
+                "server_name": "pscresearch.faculty.ucdavis.edu",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -336,25 +336,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/wss",
+                "path": "/ws/?ed=2048",
                 "headers": {
-                    "Host": "aegg0h.testsnew.com"
+                    "Host": "pscresearch.faculty.ucdavis.edu"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
             "type": "vless",
-            "server": "195.13.45.251",
-            "server_port": 8880,
-            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
+            "server": "188.121.117.161",
+            "server_port": 80,
+            "uuid": "4b0c2314-1d81-445c-b936-c33d143a56c4",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/TelegramU0001F1E8U0001F1F3 @WangCai2",
+                "path": "/@V2Graphy/giveaway/ws1?ed=2560",
                 "headers": {
-                    "Host": "195.13.45.251"
+                    "Host": "188.121.117.161"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "acaacbb-baca-cbaa-adcb-bcaacbbcbcaa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -371,29 +389,6 @@
                 "path": "/download?ed=2048",
                 "headers": {
                     "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇹 AT | 🔒 VLESS | @freakconfig [11]",
-            "type": "vless",
-            "server": "5.181.21.152",
-            "server_port": 24170,
-            "uuid": "6a8ee307-a1fb-4801-92e2-86253ecdd88d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw",
-                    "short_id": "200f99e321"
                 }
             }
         },
