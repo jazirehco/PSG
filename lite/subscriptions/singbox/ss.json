@@ -97,7 +97,9 @@
                 "🇺🇸 US | 🔒 SS | @free1ss [11]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [13]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [15]",
-                "🇬🇧 GB | 🔒 SS | @megavpn_link [12]"
+                "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
+                "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [18]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,7 +115,9 @@
                 "🇺🇸 US | 🔒 SS | @free1ss [11]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [13]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [15]",
-                "🇬🇧 GB | 🔒 SS | @megavpn_link [12]"
+                "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
+                "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [18]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -246,6 +250,22 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [18]",
+            "type": "shadowsocks",
+            "server": "45.140.169.26",
+            "server_port": 29901,
+            "method": "aes-256-gcm",
+            "password": "7ae4e68cf77f6089"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "185.245.107.61",
+            "server_port": 2222,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qscavF5UviIL-8V-E4raBA"
         }
     ],
     "route": {
