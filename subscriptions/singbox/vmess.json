@@ -121,9 +121,11 @@
                 "🇩🇪 DE | 🔒 VMESS | @mainmat [5]",
                 "🇸🇪 SE | 🔓 VMESS | @mainmat [6]",
                 "🇩🇪 DE | 🔓 VMESS | @mrvpn1403 [2]",
-                "🇫🇮 FI | 🔓 VMESS | @msv2flyng [8]",
-                "🇲🇾 MY | 🔓 VMESS | @msv2flyng [9]",
-                "🇰🇷 KR | 🔓 VMESS | @msv2flyng [12]",
+                "🇫🇮 FI | 🔓 VMESS | @msv2flyng [6]",
+                "🇲🇾 MY | 🔓 VMESS | @msv2flyng [7]",
+                "🇰🇷 KR | 🔓 VMESS | @msv2flyng [8]",
+                "🇺🇸 US | 🔓 VMESS | @msv2flyng [10]",
+                "🇩🇪 DE | 🔓 VMESS | @msv2flyng [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [2]",
@@ -180,9 +182,11 @@
                 "🇩🇪 DE | 🔒 VMESS | @mainmat [5]",
                 "🇸🇪 SE | 🔓 VMESS | @mainmat [6]",
                 "🇩🇪 DE | 🔓 VMESS | @mrvpn1403 [2]",
-                "🇫🇮 FI | 🔓 VMESS | @msv2flyng [8]",
-                "🇲🇾 MY | 🔓 VMESS | @msv2flyng [9]",
-                "🇰🇷 KR | 🔓 VMESS | @msv2flyng [12]",
+                "🇫🇮 FI | 🔓 VMESS | @msv2flyng [6]",
+                "🇲🇾 MY | 🔓 VMESS | @msv2flyng [7]",
+                "🇰🇷 KR | 🔓 VMESS | @msv2flyng [8]",
+                "🇺🇸 US | 🔓 VMESS | @msv2flyng [10]",
+                "🇩🇪 DE | 🔓 VMESS | @msv2flyng [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [2]",
@@ -848,7 +852,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @msv2flyng [8]",
+            "tag": "🇫🇮 FI | 🔓 VMESS | @msv2flyng [6]",
             "type": "vmess",
             "server": "panel3.ipyar.org",
             "server_port": 32017,
@@ -857,7 +861,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇲🇾 MY | 🔓 VMESS | @msv2flyng [9]",
+            "tag": "🇲🇾 MY | 🔓 VMESS | @msv2flyng [7]",
             "type": "vmess",
             "server": "45.128.54.84",
             "server_port": 37313,
@@ -866,11 +870,36 @@
             "alter_id": 0
         },
         {
-            "tag": "🇰🇷 KR | 🔓 VMESS | @msv2flyng [12]",
+            "tag": "🇰🇷 KR | 🔓 VMESS | @msv2flyng [8]",
             "type": "vmess",
             "server": "183.109.131.75",
             "server_port": 20086,
             "uuid": "b26c4803-0bca-467c-a245-c9a80bdd72ec",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @msv2flyng [10]",
+            "type": "vmess",
+            "server": "15.204.234.200",
+            "server_port": 41100,
+            "uuid": "c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [11]",
+            "type": "vmess",
+            "server": "91.99.185.216",
+            "server_port": 20086,
+            "uuid": "7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9",
             "security": "auto",
             "alter_id": 0,
             "transport": {
