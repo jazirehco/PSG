@@ -105,7 +105,6 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
@@ -113,9 +112,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -139,7 +136,6 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
@@ -147,9 +143,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -473,31 +467,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [17]",
-            "type": "vless",
-            "server": "172.67.74.133",
-            "server_port": 443,
-            "uuid": "39ca66b9-a34c-4031-a6ce-8846f75d8cb9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "app-stg.gopay.co.id.servpn.my.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sg10/?TELEGRAM_CHANEL_JKVPN_JKVPN_JKVPN",
-                "headers": {
-                    "Host": "app-stg.gopay.co.id.servpn.my.id"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
             "type": "vless",
             "server": "5.42.77.71",
@@ -661,48 +630,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
-            "server": "172.66.146.26",
-            "server_port": 443,
-            "uuid": "0fbf4f81-2598-4b6a-a623-0ead4cb9efa8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "privasi.turah.my.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Free-CF-Proxy-AD192.3.113.4-19318?ed=2048/?TELEGRAM_CHANEL_JKVPN_JKVPN_JKVPN",
-                "headers": {
-                    "Host": "privasi.turah.my.id"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8080,
-            "uuid": "08d66920-8c2f-422a-b762-3b9df3b15aa1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
-                "headers": {
-                    "Host": "172.66.40.99"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "5.35.103.218",
             "server_port": 2083,

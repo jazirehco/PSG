@@ -1,0 +1,21 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/ss_domain interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇵🇱 PL | 🔒 SS | @NamiraConfigs [64] = ss, pl.vmagnum.win, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇵🇱 PL | 🔒 SS | @NamiraConfigs [64]
+PSG-AUTO = url-test, 🇵🇱 PL | 🔒 SS | @NamiraConfigs [64]
+PSG-FALLBACK = fallback, 🇵🇱 PL | 🔒 SS | @NamiraConfigs [64]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
