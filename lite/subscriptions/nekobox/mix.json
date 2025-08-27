@@ -87,9 +87,9 @@
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [49]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇬🇧 GB | 🔓 VLESS | @config_proxy [50]",
+                "🇦🇱 AL | 🔒 VLESS | @config_proxy [51]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [52]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -144,15 +144,14 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇫🇮 FI | 🔒 SS | @v2ray1_ng [6]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -170,9 +169,9 @@
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [49]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇬🇧 GB | 🔓 VLESS | @config_proxy [50]",
+                "🇦🇱 AL | 🔒 VLESS | @config_proxy [51]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [52]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -227,15 +226,14 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇫🇮 FI | 🔒 SS | @v2ray1_ng [6]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -471,57 +469,32 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 8443,
-            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "2GlZ1uJiXs.ToOkAvP7x02.InFo",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "2GlZ1uJiXs.ToOkAvP7x02.InFo"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8080,
-            "uuid": "25f6398%65-56c3-4b9%65-85%652-f%6171448f%65740",
+            "server": "25.129.197.87",
+            "server_port": 8880,
+            "uuid": "583ceab3-4022-4553-9158-9bedc625ad4e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048",
+                "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
                 "headers": {
-                    "Host": "172.66.40.99"
+                    "Host": "25.129.197.87"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "tag": "🇦🇱 AL | 🔒 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "150.241.108.219",
-            "server_port": 46089,
-            "uuid": "1591f266-42a1-4d5a-b725-00c1151dfd70",
+            "server": "147.45.221.76",
+            "server_port": 443,
+            "uuid": "6035325d-399a-5148-9126-29cedfd5966a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "outlook.office.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -529,13 +502,25 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "xKbFr-SVOYz1Bgdkb4e3zPjZ7wGURx11ouN3Hoy29VQ",
-                    "short_id": "3736e4ab65378d5c"
+                    "public_key": "T-Wzx40nk0-fo8dKkOdluL3lPTWeCRgOaLDmA0Xhpy8",
+                    "short_id": "d7322ac1"
                 }
-            },
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [52]",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
             "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
+                "type": "ws",
+                "path": "/NASNET/cdn",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1448,15 +1433,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
-            "type": "shadowsocks",
-            "server": "193.29.139.227",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "QCXDxuDlTTMD7jtgHUjIoj"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "102.177.176.210",
             "server_port": 8880,
@@ -1472,7 +1449,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
             "type": "trojan",
             "server": "35.159.254.111",
             "server_port": 22223,
@@ -1569,43 +1546,34 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
-            "server": "3.69.18.215",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "104.18.58.254",
+            "server_port": 80,
+            "uuid": "8c17092b-4d89-44e3-9dcb-a00c2bf28827",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "trojan.burgerip.co.uk"
+                    "Host": "104.18.58.254"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
             "type": "vless",
-            "server": "138.199.239.38",
-            "server_port": 10138,
-            "uuid": "01d4ef99-feb7-414c-b3ce-b327cb0c4eed",
+            "server": "104.21.72.109",
+            "server_port": 80,
+            "uuid": "b1723c14-8180-4311-a65f-fc2665c6b51f",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-JOIN-@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-JOIN-@FAST78_CHANNEL-TEL-@FAST78_CHANNEL-TEL--@FAST78_CHANNEL-JOIN-@FAST78_CHANNEL-TEL--@FAST78_CHANNEL",
+                "path": "/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2?ed=2560",
                 "headers": {
-                    "Host": "138.199.239.38"
+                    "Host": "dfgopee-workers.dev"
                 }
             }
         }
