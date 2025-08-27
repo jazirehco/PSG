@@ -9,18 +9,22 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇺🇸 US | 🔒 SS | @NamiraConfigs [68] = ss, 144.126.146.38, 30100, encrypt-method = chacha20-ietf-poly1305, password = 741ddced-e6ee-4175-9c1a-e524009f9045
+🇺🇸 US | 🔒 SS | @NamiraConfigs [69] = ss, 45.87.175.171, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇸🇬 SG | 🔒 SS | @NamiraConfigs [70] = ss, 64.176.85.73, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
 🇷🇺 RU | 🔒 SS | @freakconfig [12] = ss, 45.151.62.131, 443, encrypt-method = chacha20-ietf-poly1305, password = PUV3LgKRVpuM
 🇹🇷 TR | 🔒 SS | @freakconfig [13] = ss, 83.217.9.120, 443, encrypt-method = chacha20-ietf-poly1305, password = 7bO8akoRoM2M
-🇳🇱 NL | 🔒 SS | @free1ss [11] = ss, 193.29.139.235, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇳🇱 NL | 🔒 SS | @free1ss [12] = ss, 185.70.184.225, 1080, encrypt-method = chacha20-ietf-poly1305, password = 6zXomm7Uerg4ALOzaJ56tQ
+🇳🇱 NL | 🔒 SS | @free1ss [10] = ss, 193.29.139.235, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇳🇱 NL | 🔒 SS | @free1ss [11] = ss, 185.70.184.225, 1080, encrypt-method = chacha20-ietf-poly1305, password = 6zXomm7Uerg4ALOzaJ56tQ
+🇮🇳 IN | 🔒 SS | @free1ss [12] = ss, 103.111.114.29, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
 🇸🇪 SE | 🔒 SS | @kafing_2 [15] = ss, 4.223.100.248, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20] = ss, 217.197.161.164, 803, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
+🇸🇬 SG | 🔒 SS | @v2ray_free_conf [19] = ss, 217.197.161.164, 803, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | 🔒 SS | @freakconfig [12], 🇹🇷 TR | 🔒 SS | @freakconfig [13], 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇳🇱 NL | 🔒 SS | @free1ss [12], 🇸🇪 SE | 🔒 SS | @kafing_2 [15], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20]
-PSG-AUTO = url-test, 🇷🇺 RU | 🔒 SS | @freakconfig [12], 🇹🇷 TR | 🔒 SS | @freakconfig [13], 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇳🇱 NL | 🔒 SS | @free1ss [12], 🇸🇪 SE | 🔒 SS | @kafing_2 [15], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20]
-PSG-FALLBACK = fallback, 🇷🇺 RU | 🔒 SS | @freakconfig [12], 🇹🇷 TR | 🔒 SS | @freakconfig [13], 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇳🇱 NL | 🔒 SS | @free1ss [12], 🇸🇪 SE | 🔒 SS | @kafing_2 [15], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇸🇬 SG | 🔒 SS | @NamiraConfigs [70], 🇷🇺 RU | 🔒 SS | @freakconfig [12], 🇹🇷 TR | 🔒 SS | @freakconfig [13], 🇳🇱 NL | 🔒 SS | @free1ss [10], 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇮🇳 IN | 🔒 SS | @free1ss [12], 🇸🇪 SE | 🔒 SS | @kafing_2 [15], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇸🇬 SG | 🔒 SS | @v2ray_free_conf [19]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇸🇬 SG | 🔒 SS | @NamiraConfigs [70], 🇷🇺 RU | 🔒 SS | @freakconfig [12], 🇹🇷 TR | 🔒 SS | @freakconfig [13], 🇳🇱 NL | 🔒 SS | @free1ss [10], 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇮🇳 IN | 🔒 SS | @free1ss [12], 🇸🇪 SE | 🔒 SS | @kafing_2 [15], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇸🇬 SG | 🔒 SS | @v2ray_free_conf [19]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇸🇬 SG | 🔒 SS | @NamiraConfigs [70], 🇷🇺 RU | 🔒 SS | @freakconfig [12], 🇹🇷 TR | 🔒 SS | @freakconfig [13], 🇳🇱 NL | 🔒 SS | @free1ss [10], 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇮🇳 IN | 🔒 SS | @free1ss [12], 🇸🇪 SE | 🔒 SS | @kafing_2 [15], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇸🇬 SG | 🔒 SS | @v2ray_free_conf [19]
 
 [Rule]
 GEOIP,IR,DIRECT
