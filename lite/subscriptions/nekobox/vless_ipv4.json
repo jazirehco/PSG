@@ -83,10 +83,12 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
-                "🇨🇦 CA | 🔓 VLESS | @config_proxy [51]",
-                "🇸🇰 SK | 🔓 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [57]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [58]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🇷🇺 RU | 🔒 VLESS | @freakconfig [15]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [14]",
+                "🇮🇷 IR | 🔓 VLESS | @freakconfig [15]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [13]",
@@ -106,7 +108,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -120,10 +122,12 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
-                "🇨🇦 CA | 🔓 VLESS | @config_proxy [51]",
-                "🇸🇰 SK | 🔓 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [57]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [58]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🇷🇺 RU | 🔒 VLESS | @freakconfig [15]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [14]",
+                "🇮🇷 IR | 🔓 VLESS | @freakconfig [15]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [13]",
@@ -143,7 +147,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -293,22 +297,45 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @config_proxy [51]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
             "type": "vless",
-            "server": "51.79.29.172",
-            "server_port": 33801,
-            "uuid": "13c10b21-6211-4d43-856f-2e54ef2ac2e2",
+            "server": "138.199.239.38",
+            "server_port": 42671,
+            "uuid": "72a94d38-9870-4f3a-9aee-56caf115a475",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇸🇰 SK | 🔓 VLESS | @config_proxy [52]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "5.35.103.218",
-            "server_port": 2083,
-            "uuid": "505fd9fe-c1e2-449f-8e9a-dc7b64e87d7c",
+            "server": "172.66.40.99",
+            "server_port": 80,
+            "uuid": "6b758c57-3a4b-41f3-be1e-25025eba8bfc",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Join----VPNCUSTOMIZE---Join----VPNCUSTOMIZE",
+                "headers": {
+                    "Host": "172.66.40.99"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "104.26.5.112",
+            "server_port": 2052,
+            "uuid": "a4baa696-9a35-44a4-d354-b61bba5c677a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
+                "headers": {
+                    "Host": "104.26.5.112"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
@@ -327,7 +354,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [15]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "94.26.228.10",
             "server_port": 443,
@@ -346,6 +373,22 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @freakconfig [15]",
+            "type": "vless",
+            "server": "62.60.192.209",
+            "server_port": 80,
+            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": "62.60.192.209"
                 }
             }
         },
@@ -736,13 +779,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
-            "server": "5.145.113.28",
-            "server_port": 8003,
-            "uuid": "bc42d638-684b-4910-a99e-e18dd22aa6e9",
+            "server": "63.141.128.22",
+            "server_port": 80,
+            "uuid": "f55fa25b-9aae-4828-8fbb-d0fb6c63b8c3",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "63.141.128.22"
+                }
+            }
         }
     ],
     "route": {

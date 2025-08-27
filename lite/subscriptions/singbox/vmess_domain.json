@@ -102,7 +102,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -124,7 +125,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
-                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -372,13 +374,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "vip.mobiletoskan.com",
             "server_port": 2020,
             "uuid": "5c270eb1-e18d-4020-949d-17e18445dac5",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/NASNET/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",

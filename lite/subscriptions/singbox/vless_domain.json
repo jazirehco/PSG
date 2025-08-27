@@ -94,21 +94,20 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [18]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [19]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
@@ -118,7 +117,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [7]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -131,21 +131,20 @@
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [18]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [19]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
@@ -155,7 +154,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [7]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -288,6 +288,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @catvpns [11]",
             "type": "vless",
             "server": "Def.irimcs.org",
@@ -334,31 +350,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "blog.ruangguru.com.servpn.my.id",
-            "server_port": 443,
-            "uuid": "408f71e2-170d-4bf9-8b42-b6ba23cc227c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "blog.ruangguru.com.servpn.my.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/kr1",
-                "headers": {
-                    "Host": "blog.ruangguru.com.servpn.my.id"
-                }
             }
         },
         {
@@ -462,7 +453,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
             "type": "vless",
             "server": "sss55168.tas-bazi.com",
             "server_port": 443,
@@ -589,22 +580,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [18]",
-            "type": "vless",
-            "server": "grounded-brother.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "grounded-brother.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @outline_ir [19]",
             "type": "vless",
             "server": "ava.game.naver.com.servpn.my.id",
@@ -727,7 +702,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -750,6 +725,15 @@
                     "Host": "lease-17.access.name.ng"
                 }
             }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "m24a.vip784.com",
+            "server_port": 33801,
+            "uuid": "ae109ce5-3256-436b-87e4-c47b03552da0",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
