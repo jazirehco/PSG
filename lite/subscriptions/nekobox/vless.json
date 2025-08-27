@@ -95,14 +95,15 @@
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
+                "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
@@ -125,8 +126,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -152,14 +152,15 @@
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
+                "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]",
                 "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
@@ -182,8 +183,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -559,7 +559,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
             "type": "vless",
             "server": "104.31.16.37",
             "server_port": 80,
@@ -623,31 +623,6 @@
                 "path": "/admin",
                 "headers": {
                     "Host": "2free2.aparatir.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
-            "type": "vless",
-            "server": "35.159.254.111",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
                 }
             }
         },
@@ -724,7 +699,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "172.66.146.26",
             "server_port": 443,
@@ -747,6 +722,31 @@
                     "Host": "privasi.turah.my.id"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 8080,
+            "uuid": "08d66920-8c2f-422a-b762-3b9df3b15aa1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "172.66.40.99"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "5.35.103.218",
+            "server_port": 2083,
+            "uuid": "2a69238c-a130-445e-8464-2e878a46081d",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
@@ -1168,15 +1168,6 @@
                     "Host": "lease-17.access.name.ng"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "EVAY_VPN.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "f51667a2-c1e6-5321-9d51-f03be3fc8d02",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
