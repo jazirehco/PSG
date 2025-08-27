@@ -54,7 +54,6 @@ proxies:
   - {"name":"🇺🇸 US | 🔓 VMESS | @msv2flyng [10]","type":"vmess","server":"15.204.234.200","port":41100,"cipher":"auto","uuid":"c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪 DE | 🔓 VMESS | @msv2flyng [11]","type":"vmess","server":"91.99.185.216","port":20086,"cipher":"auto","uuid":"7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"🚩 CF | 🔓 VMESS | @nn_vpn [2]","type":"vmess","server":"www.speedtest.net","port":80,"cipher":"auto","uuid":"c4eeb4bd-1a7a-43e4-bc22-31062dd0c61c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou."}}}
-  - {"name":"🇩🇪 DE | 🔒 SS | @outlinereleasedkey [2]","type":"ss","server":"185.177.229.245","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🔒 SS | @outlinereleasedkey [3]","type":"ss","server":"141.98.4.67","port":52952,"password":"LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬 SG | 🔒 SS | @outlinereleasedkey [6]","type":"ss","server":"45.76.180.205","port":31298,"password":"c976721a-e390-4dbf-b4f9-72c3feb9594c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇰🇷 KR | 🔒 SS | @outlinereleasedkey [8]","type":"ss","server":"141.164.63.32","port":30936,"password":"b25727df-15ea-453c-a006-13fe98fee1d2","cipher":"chacha20-ietf-poly1305"}
@@ -64,6 +63,7 @@ proxies:
   - {"name":"🇫🇮 FI | 🔒 SS | @outlinereleasedkey [14]","type":"ss","server":"83.147.216.70","port":64519,"password":"YXgS8ComTam7qoesPlzlMo","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🔒 SS | @outlinereleasedkey [15]","type":"ss","server":"64.137.109.212","port":44884,"password":"2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🔒 SS | @outlinereleasedkey [16]","type":"ss","server":"77.105.166.12","port":8594,"password":"mSQiuT5jR17nyWgcXOPrTW","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇱🇻 LV | 🔒 SS | @outlinereleasedkey [17]","type":"ss","server":"216.173.70.187","port":57456,"password":"a58fa62b4944ddbf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🔒 SS | @proxyfull [5]","type":"ss","server":"45.87.175.190","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🔒 SS | @proxyfull [11]","type":"ss","server":"85.208.139.203","port":443,"password":"0DY8zBjtxP3Y","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🔒 SS | @proxyfull [14]","type":"ss","server":"45.87.175.28","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
@@ -128,7 +128,6 @@ proxy-groups:
       - '🇺🇸 US | 🔓 VMESS | @msv2flyng [10]'
       - '🇩🇪 DE | 🔓 VMESS | @msv2flyng [11]'
       - '🚩 CF | 🔓 VMESS | @nn_vpn [2]'
-      - '🇩🇪 DE | 🔒 SS | @outlinereleasedkey [2]'
       - '🇫🇮 FI | 🔒 SS | @outlinereleasedkey [3]'
       - '🇸🇬 SG | 🔒 SS | @outlinereleasedkey [6]'
       - '🇰🇷 KR | 🔒 SS | @outlinereleasedkey [8]'
@@ -138,6 +137,7 @@ proxy-groups:
       - '🇫🇮 FI | 🔒 SS | @outlinereleasedkey [14]'
       - '🇫🇮 FI | 🔒 SS | @outlinereleasedkey [15]'
       - '🇫🇷 FR | 🔒 SS | @outlinereleasedkey [16]'
+      - '🇱🇻 LV | 🔒 SS | @outlinereleasedkey [17]'
       - '🇺🇸 US | 🔒 SS | @proxyfull [5]'
       - '🇩🇪 DE | 🔒 SS | @proxyfull [11]'
       - '🇺🇸 US | 🔒 SS | @proxyfull [14]'
