@@ -94,8 +94,8 @@
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [34]",
+                "🚩 CF | 🔒 VLESS | @arv2ray [15]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
@@ -132,8 +132,8 @@
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [34]",
+                "🚩 CF | 🔒 VLESS | @arv2ray [15]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
@@ -278,9 +278,34 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
+            "tag": "🚩 CF | 🔒 VLESS | @arv2ray [15]",
             "type": "vless",
-            "server": "80.74.29.212",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iSo.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+                "headers": {
+                    "Host": "iSo.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "85.239.60.43",
             "server_port": 8443,
             "uuid": "d1d101ef-faaa-4fb4-9aa5-e8afbc401c41",
             "flow": "xtls-rprx-vision",
@@ -295,24 +320,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [34]",
-            "type": "vless",
-            "server": "104.21.112.1",
-            "server_port": 80,
-            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/193.123.81.105=443",
-                "headers": {
-                    "Host": "104.21.112.1"
                 }
             }
         },

@@ -104,7 +104,8 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
-                "🇩🇪 DE | 🔒 VLESS | @msv2flyng [2]",
+                "🇺🇸 US | 🔒 VLESS | @msv2flyng [11]",
+                "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfull [1]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfull [2]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [1]",
@@ -139,7 +140,8 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
-                "🇩🇪 DE | 🔒 VLESS | @msv2flyng [2]",
+                "🇺🇸 US | 🔒 VLESS | @msv2flyng [11]",
+                "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfull [1]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfull [2]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [1]",
@@ -518,16 +520,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @msv2flyng [2]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @msv2flyng [11]",
             "type": "vless",
-            "server": "89.23.108.188",
+            "server": "5.181.171.2",
             "server_port": 443,
-            "uuid": "fe1888f8-2361-11f0-9970-45e1d80c4039",
+            "uuid": "a87bf8a2-17a4-3054-b51e-876b5f1d0f24",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "images.apple.com",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -535,8 +537,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "nm1ZhMktJbHTcJv0gqV8l0s_c9BWfQe5d02qhpSkKWo",
-                    "short_id": "7fd4"
+                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
+            "type": "vless",
+            "server": "5.181.171.2",
+            "server_port": 443,
+            "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "short_id": ""
                 }
             }
         },

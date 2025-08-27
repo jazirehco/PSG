@@ -120,6 +120,7 @@
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
+                "🚩 CF | 🔒 VLESS | @msv2flyng [10]",
                 "❔ XX | 🔓 VLESS | @msv2raynp [5]",
                 "🚩 CF | 🔒 VLESS | @nn_vpn [1]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -140,7 +141,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [8]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [12]",
                 "🇧🇪 BE | 🔓 VLESS | @v2trayproxy [16]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [17]",
+                "🚩 CF | 🔒 VLESS | @v2trayproxy [17]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [20]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🚩 CF | 🔒 VLESS | @vmesskhodam [7]",
@@ -161,7 +162,7 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [13]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇮🇷 IR | 🔓 VLESS | @xsv2ray [1]",
                 "🇮🇷 IR | 🔒 VLESS | @xsv2ray [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
@@ -216,6 +217,7 @@
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
+                "🚩 CF | 🔒 VLESS | @msv2flyng [10]",
                 "❔ XX | 🔓 VLESS | @msv2raynp [5]",
                 "🚩 CF | 🔒 VLESS | @nn_vpn [1]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -236,7 +238,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [8]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [12]",
                 "🇧🇪 BE | 🔓 VLESS | @v2trayproxy [16]",
-                "🇺🇸 US | 🔒 VLESS | @v2trayproxy [17]",
+                "🚩 CF | 🔒 VLESS | @v2trayproxy [17]",
                 "🚩 CF | 🔒 VLESS | @v2trayproxy [20]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🚩 CF | 🔒 VLESS | @vmesskhodam [7]",
@@ -257,7 +259,7 @@
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [17]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [18]",
                 "🇮🇹 IT | 🔒 VLESS | @vpnowl [19]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [13]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇮🇷 IR | 🔓 VLESS | @xsv2ray [1]",
                 "🇮🇷 IR | 🔒 VLESS | @xsv2ray [3]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
@@ -1039,6 +1041,31 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @msv2flyng [10]",
+            "type": "vless",
+            "server": "oureverydaylife.com",
+            "server_port": 443,
+            "uuid": "fa0825cd-89b2-4e57-a669-68d4f4a3bd2c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "taochan.sylphachan.ip-ddns.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "taochan.sylphachan.ip-ddns.com"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @msv2raynp [5]",
             "type": "vless",
             "server": "add.ski1plag.ir",
@@ -1421,7 +1448,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2trayproxy [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2trayproxy [17]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1949,7 +1976,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [13]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
