@@ -93,10 +93,11 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [14]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [52]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [49]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇦🇹 AT | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -130,10 +131,11 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [14]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [52]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [49]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇦🇹 AT | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -251,6 +253,31 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "104.21.36.57",
+            "server_port": 443,
+            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.fullmargintraders.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
+                "headers": {
+                    "Host": "mirror.fullmargintraders.com"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @arv2ray [13]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -301,38 +328,47 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [52]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [49]",
             "type": "vless",
-            "server": "77.91.103.216",
-            "server_port": 2096,
-            "uuid": "9e769ce1-34be-4e3f-b0a6-823f30eb8f69",
+            "server": "172.66.40.99",
+            "server_port": 8080,
+            "uuid": "25f6398e-56c3-4b9e-85e2-fa71448fe740",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "77.91.103.216",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048",
                 "headers": {
-                    "Host": "77.91.103.216"
+                    "Host": "172.66.40.99"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "18.220.23.41",
-            "server_port": 2222,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "150.241.108.219",
+            "server_port": 46089,
+            "uuid": "1591f266-42a1-4d5a-b725-00c1151dfd70",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xKbFr-SVOYz1Bgdkb4e3zPjZ7wGURx11ouN3Hoy29VQ",
+                    "short_id": "3736e4ab65378d5c"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
