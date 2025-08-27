@@ -93,11 +93,11 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [69]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [14]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [46]",
-                "🇦🇺 AU | 🔒 VLESS | @config_proxy [47]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [75]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇮🇷 IR | 🔓 VLESS | @freakconfig [13]",
                 "🇦🇹 AT | 🔒 VLESS | @freakconfig [15]",
@@ -131,11 +131,11 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [69]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [13]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [14]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [46]",
-                "🇦🇺 AU | 🔒 VLESS | @config_proxy [47]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [75]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇮🇷 IR | 🔓 VLESS | @freakconfig [13]",
                 "🇦🇹 AT | 🔒 VLESS | @freakconfig [15]",
@@ -253,6 +253,33 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "91.99.203.123",
+            "server_port": 443,
+            "uuid": "f3af923e-ecfe-46d5-9c27-4ff95f739afe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.203.123",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "188.166.144.24",
+            "server_port": 2053,
+            "uuid": "e207a4a0-0237-46f5-acd5-2410f1452de5",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @arv2ray [13]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -303,49 +330,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [46]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [75]",
             "type": "vless",
-            "server": "109.122.249.156",
-            "server_port": 57107,
-            "uuid": "600eae54-5014-40a2-99f3-215ff340c26d",
+            "server": "62.60.192.209",
+            "server_port": 80,
+            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
             "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇦🇺 AU | 🔒 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "1.1.1.1",
-            "server_port": 54842,
-            "uuid": "8b2aa8a0-ddea-4296-bc19-c46db6271fb1",
-            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pYzjnYlMREoojzgXQfTeCr3wPZX6iIUgj1eUMJCj9DI",
-                    "short_id": "264b2d03a6e6e78a"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "62.60.192.209"
+                }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
-            "type": "vless",
-            "server": "159.203.138.123",
-            "server_port": 8710,
-            "uuid": "f954d7c1-e793-45e7-8505-8e95e6170dbb",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
