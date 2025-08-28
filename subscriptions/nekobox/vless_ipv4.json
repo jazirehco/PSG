@@ -86,11 +86,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
-                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [64]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,11 +103,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
-                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [64]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -312,65 +304,6 @@
                 "path": "/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
                 "headers": {
                     "Host": "104.18.26.90"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "179.61.219.170",
-            "server_port": 22934,
-            "uuid": "0cd276a5-4501-413a-acf8-b51c54894f02",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "45.88.183.158",
-            "server_port": 44629,
-            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "104.21.36.57",
-            "server_port": 443,
-            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mirror.fullmargintraders.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
-                "headers": {
-                    "Host": "mirror.fullmargintraders.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "159.246.55.251",
-            "server_port": 8880,
-            "uuid": "0132166f-e702-48ed-a9e7-b07af768faf8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram",
-                "headers": {
-                    "Host": "Telegram-channel-WangCai2"
                 }
             }
         }
