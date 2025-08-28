@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -89,7 +90,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -101,6 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -110,7 +113,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -200,6 +204,15 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
+            "type": "vmess",
+            "server": "customers.tele-shop-too.studio",
+            "server_port": 33203,
+            "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @bypass_filter [1]",
@@ -353,13 +366,36 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "188.245.82.165",
-            "server_port": 2086,
-            "uuid": "1bdc1b8f-0a20-4dc8-8f73-e008f64da65e",
+            "server": "51.254.21.193",
+            "server_port": 20086,
+            "uuid": "9bcecb26-920a-4e68-b296-88526310bff6",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "104.21.0.0",
+            "server_port": 80,
+            "uuid": "0730d4e1-3c84-4e06-8b2c-22ab4f591ff6",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/0730d4e1-3c84-4e06-8b2c-22ab4f591ff6-vm?ed=2048",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",

@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔒 VLESS | @Fr33C0nfig [51]","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]","type":"vless","server":"kernel.panel.cactusv2.xyz","port":4434,"uuid":"346264b7-975c-4891-8f7b-dcd6e5707a42","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"journalofbigdata.springeropen.com","grpc-opts":{"grpc-service-name":"cactusservice"},"reality-opts":{"public-key":"qlXAzsjjzUjqcfuZcd-oUlLLIFVEVqs454P_F3BvQwI","short-id":"f10dcd45"}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]","type":"vless","server":"all32-vip.f-sub.com","port":2434,"uuid":"738c5a04-817a-4f50-b327-893595010155","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"chess.com","reality-opts":{"public-key":"yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔒 VLESS | @Fr33C0nfig [51]'
-      - '🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]'
+      - '🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]'
+      - '🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]'
 
   - name: 🌍 Global Media
     type: select

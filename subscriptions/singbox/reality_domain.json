@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
-                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]"
+                "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
+                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
-                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]"
+                "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
+                "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,47 +192,51 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @Fr33C0nfig [51]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
             "type": "vless",
-            "server": "de.multiapvps.ir",
-            "server_port": 4433,
-            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "server": "kernel.panel.cactusv2.xyz",
+            "server_port": 4434,
+            "uuid": "346264b7-975c-4891-8f7b-dcd6e5707a42",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "docker.com",
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
-                    "short_id": ""
+                    "public_key": "qlXAzsjjzUjqcfuZcd-oUlLLIFVEVqs454P_F3BvQwI",
+                    "short_id": "f10dcd45"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "cactusservice"
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [52]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
             "type": "vless",
-            "server": "usa.multiapvps.ir",
-            "server_port": 4434,
-            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "server": "all32-vip.f-sub.com",
+            "server_port": 2434,
+            "uuid": "738c5a04-817a-4f50-b327-893595010155",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "docker.com",
+                "server_name": "chess.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
+                    "public_key": "yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA",
                     "short_id": ""
                 }
             }
