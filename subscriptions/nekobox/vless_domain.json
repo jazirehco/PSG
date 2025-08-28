@@ -85,7 +85,9 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [64]",
                 "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +103,9 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [64]",
                 "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -304,18 +308,59 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ov-germany6.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "ov-germany6.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "fearless-change.oneeat.co",
+            "server_port": 80,
+            "uuid": "b055036a-2d81-4d46-ab18-4e1898b58cec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "fearless-change.oneeat.co"
                 }
             }
         }
