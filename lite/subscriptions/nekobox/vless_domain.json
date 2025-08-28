@@ -95,8 +95,6 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇨🇦 CA | 🔓 VLESS | @outline_ir [18]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [19]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -104,7 +102,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -130,8 +130,6 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇨🇦 CA | 🔓 VLESS | @outline_ir [18]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [19]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -139,7 +137,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -537,40 +537,6 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @outline_ir [18]",
-            "type": "vless",
-            "server": "m15a.vip784.com",
-            "server_port": 33801,
-            "uuid": "a0c968aa-6723-404e-93e2-5987593a7f19",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [19]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 2096,
-            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "J1oG84r7Qf.WaSaBi7890.OrG",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "J1oG84r7Qf.WaSaBi7890.OrG"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
             "type": "vless",
             "server": "all.yasharteam.com",
@@ -655,7 +621,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -676,6 +642,54 @@
                 "path": "/",
                 "headers": {
                     "Host": "lease-17.access.name.ng"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "7cbf9bdc-dd7e-43e1-b2dc-04042ef5f1e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
+                    "short_id": "71e48a"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+            "type": "vless",
+            "server": "www.visasoutheasteurope.com",
+            "server_port": 443,
+            "uuid": "5da52d2d-1ab8-48d0-8421-8354fd6ce7d3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rAyAn-cOnFiG-06.rAyAn-iI.DnS-DyNaMiC.NeT",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "headers": {
+                    "Host": "rAyAn-cOnFiG-06.rAyAn-iI.DnS-DyNaMiC.NeT"
                 }
             }
         }
