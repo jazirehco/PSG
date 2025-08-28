@@ -103,8 +103,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -138,8 +138,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -660,22 +660,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "02ba99ca-ec56-4b2d-8537-bb20b830a3f7",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "ir9.turbo-server.xyz",
             "server_port": 59667,
             "uuid": "0ea23a70-ca31-4aa7-af6f-4db7a2af71f0",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "turboo-server.sadafspace.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/--ping--www.speedtest.net?ed=2080",
+                "headers": {
+                    "Host": "turboo-server.sadafspace.com"
+                }
+            }
         }
     ],
     "route": {

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVFJPSkFOX0RPTUFJTg==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 SS | @NamiraConfigs [64]"
+                "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [66]",
+                "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 SS | @NamiraConfigs [64]"
+                "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [66]",
+                "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,12 +192,36 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 SS | @NamiraConfigs [64]",
-            "type": "shadowsocks",
-            "server": "pl.vmagnum.win",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a58fa62b4944ddbf"
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [66]",
+            "type": "trojan",
+            "server": "ca-full.privateip.net",
+            "server_port": 443,
+            "password": "99c63d3a-4499-4a5b-aad6-826a6851f304",
+            "tls": {
+                "enabled": true,
+                "server_name": "ca-full.privateip.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [67]",
+            "type": "trojan",
+            "server": "on-roughy.shiner427.skin",
+            "server_port": 443,
+            "password": "74260704627805900",
+            "tls": {
+                "enabled": true,
+                "server_name": "on-roughy.shiner427.skin",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

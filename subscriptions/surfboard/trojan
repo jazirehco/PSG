@@ -9,13 +9,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🚩 CF | 🔓 TROJAN | @NamiraConfigs [56] = trojan, 141.101.120.10, 443, password = 4b040268-f3a5-4136-b1a9-506012e8e3d9, skip-cert-verify = false
-🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57] = trojan, 198.23.229.250, 443, password = 2ee85121-31de-4581-a492-eb00f606e392, skip-cert-verify = false
+🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56] = trojan, 198.23.229.250, 443, password = 2ee85121-31de-4581-a492-eb00f606e392, skip-cert-verify = false
+🚩 CF | 🔒 TROJAN | @NamiraConfigs [57] = trojan, 172.67.181.173, 443, password = f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify = false
+🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [58] = trojan, 192.3.107.252, 443, password = 2ee85121-31de-4581-a492-eb00f606e392, skip-cert-verify = false
+🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [66] = trojan, ca-full.privateip.net, 443, password = 99c63d3a-4499-4a5b-aad6-826a6851f304, skip-cert-verify = false
+🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [67] = trojan, on-roughy.shiner427.skin, 443, password = 74260704627805900, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔓 TROJAN | @NamiraConfigs [56], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]
-PSG-AUTO = url-test, 🚩 CF | 🔓 TROJAN | @NamiraConfigs [56], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]
-PSG-FALLBACK = fallback, 🚩 CF | 🔓 TROJAN | @NamiraConfigs [56], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [57]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56], 🚩 CF | 🔒 TROJAN | @NamiraConfigs [57], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [58], 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [66], 🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [67]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56], 🚩 CF | 🔒 TROJAN | @NamiraConfigs [57], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [58], 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [66], 🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [67]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [56], 🚩 CF | 🔒 TROJAN | @NamiraConfigs [57], 🇺🇸 US | 🔒 TROJAN | @NamiraConfigs [58], 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [66], 🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [67]
 
 [Rule]
 GEOIP,IR,DIRECT
