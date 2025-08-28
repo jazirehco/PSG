@@ -102,7 +102,11 @@
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [45]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
-                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]"
+                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -123,7 +127,11 @@
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [45]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [47]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [48]",
-                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]"
+                "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [50]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -392,6 +400,74 @@
             "server": "94.182.142.28",
             "server_port": 2020,
             "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "91.107.178.242",
+            "server_port": 20087,
+            "uuid": "f2c44225-736e-45a4-9cfb-490fa34e15a0",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+            "type": "vless",
+            "server": "104.19.219.139",
+            "server_port": 443,
+            "uuid": "dbb3c682-8564-4c02-aec9-23ecf7981820",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ARC-448.Pages.DEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api/v1",
+                "headers": {
+                    "Host": "ARC-448.Pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
+            "type": "vless",
+            "server": "188.114.97.202",
+            "server_port": 8443,
+            "uuid": "c2e177d4-e610-4abd-85cd-1a869d158751",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "teslakit1.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "teslakit1.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [66]",
+            "type": "vless",
+            "server": "45.88.183.158",
+            "server_port": 44629,
+            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
             "flow": "",
             "packet_encoding": "xudp"
         }
