@@ -89,6 +89,7 @@
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [16]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -103,9 +104,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -125,6 +124,7 @@
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [16]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -139,9 +139,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -410,6 +408,31 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [16]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "8e615b78-0905-48bb-ab68-fb0dfdff7688",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server13.coin.name.ng",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---",
+                "headers": {
+                    "Host": "server13.coin.name.ng"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
             "type": "vless",
             "server": "cleanv2itech1.freesdns.info",
@@ -674,38 +697,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "lease-17.access.name.ng"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
-                "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "wild-bird.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "1d0dfde1-9f18-4557-9af8-4f3124ee5dcd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "wild-bird.seotoolsforyou.co.uk"
                 }
             }
         }
