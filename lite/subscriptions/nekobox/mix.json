@@ -80,9 +80,7 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
-                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [70]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -143,7 +141,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [14]",
+                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [13]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
@@ -155,9 +154,7 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
-                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [70]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -218,7 +215,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [14]",
+                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [13]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
@@ -278,36 +276,18 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "172.234.221.94",
-            "server_port": 56224,
-            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "54.37.205.0",
-            "server_port": 59332,
-            "uuid": "d2dc2527-33d5-46f3-f39c-36da72fb1a62",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "89.44.197.77",
-            "server_port": 15946,
-            "uuid": "8672bdcd-e331-464d-9ed8-93a242ca7d2e",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "89.44.197.77"
+                    "Host": "57.129.132.223"
                 }
             }
         },
@@ -1360,7 +1340,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [14]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "193.111.76.108",
             "server_port": 3039,
@@ -1369,7 +1349,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 80,
@@ -1381,6 +1361,22 @@
                 "path": "/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048",
                 "headers": {
                     "Host": "172.66.40.99"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "104.21.72.109",
+            "server_port": 80,
+            "uuid": "67b0fe25-1344-4e93-90a7-19613b195115",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2?ed=2560",
+                "headers": {
+                    "Host": "dfgopee-workers.dev"
                 }
             }
         }
