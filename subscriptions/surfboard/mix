@@ -10,11 +10,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46] = vmess, movaghat.funfil.link, 48252, username = ab65e694-c044-46cf-802e-301dc9998c41, ws = false, tls = false
+🇺🇸 US | 🔒 SS | @NamiraConfigs [56] = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇳🇱 NL | 🔒 SS | @NamiraConfigs [57] = ss, 213.109.147.242, 62685, encrypt-method = chacha20-ietf-poly1305, password = VpKABcOpNNA0l5G2AVOmw8
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇺🇸 US | 🔒 SS | @NamiraConfigs [56], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇺🇸 US | 🔒 SS | @NamiraConfigs [56], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [46], 🇺🇸 US | 🔒 SS | @NamiraConfigs [56], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]
 
 [Rule]
 GEOIP,IR,DIRECT
