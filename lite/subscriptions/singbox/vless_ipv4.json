@@ -93,11 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [16]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
-                "🇸🇪 SE | 🔓 VLESS | @free1ss [9]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -116,9 +114,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -130,11 +126,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [16]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
-                "🇸🇪 SE | 🔓 VLESS | @free1ss [9]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -153,9 +147,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -258,31 +250,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "104.21.36.57",
-            "server_port": 443,
-            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mirror.fullmargintraders.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
-                "headers": {
-                    "Host": "mirror.fullmargintraders.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -341,24 +308,6 @@
                     "enabled": true,
                     "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
                     "short_id": "e8ab71d0"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @free1ss [9]",
-            "type": "vless",
-            "server": "94.242.58.133",
-            "server_port": 443,
-            "uuid": "b1c801ec-1c5e-4d12-8b53-8da11c64a21b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "94.242.58.133",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -738,50 +687,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "91.107.140.243",
-            "server_port": 443,
-            "uuid": "9e55e24c-8de9-4357-8a37-9cf1212c6491",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mods.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "kSo.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "kSo.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "172.67.188.18",
             "server_port": 80,

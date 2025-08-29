@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18] = ss, pl.vmagnum.win, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
+
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18]
-PSG-AUTO = url-test, 🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18]
-PSG-FALLBACK = fallback, 🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
+PSG-AUTO = url-test, 
+PSG-FALLBACK = fallback, 
 
 [Rule]
 GEOIP,IR,DIRECT
