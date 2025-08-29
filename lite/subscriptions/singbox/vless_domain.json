@@ -113,8 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -146,8 +145,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -595,32 +593,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "cloudgetservice.mcloudservice.site",
-            "server_port": 443,
-            "uuid": "1b368bf6-5aac-413c-a77c-229fb984d5ae",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "maxnetvipap-cloud76.netkh3.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws",
-                "headers": {
-                    "Host": "maxnetvipap-cloud76.netkh3.site"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "m23a.vip784.com",
             "server_port": 33801,

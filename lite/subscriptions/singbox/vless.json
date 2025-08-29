@@ -113,8 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
@@ -137,7 +136,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -169,8 +169,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
@@ -193,7 +192,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -641,32 +641,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "cloudgetservice.mcloudservice.site",
-            "server_port": 443,
-            "uuid": "1b368bf6-5aac-413c-a77c-229fb984d5ae",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "maxnetvipap-cloud76.netkh3.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws",
-                "headers": {
-                    "Host": "maxnetvipap-cloud76.netkh3.site"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "m23a.vip784.com",
             "server_port": 33801,
@@ -1121,7 +1096,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 2052,
@@ -1133,6 +1108,24 @@
                 "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
                 "headers": {
                     "Host": "172.66.40.99"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "152.89.12.77",
+            "server_port": 443,
+            "uuid": "b0e55a84-681e-4bf8-96be-a7f617dd5afc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "152.89.12.77",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

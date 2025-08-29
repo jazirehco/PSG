@@ -149,15 +149,15 @@
                 "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇦🇺 AU | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -225,15 +225,15 @@
                 "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇦🇺 AU | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [20]",
+                "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1245,21 +1245,20 @@
             }
         },
         {
-            "tag": "🇦🇺 AU | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "209.38.91.41",
-            "server_port": 8045,
-            "uuid": "f7cbd56d-601d-af4d-538c-45beae4c7834",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [18]",
             "type": "shadowsocks",
             "server": "81.19.137.222",
             "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
             "password": "a58fa62b4944ddbf"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "45.87.175.58",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
@@ -1343,32 +1342,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "cloudgetservice.mcloudservice.site",
-            "server_port": 443,
-            "uuid": "1b368bf6-5aac-413c-a77c-229fb984d5ae",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "maxnetvipap-cloud76.netkh3.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws",
-                "headers": {
-                    "Host": "maxnetvipap-cloud76.netkh3.site"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "m23a.vip784.com",
             "server_port": 33801,
@@ -1377,7 +1351,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 2052,
@@ -1389,6 +1363,24 @@
                 "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
                 "headers": {
                     "Host": "172.66.40.99"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "152.89.12.77",
+            "server_port": 443,
+            "uuid": "b0e55a84-681e-4bf8-96be-a7f617dd5afc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "152.89.12.77",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
