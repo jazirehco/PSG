@@ -114,7 +114,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -147,7 +149,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -643,6 +647,33 @@
                     "Host": "lease-17.access.name.ng"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "mci.itbookshop.sbs",
+            "server_port": 443,
+            "uuid": "3b397cf8-c161-46d4-f7d0-14735796538c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.itbookshop.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "cdn28.saloonak.ir",
+            "server_port": 8443,
+            "uuid": "789d4f30-c31b-4762-8116-ed42574d5e85",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
