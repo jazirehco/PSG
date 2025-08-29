@@ -93,7 +93,7 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
+                "🇸🇬 SG | 🔒 VLESS | @freakconfig [17]",
                 "🇺🇸 US | 🔒 SS | @free1ss [10]",
                 "🇫🇮 FI | 🔒 SS | @free1ss [11]",
                 "🇮🇳 IN | 🔒 SS | @free1ss [12]",
@@ -137,9 +137,9 @@
                 "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -170,7 +170,7 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
+                "🇸🇬 SG | 🔒 VLESS | @freakconfig [17]",
                 "🇺🇸 US | 🔒 SS | @free1ss [10]",
                 "🇫🇮 FI | 🔒 SS | @free1ss [11]",
                 "🇮🇳 IN | 🔒 SS | @free1ss [12]",
@@ -214,9 +214,9 @@
                 "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -558,7 +558,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [17]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @freakconfig [17]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1288,23 +1288,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [18]",
-            "type": "trojan",
-            "server": "13.36.223.77",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "210.3.159.150",
             "server_port": 42717,
@@ -1320,12 +1304,28 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
             "type": "shadowsocks",
             "server": "45.87.175.92",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]",
+            "type": "trojan",
+            "server": "13.39.99.217",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
