@@ -1,0 +1,21 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/trojan_domain interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [67] = trojan, ca-full.privateip.net, 443, password = 99c63d3a-4499-4a5b-aad6-826a6851f304, skip-cert-verify = false
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [67]
+PSG-AUTO = url-test, 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [67]
+PSG-FALLBACK = fallback, 🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [67]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL

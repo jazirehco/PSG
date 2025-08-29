@@ -92,9 +92,9 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [69]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [70]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -107,9 +107,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
-                "🇵🇱 PL | 🔒 SS | @free1ss [10]",
-                "🇰🇿 KZ | 🔒 SS | @free1ss [11]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [12]",
+                "🇰🇿 KZ | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
+                "🇺🇸 US | 🔒 SS | @free1ss [12]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [12]",
@@ -169,9 +169,9 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [69]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [70]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -184,9 +184,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
-                "🇵🇱 PL | 🔒 SS | @free1ss [10]",
-                "🇰🇿 KZ | 🔒 SS | @free1ss [11]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [12]",
+                "🇰🇿 KZ | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
+                "🇺🇸 US | 🔒 SS | @free1ss [12]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [12]",
@@ -290,28 +290,61 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [68]",
-            "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "104.21.42.47",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "PPaL03.AbDulLAH-MAVerYcK.woRKeRS.DEv",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/aU9CfsWoY5YeBGLV?ed=2560",
+                "headers": {
+                    "Host": "PPaL03.AbDulLAH-MAVerYcK.woRKeRS.DEv"
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [69]",
-            "type": "shadowsocks",
-            "server": "45.87.175.171",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "104.18.32.69",
+            "server_port": 2086,
+            "uuid": "33039dbe-8889-42f1-9aeb-ecfbfa2a1640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "104.18.32.69"
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [70]",
-            "type": "shadowsocks",
-            "server": "45.87.175.192",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "104.16.42.209",
+            "server_port": 80,
+            "uuid": "be976fd2-e487-45b6-8f83-8d095c300fd8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "104.16.42.209"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @bypass_filter [1]",
@@ -567,15 +600,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 SS | @free1ss [10]",
-            "type": "shadowsocks",
-            "server": "77.83.246.74",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "maKR0cpAh0zIjw9JMMEbQ7"
-        },
-        {
-            "tag": "🇰🇿 KZ | 🔒 SS | @free1ss [11]",
+            "tag": "🇰🇿 KZ | 🔒 SS | @free1ss [10]",
             "type": "shadowsocks",
             "server": "38.107.234.38",
             "server_port": 57456,
@@ -583,12 +608,20 @@
             "password": "a58fa62b4944ddbf"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [12]",
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [11]",
             "type": "shadowsocks",
             "server": "193.29.139.160",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @free1ss [12]",
+            "type": "shadowsocks",
+            "server": "165.227.110.123",
+            "server_port": 16334,
+            "method": "chacha20-ietf-poly1305",
+            "password": "xuKf1gW8oJWrYtzyhpQLFo"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
