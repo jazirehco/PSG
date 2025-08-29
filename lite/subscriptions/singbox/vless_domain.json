@@ -113,7 +113,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -145,7 +146,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -593,11 +595,36 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
-            "server": "EVAY_VPN.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
+            "server": "cloudgetservice.mcloudservice.site",
+            "server_port": 443,
+            "uuid": "1b368bf6-5aac-413c-a77c-229fb984d5ae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "maxnetvipap-cloud76.netkh3.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkws",
+                "headers": {
+                    "Host": "maxnetvipap-cloud76.netkh3.site"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "m23a.vip784.com",
+            "server_port": 33801,
+            "uuid": "c9b0100b-01b9-4167-b9e2-a0a8cad1e32b",
             "flow": "",
             "packet_encoding": "xudp"
         }

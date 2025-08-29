@@ -80,7 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
+                "🇫🇷 FR | 🔒 SS | @NamiraConfigs [59]",
+                "🇬🇧 GB | 🔒 SS | @NamiraConfigs [60]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [61]",
+                "🇵🇪 PE | 🔒 SS | @NamiraConfigs [62]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [63]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +95,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
+                "🇫🇷 FR | 🔒 SS | @NamiraConfigs [59]",
+                "🇬🇧 GB | 🔒 SS | @NamiraConfigs [60]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [61]",
+                "🇵🇪 PE | 🔒 SS | @NamiraConfigs [62]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [63]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +190,44 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "EVAY_VPN.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇫🇷 FR | 🔒 SS | @NamiraConfigs [59]",
+            "type": "shadowsocks",
+            "server": "77.105.166.12",
+            "server_port": 8594,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mSQiuT5jR17nyWgcXOPrTW"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 SS | @NamiraConfigs [60]",
+            "type": "shadowsocks",
+            "server": "46.226.163.225",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "c40641c1f89e7acb"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [61]",
+            "type": "shadowsocks",
+            "server": "164.92.156.41",
+            "server_port": 24206,
+            "method": "chacha20-ietf-poly1305",
+            "password": "zI7kiNZ0UfV9cXB73a4nRD"
+        },
+        {
+            "tag": "🇵🇪 PE | 🔒 SS | @NamiraConfigs [62]",
+            "type": "shadowsocks",
+            "server": "185.47.252.251",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [63]",
+            "type": "shadowsocks",
+            "server": "83.147.216.70",
+            "server_port": 64519,
+            "method": "chacha20-ietf-poly1305",
+            "password": "YXgS8ComTam7qoesPlzlMo"
         }
     ],
     "route": {
