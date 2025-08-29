@@ -81,8 +81,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [12]",
@@ -100,7 +101,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [20]"
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [19]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -112,8 +114,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [12]",
@@ -131,7 +134,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [20]"
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [19]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -238,6 +242,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "157.245.24.38",
+            "server_port": 2087,
+            "uuid": "f475c570-eba2-4a74-9948-d22ce8492aff",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ame.spsvps.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4",
+                    "short_id": "b359bc5c70c21d55"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -254,7 +281,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "31.169.124.240",
             "server_port": 34045,
@@ -629,7 +656,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [20]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [19]",
             "type": "vless",
             "server": "45.144.28.247",
             "server_port": 2052,
@@ -641,6 +668,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "45.144.28.247"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [20]",
+            "type": "vless",
+            "server": "162.159.152.4",
+            "server_port": 2095,
+            "uuid": "5c9d0b1b-4075-40d0-baf0-85cb03722586",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@Rayan_Config",
+                "headers": {
+                    "Host": "162.159.152.4"
                 }
             }
         }
