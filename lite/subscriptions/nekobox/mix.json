@@ -80,8 +80,9 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [68]",
+                "🇦🇹 AT | 🔒 SS | @NamiraConfigs [69]",
+                "🇷🇺 RU | 🔒 SS | @NamiraConfigs [70]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -136,8 +137,8 @@
                 "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇦🇺 AU | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -155,8 +156,9 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [68]",
+                "🇦🇹 AT | 🔒 SS | @NamiraConfigs [69]",
+                "🇷🇺 RU | 🔒 SS | @NamiraConfigs [70]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -211,8 +213,8 @@
                 "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇦🇺 AU | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -278,45 +280,28 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "ov-germany6.09vpn.com",
-            "server_port": 8443,
-            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ov-germany6.09vpn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "ov-germany6.09vpn.com"
-                }
-            }
+            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [68]",
+            "type": "shadowsocks",
+            "server": "193.29.139.240",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "www.speedtest.net.cdn.cloudflare.net",
-            "server_port": 8080,
-            "uuid": "813d7c7e-d2ea-460f-9bf7-e6fa6a073b67",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "www.speedtest.net.cdn.cloudflare.net"
-                }
-            }
+            "tag": "🇦🇹 AT | 🔒 SS | @NamiraConfigs [69]",
+            "type": "shadowsocks",
+            "server": "77.110.110.240",
+            "server_port": 443,
+            "method": "aes-256-gcm",
+            "password": "d70ef8b5-6048-4c0d-be4d-fc60399b0f45"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 SS | @NamiraConfigs [70]",
+            "type": "shadowsocks",
+            "server": "45.139.24.24",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11"
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @bypass_filter [1]",
@@ -1252,21 +1237,21 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
-            "type": "shadowsocks",
-            "server": "45.158.171.136",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇦🇺 AU | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "57.129.77.179",
-            "server_port": 102,
-            "uuid": "87f08f8b-4934-4a0b-85a6-55b5a793470c",
+            "server": "209.38.91.41",
+            "server_port": 8045,
+            "uuid": "f7cbd56d-601d-af4d-538c-45beae4c7834",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "81.19.137.222",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a58fa62b4944ddbf"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
