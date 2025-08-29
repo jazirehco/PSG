@@ -98,7 +98,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
-                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]"
+                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [65]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,7 +118,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
-                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]"
+                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [65]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -312,6 +318,56 @@
                 "path": "/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
                 "headers": {
                     "Host": "104.18.26.90"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [63]",
+            "type": "vless",
+            "server": "172.234.221.94",
+            "server_port": 56224,
+            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [65]",
+            "type": "vless",
+            "server": "89.44.197.77",
+            "server_port": 15946,
+            "uuid": "8672bdcd-e331-464d-9ed8-93a242ca7d2e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "89.44.197.77"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "104.21.36.57",
+            "server_port": 443,
+            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.fullmargintraders.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
+                "headers": {
+                    "Host": "mirror.fullmargintraders.com"
                 }
             }
         }
