@@ -98,7 +98,8 @@
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [13]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
                 "🇹🇷 TR | 🔒 SS | @outline_ir [18]",
-                "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]"
+                "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]",
+                "🇦🇪 AE | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,7 +116,8 @@
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [13]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
                 "🇹🇷 TR | 🔒 SS | @outline_ir [18]",
-                "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]"
+                "🇫🇮 FI | 🔒 SS | @v2ray1_ng [3]",
+                "🇦🇪 AE | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -256,6 +258,14 @@
             "server_port": 64519,
             "method": "chacha20-ietf-poly1305",
             "password": "YXgS8ComTam7qoesPlzlMo"
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "167.17.179.116",
+            "server_port": 8388,
+            "method": "aes-256-gcm",
+            "password": "pRAqZ4afakQyiP8f"
         }
     ],
     "route": {
