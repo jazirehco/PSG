@@ -98,10 +98,11 @@
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [2]",
+                "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -130,10 +131,11 @@
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [2]",
+                "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -572,6 +574,54 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
+            "type": "vless",
+            "server": "94.26.228.10",
+            "server_port": 443,
+            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
+            "type": "vless",
+            "server": "15.237.12.5",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -641,31 +691,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "fix.ahwaz14.ir"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "kSo.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "kSo.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg"
-                }
             }
         }
     ],
