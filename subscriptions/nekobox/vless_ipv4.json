@@ -87,9 +87,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,9 +105,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -314,45 +310,18 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
             "type": "vless",
-            "server": "45.88.183.158",
-            "server_port": 44629,
-            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "172.234.221.94",
-            "server_port": 56224,
-            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
-            "type": "vless",
-            "server": "212.192.31.146",
-            "server_port": 443,
-            "uuid": "199a78a5-b4d4-4064-a0db-bb37c5839134",
+            "server": "141.95.52.109",
+            "server_port": 80,
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "212.192.31.146",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/panika",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "212.192.31.146"
+                    "Host": "141.95.52.109"
                 }
             }
         }

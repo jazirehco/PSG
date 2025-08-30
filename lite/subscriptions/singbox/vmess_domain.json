@@ -93,7 +93,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [68]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -104,6 +103,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇭🇰 HK | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -116,7 +118,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [68]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -127,6 +128,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇭🇰 HK | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -219,15 +223,6 @@
             "server": "customers.tele-shop-too.studio",
             "server_port": 33203,
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [68]",
-            "type": "vmess",
-            "server": "51.79.86.182",
-            "server_port": 42610,
-            "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
             "security": "auto",
             "alter_id": 0
         },
@@ -406,6 +401,49 @@
                 "type": "grpc",
                 "service_name": "Telegram@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci"
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "15.204.11.190",
+            "server_port": 15361,
+            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "118.107.244.80",
+            "server_port": 443,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "tls": {
+                "enabled": true,
+                "server_name": "www.17591301.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/path/170733132233",
+                "headers": {
+                    "Host": "www.17591301.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "62.146.235.193",
+            "server_port": 28011,
+            "uuid": "cfc5a87f-3c13-4e25-b556-176cdd6b5c6a",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
