@@ -102,13 +102,13 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [56]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [65]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [70]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -129,13 +129,13 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [56]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [65]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [70]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -363,20 +363,13 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
+            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
+            "server": "45.88.183.164",
+            "server_port": 49355,
+            "uuid": "ef246c6f-6e7d-4286-af33-5485544b0ba8",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "57.129.132.223"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
@@ -395,7 +388,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [65]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
             "type": "vless",
             "server": "pq-unitedstates3.09vpn.com",
             "server_port": 80,
@@ -434,48 +427,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "ov-germany6.09vpn.com",
-            "server_port": 8443,
-            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ov-germany6.09vpn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "ov-germany6.09vpn.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "178.162.245.230",
-            "server_port": 2052,
-            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "178.162.245.230"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
             "type": "vless",
             "server": "tttttttttttt.222769.xyz",
             "server_port": 443,
@@ -496,6 +448,47 @@
                 "path": "/sMrAaoCaOSZb9TPR",
                 "headers": {
                     "Host": "ttTttttTTTTT.222769.xYz"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "meli1.dashvili.ir",
+            "server_port": 80,
+            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "meli1.dashvili.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ov-germany6.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "ov-germany6.09vpn.com"
                 }
             }
         }

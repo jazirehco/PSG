@@ -93,7 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -112,8 +113,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -135,9 +137,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -149,7 +149,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -168,8 +169,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -191,9 +193,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -298,16 +298,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "tttttttttttt.222769.xyz",
-            "server_port": 443,
-            "uuid": "2e65577e-8fdb-4bb1-a495-96f3122099a7",
+            "server": "meli1.dashvili.ir",
+            "server_port": 80,
+            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "meli1.dashvili.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ttTttttTTTTT.222769.xYz",
+                "server_name": "ov-germany6.09vpn.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -316,9 +332,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/sMrAaoCaOSZb9TPR",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "ttTttttTTTTT.222769.xYz"
+                    "Host": "ov-germany6.09vpn.com"
                 }
             }
         },
@@ -625,6 +641,31 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "EVAY_VPN.fastly80.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/admin?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2048",
+                "headers": {
+                    "Host": "EVAY_VPN.fastly80.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "EVAY_VPN.fastly80.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
             "type": "vless",
             "server": "104.18.26.90",
@@ -637,22 +678,6 @@
                 "path": "/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
                 "headers": {
                     "Host": "104.18.26.90"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "178.162.245.230",
-            "server_port": 2052,
-            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "178.162.245.230"
                 }
             }
         },
@@ -1080,38 +1105,6 @@
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "63.141.128.24",
-            "server_port": 8080,
-            "uuid": "669e705b-c08a-4230-9826-e32a4d51bea4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "headers": {
-                    "Host": "63.141.128.24"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "63.141.128.23",
-            "server_port": 80,
-            "uuid": "7c0f8dd6-9e98-4ac7-ba02-5b458183452c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "headers": {
-                    "Host": "63.141.128.23"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "63.141.128.13",
             "server_port": 8080,
