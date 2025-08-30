@@ -104,16 +104,15 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
-                "🇮🇷 IR | 🔓 VLESS | @outline_ir [20]",
+                "🇮🇷 IR | 🔓 VLESS | @outline_ir [18]",
+                "🇳🇱 NL | 🔓 VLESS | @outline_ir [20]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -136,16 +135,15 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
-                "🇮🇷 IR | 🔓 VLESS | @outline_ir [20]",
+                "🇮🇷 IR | 🔓 VLESS | @outline_ir [18]",
+                "🇳🇱 NL | 🔓 VLESS | @outline_ir [20]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -468,20 +466,20 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
-            "type": "vless",
-            "server": "m3a.vip784.com",
-            "server_port": 33801,
-            "uuid": "7b311017-4c83-490d-87d1-5aeef15a5250",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @outline_ir [20]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @outline_ir [18]",
             "type": "vless",
             "server": "cdn28.saloonak.ir",
             "server_port": 8443,
             "uuid": "789d4f30-c31b-4762-8116-ed42574d5e85",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @outline_ir [20]",
+            "type": "vless",
+            "server": "Holn.xmonys.com",
+            "server_port": 625,
+            "uuid": "6c8f15df-cd15-4002-abfd-3902ceffb5b9",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -566,22 +564,6 @@
                 "path": "/--ping--www.speedtest.net?ed=2080",
                 "headers": {
                     "Host": "turboo-server.sadafspace.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "creative-computer.oneeat.co",
-            "server_port": 80,
-            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "creative-computer.oneeat.co"
                 }
             }
         }

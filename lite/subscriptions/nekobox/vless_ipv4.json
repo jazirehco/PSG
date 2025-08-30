@@ -93,19 +93,18 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [19]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -129,19 +128,18 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [19]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -469,22 +467,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [19]",
-            "type": "vless",
-            "server": "104.18.14.19",
-            "server_port": 2082,
-            "uuid": "2e90c15f-3703-4426-acef-1f59a3990289",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "104.18.14.19"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
             "type": "vless",
             "server": "5.42.77.71",
@@ -614,29 +596,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
-            "type": "vless",
-            "server": "91.99.58.127",
-            "server_port": 2090,
-            "uuid": "efacffac-6e04-450d-aeb3-397ce072ab0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -709,30 +668,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "5.181.20.219",
-            "server_port": 17422,
-            "uuid": "fe837fd0-840d-4cee-9334-0dc6c2b15c1c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
-                    "short_id": "33"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "83.136.254.131",
             "server_port": 443,
@@ -756,6 +692,38 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "63.141.128.24",
+            "server_port": 8080,
+            "uuid": "669e705b-c08a-4230-9826-e32a4d51bea4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "63.141.128.24"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "63.141.128.23",
+            "server_port": 80,
+            "uuid": "7c0f8dd6-9e98-4ac7-ba02-5b458183452c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "headers": {
+                    "Host": "63.141.128.23"
+                }
             }
         }
     ],

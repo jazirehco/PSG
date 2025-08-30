@@ -96,9 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,9 +111,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -298,53 +294,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [18]",
-            "type": "vless",
-            "server": "91.99.58.127",
-            "server_port": 2090,
-            "uuid": "efacffac-6e04-450d-aeb3-397ce072ab0e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "5.181.20.219",
-            "server_port": 17422,
-            "uuid": "fe837fd0-840d-4cee-9334-0dc6c2b15c1c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
-                    "short_id": "33"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "83.136.254.131",
             "server_port": 443,
