@@ -87,8 +87,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [61]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,8 +106,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [61]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -312,7 +312,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [61]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "157.245.24.38",
             "server_port": 2087,
@@ -335,27 +335,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]",
             "type": "vless",
-            "server": "160.153.0.11",
-            "server_port": 2083,
-            "uuid": "5e802e1a-3c82-41ec-aaca-f6371b8b86a5",
+            "server": "178.162.245.230",
+            "server_port": 2052,
+            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "fraG2.MAhSAAmINI.cC",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/CPI",
+                "path": "/",
                 "headers": {
-                    "Host": "fraG2.MAhSAAmINI.cC"
+                    "Host": "178.162.245.230"
                 }
             }
         }
