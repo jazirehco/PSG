@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [16]",
-                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]"
+                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [15]",
+                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [16]",
-                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]"
+                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [15]",
+                "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +186,7 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔓 TROJAN | @free1ss [16]",
+            "tag": "🇰🇿 KZ | 🔓 TROJAN | @free1ss [15]",
             "type": "trojan",
             "server": "45.82.14.144",
             "server_port": 2025,
@@ -199,6 +201,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
+            "type": "trojan",
+            "server": "63.179.23.253",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
