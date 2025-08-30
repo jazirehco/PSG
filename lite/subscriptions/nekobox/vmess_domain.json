@@ -91,8 +91,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇳🇱 NL | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -115,8 +115,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇳🇱 NL | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -393,35 +393,25 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "91.218.143.133",
-            "server_port": 20086,
-            "uuid": "a440e0d3-d39a-4bd8-a2c4-e22a6aef96e0",
+            "server": "ee1.daallygold.com",
+            "server_port": 52262,
+            "uuid": "af5a0d0c-c898-4a51-ba6a-47179d483e41",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/?--TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇳🇱 NL | 🔒 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "188.114.99.18",
-            "server_port": 80,
-            "uuid": "d2866d01-d76d-4a08-8bae-04fb3c502588",
+            "server": "s3.ghostrke.sbs",
+            "server_port": 8880,
+            "uuid": "6a1c35ca-f494-44f1-8e96-be5db21734d6",
             "security": "auto",
             "alter_id": 0,
             "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "188.114.99.18"
-                }
+                "type": "grpc",
+                "service_name": "@Ghostray_NG"
             }
         },
         {
