@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @freakconfig [18]"
+                "🇮🇷 IR | 🔒 VLESS | @freakconfig [17]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @freakconfig [18]"
+                "🇮🇷 IR | 🔒 VLESS | @freakconfig [17]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +192,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @freakconfig [18]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @freakconfig [17]",
             "type": "vless",
             "server": "hybrid.arvancloud.online",
             "server_port": 44443,
@@ -209,6 +211,29 @@
                     "enabled": true,
                     "public_key": "XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
+            "type": "vless",
+            "server": "ru-0017.vpnvezdehod.net",
+            "server_port": 443,
+            "uuid": "ce9751a0-fee7-402a-a887-bdc5f7bd1093",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
                 }
             }
         }

@@ -96,16 +96,13 @@
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
-                "🚩 CF | 🔒 VMESS | @freakconfig [16]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [3]",
                 "🇫🇷 FR | 🔒 VMESS | @mahsaproxy [4]",
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔒 VMESS | @v2ray_free_conf [19]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -121,16 +118,13 @@
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
-                "🚩 CF | 🔒 VMESS | @freakconfig [16]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [3]",
                 "🇫🇷 FR | 🔒 VMESS | @mahsaproxy [4]",
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔒 VMESS | @v2ray_free_conf [19]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -293,31 +287,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @freakconfig [16]",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "BLaZE-fRA-64.BLaZECLOuD.sitE",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvkwss",
-                "headers": {
-                    "Host": "BLaZE-fRA-64.BLaZECLOuD.sitE"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
             "type": "vmess",
             "server": "khodaye.ranginkamaan.de",
@@ -403,45 +372,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "15.204.11.190",
-            "server_port": 15361,
-            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "118.107.244.80",
-            "server_port": 443,
+            "server": "183.236.51.36",
+            "server_port": 59003,
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "tls": {
-                "enabled": true,
-                "server_name": "www.17591301.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/path/170733132233",
-                "headers": {
-                    "Host": "www.17591301.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
-            "type": "vmess",
-            "server": "62.146.235.193",
-            "server_port": 28011,
-            "uuid": "cfc5a87f-3c13-4e25-b556-176cdd6b5c6a",
             "security": "auto",
             "alter_id": 0
         },

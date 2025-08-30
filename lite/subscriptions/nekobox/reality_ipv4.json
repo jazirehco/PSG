@@ -80,13 +80,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [17]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,13 +98,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [17]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +196,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [17]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "5.181.171.2",
             "server_port": 443,
@@ -336,7 +338,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "185.236.232.136",
             "server_port": 1001,
@@ -356,6 +358,33 @@
                     "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
                     "short_id": "5fab0deb"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "91.99.115.173",
+            "server_port": 443,
+            "uuid": "c2b6c0b6-28c3-4b2d-ad78-3398276c1ed4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snapp.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mEzwGx3LUXPR-sw8RFmlGM_ctzTwPlgq-mxku4wtBnc",
+                    "short_id": "c1"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Ki5km8BGk5eqaB0Q1qI"
             }
         }
     ],
