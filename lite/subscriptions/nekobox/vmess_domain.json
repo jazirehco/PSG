@@ -91,9 +91,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -116,9 +116,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -395,23 +395,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "planb.mojcn.com",
-            "server_port": 16645,
-            "uuid": "ecfcdfb0-2c8d-4c18-942d-180a265f378e",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇹🇼 TW | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "45.199.138.152",
             "server_port": 45886,
@@ -420,7 +404,7 @@
             "alter_id": 64
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "npmjs.com",
             "server_port": 8080,
@@ -432,6 +416,31 @@
                 "path": "/download/cdn",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "57.129.28.69",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
