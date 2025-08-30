@@ -112,8 +112,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇪🇸 ES | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
@@ -145,8 +144,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇪🇸 ES | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
@@ -556,7 +554,7 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🔓 VLESS | @turboo_server [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
             "type": "vless",
             "server": "turboo-server.sadafspace.com",
             "server_port": 80,
@@ -568,31 +566,6 @@
                 "path": "/--ping--www.speedtest.net?ed=2080",
                 "headers": {
                     "Host": "turboo-server.sadafspace.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [2]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8443,
-            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lease-17.access.name.ng",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "lease-17.access.name.ng"
                 }
             }
         },
