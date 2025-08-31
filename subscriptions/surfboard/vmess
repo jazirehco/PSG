@@ -10,11 +10,16 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14] = vmess, customers.tele-shop-too.studio, 33203, username = eaae52d7-bc1a-4979-bd66-b6b428107173, ws = false, tls = false
+🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [57] = vmess, 62.146.235.193, 28011, username = cfc5a87f-3c13-4e25-b556-176cdd6b5c6a, ws = false, tls = false
+🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [60] = vmess, 51.79.102.253, 80, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:""
+🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [61] = vmess, 216.173.69.250, 8443, username = 91382092-2330-455b-8a1c-9c129cfe661a, ws = true, tls = false, ws-path = /, ws-headers = Host:""
+🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [63] = vmess, 103.61.139.137, 20521, username = f8d93cfb-3d5d-447c-a697-16496dd74697, ws = true, tls = false, ws-path = /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN, ws-headers = Host:""
+🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [65] = vmess, 91.99.185.216, 20086, username = 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9, ws = true, tls = false, ws-path = /, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [57], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [60], 🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [61], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [63], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [65]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [57], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [60], 🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [61], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [63], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [65]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [57], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [60], 🇱🇻 LV | 🔓 VMESS | @NamiraConfigs [61], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [63], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [65]
 
 [Rule]
 GEOIP,IR,DIRECT
