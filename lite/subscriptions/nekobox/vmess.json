@@ -90,7 +90,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -112,7 +113,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -364,20 +366,38 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 8080,
-            "uuid": "6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03",
+            "server": "104.21.83.115",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/nasnet/cdn",
+                "path": "/link",
                 "headers": {
-                    "Host": "npmjs.com"
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "de.netwatchvpn.sbs",
+            "server_port": 44799,
+            "uuid": "d48de346-aaea-424a-9338-0049e1f1c865",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
