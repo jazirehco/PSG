@@ -100,7 +100,11 @@
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -131,7 +135,11 @@
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -579,6 +587,79 @@
                     "Host": "turboo-server.sadafspace.com"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "6389113402676776517.VtNeT.infO",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "6389113402676776517.VtNeT.infO"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "allll.primenet3.shop",
+            "server_port": 28157,
+            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "EVAY_VPN.fastly80.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/admin?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2048",
+                "headers": {
+                    "Host": "EVAY_VPN.fastly80.hosting-ip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "EVAY_VPN.fastly80.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
