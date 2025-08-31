@@ -97,7 +97,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
-                "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]"
+                "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,7 +114,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
-                "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]"
+                "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -338,6 +340,29 @@
                     "enabled": true,
                     "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
                     "short_id": "d3b13f31"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "allll.primenet3.shop",
+            "server_port": 28157,
+            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
                 }
             }
         }
