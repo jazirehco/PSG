@@ -87,14 +87,11 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
-                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]"
+                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -112,14 +109,11 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
-                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]"
+                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -324,15 +318,6 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
-            "type": "vless",
-            "server": "45.88.183.156",
-            "server_port": 12794,
-            "uuid": "08704c01-7edb-454a-98a2-328ccb9936fa",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [5]",
             "type": "vless",
             "server": "101reel.com",
@@ -422,38 +407,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "light-presence.oneeat.co",
-            "server_port": 80,
-            "uuid": "7e74ff43-3a90-48b3-8372-7d92a045c2d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "light-presence.oneeat.co"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK",
-            "server_port": 80,
-            "uuid": "9926ee97-4398-48dd-b263-2863c62f5c41",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK"
                 }
             }
         }

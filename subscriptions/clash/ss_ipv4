@@ -1,0 +1,95 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [61]","type":"ss","server":"144.126.146.38","port":30100,"password":"741ddced-e6ee-4175-9c1a-e524009f9045","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇾 CY | 🔒 SS | @NamiraConfigs [62]","type":"ss","server":"134.255.210.49","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [63]","type":"ss","server":"45.87.175.154","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]","type":"ss","server":"193.29.139.202","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇪🇸 ES | 🔒 SS | @NamiraConfigs [67]","type":"ss","server":"45.154.206.192","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇭 TH | 🔒 SS | @NamiraConfigs [68]","type":"ss","server":"119.59.98.58","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇮 SI | 🔒 SS | @NamiraConfigs [69]","type":"ss","server":"192.71.244.150","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [61]'
+      - '🇨🇾 CY | 🔒 SS | @NamiraConfigs [62]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [63]'
+      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]'
+      - '🇪🇸 ES | 🔒 SS | @NamiraConfigs [67]'
+      - '🇹🇭 TH | 🔒 SS | @NamiraConfigs [68]'
+      - '🇸🇮 SI | 🔒 SS | @NamiraConfigs [69]'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback

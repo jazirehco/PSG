@@ -114,9 +114,6 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
@@ -137,7 +134,10 @@
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -170,9 +170,6 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
@@ -193,7 +190,10 @@
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -664,54 +664,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "allll.primenet3.shop",
-            "server_port": 28157,
-            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.microsoft.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
-                    "short_id": "4c14"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "EVAY_VPN.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/admin?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2048",
-                "headers": {
-                    "Host": "EVAY_VPN.fastly80.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "EVAY_VPN.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
             "type": "vless",
             "server": "104.18.26.90",
@@ -1116,6 +1068,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "fix.ahwaz14.ir"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+            "type": "vless",
+            "server": "104.21.36.57",
+            "server_port": 443,
+            "uuid": "6f6e8f09-c1b3-48fd-ab00-18f921d875ef",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "profit.fullmargintraders.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/wsv/6f6e8f09-c1b3-48fd-ab00-18f921d875ef",
+                "headers": {
+                    "Host": "profit.fullmargintraders.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "2548709e-cce0-467b-cf3a-c39cd01a2d39",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 2052,
+            "uuid": "0ada1e8a-0d4b-481c-96e5-f0d2331b6a2a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "172.66.40.99"
+                }
             }
         }
     ],
