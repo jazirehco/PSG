@@ -95,7 +95,7 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [68]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🚩 CF | 🔒 VLESS | @freakconfig [18]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [17]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [11]",
@@ -112,8 +112,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -127,7 +126,7 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [68]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🚩 CF | 🔒 VLESS | @freakconfig [18]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [17]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [11]",
@@ -144,8 +143,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -273,7 +271,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [17]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
@@ -625,38 +623,25 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [18]",
             "type": "vless",
-            "server": "81.12.21.147",
-            "server_port": 443,
-            "uuid": "9ceb4327-952c-4d87-981c-d933bd81ced9",
-            "flow": "",
+            "server": "46.17.100.153",
+            "server_port": 21929,
+            "uuid": "4339007f-6132-4276-afd5-828a16a5a79f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "81.12.21.147",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [18]",
-            "type": "vless",
-            "server": "213.176.65.192",
-            "server_port": 443,
-            "uuid": "e11e467c-415c-4545-8973-f7d4cae6bccf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mehrab.mojtabajeab.ir",
-                "insecure": true,
-                "utls": {
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "public_key": "qAIXS8H9t650DC9msTecxrvhD4myn9wBvcZL4NlLcTQ",
+                    "short_id": "a6f7a9bc2aabe632"
                 }
             }
         }
