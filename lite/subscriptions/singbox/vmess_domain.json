@@ -102,7 +102,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇯🇵 JP | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇼 CW | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -124,7 +125,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇯🇵 JP | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇼 CW | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -372,16 +374,32 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇯🇵 JP | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "45.67.139.225",
-            "server_port": 20086,
-            "uuid": "d3928330-4050-47f6-9d1c-df1fd801c568",
+            "server": "47.79.41.14",
+            "server_port": 15924,
+            "uuid": "f50628ed-e568-4cde-eda8-3dce15edc1c1",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/f50628ed",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇼 CW | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "62.72.166.223",
+            "server_port": 8880,
+            "uuid": "2e4d9d7e-71e8-377b-a373-24b0dda38a04",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/dabai&Telegram🇨🇳@WangCai2/?ed=2560",
                 "headers": {
                     "Host": ""
                 }
