@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -108,15 +109,14 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
-                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,6 +128,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -143,15 +144,14 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
-                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -250,6 +250,22 @@
                 "path": "/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
                 "headers": {
                     "Host": "104.18.26.90"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "172.64.88.159",
+            "server_port": 80,
+            "uuid": "63d7714a-2ac5-46ac-93be-96cea00300f8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "172.64.88.159"
                 }
             }
         },
@@ -550,31 +566,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
-            "type": "vless",
-            "server": "95.164.6.214",
-            "server_port": 443,
-            "uuid": "03852aa6-db01-4137-972d-14ebfb202f09",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "95.164.6.214",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/kcknkyws",
-                "headers": {
-                    "Host": "95.164.6.214"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱 NL | 🔓 VLESS | @v2ray1_ng [2]",
             "type": "vless",
             "server": "83.149.105.62",
@@ -607,6 +598,31 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
+            "type": "vless",
+            "server": "15.236.15.145",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
                 }
             }
         },
@@ -683,32 +699,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "185.143.234.46",
-            "server_port": 443,
-            "uuid": "afbb6453-7b93-4a65-b824-4e1c17bfb4de",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "marz-vip.nikatel.store",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "marz-vip.nikatel.store"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "63.141.128.23",
             "server_port": 8080,
@@ -724,7 +715,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 2052,
