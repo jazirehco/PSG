@@ -84,9 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
-                "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
-                "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,9 +99,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
-                "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
-                "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -290,29 +286,6 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @v2ray1_ng [3]",
-            "type": "vless",
-            "server": "94.26.228.10",
-            "server_port": 443,
-            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.sfasti.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]",
             "type": "vless",
             "server": "ru-0017.vpnvezdehod.net",
@@ -332,29 +305,6 @@
                     "enabled": true,
                     "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
                     "short_id": "d3b13f31"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "allll.primenet3.shop",
-            "server_port": 28157,
-            "uuid": "3b82c3ef-d428-4a62-ae97-f53c305f883d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.microsoft.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
-                    "short_id": "4c14"
                 }
             }
         }

@@ -23,9 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [16]","type":"ss","server":"193.29.139.175","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [17]","type":"ss","server":"193.29.139.209","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @free1ss [18]","type":"ss","server":"165.227.110.123","port":16334,"password":"xuKf1gW8oJWrYtzyhpQLFo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [70]","type":"ss","server":"45.87.175.178","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [16]","type":"ss","server":"193.29.139.209","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @free1ss [17]","type":"ss","server":"165.227.110.123","port":16334,"password":"xuKf1gW8oJWrYtzyhpQLFo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [18]","type":"ss","server":"193.29.139.202","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪 SE | 🔒 SS | @kafing_2 [12]","type":"ss","server":"4.223.100.248","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @megavpn_link [12]","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 
@@ -41,9 +42,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [70]'
       - '🇳🇱 NL | 🔒 SS | @free1ss [16]'
-      - '🇳🇱 NL | 🔒 SS | @free1ss [17]'
-      - '🇺🇸 US | 🔒 SS | @free1ss [18]'
+      - '🇺🇸 US | 🔒 SS | @free1ss [17]'
+      - '🇳🇱 NL | 🔒 SS | @free1ss [18]'
       - '🇸🇪 SE | 🔒 SS | @kafing_2 [12]'
       - '🇬🇧 GB | 🔒 SS | @megavpn_link [12]'
 
