@@ -9,16 +9,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇳 IN | 🔒 SS | @free1ss [17] = ss, 139.59.3.113, 8841, encrypt-method = chacha20-ietf-poly1305, password = mQAOyDXrpzoyqUl9VLLRpF
-🇸🇬 SG | 🔒 SS | @free1ss [19] = ss, 167.71.206.112, 7337, encrypt-method = chacha20-ietf-poly1305, password = jr0poljsikbmVmwafCxiNR
-🇸🇪 SE | 🔒 SS | @kafing_2 [12] = ss, 4.223.100.248, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
+🇸🇬 SG | 🔒 SS | @free1ss [18] = ss, 167.71.206.112, 7337, encrypt-method = chacha20-ietf-poly1305, password = jr0poljsikbmVmwafCxiNR
+🇳🇱 NL | 🔒 SS | @free1ss [19] = ss, 193.29.139.206, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇸🇪 SE | 🔒 SS | @kafing_2 [11] = ss, 4.223.100.248, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇦🇹 AT | 🔒 SS | @outline_ir [17] = ss, promo6v.bystrivpn.ru, 443, encrypt-method = chacha20-ietf-poly1305, password = 9JeYy8SkViXuSHVs9GFeSe
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇳 IN | 🔒 SS | @free1ss [17], 🇸🇬 SG | 🔒 SS | @free1ss [19], 🇸🇪 SE | 🔒 SS | @kafing_2 [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @outline_ir [17]
-PSG-AUTO = url-test, 🇮🇳 IN | 🔒 SS | @free1ss [17], 🇸🇬 SG | 🔒 SS | @free1ss [19], 🇸🇪 SE | 🔒 SS | @kafing_2 [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @outline_ir [17]
-PSG-FALLBACK = fallback, 🇮🇳 IN | 🔒 SS | @free1ss [17], 🇸🇬 SG | 🔒 SS | @free1ss [19], 🇸🇪 SE | 🔒 SS | @kafing_2 [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @outline_ir [17]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇸🇬 SG | 🔒 SS | @free1ss [18], 🇳🇱 NL | 🔒 SS | @free1ss [19], 🇸🇪 SE | 🔒 SS | @kafing_2 [11], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @outline_ir [17]
+PSG-AUTO = url-test, 🇸🇬 SG | 🔒 SS | @free1ss [18], 🇳🇱 NL | 🔒 SS | @free1ss [19], 🇸🇪 SE | 🔒 SS | @kafing_2 [11], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @outline_ir [17]
+PSG-FALLBACK = fallback, 🇸🇬 SG | 🔒 SS | @free1ss [18], 🇳🇱 NL | 🔒 SS | @free1ss [19], 🇸🇪 SE | 🔒 SS | @kafing_2 [11], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @outline_ir [17]
 
 [Rule]
 GEOIP,IR,DIRECT
