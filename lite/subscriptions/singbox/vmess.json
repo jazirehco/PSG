@@ -102,7 +102,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇰🇷 KR | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -124,7 +125,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇰🇷 KR | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -372,13 +374,45 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇰🇷 KR | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "15.204.234.200",
-            "server_port": 41100,
-            "uuid": "c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4",
+            "server": "61.84.74.108",
+            "server_port": 30017,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/obdii.cfd:443/linkws",
+                "headers": {
+                    "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "v39.heduian.link",
+            "server_port": 30839,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/oooo",
+                "headers": {
+                    "Host": "v39.heduian.link"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
