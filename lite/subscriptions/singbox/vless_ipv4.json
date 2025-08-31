@@ -113,9 +113,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -147,9 +146,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -643,41 +641,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
-            "server": "104.21.36.57",
-            "server_port": 443,
-            "uuid": "6f6e8f09-c1b3-48fd-ab00-18f921d875ef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "profit.fullmargintraders.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/wsv/6f6e8f09-c1b3-48fd-ab00-18f921d875ef",
-                "headers": {
-                    "Host": "profit.fullmargintraders.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "2548709e-cce0-467b-cf3a-c39cd01a2d39",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 2052,
@@ -691,6 +655,15 @@
                     "Host": "172.66.40.99"
                 }
             }
+        },
+        {
+            "tag": "🇸🇰 SK | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "5.35.103.218",
+            "server_port": 2083,
+            "uuid": "5387e11e-4c30-485b-b4e3-c9d70a8573a0",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
