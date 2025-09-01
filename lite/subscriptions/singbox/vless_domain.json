@@ -93,12 +93,14 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [66]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [20]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -111,9 +113,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
-                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -125,12 +125,14 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [66]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [20]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -143,9 +145,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
-                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -250,18 +250,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "light-presence.oneeat.co",
+            "server": "pq-unitedstates3.09vpn.com",
             "server_port": 80,
-            "uuid": "7e74ff43-3a90-48b3-8372-7d92a045c2d4",
+            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "pq-unitedstates3.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
+            "type": "vless",
+            "server": "elegant-corporation.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "light-presence.oneeat.co"
+                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
                 }
             }
         },
@@ -362,6 +378,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "allnet.deragv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [20]",
+            "type": "vless",
+            "server": "wa.sfasti.ru",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
             }
         },
@@ -580,38 +619,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "6389113402676776517.VtNeT.infO"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_free_conf [19]",
-            "type": "vless",
-            "server": "fina.iranbuildings.com",
-            "server_port": 8444,
-            "uuid": "ac083fa9-df9a-4722-b70d-24c17bef0516",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]",
-            "type": "vless",
-            "server": "wa.sfasti.ru",
-            "server_port": 443,
-            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "wa.sfasti.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
                 }
             }
         }

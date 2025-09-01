@@ -24,6 +24,15 @@ dns:
 
 proxies: 
   - {"name":"🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦 CA | 🔒 SS | @NamiraConfigs [54]","type":"ss","server":"64.74.163.130","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇮 SI | 🔒 SS | @NamiraConfigs [55]","type":"ss","server":"192.71.244.150","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇪 PE | 🔒 SS | @NamiraConfigs [56]","type":"ss","server":"185.47.252.251","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [57]","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]","type":"ss","server":"beesyar.org","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [61]","type":"trojan","server":"ca-full.privateip.net","port":443,"password":"99c63d3a-4499-4a5b-aad6-826a6851f304","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [62]","type":"trojan","server":"on-roughy.shiner427.skin","port":443,"password":"74260704627805900","skip-cert-verify":false}
+  - {"name":"🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [63]","type":"trojan","server":"94.131.20.3","port":443,"password":"3482c71a-d01c-4ae5-b454-fa8cb3785f66","skip-cert-verify":false}
+  - {"name":"🚩 CF | 🔓 TROJAN | @NamiraConfigs [64]","type":"trojan","server":"108.162.196.69","port":443,"password":"4b040268-f3a5-4136-b1a9-506012e8e3d9","skip-cert-verify":false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +47,15 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]'
+      - '🇨🇦 CA | 🔒 SS | @NamiraConfigs [54]'
+      - '🇸🇮 SI | 🔒 SS | @NamiraConfigs [55]'
+      - '🇵🇪 PE | 🔒 SS | @NamiraConfigs [56]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [57]'
+      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]'
+      - '🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [61]'
+      - '🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [62]'
+      - '🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [63]'
+      - '🚩 CF | 🔓 TROJAN | @NamiraConfigs [64]'
 
   - name: 🌍 Global Media
     type: select
