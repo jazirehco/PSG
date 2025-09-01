@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -103,7 +104,6 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇬🇧 GB | 🔒 VLESS | @outline_ir [17]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -125,6 +125,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -135,7 +136,6 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇬🇧 GB | 🔒 VLESS | @outline_ir [17]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -246,6 +246,22 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "light-presence.oneeat.co",
+            "server_port": 80,
+            "uuid": "7e74ff43-3a90-48b3-8372-7d92a045c2d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "light-presence.oneeat.co"
                 }
             }
         },
@@ -455,29 +471,6 @@
                 "path": "/@n2vpn",
                 "headers": {
                     "Host": "n2vpn.projectis.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @outline_ir [17]",
-            "type": "vless",
-            "server": "eng14.netliberated.org",
-            "server_port": 443,
-            "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.halfords.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
                 }
             }
         },
