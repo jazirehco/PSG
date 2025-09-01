@@ -98,7 +98,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇬🇧 GB | 🔒 VLESS | @outline_ir [17]",
-                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,7 +115,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🇬🇧 GB | 🔒 VLESS | @outline_ir [17]",
-                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -344,20 +344,20 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [18]",
             "type": "vless",
-            "server": "ru.sfasti.ru",
+            "server": "wa.sfasti.ru",
             "server_port": 443,
-            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ru.sfasti.ru",
+                "server_name": "wa.sfasti.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,

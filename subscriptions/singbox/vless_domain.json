@@ -97,11 +97,9 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [63]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [64]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -117,11 +115,9 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [63]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [64]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -301,100 +297,50 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "pq-unitedstates3.09vpn.com",
-            "server_port": 80,
-            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "pq-unitedstates3.09vpn.com"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
             "type": "vless",
-            "server": "elegant-corporation.seotoolsforyou.co.uk",
+            "server": "dedicated-development.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
+            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
+                    "Host": "dedicated-development.seotoolsforyou.co.uk"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
             "type": "vless",
-            "server": "tttttttttttt.222769.xyz",
-            "server_port": 443,
-            "uuid": "2e65577e-8fdb-4bb1-a495-96f3122099a7",
+            "server": "www.speedtest.net.cdn.cloudflare.net",
+            "server_port": 8080,
+            "uuid": "813d7c7e-d2ea-460f-9bf7-e6fa6a073b67",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ttTttttTTTTT.222769.xYz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/sMrAaoCaOSZb9TPR",
+                "path": "/?ed=2048",
                 "headers": {
-                    "Host": "ttTttttTTTTT.222769.xYz"
+                    "Host": "www.speedtest.net.cdn.cloudflare.net"
                 }
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [63]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [61]",
             "type": "vless",
-            "server": "meli1.dashvili.ir",
+            "server": "wild-bird.seotoolsforyou.co.uk",
             "server_port": 80,
-            "uuid": "f5f2458c-5fcb-4820-82c2-2997492c54d5",
+            "uuid": "1d0dfde1-9f18-4557-9af8-4f3124ee5dcd",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "meli1.dashvili.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "ov-germany6.09vpn.com",
-            "server_port": 8443,
-            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ov-germany6.09vpn.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "ov-germany6.09vpn.com"
+                    "Host": "wild-bird.seotoolsforyou.co.uk"
                 }
             }
         }
