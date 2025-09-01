@@ -93,8 +93,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [69]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [69]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,8 +108,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [69]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [69]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -203,7 +207,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [69]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
+            "type": "vmess",
+            "server": "15.204.11.190",
+            "server_port": 15361,
+            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [68]",
             "type": "vmess",
             "server": "45.67.230.79",
             "server_port": 11052,
@@ -212,7 +225,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [70]",
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [69]",
             "type": "vmess",
             "server": "104.18.149.76",
             "server_port": 443,
@@ -233,6 +246,22 @@
                 "path": "/aa",
                 "headers": {
                     "Host": "us.kkp.me.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]",
+            "type": "vmess",
+            "server": "51.79.102.253",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
