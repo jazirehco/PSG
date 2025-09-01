@@ -113,7 +113,6 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [69]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [20]",
@@ -134,9 +133,9 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -168,7 +167,6 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [69]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
                 "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [20]",
@@ -189,9 +187,9 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -653,15 +651,6 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "45.88.183.156",
-            "server_port": 12794,
-            "uuid": "08704c01-7edb-454a-98a2-328ccb9936fa",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -1071,23 +1060,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 2052,
-            "uuid": "a3570d6b-a91a-4fd3-9077-5f77f631b5fd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
-                "headers": {
-                    "Host": "172.66.40.99"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "91.99.70.212",
             "server_port": 443,
@@ -1114,7 +1087,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "198.62.62.2",
             "server_port": 443,
@@ -1137,6 +1110,15 @@
                     "Host": "smn2.gerlemondns.info"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "13e26aa4-3b8f-44ea-b172-656bb7c17caa",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
