@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -91,8 +92,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [18]",
-                "🇬🇧 GB | 🔒 VLESS | @outline_ir [20]",
+                "🇬🇧 GB | 🔒 VLESS | @outline_ir [19]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -101,8 +101,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇷🇺 RU | 🔒 VLESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,6 +115,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -124,8 +126,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [18]",
-                "🇬🇧 GB | 🔒 VLESS | @outline_ir [20]",
+                "🇬🇧 GB | 🔒 VLESS | @outline_ir [19]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -134,8 +135,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇷🇺 RU | 🔒 VLESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -240,6 +242,31 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ov-germany6.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "ov-germany6.09vpn.com"
                 }
             }
         },
@@ -453,23 +480,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [18]",
-            "type": "vless",
-            "server": "grumpy-building.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "935c990a-9bcc-484b-86a2-2a402f9ad1d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "grumpy-building.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @outline_ir [20]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @outline_ir [19]",
             "type": "vless",
             "server": "eng14.netliberated.org",
             "server_port": 443,
@@ -601,16 +612,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2ray_free_conf [20]",
             "type": "vless",
-            "server": "allll.primenet3.shop",
-            "server_port": 28157,
-            "uuid": "2ec8a6f9-8173-4573-905a-511441373cb0",
+            "server": "ru-0017.vpnvezdehod.net",
+            "server_port": 443,
+            "uuid": "ce9751a0-fee7-402a-a887-bdc5f7bd1093",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.microsoft.com",
+                "server_name": "hls-svod.itunes.apple.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -618,31 +629,40 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
-                    "short_id": "4c14"
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
                 }
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
-            "server": "allll.primenet3.shop",
-            "server_port": 3041,
-            "uuid": "2ec8a6f9-8173-4573-905a-511441373cb0",
-            "flow": "xtls-rprx-vision",
+            "server": "GrOUNdED-brotHER.SeoToolSFOryOu.co.uK",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
-                    "short_id": "4c14"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "GrOUNdED-brotHER.SeoToolSFOryOu.co.uK"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
                 }
             }
         }
