@@ -101,15 +101,16 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @freakconfig [17]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [18]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
-                "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
+                "🚩 CF | 🔒 VLESS | @kafing_2 [8]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🚩 CF | 🔓 VLESS | @kkkkkoabvbbvbvv [12]",
                 "🚩 CF | 🔒 VLESS | @kkkkkoabvbbvbvv [13]",
@@ -123,7 +124,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -155,15 +156,16 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [4]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @freakconfig [17]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [18]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
-                "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
+                "🚩 CF | 🔒 VLESS | @kafing_2 [8]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🚩 CF | 🔓 VLESS | @kkkkkoabvbbvbvv [12]",
                 "🚩 CF | 🔒 VLESS | @kkkkkoabvbbvbvv [13]",
@@ -177,7 +179,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -643,27 +645,48 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
             "type": "vless",
-            "server": "aio.xtradata.dpdns.org",
-            "server_port": 443,
-            "uuid": "f282b878-8711-45a1-8c69-5564172123c1",
-            "flow": "",
+            "server": "allll.primenet3.shop",
+            "server_port": 28157,
+            "uuid": "2ec8a6f9-8173-4573-905a-511441373cb0",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "aio.xtradata.dpdns.org",
+                "server_name": "www.microsoft.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/aioproxybot/129.150.49.58-18650",
-                "headers": {
-                    "Host": "aio.xtradata.dpdns.org"
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "allll.primenet3.shop",
+            "server_port": 3041,
+            "uuid": "2ec8a6f9-8173-4573-905a-511441373cb0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
                 }
             }
         },
@@ -696,29 +719,6 @@
                 "path": "/download?ed=2048",
                 "headers": {
                     "Host": "151.101.3.8"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [16]",
-            "type": "vless",
-            "server": "78.47.216.178",
-            "server_port": 8443,
-            "uuid": "3668c58e-63f9-41d9-af93-ea4eaefde81b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
-                    "short_id": "27e6b66aa77662fb"
                 }
             }
         },
@@ -764,6 +764,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [19]",
+            "type": "vless",
+            "server": "194.55.235.202",
+            "server_port": 443,
+            "uuid": "5a519368-9dbb-4ab4-8967-a30fb39a8881",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mega.io",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2KRLht-me2Je8FrYcUUv8OJ3_xoT8KMCurzwfDZcvCk",
+                    "short_id": "2c709739f487"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
             "type": "vless",
             "server": "92.114.24.92",
@@ -782,7 +805,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
+            "tag": "🚩 CF | 🔒 VLESS | @kafing_2 [8]",
             "type": "vless",
             "server": "190.93.246.246",
             "server_port": 8443,
@@ -1091,29 +1114,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
+            "server": "188.245.39.111",
+            "server_port": 248,
+            "uuid": "2ec8a6f9-8173-4573-905a-511441373cb0",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bSo.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "bSo.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
