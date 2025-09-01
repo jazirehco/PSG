@@ -102,7 +102,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -124,7 +126,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -372,13 +376,47 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
             "uuid": "bacbaac-caba-cbaa-dcab-acbbbccbaaca",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "168.119.107.162",
+            "server_port": 31484,
+            "uuid": "943961b8-4e27-4bdf-a048-c2f724f542fb",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "rokna.itn24.ir",
+            "server_port": 8443,
+            "uuid": "971f8a6f-a4e6-49d9-842e-9857c4d31549",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "rokna.itn24.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/🆔@M3HDIO1",
+                "headers": {
+                    "Host": "rokna.itn24.ir"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
