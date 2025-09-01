@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU1M=
+//profile-title: base64:UFNHIHwgWEhUVFBfSVBWNA==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]",
-                "🇹🇷 TR | 🔒 SS | @NamiraConfigs [57]",
-                "🇸🇮 SI | 🔒 SS | @NamiraConfigs [58]"
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]",
-                "🇹🇷 TR | 🔒 SS | @NamiraConfigs [57]",
-                "🇸🇮 SI | 🔒 SS | @NamiraConfigs [58]"
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,28 +190,22 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]",
-            "type": "shadowsocks",
-            "server": "103.104.247.45",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 SS | @NamiraConfigs [57]",
-            "type": "shadowsocks",
-            "server": "193.46.56.185",
-            "server_port": 6683,
-            "method": "chacha20-ietf-poly1305",
-            "password": "iw8GoN42dciNxDBd0RwAdL"
-        },
-        {
-            "tag": "🇸🇮 SI | 🔒 SS | @NamiraConfigs [58]",
-            "type": "shadowsocks",
-            "server": "192.71.244.150",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [20]",
+            "type": "vless",
+            "server": "139.162.145.100",
+            "server_port": 443,
+            "uuid": "697eabfd-653c-4da2-8b3f-b4806e0b60aa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "139.162.145.100",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

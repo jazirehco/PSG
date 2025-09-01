@@ -80,11 +80,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔒 VLESS | @freakconfig [19]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]"
+                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -95,11 +96,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔒 VLESS | @freakconfig [19]",
+                "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]"
+                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +192,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [19]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @freakconfig [18]",
             "type": "vless",
             "server": "194.55.235.202",
             "server_port": 443,
@@ -306,6 +308,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "91.99.70.212",
+            "server_port": 443,
+            "uuid": "bd1ccdd4-a1fe-4f37-c3dd-eaab85923eb8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Zjzu45fPTjjaIcBoYyaLqieLtsWJD8ujdzNOQodWvnk",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM----------@VPN_ROOM--------@VPN_ROOM"
             }
         }
     ],
