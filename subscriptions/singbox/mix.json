@@ -102,12 +102,15 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [70]"
+                "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔓 VMESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔓 VMESS | @NamiraConfigs [57]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [59]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [60]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,12 +131,15 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [70]"
+                "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔓 VMESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔓 VMESS | @NamiraConfigs [57]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [59]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [60]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -361,80 +367,64 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]",
+            "tag": "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55]",
             "type": "vmess",
-            "server": "15.204.11.190",
-            "server_port": 15361,
-            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
+            "server": "62.146.235.193",
+            "server_port": 28011,
+            "uuid": "cfc5a87f-3c13-4e25-b556-176cdd6b5c6a",
             "security": "auto",
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "creativE-coMPUter.Oneeat.Co",
-            "server_port": 80,
-            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🚩 CF | 🔓 VMESS | @NamiraConfigs [56]",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "d3m1xvk50k",
+            "security": "auto",
+            "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/download/cdn",
                 "headers": {
-                    "Host": "creativE-coMPUter.Oneeat.Co"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-            "type": "vless",
-            "server": "FruItfUl-exchANgE.SeotOolsFORYoU.cO.Uk",
-            "server_port": 80,
-            "uuid": "9570a079-f83f-4454-88d0-884057c57a35",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🚩 CF | 🔓 VMESS | @NamiraConfigs [57]",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/NASNET/cdn",
                 "headers": {
-                    "Host": "FruItfUl-exchANgE.SeotOolsFORYoU.cO.Uk"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-            "type": "vless",
-            "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58]",
+            "type": "vmess",
+            "server": "51.79.102.253",
             "server_port": 80,
-            "uuid": "935c990a-9bcc-484b-86a2-2a402f9ad1d4",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
                 "headers": {
-                    "Host": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK",
-            "server_port": 80,
-            "uuid": "9926ee97-4398-48dd-b263-2863c62f5c41",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [70]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [59]",
             "type": "vmess",
             "server": "91.99.185.216",
             "server_port": 20086,
@@ -448,6 +438,39 @@
                     "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [60]",
+            "type": "vmess",
+            "server": "51.79.86.182",
+            "server_port": 42610,
+            "uuid": "e0957ca6-f613-4017-ff3c-effd1da8871a",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
+            "type": "shadowsocks",
+            "server": "45.87.175.10",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]",
+            "type": "shadowsocks",
+            "server": "193.29.139.202",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [67]",
+            "type": "shadowsocks",
+            "server": "45.87.175.164",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg"
         }
     ],
     "route": {
