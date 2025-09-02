@@ -9,14 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🚩 CF | 🔓 TROJAN | @NamiraConfigs [66] = trojan, 141.101.120.10, 443, password = 4b040268-f3a5-4136-b1a9-506012e8e3d9, skip-cert-verify = false
 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19] = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
 🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18] = trojan, 3.122.89.11, 22223, password = telegram-id-directvpn, skip-cert-verify = false
 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19] = trojan, 13.39.55.68, 22223, password = telegram-id-directvpn, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]
-PSG-AUTO = url-test, 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]
-PSG-FALLBACK = fallback, 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔓 TROJAN | @NamiraConfigs [66], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]
+PSG-AUTO = url-test, 🚩 CF | 🔓 TROJAN | @NamiraConfigs [66], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]
+PSG-FALLBACK = fallback, 🚩 CF | 🔓 TROJAN | @NamiraConfigs [66], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]
 
 [Rule]
 GEOIP,IR,DIRECT
