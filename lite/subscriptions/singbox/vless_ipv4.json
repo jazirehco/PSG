@@ -93,8 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [70]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [20]",
-                "🇯🇵 JP | 🔓 VLESS | @free1ss [12]",
+                "🇯🇵 JP | 🔓 VLESS | @free1ss [11]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -104,6 +105,7 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
+                "🇺🇸 US | 🔒 VLESS | @outline_ir [18]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
@@ -123,8 +125,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [70]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [20]",
-                "🇯🇵 JP | 🔓 VLESS | @free1ss [12]",
+                "🇯🇵 JP | 🔓 VLESS | @free1ss [11]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -134,6 +137,7 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
+                "🇺🇸 US | 🔒 VLESS | @outline_ir [18]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
@@ -244,6 +248,15 @@
             }
         },
         {
+            "tag": "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "109.120.132.142",
+            "server_port": 40617,
+            "uuid": "d8d05386-e381-40a4-bb63-715c208b3ed3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @freakconfig [20]",
             "type": "vless",
             "server": "172.67.74.104",
@@ -269,7 +282,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔓 VLESS | @free1ss [12]",
+            "tag": "🇯🇵 JP | 🔓 VLESS | @free1ss [11]",
             "type": "vless",
             "server": "172.111.146.64",
             "server_port": 8443,
@@ -440,6 +453,29 @@
             "uuid": "4cd9af1f-7362-4a67-a0ac-d298ea1aa1c7",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @outline_ir [18]",
+            "type": "vless",
+            "server": "5.181.171.2",
+            "server_port": 443,
+            "uuid": "a87bf8a2-17a4-3054-b51e-876b5f1d0f24",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
