@@ -81,10 +81,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
+                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [70]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [18]",
-                "🇯🇵 JP | 🔓 VLESS | @free1ss [14]",
+                "🇯🇵 JP | 🔓 VLESS | @free1ss [13]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -101,8 +100,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [7]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,10 +112,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
+                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [70]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [18]",
-                "🇯🇵 JP | 🔓 VLESS | @free1ss [14]",
+                "🇯🇵 JP | 🔓 VLESS | @free1ss [13]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -134,8 +131,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [7]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -242,29 +238,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [59]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [70]",
             "type": "vless",
-            "server": "172.234.221.94",
-            "server_port": 56224,
-            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
+            "server": "109.120.132.142",
+            "server_port": 40617,
+            "uuid": "d8d05386-e381-40a4-bb63-715c208b3ed3",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "be05581d-a8f4-42f4-b8ab-7e8f438ec290",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/download?ed=2048",
-                "headers": {
-                    "Host": "151.101.3.8"
-                }
-            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @freakconfig [18]",
@@ -294,7 +274,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔓 VLESS | @free1ss [14]",
+            "tag": "🇯🇵 JP | 🔓 VLESS | @free1ss [13]",
             "type": "vless",
             "server": "172.111.146.64",
             "server_port": 8443,
@@ -652,31 +632,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "fix.ahwaz14.ir"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "13.38.193.247",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
             }
         }
     ],
