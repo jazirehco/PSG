@@ -99,12 +99,16 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [50]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -122,12 +126,16 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [5]",
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [50]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -328,6 +336,38 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "178.162.245.230",
+            "server_port": 2052,
+            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "178.162.245.230"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "141.95.52.109",
+            "server_port": 80,
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "141.95.52.109"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [5]",
             "type": "vless",
             "server": "101reel.com",
@@ -421,18 +461,50 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
+            "server": "pq-unitedstates3.09vpn.com",
             "server_port": 80,
-            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
+            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "pq-unitedstates3.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
+            "type": "vless",
+            "server": "elegant-corporation.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
+                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "communal-loss.oneeat.co",
+            "server_port": 80,
+            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "communal-loss.oneeat.co"
                 }
             }
         }

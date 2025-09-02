@@ -81,8 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🚩 CF | 🔒 VLESS | @freakconfig [20]",
-                "🇯🇵 JP | 🔓 VLESS | @free1ss [11]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [19]",
+                "🚩 CF | 🔓 VLESS | @freakconfig [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -101,7 +101,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,8 +114,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🚩 CF | 🔒 VLESS | @freakconfig [20]",
-                "🇯🇵 JP | 🔓 VLESS | @free1ss [11]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [19]",
+                "🚩 CF | 🔓 VLESS | @freakconfig [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -133,7 +134,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -240,7 +242,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [20]",
+            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [19]",
             "type": "vless",
             "server": "172.67.74.104",
             "server_port": 443,
@@ -265,13 +267,20 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔓 VLESS | @free1ss [11]",
+            "tag": "🚩 CF | 🔓 VLESS | @freakconfig [20]",
             "type": "vless",
-            "server": "172.111.146.64",
-            "server_port": 8443,
-            "uuid": "ba7db25a-4713-4b0a-a2e6-c1032373dfda",
+            "server": "188.114.97.1",
+            "server_port": 80,
+            "uuid": "18af2c68-edb3-4224-b8cb-5c7b42450a36",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560",
+                "headers": {
+                    "Host": "188.114.97.1"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -649,7 +658,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 2052,
@@ -663,6 +672,15 @@
                     "Host": "172.66.40.99"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "165.227.149.23",
+            "server_port": 49968,
+            "uuid": "45471789-5063-4721-949a-7d3fdaa07b9f",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
