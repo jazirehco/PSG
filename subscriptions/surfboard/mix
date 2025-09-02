@@ -10,17 +10,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14] = vmess, customers.tele-shop-too.studio, 33203, username = eaae52d7-bc1a-4979-bd66-b6b428107173, ws = false, tls = false
-🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55] = vmess, 62.146.235.193, 28011, username = cfc5a87f-3c13-4e25-b556-176cdd6b5c6a, ws = false, tls = false
-🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58] = vmess, 51.79.102.253, 80, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:""
-🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [59] = vmess, 91.99.185.216, 20086, username = 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9, ws = true, tls = false, ws-path = /, ws-headers = Host:""
-🇺🇸 US | 🔒 SS | @NamiraConfigs [61] = ss, 45.87.175.10, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇳🇱 NL | 🔒 SS | @NamiraConfigs [65] = ss, 193.29.139.202, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇺🇸 US | 🔒 SS | @NamiraConfigs [67] = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [59], 🇺🇸 US | 🔒 SS | @NamiraConfigs [61], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [67]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [59], 🇺🇸 US | 🔒 SS | @NamiraConfigs [61], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [67]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [59], 🇺🇸 US | 🔒 SS | @NamiraConfigs [61], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [67]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
 
 [Rule]
 GEOIP,IR,DIRECT
