@@ -90,8 +90,6 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -113,8 +111,6 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -363,40 +359,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "45.67.230.79",
-            "server_port": 11052,
-            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "23.162.200.227",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "23.162.200.227",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "23.162.200.227"
-                }
             }
         },
         {

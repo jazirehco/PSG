@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -100,7 +99,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -112,7 +112,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "🇱🇹 LT | 🔓 VLESS | @dargiiriis [3]",
@@ -131,7 +130,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -236,22 +236,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "handsome-device.oneeat.co",
-            "server_port": 80,
-            "uuid": "2ad87f95-7a0b-4018-8497-5ecaac2f0ddf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "handsome-device.oneeat.co"
                 }
             }
         },
@@ -595,6 +579,15 @@
                     "Host": "6389113402676776517.VtNeT.infO"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "fad93457-35f3-4f1d-a4ad-c4be5b6d7124",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
