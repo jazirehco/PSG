@@ -135,7 +135,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -189,7 +190,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1089,7 +1091,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "185.250.181.128",
             "server_port": 16106,
@@ -1108,6 +1110,22 @@
                     "enabled": true,
                     "public_key": "FnkrwrjQqktvwxPvLn7KyWZIq8bUAvVaeCrI_VhAZ34",
                     "short_id": "3b6239cf6fd84dd3"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 2052,
+            "uuid": "eafc3326-9b4f-444b-8c31-efdb0ee11577",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "headers": {
+                    "Host": "172.66.40.99"
                 }
             }
         }

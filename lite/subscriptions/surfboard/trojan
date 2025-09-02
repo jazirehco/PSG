@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇬🇧 GB | 🔓 TROJAN | @free1ss [11] = trojan, 51.195.255.103, 8443, password = 1ce1df7962f71c6f, skip-cert-verify = false
 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19] = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
+🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20] = trojan, 51.44.116.6, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🔓 TROJAN | @free1ss [11], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]
-PSG-AUTO = url-test, 🇬🇧 GB | 🔓 TROJAN | @free1ss [11], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]
-PSG-FALLBACK = fallback, 🇬🇧 GB | 🔓 TROJAN | @free1ss [11], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🔓 TROJAN | @free1ss [11], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]
+PSG-AUTO = url-test, 🇬🇧 GB | 🔓 TROJAN | @free1ss [11], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🔓 TROJAN | @free1ss [11], 🇫🇷 FR | 🔒 TROJAN | @proxyfn [19], 🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [20]
 
 [Rule]
 GEOIP,IR,DIRECT
