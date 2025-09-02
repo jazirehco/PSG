@@ -9,21 +9,17 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦 CA | 🔒 SS | @NamiraConfigs [56] = ss, 64.74.163.130, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇨🇴 CO | 🔒 SS | @NamiraConfigs [57] = ss, 181.119.30.20, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇫🇮 FI | 🔒 SS | @NamiraConfigs [58] = ss, 83.147.216.70, 64519, encrypt-method = chacha20-ietf-poly1305, password = YXgS8ComTam7qoesPlzlMo
-🇵🇪 PE | 🔒 SS | @NamiraConfigs [59] = ss, 185.47.252.251, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇸🇮 SI | 🔒 SS | @NamiraConfigs [60] = ss, 192.71.244.150, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇳🇱 NL | 🔒 SS | @NamiraConfigs [62] = ss, 193.29.139.235, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇺🇸 US | 🔒 SS | @NamiraConfigs [63] = ss, 45.87.175.154, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🇺🇸 US | 🔒 SS | @NamiraConfigs [64] = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🇺🇸 US | 🔒 SS | @NamiraConfigs [65] = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🇺🇸 US | 🔒 SS | @NamiraConfigs [61] = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇩🇪 DE | 🔒 SS | @NamiraConfigs [56] = ss, 51.195.119.47, 1080, encrypt-method = chacha20-ietf-poly1305, password = qXvO7zYU7KeaB0Md7DQLow
+🇺🇸 US | 🔒 SS | @NamiraConfigs [57] = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇨🇿 CZ | 🔒 SS | @NamiraConfigs [60] = ss, 195.181.160.6, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇳🇱 NL | 🔒 SS | @NamiraConfigs [62] = ss, 193.29.139.177, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇩🇪 DE | 🔒 SS | @NamiraConfigs [63] = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = 3TnQdgm2mVJQbuSCXmR5Vc
+🇨🇴 CO | 🔒 SS | @NamiraConfigs [64] = ss, 181.119.30.20, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [56], 🇨🇴 CO | 🔒 SS | @NamiraConfigs [57], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [58], 🇵🇪 PE | 🔒 SS | @NamiraConfigs [59], 🇸🇮 SI | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [62], 🇺🇸 US | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [64], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [61]
-PSG-AUTO = url-test, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [56], 🇨🇴 CO | 🔒 SS | @NamiraConfigs [57], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [58], 🇵🇪 PE | 🔒 SS | @NamiraConfigs [59], 🇸🇮 SI | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [62], 🇺🇸 US | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [64], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [61]
-PSG-FALLBACK = fallback, 🇨🇦 CA | 🔒 SS | @NamiraConfigs [56], 🇨🇴 CO | 🔒 SS | @NamiraConfigs [57], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [58], 🇵🇪 PE | 🔒 SS | @NamiraConfigs [59], 🇸🇮 SI | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [62], 🇺🇸 US | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [64], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [61]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 SS | @NamiraConfigs [56], 🇺🇸 US | 🔒 SS | @NamiraConfigs [57], 🇨🇿 CZ | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [62], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [63], 🇨🇴 CO | 🔒 SS | @NamiraConfigs [64]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔒 SS | @NamiraConfigs [56], 🇺🇸 US | 🔒 SS | @NamiraConfigs [57], 🇨🇿 CZ | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [62], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [63], 🇨🇴 CO | 🔒 SS | @NamiraConfigs [64]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 SS | @NamiraConfigs [56], 🇺🇸 US | 🔒 SS | @NamiraConfigs [57], 🇨🇿 CZ | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [62], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [63], 🇨🇴 CO | 🔒 SS | @NamiraConfigs [64]
 
 [Rule]
 GEOIP,IR,DIRECT
