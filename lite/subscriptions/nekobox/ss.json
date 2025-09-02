@@ -80,13 +80,16 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
-                "🇨🇦 CA | 🔒 SS | @free1ss [12]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [60]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [10]",
+                "🇨🇦 CA | 🔒 SS | @free1ss [11]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [11]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
                 "🇫🇮 FI | 🔒 SS | @outline_ir [18]",
                 "🇹🇭 TH | 🔒 SS | @outline_ir [19]",
-                "🇱🇻 LV | 🔒 SS | @v2ray1_ng [8]"
+                "🇱🇻 LV | 🔒 SS | @v2ray1_ng [8]",
+                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,13 +100,16 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
-                "🇨🇦 CA | 🔒 SS | @free1ss [12]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [60]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [10]",
+                "🇨🇦 CA | 🔒 SS | @free1ss [11]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [11]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
                 "🇫🇮 FI | 🔒 SS | @outline_ir [18]",
                 "🇹🇭 TH | 🔒 SS | @outline_ir [19]",
-                "🇱🇻 LV | 🔒 SS | @v2ray1_ng [8]"
+                "🇱🇻 LV | 🔒 SS | @v2ray1_ng [8]",
+                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +200,23 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [11]",
+            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [60]",
+            "type": "shadowsocks",
+            "server": "45.87.175.154",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
+            "type": "shadowsocks",
+            "server": "45.87.175.199",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1RWwXhwfAB5gAEozU4G2Pg"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [10]",
             "type": "shadowsocks",
             "server": "193.29.139.157",
             "server_port": 8080,
@@ -202,7 +224,7 @@
             "password": "cvII85TrW6n0OGyfpHVS1u"
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @free1ss [12]",
+            "tag": "🇨🇦 CA | 🔒 SS | @free1ss [11]",
             "type": "shadowsocks",
             "server": "64.74.163.130",
             "server_port": 990,
@@ -248,6 +270,14 @@
             "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
             "password": "a58fa62b4944ddbf"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "142.4.216.225",
+            "server_port": 80,
+            "method": "chacha20-ietf-poly1305",
+            "password": "JIhN6rBKkaEboLNXVSv5rq"
         }
     ],
     "route": {
