@@ -104,9 +104,9 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [18]",
-                "🇰🇿 KZ | 🔒 SS | @free1ss [12]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [13]",
-                "🇨🇦 CA | 🔒 SS | @free1ss [14]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [12]",
+                "🇨🇦 CA | 🔒 SS | @free1ss [13]",
+                "🇯🇵 JP | 🔓 VLESS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -145,14 +145,14 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇱🇻 LV | 🔒 SS | @v2ray1_ng [8]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇫🇷 FR | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -175,9 +175,9 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇫🇮 FI | 🔒 VLESS | @freakconfig [18]",
-                "🇰🇿 KZ | 🔒 SS | @free1ss [12]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [13]",
-                "🇨🇦 CA | 🔒 SS | @free1ss [14]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [12]",
+                "🇨🇦 CA | 🔒 SS | @free1ss [13]",
+                "🇯🇵 JP | 🔓 VLESS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -216,14 +216,14 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇱🇻 LV | 🔒 SS | @v2ray1_ng [8]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]"
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇫🇷 FR | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -512,15 +512,7 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 SS | @free1ss [12]",
-            "type": "shadowsocks",
-            "server": "38.107.234.38",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a58fa62b4944ddbf"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [13]",
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [12]",
             "type": "shadowsocks",
             "server": "193.29.139.157",
             "server_port": 8080,
@@ -528,12 +520,21 @@
             "password": "cvII85TrW6n0OGyfpHVS1u"
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @free1ss [14]",
+            "tag": "🇨🇦 CA | 🔒 SS | @free1ss [13]",
             "type": "shadowsocks",
             "server": "64.74.163.130",
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇯🇵 JP | 🔓 VLESS | @free1ss [14]",
+            "type": "vless",
+            "server": "172.111.146.64",
+            "server_port": 8443,
+            "uuid": "ba7db25a-4713-4b0a-a2e6-c1032373dfda",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -1150,32 +1151,16 @@
             "password": "a58fa62b4944ddbf"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
-            "type": "trojan",
-            "server": "3.122.80.241",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "57.129.24.125",
+            "server": "ssssssssssssfffffffgh.2032.pp.ua",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "4174b95d-115e-4d39-add6-1f8db95bb860",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "ssssssssssssfffffffgh.2032.pp.ua",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1184,9 +1169,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/6We3U9Df1WGxgFnoFPw1",
                 "headers": {
-                    "Host": ""
+                    "Host": "ssssssssssssfffffffgh.2032.pp.ua"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
+            "type": "trojan",
+            "server": "63.177.223.15",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1272,16 +1273,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "fad93457-35f3-4f1d-a4ad-c4be5b6d7124",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "13.38.193.247",
             "server_port": 22224,
@@ -1304,6 +1296,15 @@
                     "Host": "trojan.burgerip.co.uk"
                 }
             }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "m11a.vip784.com",
+            "server_port": 33801,
+            "uuid": "426cb1e2-9390-4ea2-9932-489d38aa7803",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
