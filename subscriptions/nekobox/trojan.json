@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]"
+                "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]"
+                "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,12 +182,20 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]",
-            "type": "shadowsocks",
-            "server": "213.109.147.242",
-            "server_port": 62685,
-            "method": "chacha20-ietf-poly1305",
-            "password": "VpKABcOpNNA0l5G2AVOmw8"
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [60]",
+            "type": "trojan",
+            "server": "ca-full.privateip.net",
+            "server_port": 443,
+            "password": "99c63d3a-4499-4a5b-aad6-826a6851f304",
+            "tls": {
+                "enabled": true,
+                "server_name": "ca-full.privateip.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
