@@ -92,8 +92,9 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🚩 CF | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [66]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [67]",
+                "🇸🇮 SI | 🔒 SS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -142,16 +143,14 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇱🇻 LV | 🔒 SS | @v2ray1_ng [8]",
-                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -162,8 +161,9 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🚩 CF | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [66]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [67]",
+                "🇸🇮 SI | 🔒 SS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -212,16 +212,14 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇱🇻 LV | 🔒 SS | @v2ray1_ng [8]",
-                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -276,29 +274,28 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @NamiraConfigs [58]",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 8080,
-            "uuid": "d3m1xvk50k",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/download/cdn",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [66]",
+            "type": "shadowsocks",
+            "server": "83.147.216.70",
+            "server_port": 64519,
+            "method": "chacha20-ietf-poly1305",
+            "password": "YXgS8ComTam7qoesPlzlMo"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
-            "type": "vmess",
-            "server": "15.204.11.190",
-            "server_port": 15361,
-            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇨🇦 CA | 🔒 SS | @NamiraConfigs [67]",
+            "type": "shadowsocks",
+            "server": "64.74.163.130",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 SS | @NamiraConfigs [68]",
+            "type": "shadowsocks",
+            "server": "192.71.244.150",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -1119,19 +1116,11 @@
             "password": "a58fa62b4944ddbf"
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [18]",
-            "type": "shadowsocks",
-            "server": "64.74.163.218",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
             "type": "trojan",
-            "server": "63.177.223.15",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "server": "3.122.89.11",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
@@ -1143,9 +1132,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [20]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]",
             "type": "trojan",
-            "server": "3.122.89.11",
+            "server": "13.39.55.68",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -1240,16 +1229,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 2052,
@@ -1265,7 +1245,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "165.227.149.23",
             "server_port": 49968,
