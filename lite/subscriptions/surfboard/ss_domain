@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔒 SS | @v2ray_free_conf [20] = ss, us32.giamping.com, 8080, encrypt-method = chacha20-ietf-poly1305, password = 42000e02-6b4d-46ad-a572-80db7db2a9ce
+🇺🇸 US | 🔒 SS | @v2ray_free_conf [19] = ss, us32.giamping.com, 8080, encrypt-method = chacha20-ietf-poly1305, password = 42000e02-6b4d-46ad-a572-80db7db2a9ce
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]
-PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]
 
 [Rule]
 GEOIP,IR,DIRECT
