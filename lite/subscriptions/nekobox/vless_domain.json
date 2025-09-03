@@ -85,6 +85,7 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [20]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -113,6 +114,7 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [20]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -312,6 +314,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "allnet.deragv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [20]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lease-15.access.name.ng",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "lease-15.access.name.ng"
                 }
             }
         },
