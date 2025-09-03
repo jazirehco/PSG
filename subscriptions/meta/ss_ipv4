@@ -1,0 +1,105 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [56]","type":"ss","server":"45.87.175.199","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [57]","type":"ss","server":"45.87.175.58","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇾 CY | 🔒 SS | @NamiraConfigs [58]","type":"ss","server":"134.255.210.49","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [59]","type":"ss","server":"45.87.175.157","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [60]","type":"ss","server":"144.126.146.38","port":30100,"password":"741ddced-e6ee-4175-9c1a-e524009f9045","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [61]","type":"ss","server":"45.158.171.60","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT | 🔒 SS | @NamiraConfigs [62]","type":"ss","server":"77.110.110.240","port":443,"password":"a7f082c1-0d12-4609-b6bf-e760b668cf23","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇮 FI | 🔒 SS | @NamiraConfigs [63]","type":"ss","server":"83.147.216.70","port":64519,"password":"UlT89D0rvcr05tKft1NB5a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇱🇻 LV | 🔒 SS | @NamiraConfigs [64]","type":"ss","server":"216.173.70.187","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]","type":"ss","server":"147.45.178.200","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [67]","type":"ss","server":"51.195.119.47","port":1080,"password":"qXvO7zYU7KeaB0Md7DQLow","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🔒 SS | @NamiraConfigs [70]","type":"ss","server":"83.147.216.70","port":64519,"password":"F3nY73di5onWV3gotbpI0Q","cipher":"chacha20-ietf-poly1305"}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [56]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [57]'
+      - '🇨🇾 CY | 🔒 SS | @NamiraConfigs [58]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [59]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [60]'
+      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [61]'
+      - '🇦🇹 AT | 🔒 SS | @NamiraConfigs [62]'
+      - '🇫🇮 FI | 🔒 SS | @NamiraConfigs [63]'
+      - '🇱🇻 LV | 🔒 SS | @NamiraConfigs [64]'
+      - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]'
+      - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [67]'
+      - '🇫🇮 FI | 🔒 SS | @NamiraConfigs [70]'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback
