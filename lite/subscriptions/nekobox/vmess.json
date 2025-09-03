@@ -89,9 +89,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -112,9 +110,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -341,59 +337,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "test3.flha.ru",
+            "server": "hkt.gotochinatown.net",
             "server_port": 80,
-            "uuid": "9a81340d-f81b-4c76-8abb-f4d305c535c0",
+            "uuid": "93fb69fc-77cf-11ee-85ee-f23c91369f2d",
             "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess",
-                "headers": {
-                    "Host": "test3.flha.ru"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "join-bede.vmessorg.fun",
-            "server_port": 80,
-            "uuid": "def53246-e7d7-4e7c-8427-0dc5602d3cba",
-            "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "join-bede.vmessorg.fun"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
-            "type": "vmess",
-            "server": "209.126.84.189",
-            "server_port": 443,
-            "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/vmessws",
-                "headers": {
-                    "Host": ""
+                    "Host": "hkt.gotochinatown.net"
                 }
             }
         },
