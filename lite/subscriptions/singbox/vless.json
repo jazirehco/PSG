@@ -110,8 +110,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [19]",
-                "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [20]",
+                "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🚩 CF | 🔓 VLESS | @freakconfig [18]",
                 "🇫🇷 FR | 🔒 VLESS | @freakconfig [19]",
@@ -162,8 +162,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [19]",
-                "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [20]",
+                "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [17]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🚩 CF | 🔓 VLESS | @freakconfig [18]",
                 "🇫🇷 FR | 🔒 VLESS | @freakconfig [19]",
@@ -599,22 +599,29 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vpnplusee_free [19]",
-            "type": "vless",
-            "server": "cb14.connectbaash.info",
-            "server_port": 4414,
-            "uuid": "54559d31-a4f0-4648-beeb-8323045a36c8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [20]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "m70a.vip784.com",
             "server_port": 33801,
             "uuid": "0577389d-b467-4ce0-ac90-87fe581e4701",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "f6b0723c-bb28-45f2-9b7f-82fab9ef8640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
