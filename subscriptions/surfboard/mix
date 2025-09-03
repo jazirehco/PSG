@@ -10,13 +10,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14] = vmess, customers.tele-shop-too.studio, 33203, username = eaae52d7-bc1a-4979-bd66-b6b428107173, ws = false, tls = false
-🇫🇮 FI | 🔒 SS | @NamiraConfigs [56] = ss, 83.147.216.70, 64519, encrypt-method = chacha20-ietf-poly1305, password = F3nY73di5onWV3gotbpI0Q
-🇳🇱 NL | 🔒 SS | @NamiraConfigs [57] = ss, 213.109.147.242, 62685, encrypt-method = chacha20-ietf-poly1305, password = VpKABcOpNNA0l5G2AVOmw8
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [56], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [56], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [56], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
 
 [Rule]
 GEOIP,IR,DIRECT
