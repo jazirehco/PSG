@@ -93,8 +93,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
@@ -111,6 +109,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇫🇷 FR | 🔓 VLESS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -130,9 +129,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
-                "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [15]"
+                "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -144,8 +142,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
@@ -162,6 +158,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇫🇷 FR | 🔓 VLESS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -181,9 +178,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
-                "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [15]"
+                "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -284,38 +280,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "magical-fish.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "magical-fish.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
-            "server_port": 80,
-            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
                 }
             }
         },
@@ -584,6 +548,22 @@
                 "path": "/--ping--www.speedtest.net?ed=2080",
                 "headers": {
                     "Host": "turboo-server.sadafspace.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "magical-fish.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "magical-fish.seotoolsforyou.co.uk"
                 }
             }
         },
@@ -965,46 +945,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "193.151.135.21",
-            "server_port": 44443,
-            "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 2052,
-            "uuid": "7d9e7e39-c5ab-4872-9b3a-0f71191c67e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
-                "headers": {
-                    "Host": "172.66.40.99"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [15]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "185.254.220.229",
             "server_port": 1002,
@@ -1025,6 +966,15 @@
                     "short_id": ""
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "91.107.251.143",
+            "server_port": 6745,
+            "uuid": "35804421-0d60-4dff-acda-6dded7323b1d",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
