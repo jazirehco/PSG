@@ -90,14 +90,16 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇦🇹 AT | 🔒 SS | @NamiraConfigs [56]",
+                "🇦🇹 AT | 🔒 SS | @NamiraConfigs [57]",
+                "🇵🇪 PE | 🔒 SS | @NamiraConfigs [58]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [59]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [60]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [61]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [62]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -118,14 +120,16 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇦🇹 AT | 🔒 SS | @NamiraConfigs [56]",
+                "🇦🇹 AT | 🔒 SS | @NamiraConfigs [57]",
+                "🇵🇪 PE | 🔒 SS | @NamiraConfigs [58]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [59]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [60]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [61]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [62]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -357,64 +361,95 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [57]",
-            "type": "vless",
-            "server": "45.88.183.158",
-            "server_port": 44629,
-            "uuid": "d3daa900-0377-4575-9ebc-c4d88cb8486c",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇦🇹 AT | 🔒 SS | @NamiraConfigs [56]",
+            "type": "shadowsocks",
+            "server": "77.110.110.240",
+            "server_port": 443,
+            "method": "aes-256-gcm",
+            "password": "d70ef8b5-6048-4c0d-be4d-fc60399b0f45"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [63]",
+            "tag": "🇦🇹 AT | 🔒 SS | @NamiraConfigs [57]",
+            "type": "shadowsocks",
+            "server": "77.110.110.117",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "9JeYy8SkViXuSHVs9GFeSe"
+        },
+        {
+            "tag": "🇵🇪 PE | 🔒 SS | @NamiraConfigs [58]",
+            "type": "shadowsocks",
+            "server": "185.47.252.251",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [59]",
+            "type": "shadowsocks",
+            "server": "83.147.216.70",
+            "server_port": 64519,
+            "method": "chacha20-ietf-poly1305",
+            "password": "F3nY73di5onWV3gotbpI0Q"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 SS | @NamiraConfigs [60]",
+            "type": "shadowsocks",
+            "server": "38.180.211.126",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Kuiqk2cP0BMWrgme9IfEvp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [61]",
+            "type": "shadowsocks",
+            "server": "81.19.141.45",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "3TnQdgm2mVJQbuSCXmR5Vc"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 SS | @NamiraConfigs [62]",
+            "type": "shadowsocks",
+            "server": "64.74.163.130",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
             "type": "vless",
-            "server": "deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK",
+            "server": "141.95.52.109",
             "server_port": 80,
-            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK"
+                    "Host": "141.95.52.109"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "178.162.245.230",
-            "server_port": 2052,
-            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "178.162.245.230"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "elegant-corporation.seotoolsforyou.co.uk",
+            "server": "pq-unitedstates3.09vpn.com",
             "server_port": 80,
-            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
+            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
+                    "Host": "pq-unitedstates3.09vpn.com"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
             "type": "vless",
             "server": "fierce-data.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -428,47 +463,6 @@
                     "Host": "fierce-data.seotoolsforyou.co.uk"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "162.19.228.119",
-            "server_port": 80,
-            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/http",
-                "headers": {
-                    "Host": "162.19.228.119"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
-            "server_port": 80,
-            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "172.234.221.94",
-            "server_port": 56224,
-            "uuid": "e3d0de50-7673-4d13-be7b-e508632ed430",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
