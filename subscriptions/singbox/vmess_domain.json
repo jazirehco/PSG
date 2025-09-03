@@ -93,11 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55]",
-                "🚩 CF | 🔓 VMESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔓 VMESS | @NamiraConfigs [57]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]"
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [69]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,11 +106,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55]",
-                "🚩 CF | 🔓 VMESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔓 VMESS | @NamiraConfigs [57]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]"
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [69]",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -209,70 +203,45 @@
             "alter_id": 0
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [69]",
             "type": "vmess",
-            "server": "62.146.235.193",
-            "server_port": 28011,
-            "uuid": "cfc5a87f-3c13-4e25-b556-176cdd6b5c6a",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @NamiraConfigs [56]",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 8080,
-            "uuid": "d3m1xvk50k",
+            "server": "104.18.149.76",
+            "server_port": 443,
+            "uuid": "de94cc0a-0592-4969-b1fc-97ea8f0ea0b3",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "us.kkp.me.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/download/cdn",
+                "path": "/aa",
                 "headers": {
-                    "Host": ""
+                    "Host": "us.kkp.me.eu.org"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @NamiraConfigs [57]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [70]",
             "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 8080,
-            "uuid": "nasnet",
+            "server": "51.79.102.253",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/NASNET/cdn",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
                 "headers": {
                     "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
-            "type": "vmess",
-            "server": "195.211.99.143",
-            "server_port": 8443,
-            "uuid": "2e514a36-7ae8-4b6a-9e36-9c20e7228824",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
-            "type": "vmess",
-            "server": "15.204.11.190",
-            "server_port": 15361,
-            "uuid": "5d7bf9e3-415c-40f3-c66d-a54ea0fd860e",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {
