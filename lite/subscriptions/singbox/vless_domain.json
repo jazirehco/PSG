@@ -93,8 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [69]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
@@ -113,7 +113,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [19]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -125,8 +126,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [69]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
@@ -145,7 +146,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [19]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -250,34 +252,52 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "famous-danger.oneeat.co",
-            "server_port": 80,
-            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
+            "server": "tttttttttttt.222769.xyz",
+            "server_port": 443,
+            "uuid": "2e65577e-8fdb-4bb1-a495-96f3122099a7",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ttTttttTTTTT.222769.xYz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/sMrAaoCaOSZb9TPR",
                 "headers": {
-                    "Host": "famous-danger.oneeat.co"
+                    "Host": "ttTttttTTTTT.222769.xYz"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [69]",
             "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ov-germany6.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
+                    "Host": "ov-germany6.09vpn.com"
                 }
             }
         },
@@ -600,13 +620,36 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [19]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
-            "server": "230920393.f-sub.com",
-            "server_port": 3799,
-            "uuid": "3d554bba-9c77-499f-9055-1eb42058ed00",
+            "server": "numberland.ir",
+            "server_port": 8080,
+            "uuid": "f6b0723c-bb28-45f2-9b7f-82fab9ef8640",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480",
+                "headers": {
+                    "Host": "numberland.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
+            "server_port": 80,
+            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
+                }
+            }
         }
     ],
     "route": {
