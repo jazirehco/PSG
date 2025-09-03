@@ -89,7 +89,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇰🇷 KR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇨🇳 CN | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -110,7 +112,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇰🇷 KR | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇨🇳 CN | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -337,13 +341,45 @@
             }
         },
         {
-            "tag": "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇰🇷 KR | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "47.116.166.178",
-            "server_port": 50002,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "183.109.131.75",
+            "server_port": 20086,
+            "uuid": "b26c4803-0bca-467c-a245-c9a80bdd72ec",
             "security": "auto",
-            "alter_id": 64
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳 CN | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "v29.heduian.link",
+            "server_port": 30829,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/oooo",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "82.197.69.131",
+            "server_port": 39674,
+            "uuid": "5a89386a-827b-4f54-8778-2f1b5122c6ef",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",

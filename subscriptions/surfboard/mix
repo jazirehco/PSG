@@ -10,17 +10,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14] = vmess, customers.tele-shop-too.studio, 33203, username = eaae52d7-bc1a-4979-bd66-b6b428107173, ws = false, tls = false
-🇦🇹 AT | 🔒 SS | @NamiraConfigs [54] = ss, 77.110.110.117, 443, encrypt-method = chacha20-ietf-poly1305, password = 9JeYy8SkViXuSHVs9GFeSe
-🇺🇸 US | 🔒 SS | @NamiraConfigs [55] = ss, 45.87.175.65, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [63] = trojan, on-roughy.shiner427.skin, 443, password = 74260704627805900, skip-cert-verify = false
-🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [64] = trojan, 94.131.20.3, 443, password = 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify = false
-🚩 CF | 🔓 TROJAN | @NamiraConfigs [65] = trojan, 108.162.196.69, 443, password = 4b040268-f3a5-4136-b1a9-506012e8e3d9, skip-cert-verify = false
-🚩 CF | 🔓 TROJAN | @NamiraConfigs [66] = trojan, 141.101.120.10, 443, password = 4b040268-f3a5-4136-b1a9-506012e8e3d9, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇦🇹 AT | 🔒 SS | @NamiraConfigs [54], 🇺🇸 US | 🔒 SS | @NamiraConfigs [55], 🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [63], 🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [64], 🚩 CF | 🔓 TROJAN | @NamiraConfigs [65], 🚩 CF | 🔓 TROJAN | @NamiraConfigs [66]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇦🇹 AT | 🔒 SS | @NamiraConfigs [54], 🇺🇸 US | 🔒 SS | @NamiraConfigs [55], 🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [63], 🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [64], 🚩 CF | 🔓 TROJAN | @NamiraConfigs [65], 🚩 CF | 🔓 TROJAN | @NamiraConfigs [66]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇦🇹 AT | 🔒 SS | @NamiraConfigs [54], 🇺🇸 US | 🔒 SS | @NamiraConfigs [55], 🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [63], 🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [64], 🚩 CF | 🔓 TROJAN | @NamiraConfigs [65], 🚩 CF | 🔓 TROJAN | @NamiraConfigs [66]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
 
 [Rule]
 GEOIP,IR,DIRECT
