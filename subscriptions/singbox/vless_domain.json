@@ -96,9 +96,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
-                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,9 +111,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
-                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
+                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -291,38 +287,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "pq-unitedstates3.09vpn.com",
-            "server_port": 80,
-            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "pq-unitedstates3.09vpn.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
                 }
             }
         }
