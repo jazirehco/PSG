@@ -108,8 +108,9 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇦🇹 AT | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -136,8 +137,9 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇦🇹 AT | 🔒 VLESS | @vpnplusee_free [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -542,32 +544,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rws.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "rws.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 2052,
@@ -580,6 +557,42 @@
                 "headers": {
                     "Host": "172.66.40.99"
                 }
+            }
+        },
+        {
+            "tag": "🇦🇹 AT | 🔒 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "5.181.21.152",
+            "server_port": 24170,
+            "uuid": "6a8ee307-a1fb-4801-92e2-86253ecdd88d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw",
+                    "short_id": "200f99e321"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "54.36.114.253",
+            "server_port": 80,
+            "uuid": "a88d0b09-fbec-4909-8ea7-f3deb5e92bc5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         }
     ],
