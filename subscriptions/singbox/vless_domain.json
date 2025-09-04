@@ -97,13 +97,9 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -119,13 +115,9 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -305,71 +297,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK",
-            "server_port": 80,
-            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "elegant-corporation.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "handSoME-dEvice.ONEeAt.CO",
-            "server_port": 80,
-            "uuid": "2ad87f95-7a0b-4018-8497-5ecaac2f0ddf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "handSoME-dEvice.ONEeAt.CO"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-            "type": "vless",
-            "server": "famous-danger.oneeat.co",
-            "server_port": 80,
-            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "famous-danger.oneeat.co"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
             "type": "vless",
             "server": "www.speedtest.net.cdn.cloudflare.net",
             "server_port": 8080,
@@ -385,34 +313,52 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
-            "server_port": 80,
-            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
+            "server": "tttttttttttt.222769.xyz",
+            "server_port": 443,
+            "uuid": "2e65577e-8fdb-4bb1-a495-96f3122099a7",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ttTttttTTTTT.222769.xYz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/sMrAaoCaOSZb9TPR",
                 "headers": {
-                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
+                    "Host": "ttTttttTTTTT.222769.xYz"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "grounded-brother.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ov-germany6.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+                    "Host": "ov-germany6.09vpn.com"
                 }
             }
         }

@@ -93,8 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
@@ -112,7 +111,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [18]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [20]",
@@ -131,7 +130,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -143,8 +142,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
@@ -162,7 +160,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [18]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [20]",
@@ -181,7 +179,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -286,34 +284,27 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
-            "server_port": 80,
-            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
+            "tls": {
+                "enabled": true,
+                "server_name": "ov-germany6.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "grounded-brother.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "grounded-brother.seotoolsforyou.co.uk"
+                    "Host": "ov-germany6.09vpn.com"
                 }
             }
         },
@@ -595,7 +586,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
@@ -975,25 +966,27 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [19]",
             "type": "vless",
-            "server": "167.99.45.44",
-            "server_port": 30402,
-            "uuid": "cicadanet",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "e9ba730d-76c9-4786-9f49-e13d7935e4ae",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.journalofbigdata.springeropen.com",
+                "server_name": "www.dollardoon.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "X0A-gB9NvXnTYsgN3ztH4D1-D3W9bg_OtY5ffUjc614",
-                    "short_id": "2d9d1cbc94"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048",
+                "headers": {
+                    "Host": "www.dollardoon.com"
                 }
             }
         }
