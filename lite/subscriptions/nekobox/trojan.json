@@ -81,7 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]"
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,7 +94,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]"
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -200,9 +202,25 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2ray_free_conf [19]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
             "type": "trojan",
-            "server": "13.37.161.126",
+            "server": "3.124.129.130",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [19]",
+            "type": "trojan",
+            "server": "3.120.66.212",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
