@@ -1,0 +1,34 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/ss_ipv4 interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇺🇸 US | 🔒 SS | @NamiraConfigs [56] = ss, 45.87.175.178, 8080, encrypt-method = chacha20-ietf-poly1305, password = QCXDxuDlTTMD7jtgHUjIoj
+🇺🇸 US | 🔒 SS | @NamiraConfigs [58] = ss, 45.87.175.199, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇩🇪 DE | 🔒 SS | @NamiraConfigs [59] = ss, 185.177.229.245, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
+🇺🇸 US | 🔒 SS | @NamiraConfigs [60] = ss, 45.87.175.157, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇳🇱 NL | 🔒 SS | @NamiraConfigs [61] = ss, 103.104.247.49, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇺🇸 US | 🔒 SS | @NamiraConfigs [62] = ss, 45.87.175.22, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇹🇷 TR | 🔒 SS | @NamiraConfigs [63] = ss, 185.123.101.241, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇺🇸 US | 🔒 SS | @NamiraConfigs [64] = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇺🇸 US | 🔒 SS | @NamiraConfigs [65] = ss, 45.87.175.10, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇺🇸 US | 🔒 SS | @NamiraConfigs [66] = ss, 45.87.175.178, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇺🇸 US | 🔒 SS | @NamiraConfigs [67] = ss, 45.87.175.166, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇺🇸 US | 🔒 SS | @NamiraConfigs [68] = ss, 45.87.175.157, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇺🇸 US | 🔒 SS | @NamiraConfigs [69] = ss, 45.87.175.188, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇺🇸 US | 🔒 SS | @NamiraConfigs [70] = ss, 45.87.175.157, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @NamiraConfigs [56], 🇺🇸 US | 🔒 SS | @NamiraConfigs [58], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [59], 🇺🇸 US | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [61], 🇺🇸 US | 🔒 SS | @NamiraConfigs [62], 🇹🇷 TR | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [64], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [66], 🇺🇸 US | 🔒 SS | @NamiraConfigs [67], 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇺🇸 US | 🔒 SS | @NamiraConfigs [70]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @NamiraConfigs [56], 🇺🇸 US | 🔒 SS | @NamiraConfigs [58], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [59], 🇺🇸 US | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [61], 🇺🇸 US | 🔒 SS | @NamiraConfigs [62], 🇹🇷 TR | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [64], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [66], 🇺🇸 US | 🔒 SS | @NamiraConfigs [67], 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇺🇸 US | 🔒 SS | @NamiraConfigs [70]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @NamiraConfigs [56], 🇺🇸 US | 🔒 SS | @NamiraConfigs [58], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [59], 🇺🇸 US | 🔒 SS | @NamiraConfigs [60], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [61], 🇺🇸 US | 🔒 SS | @NamiraConfigs [62], 🇹🇷 TR | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [64], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [66], 🇺🇸 US | 🔒 SS | @NamiraConfigs [67], 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇺🇸 US | 🔒 SS | @NamiraConfigs [70]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
