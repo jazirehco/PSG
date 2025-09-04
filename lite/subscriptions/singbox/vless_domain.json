@@ -108,7 +108,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -135,7 +136,8 @@
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -504,6 +506,22 @@
                 "path": "/--ping--www.speedtest.net?ed=2080",
                 "headers": {
                     "Host": "turboo-server.sadafspace.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "d846541c-519b-48c0-9c8a-d52b2e8e8330",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         }

@@ -109,6 +109,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -124,7 +125,8 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
-                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
+                "🇳🇱 NL | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
@@ -155,6 +157,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -170,7 +173,8 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
-                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [3]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
+                "🇳🇱 NL | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
@@ -546,6 +550,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "d846541c-519b-48c0-9c8a-d52b2e8e8330",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
             "type": "vless",
             "server": "104.18.26.90",
@@ -840,7 +860,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [3]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
             "type": "vless",
             "server": "185.242.87.140",
             "server_port": 443,
@@ -861,6 +881,29 @@
                 "path": "/hxwdnrws",
                 "headers": {
                     "Host": "185.242.87.140"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2ray_free_conf [19]",
+            "type": "vless",
+            "server": "167.99.45.44",
+            "server_port": 30402,
+            "uuid": "cicadanet",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "X0A-gB9NvXnTYsgN3ztH4D1-D3W9bg_OtY5ffUjc614",
+                    "short_id": "2d9d1cbc94"
                 }
             }
         },
