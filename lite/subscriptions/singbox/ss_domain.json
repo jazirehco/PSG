@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWEhUVFA=
+//profile-title: base64:UFNHIHwgU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,27 +190,12 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
-            "server": "185.254.220.229",
-            "server_port": 1002,
-            "uuid": "65b71cc5-a34d-4efa-8af8-7a0d9bedd240",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.jsdelivr.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZR-m-ptbkHU71ZoH-jRM8L1NqSN1rzW738PsSHFwkik",
-                    "short_id": ""
-                }
-            }
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "us.vmagnum.win",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11"
         }
     ],
     "route": {
