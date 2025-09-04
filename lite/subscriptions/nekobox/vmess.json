@@ -89,9 +89,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -112,9 +110,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -341,56 +337,20 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "57.129.28.65",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "kapelleng.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "kapelleng.com"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "165.140.216.141",
-            "server_port": 443,
-            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "server": "206.206.80.227",
+            "server_port": 20086,
+            "uuid": "0abb7b9e-81ba-4336-8ca7-056866032ff3",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [20]",
-            "type": "vmess",
-            "server": "176.120.73.36",
-            "server_port": 3690,
-            "uuid": "aea09291-8c74-4c37-8864-d9360025a74b",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
