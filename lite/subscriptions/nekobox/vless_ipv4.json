@@ -81,7 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [19]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [18]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -95,11 +96,10 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
-                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
-                "🇳🇱 NL | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,7 +111,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [19]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [18]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🚩 CF | 🔒 VLESS | @kafing_2 [10]",
@@ -125,11 +126,10 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
-                "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
-                "🇳🇱 NL | 🔒 VLESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -236,7 +236,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [19]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [18]",
             "type": "vless",
             "server": "5.181.171.2",
             "server_port": 443,
@@ -254,6 +254,29 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [20]",
+            "type": "vless",
+            "server": "146.19.90.2",
+            "server_port": 443,
+            "uuid": "33bdc1f3-a2ce-6a15-c286-d602b373063d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko",
                     "short_id": ""
                 }
             }
@@ -514,54 +537,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray1_ng [1]",
-            "type": "vless",
-            "server": "185.242.87.140",
-            "server_port": 443,
-            "uuid": "3a08182c-ef44-4137-afac-12d2f58994e6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "185.242.87.140",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/hxwdnrws",
-                "headers": {
-                    "Host": "185.242.87.140"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2ray_free_conf [19]",
-            "type": "vless",
-            "server": "167.99.45.44",
-            "server_port": 30402,
-            "uuid": "cicadanet",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "X0A-gB9NvXnTYsgN3ztH4D1-D3W9bg_OtY5ffUjc614",
-                    "short_id": "2d9d1cbc94"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -631,6 +606,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "fix.ahwaz14.ir"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "167.99.45.44",
+            "server_port": 30402,
+            "uuid": "cicadanet",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "X0A-gB9NvXnTYsgN3ztH4D1-D3W9bg_OtY5ffUjc614",
+                    "short_id": "2d9d1cbc94"
+                }
             }
         }
     ],

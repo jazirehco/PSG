@@ -90,10 +90,14 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇵🇪 PE | 🔒 SS | @NamiraConfigs [57]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [58]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [64]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,10 +118,14 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇵🇪 PE | 🔒 SS | @NamiraConfigs [57]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [58]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [64]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -349,23 +357,39 @@
             "alter_id": 0
         },
         {
-            "tag": "🇵🇪 PE | 🔒 SS | @NamiraConfigs [57]",
-            "type": "shadowsocks",
-            "server": "185.47.252.251",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK",
+            "server_port": 80,
+            "uuid": "2054405e-70ff-40a2-ae27-16b63d72390a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "deDiCaTED-deVelOPMENt.seoTOOLSforYoU.CO.UK"
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [58]",
-            "type": "shadowsocks",
-            "server": "45.87.175.164",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
+            "type": "vless",
+            "server": "178.162.245.230",
+            "server_port": 2052,
+            "uuid": "70b6b341-b859-443a-baf0-08ceabe9d1a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "178.162.245.230"
+                }
+            }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [64]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "elegant-corporation.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -393,6 +417,70 @@
                 "path": "/",
                 "headers": {
                     "Host": "handSoME-dEvice.ONEeAt.CO"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
+            "type": "vless",
+            "server": "famous-danger.oneeat.co",
+            "server_port": 80,
+            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "famous-danger.oneeat.co"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
+            "type": "vless",
+            "server": "www.speedtest.net.cdn.cloudflare.net",
+            "server_port": 8080,
+            "uuid": "813d7c7e-d2ea-460f-9bf7-e6fa6a073b67",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "www.speedtest.net.cdn.cloudflare.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
+            "server_port": 80,
+            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "grounded-brother.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "52adc6ba-b1c7-4541-a594-08fc698be640",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "grounded-brother.seotoolsforyou.co.uk"
                 }
             }
         }
