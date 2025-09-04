@@ -339,11 +339,18 @@
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "85.195.101.122",
-            "server_port": 40878,
-            "uuid": "f3d4167e-b15e-4e46-82e9-9286ef93fda7",
+            "server": "91.99.153.39",
+            "server_port": 39130,
+            "uuid": "985af489-fb16-491a-813c-fdd91b6b06ee",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
