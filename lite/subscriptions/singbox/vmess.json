@@ -101,8 +101,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -123,8 +123,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -347,22 +347,36 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "107.148.192.156",
-            "server_port": 41911,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "25.25.25.249",
+            "server_port": 8880,
+            "uuid": "c8c50f25-6eea-3645-967b-b48e12e0c99b",
             "security": "auto",
-            "alter_id": 64
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "43.199.24.247",
-            "server_port": 3000,
-            "uuid": "cc101ff1-3452-41c3-89fe-c2a5a20dc6dc",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "nasnet",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/NASNET/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",

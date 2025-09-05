@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [19]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]"
             ],
@@ -94,6 +95,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [19]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]"
             ],
@@ -193,6 +195,24 @@
             "uuid": "97b58d0f-0102-44d9-91cc-0371522860ad",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+            "type": "vless",
+            "server": "91.99.146.68",
+            "server_port": 443,
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.146.68",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
