@@ -107,9 +107,9 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
-                "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [12]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [2]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]"
             ],
@@ -137,9 +137,9 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
-                "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [12]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [2]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]"
             ],
@@ -482,16 +482,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-            "type": "vless",
-            "server": "jone.turbooo-server.com",
-            "server_port": 60123,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [12]",
             "type": "vless",
             "server": "turboo-server.com.co",
             "server_port": 80,
@@ -507,7 +498,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
             "type": "vless",
             "server": "turboo-server.sadafspace.com",
             "server_port": 80,
@@ -519,6 +510,22 @@
                 "path": "/--ping--www.speedtest.net?ed=2080",
                 "headers": {
                     "Host": "turboo-server.sadafspace.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
+            "type": "vless",
+            "server": "server.turbooo-server.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "server.turbooo-server.com"
                 }
             }
         },

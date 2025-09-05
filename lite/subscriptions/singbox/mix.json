@@ -135,11 +135,11 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
-                "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [12]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
                 "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
@@ -201,11 +201,11 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [17]",
-                "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [12]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
                 "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
@@ -965,16 +965,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-            "type": "vless",
-            "server": "jone.turbooo-server.com",
-            "server_port": 60123,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [12]",
             "type": "vless",
             "server": "turboo-server.com.co",
             "server_port": 80,
@@ -990,7 +981,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
             "type": "vless",
             "server": "turboo-server.sadafspace.com",
             "server_port": 80,
@@ -1006,6 +997,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
+            "type": "vless",
+            "server": "server.turbooo-server.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "server.turbooo-server.com"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [2]",
             "type": "vless",
             "server": "m65a.vip784.com",
@@ -1015,28 +1022,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2ray_free_conf [18]",
-            "type": "trojan",
-            "server": "3.76.235.35",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
             "type": "shadowsocks",
             "server": "104.192.226.106",
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "ltnl13.saint.ydns.eu",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
