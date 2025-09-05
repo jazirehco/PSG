@@ -94,10 +94,11 @@
                 "KingRezaPahlavi",
                 "🇦🇹 AT | 🔒 SS | @free1ss [9]",
                 "🇸🇬 SG | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
-                "🇨🇦 CA | 🔒 SS | @outline_ir [17]",
-                "🇮🇳 IN | 🔒 SS | @outline_ir [18]"
+                "🇮🇳 IN | 🔒 SS | @outline_ir [17]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -110,10 +111,11 @@
                 "KingRezaPahlavi",
                 "🇦🇹 AT | 🔒 SS | @free1ss [9]",
                 "🇸🇬 SG | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
-                "🇨🇦 CA | 🔒 SS | @outline_ir [17]",
-                "🇮🇳 IN | 🔒 SS | @outline_ir [18]"
+                "🇮🇳 IN | 🔒 SS | @outline_ir [17]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -216,6 +218,14 @@
             "password": "Vlf8azkUKNA0RquhEhskae"
         },
         {
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [11]",
+            "type": "shadowsocks",
+            "server": "193.29.139.202",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
             "tag": "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
             "type": "shadowsocks",
             "server": "4.223.100.248",
@@ -232,20 +242,20 @@
             "password": "Bog0ELmMM9DSxDdQ"
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @outline_ir [17]",
-            "type": "shadowsocks",
-            "server": "142.4.216.225",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "JIhN6rBKkaEboLNXVSv5rq"
-        },
-        {
-            "tag": "🇮🇳 IN | 🔒 SS | @outline_ir [18]",
+            "tag": "🇮🇳 IN | 🔒 SS | @outline_ir [17]",
             "type": "shadowsocks",
             "server": "43.205.208.0",
             "server_port": 80,
             "method": "aes-256-gcm",
             "password": "dada0801"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "104.192.226.106",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
         }
     ],
     "route": {
