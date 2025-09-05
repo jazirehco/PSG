@@ -92,13 +92,15 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇬🇧 GB | 🔒 SS | @free1ss [8]",
-                "🇦🇹 AT | 🔒 SS | @free1ss [10]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [20]",
+                "🇦🇹 AT | 🔒 SS | @free1ss [9]",
+                "🇸🇬 SG | 🔒 SS | @free1ss [10]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
@@ -144,8 +146,9 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -156,13 +159,15 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇬🇧 GB | 🔒 SS | @free1ss [8]",
-                "🇦🇹 AT | 🔒 SS | @free1ss [10]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [20]",
+                "🇦🇹 AT | 🔒 SS | @free1ss [9]",
+                "🇸🇬 SG | 🔒 SS | @free1ss [10]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
@@ -208,8 +213,9 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -262,6 +268,22 @@
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "handSoME-dEvice.ONEeAt.CO",
+            "server_port": 80,
+            "uuid": "2ad87f95-7a0b-4018-8497-5ecaac2f0ddf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "handSoME-dEvice.ONEeAt.CO"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -371,20 +393,29 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 SS | @free1ss [8]",
-            "type": "shadowsocks",
-            "server": "89.185.84.185",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "O0LJhWc3c0ZD9ctb4HWGSO"
+            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [20]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "97b58d0f-0102-44d9-91cc-0371522860ad",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇦🇹 AT | 🔒 SS | @free1ss [10]",
+            "tag": "🇦🇹 AT | 🔒 SS | @free1ss [9]",
             "type": "shadowsocks",
             "server": "77.110.110.117",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "9JeYy8SkViXuSHVs9GFeSe"
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 SS | @free1ss [10]",
+            "type": "shadowsocks",
+            "server": "172.237.65.229",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Vlf8azkUKNA0RquhEhskae"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -1122,7 +1153,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
@@ -1138,7 +1169,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
@@ -1161,6 +1192,15 @@
                     "Host": "GeIm.IsVcLOd.CoM"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "104.16.53.11",
+            "server_port": 8080,
+            "uuid": "8bf5c07a-acd3-4360-b940-62d6b77699af",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
