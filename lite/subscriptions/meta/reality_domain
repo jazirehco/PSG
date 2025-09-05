@@ -1,0 +1,83 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @freakconfig [19]","type":"vless","server":"2144.458.854.125.3n95278zh9x6i4zi8r0r.curfuffled.com","port":443,"uuid":"f475cc9b-1ec9-4bb5-b48a-d19e08ca0a09","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","grpc-opts":{"grpc-service-name":"vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"},"reality-opts":{"public-key":"cGsFvA6EJ_WutI3kRa5vdi0Qtgos6oa95lTn7oN7Pzw","short-id":"519b033b94"}}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - '🇩🇪 DE | 🔒 VLESS | @freakconfig [19]'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback

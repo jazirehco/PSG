@@ -24,8 +24,6 @@ dns:
 
 proxies: 
   - {"name":"🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [69]","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [70]","type":"vmess","server":"104.18.149.76","port":443,"cipher":"auto","uuid":"de94cc0a-0592-4969-b1fc-97ea8f0ea0b3","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aa","headers":{"Host":"us.kkp.me.eu.org"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]'
-      - '🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [69]'
-      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [70]'
 
   - name: 🌍 Global Media
     type: select
