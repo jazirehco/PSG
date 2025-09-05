@@ -98,7 +98,11 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
-                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]"
+                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [63]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,7 +119,11 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
-                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]"
+                "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
+                "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [63]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -312,6 +320,72 @@
                 "path": "/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
                 "headers": {
                     "Host": "104.18.26.90"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]",
+            "type": "vless",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "dbb78c94-9f87-4d7d-b945-2000b60352fd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "57.129.132.223"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
+            "type": "vless",
+            "server": "141.95.52.109",
+            "server_port": 80,
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "141.95.52.109"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔓 VLESS | @NamiraConfigs [63]",
+            "type": "vless",
+            "server": "45.88.183.164",
+            "server_port": 49355,
+            "uuid": "ef246c6f-6e7d-4286-af33-5485544b0ba8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "172.66.44.81",
+            "server_port": 2083,
+            "uuid": "4d794980-54c0-4fcb-8def-c2beaecadbad",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "azadnet05.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "azadnet05.pages.dev"
                 }
             }
         }
