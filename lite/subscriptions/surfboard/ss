@@ -9,17 +9,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🔒 SS | @free1ss [11] = ss, 193.29.139.202, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇺🇸 US | 🔒 SS | @NamiraConfigs [68] = ss, 45.87.175.154, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇺🇸 US | 🔒 SS | @NamiraConfigs [69] = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
 🇩🇪 DE | 🔒 SS | @free1ss [12] = ss, 135.125.219.2, 25930, encrypt-method = chacha20-ietf-poly1305, password = 38f34312c73acae2
 🇳🇱 NL | 🔒 SS | @free1ss [13] = ss, 178.130.43.225, 2222, encrypt-method = chacha20-ietf-poly1305, password = qscavF5UviIL-8V-E4raBA
+🇳🇱 NL | 🔒 SS | @free1ss [14] = ss, 193.29.139.235, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🇸🇪 SE | 🔒 SS | @kafing_2 [10] = ss, 4.223.100.248, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇺🇸 US | 🔒 SS | @outline_ir [19] = ss, 45.87.175.28, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇩🇪 DE | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
-PSG-AUTO = url-test, 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇩🇪 DE | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇩🇪 DE | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇩🇪 DE | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇩🇪 DE | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇩🇪 DE | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
 
 [Rule]
 GEOIP,IR,DIRECT
