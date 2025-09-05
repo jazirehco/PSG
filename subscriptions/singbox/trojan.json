@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVFJPSkFO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]"
+                "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [59]",
+                "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [60]",
+                "🚩 CF | 🔓 TROJAN | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]"
+                "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [59]",
+                "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [60]",
+                "🚩 CF | 🔓 TROJAN | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,12 +196,68 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]",
-            "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [58]",
+            "type": "trojan",
+            "server": "ca-full.privateip.net",
+            "server_port": 443,
+            "password": "99c63d3a-4499-4a5b-aad6-826a6851f304",
+            "tls": {
+                "enabled": true,
+                "server_name": "ca-full.privateip.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [59]",
+            "type": "trojan",
+            "server": "on-roughy.shiner427.skin",
+            "server_port": 443,
+            "password": "74260704627805900",
+            "tls": {
+                "enabled": true,
+                "server_name": "on-roughy.shiner427.skin",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [60]",
+            "type": "trojan",
+            "server": "94.131.20.3",
+            "server_port": 443,
+            "password": "3482c71a-d01c-4ae5-b454-fa8cb3785f66",
+            "tls": {
+                "enabled": true,
+                "server_name": "nacho-rerun-crepe.stark-industries.solutions",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @NamiraConfigs [61]",
+            "type": "trojan",
+            "server": "141.101.120.10",
+            "server_port": 443,
+            "password": "4b040268-f3a5-4136-b1a9-506012e8e3d9",
+            "tls": {
+                "enabled": true,
+                "server_name": "ssp2.100896.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

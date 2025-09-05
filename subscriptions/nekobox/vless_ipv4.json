@@ -87,7 +87,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,7 +105,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @Fr33C0nfig [9]",
                 "🇩🇪 DE | 🔓 VLESS | @Fr33C0nfig [11]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -310,18 +310,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
             "type": "vless",
-            "server": "141.95.52.109",
-            "server_port": 80,
-            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
+            "server": "104.21.32.1",
+            "server_port": 443,
+            "uuid": "0503fa3c-f914-4421-a1e5-72c1f8d781a2",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hpgBAG3G9Kik7asE4cn1tT8INexozr4NJi7.PaGes.DeV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/vless/",
+                "path": "/wGEZwUQmT9ld3Qa5/dHVyay5yYWRpY2FsaXphdGlvbi5pciwxMDQuMTY4LjEwMi4xNjM=",
                 "headers": {
-                    "Host": "141.95.52.109"
+                    "Host": "hpgBAG3G9Kik7asE4cn1tT8INexozr4NJi7.PaGes.DeV"
                 }
             }
         }

@@ -23,7 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]","type":"ss","server":"beesyar.org","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [58]","type":"trojan","server":"ca-full.privateip.net","port":443,"password":"99c63d3a-4499-4a5b-aad6-826a6851f304","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [59]","type":"trojan","server":"on-roughy.shiner427.skin","port":443,"password":"74260704627805900","skip-cert-verify":false}
+  - {"name":"🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [60]","type":"trojan","server":"94.131.20.3","port":443,"password":"3482c71a-d01c-4ae5-b454-fa8cb3785f66","skip-cert-verify":false}
+  - {"name":"🚩 CF | 🔓 TROJAN | @NamiraConfigs [61]","type":"trojan","server":"141.101.120.10","port":443,"password":"4b040268-f3a5-4136-b1a9-506012e8e3d9","skip-cert-verify":false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]'
+      - '🇨🇦 CA | 🔒 TROJAN | @NamiraConfigs [58]'
+      - '🇩🇪 DE | 🔒 TROJAN | @NamiraConfigs [59]'
+      - '🇳🇱 NL | 🔒 TROJAN | @NamiraConfigs [60]'
+      - '🚩 CF | 🔓 TROJAN | @NamiraConfigs [61]'
 
   - name: 🌍 Global Media
     type: select
