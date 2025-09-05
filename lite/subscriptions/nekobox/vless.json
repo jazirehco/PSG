@@ -84,7 +84,6 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [18]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [12]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -101,6 +100,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [2]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
@@ -133,7 +133,6 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [18]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [12]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -150,6 +149,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [16]",
                 "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [2]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
@@ -338,24 +338,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "allnet.deragv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [18]",
-            "type": "vless",
-            "server": "sss31842.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss31842.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -592,6 +574,22 @@
                 "path": "/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN",
                 "headers": {
                     "Host": "104.18.26.90"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "141.95.52.109",
+            "server_port": 80,
+            "uuid": "94f51128-b5eb-4eb6-8010-12b7c55e559b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "141.95.52.109"
                 }
             }
         },

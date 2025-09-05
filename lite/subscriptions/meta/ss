@@ -23,15 +23,16 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [68]","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [69]","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇳 IN | 🔒 SS | @free1ss [8]","type":"ss","server":"43.205.208.0","port":80,"password":"dada0801","cipher":"aes-256-gcm"}
   - {"name":"🇳🇴 NO | 🔒 SS | @free1ss [9]","type":"ss","server":"217.170.194.203","port":808,"password":"tvX1v#NSFP_LG_bJ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @free1ss [10]","type":"ss","server":"89.185.84.185","port":443,"password":"O0LJhWc3c0ZD9ctb4HWGSO","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪 SE | 🔒 SS | @kafing_2 [10]","type":"ss","server":"4.223.100.248","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @megavpn_link [12]","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦 CA | 🔒 SS | @outline_ir [18]","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇻🇳 VN | 🔒 SS | @v2ray_free_conf [18]","type":"ss","server":"103.163.218.2","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱 PL | 🔒 SS | @v2ray_free_conf [19]","type":"ss","server":"2.59.163.104","port":2222,"password":"qscavF5UviIL-8V-E4raBA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇺 AU | 🔒 SS | @v2ray_free_conf [20]","type":"ss","server":"52.64.250.96","port":9898,"password":"1a17b19d-4896-4531-af79-6e91d8ef8228","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18]","type":"ss","server":"2.59.163.104","port":2222,"password":"qscavF5UviIL-8V-E4raBA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇺 AU | 🔒 SS | @v2ray_free_conf [19]","type":"ss","server":"52.64.250.96","port":9898,"password":"1a17b19d-4896-4531-af79-6e91d8ef8228","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -45,15 +46,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [68]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [69]'
       - '🇮🇳 IN | 🔒 SS | @free1ss [8]'
       - '🇳🇴 NO | 🔒 SS | @free1ss [9]'
       - '🇬🇧 GB | 🔒 SS | @free1ss [10]'
       - '🇸🇪 SE | 🔒 SS | @kafing_2 [10]'
       - '🇬🇧 GB | 🔒 SS | @megavpn_link [12]'
       - '🇨🇦 CA | 🔒 SS | @outline_ir [18]'
-      - '🇻🇳 VN | 🔒 SS | @v2ray_free_conf [18]'
-      - '🇵🇱 PL | 🔒 SS | @v2ray_free_conf [19]'
-      - '🇦🇺 AU | 🔒 SS | @v2ray_free_conf [20]'
+      - '🇵🇱 PL | 🔒 SS | @v2ray_free_conf [18]'
+      - '🇦🇺 AU | 🔒 SS | @v2ray_free_conf [19]'
 
   - name: 🌍 Global Media
     type: select
