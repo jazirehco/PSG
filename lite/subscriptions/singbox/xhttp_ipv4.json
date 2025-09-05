@@ -93,8 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
-                "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]"
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,8 +106,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
-                "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]"
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -212,39 +212,34 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
-            "type": "vless",
-            "server": "91.99.16.244",
-            "server_port": 443,
-            "uuid": "Parsashonam-305",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
-                    "short_id": "61e683d41fdb"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
             "type": "vless",
-            "server": "91.99.27.66",
+            "server": "91.99.7.237",
             "server_port": 443,
-            "uuid": "cbfaa4fa-8393-43db-a052-d86543462f0d",
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "91.99.27.66",
+                "server_name": "91.99.7.237",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "104.21.48.1",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2b33",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

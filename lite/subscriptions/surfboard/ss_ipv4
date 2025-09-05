@@ -9,17 +9,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🔒 SS | @free1ss [13] = ss, 178.130.43.225, 2222, encrypt-method = chacha20-ietf-poly1305, password = qscavF5UviIL-8V-E4raBA
-🇳🇱 NL | 🔒 SS | @free1ss [14] = ss, 193.29.139.235, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇦🇹 AT | 🔒 SS | @free1ss [15] = ss, 95.163.176.37, 8506, encrypt-method = chacha20-ietf-poly1305, password = dURrI3V1m42NLew9vJk6XC
+🇳🇱 NL | 🔒 SS | @free1ss [13] = ss, 193.29.139.235, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇦🇹 AT | 🔒 SS | @free1ss [14] = ss, 95.163.176.37, 8506, encrypt-method = chacha20-ietf-poly1305, password = dURrI3V1m42NLew9vJk6XC
+🇩🇰 DK | 🔒 SS | @free1ss [15] = ss, 195.88.89.138, 808, encrypt-method = chacha20-ietf-poly1305, password = tvX1v#NSFP_LG_bJ
 🇸🇪 SE | 🔒 SS | @kafing_2 [10] = ss, 4.223.100.248, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇺🇸 US | 🔒 SS | @outline_ir [19] = ss, 45.87.175.28, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇺🇸 US | 🔒 SS | @outline_ir [17] = ss, 45.87.175.28, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇺🇸 US | 🔒 SS | @v2ray_free_conf [18] = ss, 144.126.146.38, 30100, encrypt-method = chacha20-ietf-poly1305, password = 741ddced-e6ee-4175-9c1a-e524009f9045
+🇭🇰 HK | 🔒 SS | @v2ray_free_conf [19] = ss, 18.162.146.85, 8316, encrypt-method = chacha20-ietf-poly1305, password = ljqdalu13..
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇦🇹 AT | 🔒 SS | @free1ss [15], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
-PSG-AUTO = url-test, 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇦🇹 AT | 🔒 SS | @free1ss [15], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇦🇹 AT | 🔒 SS | @free1ss [15], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [19]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇦🇹 AT | 🔒 SS | @free1ss [14], 🇩🇰 DK | 🔒 SS | @free1ss [15], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [17], 🇺🇸 US | 🔒 SS | @v2ray_free_conf [18], 🇭🇰 HK | 🔒 SS | @v2ray_free_conf [19]
+PSG-AUTO = url-test, 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇦🇹 AT | 🔒 SS | @free1ss [14], 🇩🇰 DK | 🔒 SS | @free1ss [15], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [17], 🇺🇸 US | 🔒 SS | @v2ray_free_conf [18], 🇭🇰 HK | 🔒 SS | @v2ray_free_conf [19]
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇦🇹 AT | 🔒 SS | @free1ss [14], 🇩🇰 DK | 🔒 SS | @free1ss [15], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇺🇸 US | 🔒 SS | @outline_ir [17], 🇺🇸 US | 🔒 SS | @v2ray_free_conf [18], 🇭🇰 HK | 🔒 SS | @v2ray_free_conf [19]
 
 [Rule]
 GEOIP,IR,DIRECT

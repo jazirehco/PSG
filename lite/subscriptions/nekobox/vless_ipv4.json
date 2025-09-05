@@ -93,17 +93,16 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+                "🇸🇪 SE | 🔓 VLESS | @outline_ir [19]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
+                "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [14]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -127,17 +126,16 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
+                "🇸🇪 SE | 🔓 VLESS | @outline_ir [19]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
+                "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [14]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -451,45 +449,31 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [17]",
-            "type": "vless",
-            "server": "91.99.16.244",
-            "server_port": 443,
-            "uuid": "Parsashonam-305",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
-                    "short_id": "61e683d41fdb"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
             "type": "vless",
-            "server": "91.99.27.66",
+            "server": "91.99.7.237",
             "server_port": 443,
-            "uuid": "cbfaa4fa-8393-43db-a052-d86543462f0d",
+            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "91.99.27.66",
+                "server_name": "91.99.7.237",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔓 VLESS | @outline_ir [19]",
+            "type": "vless",
+            "server": "185.146.173.39",
+            "server_port": 8880,
+            "uuid": "Parsashonam-305",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -515,7 +499,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
+            "tag": "🇨🇦 CA | 🔓 VLESS | @proxyfn [18]",
             "type": "vless",
             "server": "104.31.16.37",
             "server_port": 80,
@@ -655,38 +639,22 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
-            "server": "15.237.140.56",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "104.21.48.1",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2b33",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "cho.chonon.sbs",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "104.26.6.89",
-            "server_port": 2095,
-            "uuid": "70465717-66ae-4756-b28a-ec5899e08b17",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
