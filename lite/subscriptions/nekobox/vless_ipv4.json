@@ -83,6 +83,7 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [17]",
                 "🚩 CF | 🔓 VLESS | @freakconfig [18]",
+                "🇫🇷 FR | 🔓 VLESS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
@@ -98,10 +99,12 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,6 +118,7 @@
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [17]",
                 "🚩 CF | 🔓 VLESS | @freakconfig [18]",
+                "🇫🇷 FR | 🔓 VLESS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
@@ -130,10 +134,12 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [15]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -279,6 +285,15 @@
                     "Host": "104.17.147.22"
                 }
             }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @free1ss [14]",
+            "type": "vless",
+            "server": "185.153.183.211",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -556,6 +571,56 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [18]",
+            "type": "vless",
+            "server": "51.44.193.223",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2ray_free_conf [20]",
+            "type": "vless",
+            "server": "15.188.138.224",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -628,27 +693,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "a9034584-168a-4a3d-b605-33f8099d6172",
+            "server_port": 80,
+            "uuid": "e31520a8-1f17-4915-9a8a-03aa9fd1be34",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "GeIm.IsVcLOd.CoM",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn?ed=2048",
+                "path": "/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048",
                 "headers": {
-                    "Host": "GeIm.IsVcLOd.CoM"
+                    "Host": "172.66.40.99"
                 }
             }
         }
