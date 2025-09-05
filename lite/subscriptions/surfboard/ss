@@ -9,19 +9,22 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🔒 SS | @free1ss [8] = ss, 193.29.139.227, 8080, encrypt-method = chacha20-ietf-poly1305, password = QCXDxuDlTTMD7jtgHUjIoj
-🇳🇱 NL | 🔒 SS | @free1ss [9] = ss, 193.29.139.144, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇮🇸 IS | 🔒 SS | @free1ss [10] = ss, 212.192.214.159, 800, encrypt-method = chacha20-ietf-poly1305, password = tvX1v#NSFP_LG_bJ
+🇺🇸 US | 🔒 SS | @NamiraConfigs [68] = ss, 71.19.148.74, 443, encrypt-method = chacha20-ietf-poly1305, password = XUMTygEM1jVYIvysXKqA5T
+🇺🇸 US | 🔒 SS | @NamiraConfigs [69] = ss, 154.44.15.133, 44642, encrypt-method = aes-256-gcm, password = iHapGY8XoW
+🇨🇿 CZ | 🔒 SS | @NamiraConfigs [70] = ss, 195.181.160.6, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇳🇱 NL | 🔒 SS | @free1ss [8] = ss, 193.29.139.144, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇮🇸 IS | 🔒 SS | @free1ss [9] = ss, 212.192.214.159, 800, encrypt-method = chacha20-ietf-poly1305, password = tvX1v#NSFP_LG_bJ
+🇮🇳 IN | 🔒 SS | @free1ss [10] = ss, 43.205.208.0, 80, encrypt-method = aes-256-gcm, password = dada0801
 🇸🇪 SE | 🔒 SS | @kafing_2 [10] = ss, 4.223.100.248, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇨🇦 CA | 🔒 SS | @outline_ir [18] = ss, 142.4.216.225, 80, encrypt-method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq
-🇮🇳 IN | 🔒 SS | @outline_ir [19] = ss, 43.205.208.0, 80, encrypt-method = aes-256-gcm, password = dada0801
-🇱🇻 LV | 🔒 SS | @v2ray_free_conf [20] = ss, lv.vmagnum.win, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
+🇻🇳 VN | 🔒 SS | @v2ray_free_conf [19] = ss, 103.163.218.2, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇵🇱 PL | 🔒 SS | @v2ray_free_conf [20] = ss, 2.59.163.104, 2222, encrypt-method = chacha20-ietf-poly1305, password = qscavF5UviIL-8V-E4raBA
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔒 SS | @free1ss [8], 🇳🇱 NL | 🔒 SS | @free1ss [9], 🇮🇸 IS | 🔒 SS | @free1ss [10], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @outline_ir [18], 🇮🇳 IN | 🔒 SS | @outline_ir [19], 🇱🇻 LV | 🔒 SS | @v2ray_free_conf [20]
-PSG-AUTO = url-test, 🇳🇱 NL | 🔒 SS | @free1ss [8], 🇳🇱 NL | 🔒 SS | @free1ss [9], 🇮🇸 IS | 🔒 SS | @free1ss [10], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @outline_ir [18], 🇮🇳 IN | 🔒 SS | @outline_ir [19], 🇱🇻 LV | 🔒 SS | @v2ray_free_conf [20]
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🔒 SS | @free1ss [8], 🇳🇱 NL | 🔒 SS | @free1ss [9], 🇮🇸 IS | 🔒 SS | @free1ss [10], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @outline_ir [18], 🇮🇳 IN | 🔒 SS | @outline_ir [19], 🇱🇻 LV | 🔒 SS | @v2ray_free_conf [20]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇨🇿 CZ | 🔒 SS | @NamiraConfigs [70], 🇳🇱 NL | 🔒 SS | @free1ss [8], 🇮🇸 IS | 🔒 SS | @free1ss [9], 🇮🇳 IN | 🔒 SS | @free1ss [10], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @outline_ir [18], 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [19], 🇵🇱 PL | 🔒 SS | @v2ray_free_conf [20]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇨🇿 CZ | 🔒 SS | @NamiraConfigs [70], 🇳🇱 NL | 🔒 SS | @free1ss [8], 🇮🇸 IS | 🔒 SS | @free1ss [9], 🇮🇳 IN | 🔒 SS | @free1ss [10], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @outline_ir [18], 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [19], 🇵🇱 PL | 🔒 SS | @v2ray_free_conf [20]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @NamiraConfigs [68], 🇺🇸 US | 🔒 SS | @NamiraConfigs [69], 🇨🇿 CZ | 🔒 SS | @NamiraConfigs [70], 🇳🇱 NL | 🔒 SS | @free1ss [8], 🇮🇸 IS | 🔒 SS | @free1ss [9], 🇮🇳 IN | 🔒 SS | @free1ss [10], 🇸🇪 SE | 🔒 SS | @kafing_2 [10], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @outline_ir [18], 🇻🇳 VN | 🔒 SS | @v2ray_free_conf [19], 🇵🇱 PL | 🔒 SS | @v2ray_free_conf [20]
 
 [Rule]
 GEOIP,IR,DIRECT
