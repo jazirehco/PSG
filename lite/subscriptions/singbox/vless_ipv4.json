@@ -113,7 +113,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [20]"
             ],
             "tag": "proxy",
@@ -146,7 +147,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [20]"
             ],
             "tag": "auto",
@@ -622,7 +624,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [19]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
             "type": "vless",
             "server": "18.199.51.132",
             "server_port": 22224,
@@ -647,13 +649,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [20]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [19]",
             "type": "vless",
             "server": "104.16.53.11",
             "server_port": 8080,
             "uuid": "8bf5c07a-acd3-4360-b940-62d6b77699af",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [20]",
+            "type": "vless",
+            "server": "104.16.3.5",
+            "server_port": 8880,
+            "uuid": "70465717-66ae-4756-b28a-ec5899e08b17",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2087",
+                "headers": {
+                    "Host": "104.16.3.5"
+                }
+            }
         }
     ],
     "route": {
