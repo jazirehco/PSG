@@ -84,7 +84,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
-                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]"
+                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,7 +101,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
-                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]"
+                "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -279,6 +283,38 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
+            "type": "vless",
+            "server": "pq-unitedstates3.09vpn.com",
+            "server_port": 80,
+            "uuid": "b6d6dcc2-640b-411f-8003-620830fbf183",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/vless/",
+                "headers": {
+                    "Host": "pq-unitedstates3.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
+            "type": "vless",
+            "server": "sweet-combination.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "05020a61-3c0c-4ead-b256-7851ff905a75",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sweet-combination.seotoolsforyou.co.uk"
                 }
             }
         }
