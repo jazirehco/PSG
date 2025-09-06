@@ -23,10 +23,14 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [13]","type":"ss","server":"192.142.18.127","port":443,"password":"39496772-3a79-4e36-b04f-5ce1b8a31968","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA | 🔒 SS | @NamiraConfigs [68]","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇪 PE | 🔒 SS | @NamiraConfigs [69]","type":"ss","server":"185.47.252.251","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🔒 SS | @NamiraConfigs [70]","type":"ss","server":"83.147.216.70","port":64519,"password":"YXgS8ComTam7qoesPlzlMo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇸 IS | 🔒 SS | @free1ss [15]","type":"ss","server":"212.192.214.159","port":800,"password":"tvX1v#NSFP_LG_bJ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪 SE | 🔒 SS | @kafing_2 [10]","type":"ss","server":"4.223.100.248","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @megavpn_link [12]","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🔒 SS | @outline_ir [17]","type":"ss","server":"45.87.175.28","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱 PL | 🔒 SS | @v2ray_free_conf [19]","type":"ss","server":"2.59.163.101","port":2222,"password":"qscavF5UviIL-8V-E4raBA","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +44,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 SS | @free1ss [13]'
+      - '🇨🇦 CA | 🔒 SS | @NamiraConfigs [68]'
+      - '🇵🇪 PE | 🔒 SS | @NamiraConfigs [69]'
+      - '🇫🇮 FI | 🔒 SS | @NamiraConfigs [70]'
+      - '🇮🇸 IS | 🔒 SS | @free1ss [15]'
       - '🇸🇪 SE | 🔒 SS | @kafing_2 [10]'
       - '🇬🇧 GB | 🔒 SS | @megavpn_link [12]'
       - '🇺🇸 US | 🔒 SS | @outline_ir [17]'
+      - '🇵🇱 PL | 🔒 SS | @v2ray_free_conf [19]'
 
   - name: 🌍 Global Media
     type: select
