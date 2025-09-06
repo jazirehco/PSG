@@ -92,7 +92,6 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -102,6 +101,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [19]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [13]",
+                "🇫🇷 FR | 🔓 VLESS | @free1ss [15]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
@@ -141,8 +141,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [1]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -160,7 +160,6 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
@@ -170,6 +169,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [18]",
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [19]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [13]",
+                "🇫🇷 FR | 🔓 VLESS | @free1ss [15]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [3]",
                 "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
@@ -209,8 +209,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇫🇮 FI | 🔓 VLESS | @v2ray1_ng [1]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -270,14 +270,6 @@
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [70]",
-            "type": "shadowsocks",
-            "server": "45.87.175.178",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -445,6 +437,15 @@
             "server_port": 443,
             "method": "aes-256-gcm",
             "password": "39496772-3a79-4e36-b04f-5ce1b8a31968"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @free1ss [15]",
+            "type": "vless",
+            "server": "164.138.202.139",
+            "server_port": 10777,
+            "uuid": "affe7ad5-8bc5-47c0-94b9-5231452412bb",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -1065,15 +1066,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
-            "type": "shadowsocks",
-            "server": "hackney-latest-strike.freesocks.work",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XUMTygEM1jVYIvysXKqA5T"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "137.175.124.167",
             "server_port": 20086,
@@ -1087,6 +1080,15 @@
                     "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "45.67.230.79",
+            "server_port": 11052,
+            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
