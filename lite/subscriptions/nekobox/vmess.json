@@ -91,9 +91,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇨🇦 CA | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -116,9 +115,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇨🇦 CA | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -370,38 +368,38 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "93.127.180.64",
-            "server_port": 77,
-            "uuid": "fb4bd735-49e1-45e8-8308-cdf05c4cc5c6",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "25.26.27.209",
-            "server_port": 8880,
-            "uuid": "6f96494c-bdaf-3091-bf7b-29cfe92882b6",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/dabai&Telegram🇨🇳 @WangCai2 /?ed=2560",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "103.124.107.144",
             "server_port": 29800,
             "uuid": "cc31ddfc-d92e-4dab-cd06-00dfb84af8ac",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "15.235.83.228",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",

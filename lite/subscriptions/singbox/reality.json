@@ -96,8 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -112,8 +111,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -296,16 +294,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
-            "server": "95.163.152.141",
-            "server_port": 8443,
-            "uuid": "464ec76e-fd60-4ad4-993e-d2c262f88ed1",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-306",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "jd.com",
+                "server_name": "Google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -313,35 +311,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "41a4cee2c50c4fc3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc-jd"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "public-hqTm.s2pp.ir",
-            "server_port": 8880,
-            "uuid": "hqV2rayNG-do",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Lb8fQTxqT1xIkPwqWlAq7ps68-9Pe-2nACOR4U0rkgs",
-                    "short_id": "4ab1cea53729"
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         }

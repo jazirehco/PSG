@@ -85,7 +85,7 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇫🇮 FI | 🔓 VLESS | @freakconfig [18]",
-                "🇫🇮 FI | 🔓 VLESS | @kafing_2 [9]",
+                "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -97,8 +97,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,7 +113,7 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇫🇮 FI | 🔓 VLESS | @freakconfig [18]",
-                "🇫🇮 FI | 🔓 VLESS | @kafing_2 [9]",
+                "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -126,8 +125,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -311,7 +309,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @kafing_2 [9]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
             "type": "vless",
             "server": "m24a.vip784.com",
             "server_port": 33801,
@@ -516,29 +514,6 @@
                 "path": "/--ping--www.speedtest.net?ed=2080",
                 "headers": {
                     "Host": "server.turboo-server.com.co"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "public-hqTm.s2pp.ir",
-            "server_port": 8880,
-            "uuid": "hqV2rayNG-do",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Lb8fQTxqT1xIkPwqWlAq7ps68-9Pe-2nACOR4U0rkgs",
-                    "short_id": "4ab1cea53729"
                 }
             }
         }

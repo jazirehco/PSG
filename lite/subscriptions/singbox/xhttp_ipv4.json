@@ -93,7 +93,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [10]"
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,7 +106,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [10]"
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -210,7 +212,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [10]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
             "type": "vless",
             "server": "91.99.146.68",
             "server_port": 443,
@@ -224,6 +226,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-306",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         }
