@@ -10,11 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14] = vmess, customers.tele-shop-too.studio, 33203, username = eaae52d7-bc1a-4979-bd66-b6b428107173, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56] = vmess, 15.204.234.200, 41100, username = c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]
 
 [Rule]
 GEOIP,IR,DIRECT
