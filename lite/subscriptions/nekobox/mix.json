@@ -80,19 +80,19 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [18]",
-                "🇱🇻 LV | 🔒 VLESS | @freakconfig [19]",
-                "🇳🇴 NO | 🔒 SS | @free1ss [11]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [13]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
+                "🇸🇪 SE | 🔒 VLESS | @freakconfig [18]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [19]",
+                "🇳🇴 NO | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [12]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
-                "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
@@ -148,19 +148,19 @@
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VMESS | @Fr33C0nfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [18]",
-                "🇱🇻 LV | 🔒 VLESS | @freakconfig [19]",
-                "🇳🇴 NO | 🔒 SS | @free1ss [11]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [13]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
+                "🇸🇪 SE | 🔒 VLESS | @freakconfig [18]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [19]",
+                "🇳🇴 NO | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [12]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
-                "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
@@ -262,6 +262,31 @@
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "212.192.31.146",
+            "server_port": 443,
+            "uuid": "199a78a5-b4d4-4064-a0db-bb37c5839134",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "212.192.31.146",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panika",
+                "headers": {
+                    "Host": "212.192.31.146"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -371,34 +396,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @freakconfig [17]",
-            "type": "vless",
-            "server": "2144.458.854.125.3n95278zh9x6i4zi8r0r.curfuffled.com",
-            "server_port": 443,
-            "uuid": "f475cc9b-1ec9-4bb5-b48a-d19e08ca0a09",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cGsFvA6EJ_WutI3kRa5vdi0Qtgos6oa95lTn7oN7Pzw",
-                    "short_id": "519b033b94"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -407,7 +405,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇱🇻 LV | 🔒 VLESS | @freakconfig [19]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @freakconfig [18]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -432,7 +430,25 @@
             }
         },
         {
-            "tag": "🇳🇴 NO | 🔒 SS | @free1ss [11]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [19]",
+            "type": "vless",
+            "server": "91.99.67.193",
+            "server_port": 443,
+            "uuid": "3cf69055-74e9-4f7e-9121-d9a9f15ca79d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.67.193",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇴 NO | 🔒 SS | @free1ss [10]",
             "type": "shadowsocks",
             "server": "217.170.194.203",
             "server_port": 808,
@@ -440,7 +456,7 @@
             "password": "tvX1v#NSFP_LG_bJ"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [13]",
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [12]",
             "type": "shadowsocks",
             "server": "193.29.139.227",
             "server_port": 8080,
@@ -464,14 +480,6 @@
             "uuid": "8ed580b9-4823-4cb0-9d75-ad51bae94da0",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 SS | @kafing_2 [10]",
-            "type": "shadowsocks",
-            "server": "4.223.100.248",
-            "server_port": 48172,
-            "method": "chacha20-ietf-poly1305",
-            "password": "51yloQC8D9w1Wae7FHtI65"
         },
         {
             "tag": "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
