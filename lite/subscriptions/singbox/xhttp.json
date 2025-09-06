@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [18]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]"
             ],
             "tag": "proxy",
@@ -105,8 +105,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [18]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]"
             ],
             "tag": "auto",
@@ -194,7 +194,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [19]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -203,13 +203,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [18]",
             "type": "vless",
-            "server": "margate2.superip.ir",
-            "server_port": 3006,
-            "uuid": "5d2eb11f-0138-490d-9781-f9cfb60c1766",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "public-hqTm.s2pp.ir",
+            "server_port": 8880,
+            "uuid": "hqV2rayNG-do",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Lb8fQTxqT1xIkPwqWlAq7ps68-9Pe-2nACOR4U0rkgs",
+                    "short_id": "4ab1cea53729"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
