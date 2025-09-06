@@ -1,0 +1,27 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/ss interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇺🇸 US | 🔒 SS | @NamiraConfigs [62] = ss, 45.87.175.199, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇺🇸 US | 🔒 SS | @NamiraConfigs [63] = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+🇺🇸 US | 🔒 SS | @NamiraConfigs [65] = ss, 45.87.175.178, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+🇺🇸 US | 🔒 SS | @NamiraConfigs [66] = ss, 45.87.175.157, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇪🇸 ES | 🔒 SS | @NamiraConfigs [68] = ss, 45.154.206.192, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇳🇱 NL | 🔒 SS | @NamiraConfigs [69] = ss, 213.109.147.242, 62685, encrypt-method = chacha20-ietf-poly1305, password = VpKABcOpNNA0l5G2AVOmw8
+🇦🇹 AT | 🔒 SS | @NamiraConfigs [70] = ss, 77.110.110.240, 443, encrypt-method = aes-256-gcm, password = d70ef8b5-6048-4c0d-be4d-fc60399b0f45
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @NamiraConfigs [62], 🇺🇸 US | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [66], 🇪🇸 ES | 🔒 SS | @NamiraConfigs [68], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [69], 🇦🇹 AT | 🔒 SS | @NamiraConfigs [70]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @NamiraConfigs [62], 🇺🇸 US | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [66], 🇪🇸 ES | 🔒 SS | @NamiraConfigs [68], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [69], 🇦🇹 AT | 🔒 SS | @NamiraConfigs [70]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @NamiraConfigs [62], 🇺🇸 US | 🔒 SS | @NamiraConfigs [63], 🇺🇸 US | 🔒 SS | @NamiraConfigs [65], 🇺🇸 US | 🔒 SS | @NamiraConfigs [66], 🇪🇸 ES | 🔒 SS | @NamiraConfigs [68], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [69], 🇦🇹 AT | 🔒 SS | @NamiraConfigs [70]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
