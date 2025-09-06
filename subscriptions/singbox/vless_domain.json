@@ -97,9 +97,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,9 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -297,50 +293,27 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [61]",
             "type": "vless",
-            "server": "famous-danger.oneeat.co",
-            "server_port": 80,
-            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
+            "server": "ov-germany6.09vpn.com",
+            "server_port": 8443,
+            "uuid": "1ff9dc4a-4853-4790-a81c-13e195c957e8",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "famous-danger.oneeat.co"
+            "tls": {
+                "enabled": true,
+                "server_name": "ov-germany6.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "communal-loss.oneeat.co",
-            "server_port": 80,
-            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/vless/",
                 "headers": {
-                    "Host": "communal-loss.oneeat.co"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
+                    "Host": "ov-germany6.09vpn.com"
                 }
             }
         }
