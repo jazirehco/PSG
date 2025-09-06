@@ -83,7 +83,8 @@
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]"
+                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +98,8 @@
                 "🇩🇴 DO | 🔒 VLESS | @kkkkkoabvbbvbvv [11]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]"
+                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -281,6 +283,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci"
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "95.163.152.141",
+            "server_port": 8443,
+            "uuid": "464ec76e-fd60-4ad4-993e-d2c262f88ed1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "41a4cee2c50c4fc3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc-jd"
             }
         }
     ],
