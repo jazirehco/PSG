@@ -97,13 +97,13 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇧🇬 BG | 🔒 VLESS | @freakconfig [18]",
-                "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
+                "🇫🇮 FI | 🔓 VLESS | @kafing_2 [9]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+                "🇫🇷 FR | 🔓 VLESS | @outline_ir [19]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -112,8 +112,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -129,13 +128,13 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇧🇬 BG | 🔒 VLESS | @freakconfig [18]",
-                "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
+                "🇫🇮 FI | 🔓 VLESS | @kafing_2 [9]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+                "🇫🇷 FR | 🔓 VLESS | @outline_ir [19]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -144,8 +143,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -341,7 +339,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @kafing_2 [9]",
             "type": "vless",
             "server": "m24a.vip784.com",
             "server_port": 33801,
@@ -459,11 +457,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @outline_ir [19]",
             "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "a98b1a4d-02d5-442b-a80e-928a1f7f81b4",
+            "server": "m31a.vip784.com",
+            "server_port": 33801,
+            "uuid": "21d29623-3b91-4494-8402-08372da813a9",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -568,32 +566,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "t101.tesotinko.com",
-            "server_port": 443,
-            "uuid": "003e1369-d269-4ce4-a9c9-596b8458b953",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t101.tesotinko.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t101.tesotinko.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "creative-computer.oneeat.co",
             "server_port": 80,
