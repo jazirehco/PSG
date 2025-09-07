@@ -101,8 +101,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -121,7 +120,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -153,8 +153,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -173,7 +172,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -609,23 +609,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "creative-computer.oneeat.co",
-            "server_port": 80,
-            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "creative-computer.oneeat.co"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "www.persia.my",
             "server_port": 2095,
@@ -983,11 +967,36 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
             "uuid": "1dcfdb15-6e19-413b-ac74-146f45949669",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "GeIm.IsVcLOd.CoM",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn?ed=2048",
+                "headers": {
+                    "Host": "GeIm.IsVcLOd.CoM"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "46e82418-55ba-4e21-953e-eb85c0b580b2",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
