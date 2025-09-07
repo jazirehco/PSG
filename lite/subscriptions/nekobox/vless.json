@@ -101,8 +101,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [18]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇸🇪 SE | 🔓 VLESS | @freakconfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -152,8 +152,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
+                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [18]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇸🇪 SE | 🔓 VLESS | @freakconfig [16]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -593,15 +593,6 @@
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [16]",
             "type": "vless",
-            "server": "margate.superip.ir",
-            "server_port": 3009,
-            "uuid": "5d2eb11f-0138-490d-9781-f9cfb60c1766",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
             "server": "margate2.superip.ir",
             "server_port": 3006,
             "uuid": "5d2eb11f-0138-490d-9781-f9cfb60c1766",
@@ -609,7 +600,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
@@ -621,6 +612,31 @@
                 "path": "/@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [18]",
+            "type": "vless",
+            "server": "t101.tesotinko.com",
+            "server_port": 443,
+            "uuid": "003e1369-d269-4ce4-a9c9-596b8458b953",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t101.tesotinko.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t101.tesotinko.com"
                 }
             }
         },

@@ -23,13 +23,14 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇬 SG | 🔒 SS | @free1ss [11]","type":"ss","server":"167.172.71.99","port":22131,"password":"9cRHrSXxi6knrYSpGOstEr","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [12]","type":"ss","server":"193.29.139.177","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [13]","type":"ss","server":"89.110.74.148","port":46271,"password":"OzPK9PcJr1NsWfm7T48LiC","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG | 🔒 SS | @free1ss [10]","type":"ss","server":"167.172.71.99","port":22131,"password":"9cRHrSXxi6knrYSpGOstEr","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [11]","type":"ss","server":"193.29.139.177","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [12]","type":"ss","server":"89.110.74.148","port":46271,"password":"OzPK9PcJr1NsWfm7T48LiC","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @megavpn_link [12]","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🔒 SS | @outline_ir [19]","type":"ss","server":"77.83.245.50","port":443,"password":"WV7haGrJjRI7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦 CA | 🔒 SS | @v2ray1_ng [3]","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇪 SE | 🔒 SS | @v2ray_free_conf [19]","type":"ss","server":"4.223.100.248","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪 SE | 🔒 SS | @v2ray_free_conf [18]","type":"ss","server":"4.223.100.248","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪 SE | 🔒 SS | @v2ray_free_conf [20]","type":"ss","server":"4.223.106.240","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +44,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | 🔒 SS | @free1ss [11]'
+      - '🇸🇬 SG | 🔒 SS | @free1ss [10]'
+      - '🇳🇱 NL | 🔒 SS | @free1ss [11]'
       - '🇳🇱 NL | 🔒 SS | @free1ss [12]'
-      - '🇳🇱 NL | 🔒 SS | @free1ss [13]'
       - '🇬🇧 GB | 🔒 SS | @megavpn_link [12]'
       - '🇹🇷 TR | 🔒 SS | @outline_ir [19]'
       - '🇨🇦 CA | 🔒 SS | @v2ray1_ng [3]'
-      - '🇸🇪 SE | 🔒 SS | @v2ray_free_conf [19]'
+      - '🇸🇪 SE | 🔒 SS | @v2ray_free_conf [18]'
+      - '🇸🇪 SE | 🔒 SS | @v2ray_free_conf [20]'
 
   - name: 🌍 Global Media
     type: select
