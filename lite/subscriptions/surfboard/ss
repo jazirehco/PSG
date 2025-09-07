@@ -9,20 +9,20 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🔒 SS | @free1ss [12] = ss, 193.29.139.160, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇸🇬 SG | 🔒 SS | @free1ss [13] = ss, 167.172.71.99, 22131, encrypt-method = chacha20-ietf-poly1305, password = 9cRHrSXxi6knrYSpGOstEr
-🇳🇱 NL | 🔒 SS | @free1ss [14] = ss, 193.29.139.177, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇳🇱 NL | 🔒 SS | @free1ss [11] = ss, 193.29.139.160, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇸🇬 SG | 🔒 SS | @free1ss [12] = ss, 167.172.71.99, 22131, encrypt-method = chacha20-ietf-poly1305, password = 9cRHrSXxi6knrYSpGOstEr
+🇳🇱 NL | 🔒 SS | @free1ss [13] = ss, 193.29.139.177, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇹🇷 TR | 🔒 SS | @outline_ir [20] = ss, 77.83.245.50, 443, encrypt-method = chacha20-ietf-poly1305, password = WV7haGrJjRI7
+🇹🇷 TR | 🔒 SS | @outline_ir [19] = ss, 77.83.245.50, 443, encrypt-method = chacha20-ietf-poly1305, password = WV7haGrJjRI7
 🇨🇦 CA | 🔒 SS | @v2ray1_ng [3] = ss, 142.4.216.225, 80, encrypt-method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq
-🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19] = ss, 167.71.235.238, 47347, encrypt-method = chacha20-ietf-poly1305, password = WgACwLy1BPk47JOzHyA7zu
-🇬🇧 GB | 🔒 SS | @outline_ir [18] = ss, c1.nastuh.link, 443, encrypt-method = chacha20-ietf-poly1305, password = lntfVeiB7cy3Hm1O
-🇦🇹 AT | 🔒 SS | @v2ray_free_conf [20] = ss, promo6v.bystrivpn.ru, 443, encrypt-method = chacha20-ietf-poly1305, password = 9JeYy8SkViXuSHVs9GFeSe
+🇸🇪 SE | 🔒 SS | @v2ray_free_conf [20] = ss, 4.223.100.248, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
+🇦🇹 AT | 🔒 SS | @v2ray_free_conf [18] = ss, promo6v.bystrivpn.ru, 443, encrypt-method = chacha20-ietf-poly1305, password = 9JeYy8SkViXuSHVs9GFeSe
+🇺🇸 US | 🔒 SS | @v2ray_free_conf [19] = ss, ltnl16.saint.ydns.eu, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔒 SS | @free1ss [12], 🇸🇬 SG | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇷 TR | 🔒 SS | @outline_ir [20], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [3], 🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19], 🇬🇧 GB | 🔒 SS | @outline_ir [18], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [20]
-PSG-AUTO = url-test, 🇳🇱 NL | 🔒 SS | @free1ss [12], 🇸🇬 SG | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇷 TR | 🔒 SS | @outline_ir [20], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [3], 🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19], 🇬🇧 GB | 🔒 SS | @outline_ir [18], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [20]
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🔒 SS | @free1ss [12], 🇸🇬 SG | 🔒 SS | @free1ss [13], 🇳🇱 NL | 🔒 SS | @free1ss [14], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇷 TR | 🔒 SS | @outline_ir [20], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [3], 🇮🇳 IN | 🔒 SS | @v2ray_free_conf [19], 🇬🇧 GB | 🔒 SS | @outline_ir [18], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [20]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇸🇬 SG | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇷 TR | 🔒 SS | @outline_ir [19], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [3], 🇸🇪 SE | 🔒 SS | @v2ray_free_conf [20], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [18], 🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]
+PSG-AUTO = url-test, 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇸🇬 SG | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇷 TR | 🔒 SS | @outline_ir [19], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [3], 🇸🇪 SE | 🔒 SS | @v2ray_free_conf [20], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [18], 🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🔒 SS | @free1ss [11], 🇸🇬 SG | 🔒 SS | @free1ss [12], 🇳🇱 NL | 🔒 SS | @free1ss [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇷 TR | 🔒 SS | @outline_ir [19], 🇨🇦 CA | 🔒 SS | @v2ray1_ng [3], 🇸🇪 SE | 🔒 SS | @v2ray_free_conf [20], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [18], 🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]
 
 [Rule]
 GEOIP,IR,DIRECT
