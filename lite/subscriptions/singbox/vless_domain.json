@@ -96,8 +96,7 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇫🇮 FI | 🔓 VLESS | @freakconfig [16]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -112,8 +111,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
+                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,8 +128,7 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇫🇮 FI | 🔓 VLESS | @freakconfig [16]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -144,8 +143,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [16]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]"
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
+                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -316,16 +316,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @freakconfig [16]",
-            "type": "vless",
-            "server": "m65a.vip784.com",
-            "server_port": 33801,
-            "uuid": "1c7baa26-3890-4f01-bf93-c88ad9ed0495",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "sss2180.tas-bazi.com",
             "server_port": 443,
@@ -561,7 +552,16 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
+            "type": "vless",
+            "server": "m41a.vip784.com",
+            "server_port": 33801,
+            "uuid": "bbef1e1b-4061-45ce-a6e0-4cec2fe38cc4",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "t101.tesotinko.com",
             "server_port": 443,
@@ -586,7 +586,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "creative-computer.oneeat.co",
             "server_port": 80,
