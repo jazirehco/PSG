@@ -99,12 +99,12 @@
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
-                "🇧🇬 BG | 🔒 VLESS | @freakconfig [17]",
-                "🇬🇧 GB | 🔒 SS | @free1ss [9]",
-                "🇮🇱 IL | 🔒 SS | @free1ss [10]",
-                "🇨🇿 CZ | 🔒 SS | @free1ss [11]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
+                "🇸🇬 SG | 🔒 VLESS | @freakconfig [16]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
+                "🇮🇱 IL | 🔒 SS | @free1ss [9]",
+                "🇨🇿 CZ | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
@@ -144,6 +144,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇨🇦 CA | 🔒 SS | @v2ray1_ng [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -168,12 +171,12 @@
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
-                "🇧🇬 BG | 🔒 VLESS | @freakconfig [17]",
-                "🇬🇧 GB | 🔒 SS | @free1ss [9]",
-                "🇮🇱 IL | 🔒 SS | @free1ss [10]",
-                "🇨🇿 CZ | 🔒 SS | @free1ss [11]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
+                "🇸🇬 SG | 🔒 VLESS | @freakconfig [16]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
+                "🇮🇱 IL | 🔒 SS | @free1ss [9]",
+                "🇨🇿 CZ | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
@@ -213,6 +216,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇨🇦 CA | 🔒 SS | @v2ray1_ng [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -406,32 +412,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [15]",
-            "type": "vless",
-            "server": "198.62.62.2",
-            "server_port": 443,
-            "uuid": "598b4251-fd03-48fe-b12d-630ac3adf2e5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ali2.gerlemondns.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/hjgfdws",
-                "headers": {
-                    "Host": "ali2.gerlemondns.info"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "54.36.117.130",
             "server_port": 8080,
@@ -444,7 +425,7 @@
             }
         },
         {
-            "tag": "🇧🇬 BG | 🔒 VLESS | @freakconfig [17]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -469,15 +450,16 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 SS | @free1ss [9]",
-            "type": "shadowsocks",
-            "server": "78.129.140.11",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "AgryAVnK9VbBw6oHyslfrX"
+            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-2",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇱 IL | 🔒 SS | @free1ss [10]",
+            "tag": "🇮🇱 IL | 🔒 SS | @free1ss [9]",
             "type": "shadowsocks",
             "server": "169.150.202.174",
             "server_port": 990,
@@ -485,12 +467,20 @@
             "password": "f8f7aCzcPKbsF8p3"
         },
         {
-            "tag": "🇨🇿 CZ | 🔒 SS | @free1ss [11]",
+            "tag": "🇨🇿 CZ | 🔒 SS | @free1ss [10]",
             "type": "shadowsocks",
             "server": "195.181.160.6",
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [11]",
+            "type": "shadowsocks",
+            "server": "193.29.139.157",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -1099,6 +1089,53 @@
             "uuid": "bbef1e1b-4061-45ce-a6e0-4cec2fe38cc4",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "s1.ghostrkr.sbs",
+            "server_port": 8880,
+            "uuid": "b541ce31-694f-4f37-a02c-2b72b2a67974",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Ghostray_NG"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "172.67.223.119",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "m.ge3.dailydoseofmeme.uno",
+            "server_port": 17564,
+            "uuid": "aa7dd96b0a7d81db2e71553abe192620",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
