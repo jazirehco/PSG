@@ -81,8 +81,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]"
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,8 +96,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]"
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
+                "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -204,7 +208,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [20]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -223,6 +227,42 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.99.146.68",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
+            "type": "vless",
+            "server": "91.99.154.189",
+            "server_port": 443,
+            "uuid": "3cf69055-74e9-4f7e-9121-d9a9f15ca79d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.154.189",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
+            "type": "vless",
+            "server": "91.107.137.185",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.107.137.185",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
