@@ -103,8 +103,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -127,8 +127,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -376,16 +376,32 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "hk2.lrzdx.uk",
+            "server": "npmjs.com",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/NASNET/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5",
+            "uuid": "b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "hk2.lrzdx.uk",
+                "server_name": "BLaZE-fRA-64.BLaZECLOuD.sitE",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -394,25 +410,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/register",
+                "path": "/linkvkwss",
                 "headers": {
-                    "Host": "hk2.lrzdx.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "89.169.13.60",
-            "server_port": 28838,
-            "uuid": "b9d3c414-89cc-455d-b717-10c7ca1665a1",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
+                    "Host": "BLaZE-fRA-64.BLaZECLOuD.sitE"
                 }
             }
         },
