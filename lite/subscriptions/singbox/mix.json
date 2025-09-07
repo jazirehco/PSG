@@ -102,9 +102,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
                 "🇸🇪 SE | 🔓 VLESS | @freakconfig [17]",
                 "🇫🇮 FI | 🔓 VLESS | @freakconfig [18]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [12]",
                 "🇸🇬 SG | 🔒 SS | @free1ss [13]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
@@ -142,8 +142,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇨🇦 CA | 🔒 SS | @v2ray1_ng [3]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇮🇳 IN | 🔒 SS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -171,9 +171,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [16]",
                 "🇸🇪 SE | 🔓 VLESS | @freakconfig [17]",
                 "🇫🇮 FI | 🔓 VLESS | @freakconfig [18]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [12]",
                 "🇸🇬 SG | 🔒 SS | @free1ss [13]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
@@ -211,8 +211,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
                 "🇨🇦 CA | 🔒 SS | @v2ray1_ng [3]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇮🇳 IN | 🔒 SS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -442,14 +442,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [11]",
-            "type": "shadowsocks",
-            "server": "193.29.139.157",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u"
-        },
-        {
             "tag": "🇳🇱 NL | 🔒 SS | @free1ss [12]",
             "type": "shadowsocks",
             "server": "193.29.139.160",
@@ -464,6 +456,14 @@
             "server_port": 22131,
             "method": "chacha20-ietf-poly1305",
             "password": "9cRHrSXxi6knrYSpGOstEr"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [14]",
+            "type": "shadowsocks",
+            "server": "193.29.139.177",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -1056,16 +1056,7 @@
             "password": "JIhN6rBKkaEboLNXVSv5rq"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "135.125.182.74",
-            "server_port": 28213,
-            "uuid": "81852771-76fb-4e94-e4f1-4e37a698a49a",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "time.is",
             "server_port": 443,
@@ -1088,6 +1079,14 @@
                     "Host": "time.is"
                 }
             }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "167.71.235.238",
+            "server_port": 47347,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WgACwLy1BPk47JOzHyA7zu"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",

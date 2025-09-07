@@ -23,12 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [11]","type":"ss","server":"193.29.139.157","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [12]","type":"ss","server":"193.29.139.160","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬 SG | 🔒 SS | @free1ss [13]","type":"ss","server":"167.172.71.99","port":22131,"password":"9cRHrSXxi6knrYSpGOstEr","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [14]","type":"ss","server":"193.29.139.177","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @megavpn_link [12]","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🔒 SS | @outline_ir [20]","type":"ss","server":"77.83.245.50","port":443,"password":"WV7haGrJjRI7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦 CA | 🔒 SS | @v2ray1_ng [3]","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳 IN | 🔒 SS | @v2ray_free_conf [20]","type":"ss","server":"167.71.235.238","port":47347,"password":"WgACwLy1BPk47JOzHyA7zu","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @outline_ir [18]","type":"ss","server":"c1.nastuh.link","port":443,"password":"lntfVeiB7cy3Hm1O","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
@@ -43,12 +44,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 SS | @free1ss [11]'
       - '🇳🇱 NL | 🔒 SS | @free1ss [12]'
       - '🇸🇬 SG | 🔒 SS | @free1ss [13]'
+      - '🇳🇱 NL | 🔒 SS | @free1ss [14]'
       - '🇬🇧 GB | 🔒 SS | @megavpn_link [12]'
       - '🇹🇷 TR | 🔒 SS | @outline_ir [20]'
       - '🇨🇦 CA | 🔒 SS | @v2ray1_ng [3]'
+      - '🇮🇳 IN | 🔒 SS | @v2ray_free_conf [20]'
       - '🇬🇧 GB | 🔒 SS | @outline_ir [18]'
 
   - name: 🌍 Global Media
