@@ -129,19 +129,16 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇨🇦 CA | 🔒 SS | @v2ray1_ng [1]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-                "🇮🇳 IN | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [12]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -201,19 +198,16 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇨🇦 CA | 🔒 SS | @v2ray1_ng [1]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [2]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-                "🇮🇳 IN | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [12]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1086,33 +1080,16 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @v2ray1_ng [1]",
-            "type": "shadowsocks",
-            "server": "142.4.216.225",
-            "server_port": 80,
-            "method": "chacha20-ietf-poly1305",
-            "password": "JIhN6rBKkaEboLNXVSv5rq"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [2]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
             "type": "vless",
-            "server": "m41a.vip784.com",
-            "server_port": 33801,
-            "uuid": "bbef1e1b-4061-45ce-a6e0-4cec2fe38cc4",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-            "type": "vless",
-            "server": "sss25065.tas-bazi.com",
+            "server": "91.99.122.90",
             "server_port": 443,
-            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
+            "uuid": "c93ad4ba-05d4-4afd-af65-8055bfd84544",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sss25065.tas-bazi.com",
+                "server_name": "91.99.122.90",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1121,29 +1098,46 @@
             }
         },
         {
-            "tag": "🇮🇳 IN | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [18]",
+            "type": "shadowsocks",
+            "server": "92.112.126.90",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "9tqhMdIrTkgQ46PvhyAtMH"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "94.136.185.230",
-            "server_port": 10534,
-            "uuid": "b01c7ef9-33ec-41f6-bfbf-77ddc4d21649",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
-            "tag": "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "23.94.67.166",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "42000e02-6b4d-46ad-a572-80db7db2a9ce"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
-            "type": "shadowsocks",
-            "server": "us33.giamping.com",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "42000e02-6b4d-46ad-a572-80db7db2a9ce"
+            "tag": "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "163.172.220.71",
+            "server_port": 6616,
+            "uuid": "003f1279-c55d-427c-8327-9f71f8b1cc0b",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "163.172.220.71"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
@@ -1231,31 +1225,6 @@
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
-            "uuid": "e9ba730d-76c9-4786-9f49-e13d7935e4ae",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.dollardoon.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048",
-                "headers": {
-                    "Host": "www.dollardoon.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
             "uuid": "298d602a-cef1-42e3-8514-b10d4e4edb3e",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1277,7 +1246,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
