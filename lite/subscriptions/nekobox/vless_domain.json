@@ -84,7 +84,6 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇫🇮 FI | 🔓 VLESS | @freakconfig [14]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -98,7 +97,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]"
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,7 +113,6 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇫🇮 FI | 🔓 VLESS | @freakconfig [14]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -127,7 +126,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]"
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -300,15 +300,6 @@
                     "Host": "allnet.deragv2ray.net"
                 }
             }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @freakconfig [14]",
-            "type": "vless",
-            "server": "m75a.vip784.com",
-            "server_port": 33801,
-            "uuid": "5b6867c7-d683-43cb-8ff3-b8bc320f9999",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
@@ -527,6 +518,24 @@
             "uuid": "bbef1e1b-4061-45ce-a6e0-4cec2fe38cc4",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
+            "type": "vless",
+            "server": "sss25065.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss25065.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
