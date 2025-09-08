@@ -103,8 +103,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -127,8 +128,9 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -376,7 +378,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "51.68.191.233",
             "server_port": 80,
@@ -392,13 +394,38 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "s3.ipyar.org",
             "server_port": 32020,
             "uuid": "78b4fb57-39d7-4e9d-dd38-c9a38322bcb2",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "manager.andishehnegariran.ir",
+            "server_port": 443,
+            "uuid": "f9b5e761-ce93-44ca-9cb1-d2e948aa3000",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/24338/mehdi",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
