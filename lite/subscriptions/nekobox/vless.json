@@ -84,8 +84,9 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🚩 CF | 🔒 VLESS | @freakconfig [16]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [15]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [16]",
+                "🇫🇮 FI | 🔓 VLESS | @freakconfig [17]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -102,7 +103,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
@@ -135,8 +135,9 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🚩 CF | 🔒 VLESS | @freakconfig [16]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [15]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [16]",
+                "🇫🇮 FI | 🔓 VLESS | @freakconfig [17]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -153,7 +154,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
                 "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
@@ -346,7 +346,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -371,11 +371,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [17]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "TELEGRAM-CONFiGLiNE-2",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @freakconfig [17]",
+            "type": "vless",
+            "server": "m75a.vip784.com",
+            "server_port": 33801,
+            "uuid": "5b6867c7-d683-43cb-8ff3-b8bc320f9999",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -620,19 +629,6 @@
                 "headers": {
                     "Host": "104.18.26.90"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
-            "type": "vless",
-            "server": "54.36.117.130",
-            "server_port": 8080,
-            "uuid": "39730a72-e135-426c-9871-b372c0181483",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
