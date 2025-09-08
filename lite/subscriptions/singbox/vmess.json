@@ -103,8 +103,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -127,8 +127,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -376,38 +376,29 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "aeryrixsp630ww1.lovebaipiao.net",
-            "server_port": 54298,
-            "uuid": "5276ec30-a084-438d-85a0-5d9793e6ccb8",
+            "server": "51.68.191.233",
+            "server_port": 80,
+            "uuid": "f0eda072-9ae8-494c-a495-215fa5729467",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/zh",
+                "path": "/vmess/",
                 "headers": {
                     "Host": ""
                 }
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "89.31.120.192",
-            "server_port": 443,
-            "uuid": "44537595-9ccc-4b83-8936-5f9ad3229019",
+            "server": "s3.ipyar.org",
+            "server_port": 32020,
+            "uuid": "78b4fb57-39d7-4e9d-dd38-c9a38322bcb2",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
