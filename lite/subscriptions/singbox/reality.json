@@ -96,7 +96,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]"
+                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
+                "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,7 +112,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇷🇺 RU | 🔒 VLESS | @outline_ir [19]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
-                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]"
+                "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
+                "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -314,6 +316,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci@Rnrifci"
+            }
+        },
+        {
+            "tag": "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "95.164.85.109",
+            "server_port": 59374,
+            "uuid": "bfc78cd8-5951-4803-8d6c-4cedef8cd420",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
+                    "short_id": "d21e7c"
+                }
             }
         }
     ],
