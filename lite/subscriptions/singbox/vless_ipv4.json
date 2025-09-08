@@ -103,8 +103,8 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🇫🇮 FI | 🔓 VLESS | @outline_ir [19]",
-                "🇺🇸 US | 🔒 VLESS | @outline_ir [20]",
+                "🇫🇮 FI | 🔓 VLESS | @outline_ir [17]",
+                "🇺🇸 US | 🔒 VLESS | @outline_ir [18]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
@@ -112,7 +112,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -134,8 +136,8 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🇫🇮 FI | 🔓 VLESS | @outline_ir [19]",
-                "🇺🇸 US | 🔒 VLESS | @outline_ir [20]",
+                "🇫🇮 FI | 🔓 VLESS | @outline_ir [17]",
+                "🇺🇸 US | 🔒 VLESS | @outline_ir [18]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
@@ -143,7 +145,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -428,7 +432,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @outline_ir [19]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @outline_ir [17]",
             "type": "vless",
             "server": "65.109.238.79",
             "server_port": 2080,
@@ -437,7 +441,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @outline_ir [20]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @outline_ir [18]",
             "type": "vless",
             "server": "198.62.62.2",
             "server_port": 443,
@@ -640,6 +644,49 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "fix.ahwaz14.ir"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]",
+            "type": "vless",
+            "server": "91.99.91.136",
+            "server_port": 443,
+            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.91.136",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aUs.SpEeDtEsT2029.cOm",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+                "headers": {
+                    "Host": "aUs.SpEeDtEsT2029.cOm"
+                }
             }
         }
     ],
