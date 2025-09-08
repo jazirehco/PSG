@@ -96,6 +96,7 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -112,8 +113,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
-                "🚩 CF | 🔒 VLESS | @freakconfig [16]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
@@ -149,6 +149,7 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -165,8 +166,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
-                "🚩 CF | 🔒 VLESS | @freakconfig [16]",
+                "🚩 CF | 🔒 VLESS | @freakconfig [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
@@ -354,6 +354,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "allnet.deragv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
+            "type": "vless",
+            "server": "sss2180.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss2180.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -610,16 +628,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
-            "type": "vless",
-            "server": "5.75.204.151",
-            "server_port": 2087,
-            "uuid": "b24185c0-f815-48c8-b93c-ae82f7c8e493",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 2096,
