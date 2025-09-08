@@ -90,8 +90,8 @@
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [15]",
                 "🇫🇮 FI | 🔓 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [8]",
                 "🇳🇴 NO | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
@@ -138,9 +138,9 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [12]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -161,8 +161,8 @@
                 "🇺🇸 US | 🔓 VLESS | @freakconfig [15]",
                 "🇫🇮 FI | 🔓 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔓 VLESS | @freakconfig [17]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [8]",
                 "🇳🇴 NO | 🔒 SS | @free1ss [10]",
+                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
@@ -209,9 +209,9 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [15]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [12]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -429,20 +429,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [8]",
-            "type": "shadowsocks",
-            "server": "193.29.139.162",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
-        },
-        {
             "tag": "🇳🇴 NO | 🔒 SS | @free1ss [10]",
             "type": "shadowsocks",
             "server": "217.170.194.203",
             "server_port": 808,
             "method": "chacha20-ietf-poly1305",
             "password": "tvX1v#NSFP_LG_bJ"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [11]",
+            "type": "shadowsocks",
+            "server": "213.109.147.242",
+            "server_port": 62685,
+            "method": "chacha20-ietf-poly1305",
+            "password": "VpKABcOpNNA0l5G2AVOmw8"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -1217,7 +1217,7 @@
             }
         },
         {
-            "tag": "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [15]",
+            "tag": "🇩🇰 DK | 🔒 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "95.164.85.109",
             "server_port": 59374,
@@ -1240,7 +1240,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
@@ -1265,7 +1265,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [17]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "135.125.182.74",
             "server_port": 38413,
