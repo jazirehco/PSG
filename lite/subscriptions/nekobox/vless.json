@@ -92,7 +92,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇨🇦 CA | 🔓 VLESS | @outline_ir [19]",
+                "🇨🇦 CA | 🔓 VLESS | @outline_ir [18]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -113,8 +113,8 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
-                "🇫🇮 FI | 🔓 VLESS | @outline_ir [20]",
+                "🇫🇮 FI | 🔓 VLESS | @outline_ir [19]",
+                "🇺🇸 US | 🔒 VLESS | @outline_ir [20]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
@@ -145,7 +145,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [9]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [10]",
-                "🇨🇦 CA | 🔓 VLESS | @outline_ir [19]",
+                "🇨🇦 CA | 🔓 VLESS | @outline_ir [18]",
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -166,8 +166,8 @@
                 "🚩 CF | 🔒 VLESS | @merdesert [2]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇮🇷 IR | 🔓 VLESS | @orgempirenet [2]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
-                "🇫🇮 FI | 🔓 VLESS | @outline_ir [20]",
+                "🇫🇮 FI | 🔓 VLESS | @outline_ir [19]",
+                "🇺🇸 US | 🔒 VLESS | @outline_ir [20]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
@@ -495,7 +495,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @outline_ir [19]",
+            "tag": "🇨🇦 CA | 🔓 VLESS | @outline_ir [18]",
             "type": "vless",
             "server": "m7a.vip784.com",
             "server_port": 33801,
@@ -811,31 +811,38 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [18]",
-            "type": "vless",
-            "server": "91.99.217.4",
-            "server_port": 443,
-            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.217.4",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @outline_ir [20]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @outline_ir [19]",
             "type": "vless",
             "server": "65.109.238.79",
             "server_port": 2080,
             "uuid": "a6a61af5-828f-42af-fc48-a69e386d0f2c",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @outline_ir [20]",
+            "type": "vless",
+            "server": "198.62.62.2",
+            "server_port": 443,
+            "uuid": "598b4251-fd03-48fe-b12d-630ac3adf2e5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ftm2.gerlemondns.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/hjgfdws",
+                "headers": {
+                    "Host": "ftm2.gerlemondns.info"
+                }
+            }
         },
         {
             "tag": "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
