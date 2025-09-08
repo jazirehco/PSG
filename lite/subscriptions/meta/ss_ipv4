@@ -23,13 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [10]","type":"ss","server":"213.109.147.242","port":62685,"password":"VpKABcOpNNA0l5G2AVOmw8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🔒 SS | @free1ss [11]","type":"ss","server":"172.237.108.207","port":443,"password":"YNgnCUUs8qXgTAm0rrOavG","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [12]","type":"ss","server":"193.29.139.240","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🔒 SS | @free1ss [10]","type":"ss","server":"172.237.108.207","port":443,"password":"YNgnCUUs8qXgTAm0rrOavG","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @free1ss [11]","type":"ss","server":"193.29.139.240","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🔒 SS | @free1ss [12]","type":"ss","server":"91.149.203.137","port":808,"password":"tvX1v#NSFP_LG_bJ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🔒 SS | @megavpn_link [12]","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🔒 SS | @outline_ir [18]","type":"ss","server":"5.188.168.230","port":31348,"password":"gB7OeNZVCOsZGKThvJlcO9JuiVsUgLPa8QHjADFho5cvGy4v","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦 CA | 🔒 SS | @v2ray1_ng [2]","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇲🇽 MX | 🔒 SS | @v2ray_free_conf [18]","type":"ss","server":"147.78.1.27","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 SS | @free1ss [10]'
-      - '🇬🇧 GB | 🔒 SS | @free1ss [11]'
-      - '🇳🇱 NL | 🔒 SS | @free1ss [12]'
+      - '🇬🇧 GB | 🔒 SS | @free1ss [10]'
+      - '🇳🇱 NL | 🔒 SS | @free1ss [11]'
+      - '🇬🇧 GB | 🔒 SS | @free1ss [12]'
       - '🇬🇧 GB | 🔒 SS | @megavpn_link [12]'
       - '🇹🇷 TR | 🔒 SS | @outline_ir [18]'
       - '🇨🇦 CA | 🔒 SS | @v2ray1_ng [2]'
-      - '🇲🇽 MX | 🔒 SS | @v2ray_free_conf [18]'
 
   - name: 🌍 Global Media
     type: select
