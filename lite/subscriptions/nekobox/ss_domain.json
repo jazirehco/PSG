@@ -80,11 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]"
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -95,11 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]"
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,85 +182,12 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
-            "type": "vless",
-            "server": "sss2180.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss2180.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [3]",
-            "type": "vless",
-            "server": "sss25065.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss25065.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
-            "type": "vless",
-            "server": "91.99.146.68",
-            "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.146.68",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [20]",
-            "type": "vless",
-            "server": "91.99.217.4",
-            "server_port": 443,
-            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.217.4",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "us33.giamping.com",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "42000e02-6b4d-46ad-a572-80db7db2a9ce"
         }
     ],
     "route": {

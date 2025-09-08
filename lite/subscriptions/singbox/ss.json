@@ -92,13 +92,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @free1ss [9]",
                 "🇬🇧 GB | 🔒 SS | @free1ss [10]",
                 "🇺🇸 US | 🔒 SS | @free1ss [11]",
+                "🇫🇷 FR | 🔒 SS | @free1ss [12]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
                 "🇹🇷 TR | 🔒 SS | @outline_ir [18]",
-                "🇨🇦 CA | 🔒 SS | @v2ray1_ng [2]",
-                "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [20]"
+                "🇨🇦 CA | 🔒 SS | @v2ray1_ng [1]",
+                "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,13 +110,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @free1ss [9]",
                 "🇬🇧 GB | 🔒 SS | @free1ss [10]",
                 "🇺🇸 US | 🔒 SS | @free1ss [11]",
+                "🇫🇷 FR | 🔒 SS | @free1ss [12]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
                 "🇹🇷 TR | 🔒 SS | @outline_ir [18]",
-                "🇨🇦 CA | 🔒 SS | @v2ray1_ng [2]",
-                "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [20]"
+                "🇨🇦 CA | 🔒 SS | @v2ray1_ng [1]",
+                "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -202,14 +204,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [9]",
-            "type": "shadowsocks",
-            "server": "193.29.139.240",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
             "tag": "🇬🇧 GB | 🔒 SS | @free1ss [10]",
             "type": "shadowsocks",
             "server": "91.149.203.137",
@@ -224,6 +218,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "NmrwWNee6bUIvt42xwl9me"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 SS | @free1ss [12]",
+            "type": "shadowsocks",
+            "server": "62.210.88.22",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "e7dNLDFdzYNTe7aEkTzWAK"
         },
         {
             "tag": "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
@@ -242,7 +244,7 @@
             "password": "gB7OeNZVCOsZGKThvJlcO9JuiVsUgLPa8QHjADFho5cvGy4v"
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @v2ray1_ng [2]",
+            "tag": "🇨🇦 CA | 🔒 SS | @v2ray1_ng [1]",
             "type": "shadowsocks",
             "server": "142.4.216.225",
             "server_port": 80,
@@ -250,9 +252,17 @@
             "password": "JIhN6rBKkaEboLNXVSv5rq"
         },
         {
-            "tag": "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [19]",
             "type": "shadowsocks",
             "server": "23.94.67.166",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "42000e02-6b4d-46ad-a572-80db7db2a9ce"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "us33.giamping.com",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "42000e02-6b4d-46ad-a572-80db7db2a9ce"
