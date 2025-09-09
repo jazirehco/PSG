@@ -110,7 +110,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [12]"
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -139,7 +140,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [12]"
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -528,13 +530,50 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [12]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
-            "server": "s1.igetway.info",
-            "server_port": 52931,
-            "uuid": "faaf66d5-55d9-41ae-9b8d-12c5ed48b95c",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "176bf635-b72a-4569-b0e5-b79af7d9332c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "636a7036-3875-4886-a32d-161bd65b1deb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         }
     ],
     "route": {

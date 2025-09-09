@@ -94,7 +94,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [5]"
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [5]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,7 +108,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [5]"
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [5]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -249,6 +251,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
+            "type": "vless",
+            "server": "178.128.138.210",
+            "server_port": 443,
+            "uuid": "c0e0f2b4-0550-49b2-8231-efde819bd8e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9ikzRJ5rL2e3cErzU03KCM8BkRpgSaWX6bwh9YMCmFY",
+                    "short_id": "a00a4ad4de"
                 }
             }
         }
