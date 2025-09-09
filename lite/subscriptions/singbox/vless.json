@@ -109,7 +109,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [14]",
@@ -129,11 +131,10 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [14]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -161,7 +162,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]",
+                "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [14]",
@@ -181,11 +184,10 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [14]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -565,13 +567,38 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
+            "type": "vless",
+            "server": "nim1.ircloudmarket.com",
+            "server_port": 642,
+            "uuid": "5ca1c236-ead9-40c5-88ec-4ff8e450bdd9",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "Holn.xmonys.com",
             "server_port": 625,
             "uuid": "60980999-7576-453d-8a95-efe5829e7f74",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "turboo-server.aftabz.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/--ping--www.speedtest.net?ed=2080",
+                "headers": {
+                    "Host": "turboo-server.aftabz.com"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
@@ -943,24 +970,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
-            "type": "vless",
-            "server": "91.99.122.90",
-            "server_port": 443,
-            "uuid": "c93ad4ba-05d4-4afd-af65-8055bfd84544",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.122.90",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -1033,7 +1042,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,

@@ -129,16 +129,17 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -198,16 +199,17 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1093,50 +1095,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [4]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
             "type": "vless",
-            "server": "91.99.122.90",
-            "server_port": 443,
-            "uuid": "c93ad4ba-05d4-4afd-af65-8055bfd84544",
+            "server": "nim1.ircloudmarket.com",
+            "server_port": 642,
+            "uuid": "5ca1c236-ead9-40c5-88ec-4ff8e450bdd9",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.122.90",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "57.129.64.238",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "kapelleng.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "kapelleng.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
             "type": "shadowsocks",
             "server": "144.126.146.38",
             "server_port": 30941,
@@ -1144,7 +1112,7 @@
             "password": "c1abd8d4-5228-492c-b827-0304e62b7ab0"
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -1165,6 +1133,22 @@
                 "path": "/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "51.254.21.193",
+            "server_port": 20086,
+            "uuid": "9bcecb26-920a-4e68-b296-88526310bff6",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -1250,7 +1234,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
@@ -1275,13 +1259,29 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "Holn.xmonys.com",
             "server_port": 625,
             "uuid": "60980999-7576-453d-8a95-efe5829e7f74",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "turboo-server.aftabz.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/--ping--www.speedtest.net?ed=2080",
+                "headers": {
+                    "Host": "turboo-server.aftabz.com"
+                }
+            }
         }
     ],
     "route": {

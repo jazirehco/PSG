@@ -109,7 +109,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -137,7 +139,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -517,13 +521,38 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
+            "type": "vless",
+            "server": "nim1.ircloudmarket.com",
+            "server_port": 642,
+            "uuid": "5ca1c236-ead9-40c5-88ec-4ff8e450bdd9",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "Holn.xmonys.com",
             "server_port": 625,
             "uuid": "60980999-7576-453d-8a95-efe5829e7f74",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "turboo-server.aftabz.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/--ping--www.speedtest.net?ed=2080",
+                "headers": {
+                    "Host": "turboo-server.aftabz.com"
+                }
+            }
         }
     ],
     "route": {
