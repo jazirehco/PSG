@@ -1,0 +1,21 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/ss_domain interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇱🇻 LV | 🔒 SS | @v2ray_free_conf [20] = ss, lv.vpnsparta.pro, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇱🇻 LV | 🔒 SS | @v2ray_free_conf [20]
+PSG-AUTO = url-test, 🇱🇻 LV | 🔒 SS | @v2ray_free_conf [20]
+PSG-FALLBACK = fallback, 🇱🇻 LV | 🔒 SS | @v2ray_free_conf [20]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
