@@ -94,8 +94,10 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 SS | @free1ss [11]",
                 "🇩🇰 DK | 🔒 SS | @free1ss [12]",
+                "🇹🇷 TR | 🔒 SS | @free1ss [13]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
-                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]"
+                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [18]",
+                "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -108,8 +110,10 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 SS | @free1ss [11]",
                 "🇩🇰 DK | 🔒 SS | @free1ss [12]",
+                "🇹🇷 TR | 🔒 SS | @free1ss [13]",
                 "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
-                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]"
+                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [18]",
+                "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -212,6 +216,14 @@
             "password": "tvX1v#NSFP_LG_bJ"
         },
         {
+            "tag": "🇹🇷 TR | 🔒 SS | @free1ss [13]",
+            "type": "shadowsocks",
+            "server": "77.83.245.50",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WV7haGrJjRI7"
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
             "type": "shadowsocks",
             "server": "85.210.120.237",
@@ -220,12 +232,20 @@
             "password": "Bog0ELmMM9DSxDdQ"
         },
         {
-            "tag": "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [18]",
             "type": "shadowsocks",
             "server": "142.4.216.225",
             "server_port": 80,
             "method": "chacha20-ietf-poly1305",
             "password": "JIhN6rBKkaEboLNXVSv5rq"
+        },
+        {
+            "tag": "🇬🇮 GI | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "imap.roomyinmita.name",
+            "server_port": 40565,
+            "method": "chacha20-ietf-poly1305",
+            "password": "2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum"
         }
     ],
     "route": {
