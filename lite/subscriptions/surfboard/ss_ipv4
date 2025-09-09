@@ -12,11 +12,12 @@ DIRECT = direct
 🇩🇪 DE | 🔒 SS | @free1ss [11] = ss, 135.125.219.2, 25930, encrypt-method = chacha20-ietf-poly1305, password = 38f34312c73acae2
 🇩🇰 DK | 🔒 SS | @free1ss [12] = ss, 195.88.89.138, 808, encrypt-method = chacha20-ietf-poly1305, password = tvX1v#NSFP_LG_bJ
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20] = ss, 142.4.216.225, 80, encrypt-method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 SS | @free1ss [11], 🇩🇰 DK | 🔒 SS | @free1ss [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔒 SS | @free1ss [11], 🇩🇰 DK | 🔒 SS | @free1ss [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 SS | @free1ss [11], 🇩🇰 DK | 🔒 SS | @free1ss [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 SS | @free1ss [11], 🇩🇰 DK | 🔒 SS | @free1ss [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔒 SS | @free1ss [11], 🇩🇰 DK | 🔒 SS | @free1ss [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 SS | @free1ss [11], 🇩🇰 DK | 🔒 SS | @free1ss [12], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇨🇦 CA | 🔒 SS | @v2ray_free_conf [20]
 
 [Rule]
 GEOIP,IR,DIRECT
