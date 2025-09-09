@@ -13,12 +13,12 @@ DIRECT = direct
 🇫🇷 FR | 🔒 SS | @free1ss [11] = ss, 62.210.88.22, 443, encrypt-method = chacha20-ietf-poly1305, password = 4UB7B4K1ACk6c3X4TsnUKT
 🇺🇸 US | 🔒 SS | @kafing_2 [13] = ss, 45.87.175.22, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🇬🇧 GB | 🔒 SS | @megavpn_link [12] = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇹🇼 TW | 🔒 SS | @v2ray_free_conf [19] = ss, 223.165.4.173, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇦🇹 AT | 🔒 SS | @v2ray_free_conf [19] = ss, 77.110.110.117, 443, encrypt-method = chacha20-ietf-poly1305, password = 9JeYy8SkViXuSHVs9GFeSe
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🔒 SS | @free1ss [10], 🇫🇷 FR | 🔒 SS | @free1ss [11], 🇺🇸 US | 🔒 SS | @kafing_2 [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇼 TW | 🔒 SS | @v2ray_free_conf [19]
-PSG-AUTO = url-test, 🇬🇧 GB | 🔒 SS | @free1ss [10], 🇫🇷 FR | 🔒 SS | @free1ss [11], 🇺🇸 US | 🔒 SS | @kafing_2 [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇼 TW | 🔒 SS | @v2ray_free_conf [19]
-PSG-FALLBACK = fallback, 🇬🇧 GB | 🔒 SS | @free1ss [10], 🇫🇷 FR | 🔒 SS | @free1ss [11], 🇺🇸 US | 🔒 SS | @kafing_2 [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇹🇼 TW | 🔒 SS | @v2ray_free_conf [19]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🔒 SS | @free1ss [10], 🇫🇷 FR | 🔒 SS | @free1ss [11], 🇺🇸 US | 🔒 SS | @kafing_2 [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [19]
+PSG-AUTO = url-test, 🇬🇧 GB | 🔒 SS | @free1ss [10], 🇫🇷 FR | 🔒 SS | @free1ss [11], 🇺🇸 US | 🔒 SS | @kafing_2 [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [19]
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🔒 SS | @free1ss [10], 🇫🇷 FR | 🔒 SS | @free1ss [11], 🇺🇸 US | 🔒 SS | @kafing_2 [13], 🇬🇧 GB | 🔒 SS | @megavpn_link [12], 🇦🇹 AT | 🔒 SS | @v2ray_free_conf [19]
 
 [Rule]
 GEOIP,IR,DIRECT

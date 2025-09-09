@@ -106,11 +106,9 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
+                "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
-                "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [12]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -135,11 +133,9 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
+                "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
-                "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
-                "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [12]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]"
+                "🇺🇸 US | 🔓 VLESS | @turboo_server [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -471,23 +467,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
-            "type": "vless",
-            "server": "turboo-server.sadafspace.com",
-            "server_port": 80,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/--ping--www.speedtest.net?ed=2080",
-                "headers": {
-                    "Host": "turboo-server.sadafspace.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @turboo_server [14]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
             "type": "vless",
             "server": "server.turbooo-server.com",
             "server_port": 80,
@@ -503,7 +483,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
             "type": "vless",
             "server": "server.turboo-server.com.co",
             "server_port": 80,
@@ -519,48 +499,18 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [12]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
             "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "176bf635-b72a-4569-b0e5-b79af7d9332c",
-            "flow": "xtls-rprx-vision",
+            "server": "turboo-server.aftabz.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "636a7036-3875-4886-a32d-161bd65b1deb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
+            "transport": {
+                "type": "ws",
+                "path": "/--ping--www.speedtest.net?ed=2080",
+                "headers": {
+                    "Host": "turboo-server.aftabz.com"
                 }
             }
         }
