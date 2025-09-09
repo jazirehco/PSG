@@ -96,8 +96,9 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [15]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -112,8 +113,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [13]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,8 +129,9 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [15]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @freakconfig [14]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
                 "🇫🇮 FI | 🔓 VLESS | @kafing_2 [11]",
                 "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
@@ -144,8 +146,8 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [15]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [13]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -316,7 +318,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [14]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
             "type": "vless",
             "server": "sss2180.tas-bazi.com",
             "server_port": 443,
@@ -334,11 +336,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "f657d830-b534-4c9e-9987-3e72df22289e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [15]",
+            "type": "vless",
+            "server": "yde2.rayengame.com",
+            "server_port": 625,
+            "uuid": "6529058d-710b-4c77-8d21-9cbfab6511a6",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -561,29 +572,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [13]",
             "type": "vless",
-            "server": "EVAY_VPN.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "a12c7913-8c9a-4773-a578-51420e393538",
+            "server": "margate2.superip.ir",
+            "server_port": 3006,
+            "uuid": "5d2eb11f-0138-490d-9781-f9cfb60c1766",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "EVAY_VPN.fastly80.hosting-ip.com",
             "server_port": 80,
-            "uuid": "5d2eb11f-0138-490d-9781-f9cfb60c1766",
+            "uuid": "6131afbd-0b7a-4f65-afc4-303b4353d478",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/admin?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2048",
-                "headers": {
-                    "Host": "EVAY_VPN.fastly80.hosting-ip.com"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
