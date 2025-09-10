@@ -114,7 +114,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -147,7 +148,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -675,13 +677,54 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
-            "server": "176.97.210.2",
-            "server_port": 37589,
-            "uuid": "@Geek_Spot",
+            "server": "104.26.6.89",
+            "server_port": 443,
+            "uuid": "a4b17aa4-8723-4f12-945d-9e3bdf926bf7",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nb-de.parsdl.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/hajmi?ed=2050",
+                "headers": {
+                    "Host": "nb-de.parsdl.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "104.26.6.89",
+            "server_port": 443,
+            "uuid": "a4b17aa4-8723-4f12-945d-9e3bdf926bf7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nb-fi.parsdl.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/hajmi?ed=2050",
+                "headers": {
+                    "Host": "nb-fi.parsdl.xyz"
+                }
+            }
         }
     ],
     "route": {
