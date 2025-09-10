@@ -90,9 +90,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [14]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [15]",
-                "🇳🇴 NO | 🔒 SS | @free1ss [10]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇺🇸 US | 🔒 SS | @free1ss [12]",
+                "🇱🇹 LT | 🔓 VLESS | @free1ss [13]",
+                "🇫🇮 FI | 🔒 SS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
@@ -131,8 +131,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇺🇦 UA | 🔒 SS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -160,9 +159,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [14]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [15]",
-                "🇳🇴 NO | 🔒 SS | @free1ss [10]",
-                "🇳🇱 NL | 🔒 SS | @free1ss [11]",
                 "🇺🇸 US | 🔒 SS | @free1ss [12]",
+                "🇱🇹 LT | 🔓 VLESS | @free1ss [13]",
+                "🇫🇮 FI | 🔒 SS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
@@ -201,8 +200,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [7]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇺🇦 UA | 🔒 SS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -471,28 +469,38 @@
             }
         },
         {
-            "tag": "🇳🇴 NO | 🔒 SS | @free1ss [10]",
-            "type": "shadowsocks",
-            "server": "217.170.194.203",
-            "server_port": 808,
-            "method": "chacha20-ietf-poly1305",
-            "password": "tvX1v#NSFP_LG_bJ"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [11]",
-            "type": "shadowsocks",
-            "server": "193.29.139.157",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u"
-        },
-        {
             "tag": "🇺🇸 US | 🔒 SS | @free1ss [12]",
             "type": "shadowsocks",
             "server": "159.65.180.152",
             "server_port": 20739,
             "method": "chacha20-ietf-poly1305",
             "password": "2v5OxYDubGONaiFwQvWh6r"
+        },
+        {
+            "tag": "🇱🇹 LT | 🔓 VLESS | @free1ss [13]",
+            "type": "vless",
+            "server": "212.192.23.217",
+            "server_port": 443,
+            "uuid": "ec6f9738-5f01-4f8b-9754-a89deb4aecc3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "212.192.23.217",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @free1ss [14]",
+            "type": "shadowsocks",
+            "server": "64.137.109.212",
+            "server_port": 44884,
+            "method": "chacha20-ietf-poly1305",
+            "password": "2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -1112,28 +1120,12 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+            "tag": "🇺🇦 UA | 🔒 SS | @v2ray_free_conf [20]",
             "type": "shadowsocks",
-            "server": "144.126.146.38",
-            "server_port": 30789,
+            "server": "176.103.53.105",
+            "server_port": 990,
             "method": "chacha20-ietf-poly1305",
-            "password": "8d73e088-dc5a-4dfe-8927-56351ee80407"
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "47.83.162.4",
-            "server_port": 40873,
-            "uuid": "3fd266bc-7691-43cf-a82f-0c9761a69bf0",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki?ed=2048",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
