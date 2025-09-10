@@ -81,7 +81,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,7 +95,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -207,6 +211,24 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "d8.mmadcoffee.info",
+            "server_port": 443,
+            "uuid": "4b213611-74ec-4d2e-ae88-8deb082a3630",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "d8.mmadcoffee.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
             "type": "vless",
             "server": "91.99.146.68",
@@ -223,6 +245,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "0c3693b1-4b96-4a6a-b980-a927ae85e025",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

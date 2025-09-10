@@ -113,7 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [6]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-                "❔ XX | 🔓 VLESS | @vpnplusee_free [14]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -145,7 +145,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [6]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-                "❔ XX | 🔓 VLESS | @vpnplusee_free [14]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -605,13 +605,22 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @vpnplusee_free [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
-            "server": "irmagic.bestusedengines.com",
-            "server_port": 8443,
-            "uuid": "4e079669-bc8b-b66e-0359-0c5c4ec24cc0",
+            "server": "d8.mmadcoffee.info",
+            "server_port": 443,
+            "uuid": "4b213611-74ec-4d2e-ae88-8deb082a3630",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "d8.mmadcoffee.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
