@@ -115,8 +115,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -150,8 +149,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -690,52 +688,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [17]",
             "type": "vless",
-            "server": "104.26.6.89",
-            "server_port": 443,
-            "uuid": "a4b17aa4-8723-4f12-945d-9e3bdf926bf7",
+            "server": "172.66.40.99",
+            "server_port": 2052,
+            "uuid": "edd9414d-acbb-4d5a-90e2-52449dfbf430",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nb-de.parsdl.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/hajmi?ed=2050",
+                "path": "/@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
                 "headers": {
-                    "Host": "nb-de.parsdl.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "104.26.6.89",
-            "server_port": 443,
-            "uuid": "a4b17aa4-8723-4f12-945d-9e3bdf926bf7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nb-fi.parsdl.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/hajmi?ed=2050",
-                "headers": {
-                    "Host": "nb-fi.parsdl.xyz"
+                    "Host": "172.66.40.99"
                 }
             }
         }
