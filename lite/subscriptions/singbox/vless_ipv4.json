@@ -111,8 +111,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇸🇪 SE | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -142,8 +142,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇸🇪 SE | 🔓 VLESS | @vpnplusee_free [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -600,16 +600,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8880,
-            "uuid": "Parsashonam-307",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "91.99.95.76",
             "server_port": 443,
@@ -633,6 +624,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 8880,
+            "uuid": "6977b1bd-b5b3-40d1-884a-4e6b02cf568b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec",
+                "headers": {
+                    "Host": "172.66.40.99"
+                }
             }
         }
     ],
