@@ -103,9 +103,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -128,9 +127,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
-                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -378,48 +376,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 443,
-            "uuid": "telegram-channel-freewireguard",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "Q4.19kAlA.co",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "Q4.19kAlA.co"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "185.143.233.120",
-            "server_port": 2095,
-            "uuid": "d7f9bd84-3d1d-4b4a-d2b8-5ae8b42e76aa",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/ArsalanTauBot",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "57.129.25.22",
             "server_port": 443,
@@ -440,6 +397,22 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇾 CY | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "pubg.ac",
+            "server_port": 80,
+            "uuid": "457f64d5-cc68-4911-82ee-636ebb568a46",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/profile/telegram@ssrsub",
+                "headers": {
+                    "Host": "pubg.ac"
                 }
             }
         },
