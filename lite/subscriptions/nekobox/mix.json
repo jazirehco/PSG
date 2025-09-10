@@ -90,9 +90,9 @@
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [13]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [14]",
                 "🇫🇷 FR | 🔒 VLESS | @freakconfig [15]",
-                "🇱🇹 LT | 🔓 VLESS | @free1ss [11]",
                 "🇫🇮 FI | 🔒 SS | @free1ss [12]",
                 "🇸🇬 SG | 🔒 SS | @free1ss [13]",
+                "🇮🇳 IN | 🔒 SS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
@@ -161,9 +161,9 @@
                 "🇨🇦 CA | 🔒 VLESS | @freakconfig [13]",
                 "🚩 CF | 🔒 VLESS | @freakconfig [14]",
                 "🇫🇷 FR | 🔒 VLESS | @freakconfig [15]",
-                "🇱🇹 LT | 🔓 VLESS | @free1ss [11]",
                 "🇫🇮 FI | 🔒 SS | @free1ss [12]",
                 "🇸🇬 SG | 🔒 SS | @free1ss [13]",
+                "🇮🇳 IN | 🔒 SS | @free1ss [14]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
@@ -473,24 +473,6 @@
             }
         },
         {
-            "tag": "🇱🇹 LT | 🔓 VLESS | @free1ss [11]",
-            "type": "vless",
-            "server": "212.192.23.217",
-            "server_port": 443,
-            "uuid": "ec6f9738-5f01-4f8b-9754-a89deb4aecc3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "212.192.23.217",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮 FI | 🔒 SS | @free1ss [12]",
             "type": "shadowsocks",
             "server": "64.137.109.212",
@@ -505,6 +487,14 @@
             "server_port": 62406,
             "method": "chacha20-ietf-poly1305",
             "password": "p0hIDlNCuGO4cgQIrJs7DR"
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 SS | @free1ss [14]",
+            "type": "shadowsocks",
+            "server": "139.59.74.105",
+            "server_port": 38046,
+            "method": "chacha20-ietf-poly1305",
+            "password": "eYpglSyAD74Fk8ZqYD6ET4"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
