@@ -102,6 +102,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [11]",
+                "🇫🇮 FI | 🔒 SS | @free1ss [12]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇺🇸 US | 🔒 SS | @kafing_2 [11]",
@@ -142,9 +143,9 @@
                 "🇩🇪 DE | 🔒 SS | @v2ray1_ng [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -172,6 +173,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇳🇱 NL | 🔒 SS | @free1ss [11]",
+                "🇫🇮 FI | 🔒 SS | @free1ss [12]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇺🇸 US | 🔒 SS | @kafing_2 [11]",
@@ -212,9 +214,9 @@
                 "🇩🇪 DE | 🔒 SS | @v2ray1_ng [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+                "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -460,6 +462,14 @@
             "server_port": 443,
             "method": "aes-256-gcm",
             "password": "e0b626c2-61db-4438-8079-9f0065982a1f"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @free1ss [12]",
+            "type": "shadowsocks",
+            "server": "46.62.152.84",
+            "server_port": 808,
+            "method": "chacha20-ietf-poly1305",
+            "password": "tvX1v#NSFP_LG_bJ"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -1124,23 +1134,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "45.8.146.129",
-            "server_port": 80,
-            "uuid": "0704016f-5435-4655-be6a-771a5aba52c3",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/vmess/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
             "type": "shadowsocks",
             "server": "45.87.175.165",
             "server_port": 8080,
@@ -1148,11 +1142,20 @@
             "password": "QCXDxuDlTTMD7jtgHUjIoj"
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇳🇱 NL | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "c71s5.portablesubmarines.com",
             "server_port": 10893,
             "uuid": "05c7ecaa-056c-4bc1-8553-09c80636f61d",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇨🇳 CN | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "183.240.245.242",
+            "server_port": 33331,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 0
         },
