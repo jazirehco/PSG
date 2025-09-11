@@ -101,9 +101,9 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇳🇴 NO | 🔒 SS | @free1ss [11]",
-                "🇧🇷 BR | 🔒 SS | @free1ss [12]",
-                "🇺🇸 US | 🔒 SS | @free1ss [13]",
+                "🇧🇷 BR | 🔒 SS | @free1ss [11]",
+                "🇺🇸 US | 🔒 SS | @free1ss [12]",
+                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [13]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
@@ -144,8 +144,9 @@
                 "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [6]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇩🇪 DE | 🔒 SS | @v2ray1_ng [8]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -172,9 +173,9 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇳🇴 NO | 🔒 SS | @free1ss [11]",
-                "🇧🇷 BR | 🔒 SS | @free1ss [12]",
-                "🇺🇸 US | 🔒 SS | @free1ss [13]",
+                "🇧🇷 BR | 🔒 SS | @free1ss [11]",
+                "🇺🇸 US | 🔒 SS | @free1ss [12]",
+                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [13]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
@@ -215,8 +216,9 @@
                 "🇮🇷 IR | 🔓 VLESS | @v2ray1_ng [6]",
                 "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇩🇪 DE | 🔒 SS | @v2ray1_ng [8]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
@@ -456,15 +458,7 @@
             }
         },
         {
-            "tag": "🇳🇴 NO | 🔒 SS | @free1ss [11]",
-            "type": "shadowsocks",
-            "server": "217.170.194.203",
-            "server_port": 808,
-            "method": "chacha20-ietf-poly1305",
-            "password": "tvX1v#NSFP_LG_bJ"
-        },
-        {
-            "tag": "🇧🇷 BR | 🔒 SS | @free1ss [12]",
+            "tag": "🇧🇷 BR | 🔒 SS | @free1ss [11]",
             "type": "shadowsocks",
             "server": "185.192.124.188",
             "server_port": 990,
@@ -472,12 +466,19 @@
             "password": "f8f7aCzcPKbsF8p3"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @free1ss [13]",
+            "tag": "🇺🇸 US | 🔒 SS | @free1ss [12]",
             "type": "shadowsocks",
             "server": "71.19.148.143",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "p78naCf2EfOlRSLTX0wFVx"
+        },
+        {
+            "tag": "🇰🇿 KZ | 🔓 TROJAN | @free1ss [13]",
+            "type": "trojan",
+            "server": "45.82.14.144",
+            "server_port": 2025,
+            "password": "vpn"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -1130,7 +1131,7 @@
             "password": "eQp7xK1HNhPbRu98ucuCoG"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "radhan.configraybot.sbs",
             "server_port": 11559,
@@ -1139,11 +1140,20 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "panel1.ipyar.org",
             "server_port": 42684,
             "uuid": "c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "47.239.183.87",
+            "server_port": 28590,
+            "uuid": "d75481c7-b5c8-40a9-811a-02b709e74816",
             "security": "auto",
             "alter_id": 0
         },
