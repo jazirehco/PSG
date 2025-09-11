@@ -88,9 +88,9 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
-                "🇺🇸 US | 🔒 SS | @free1ss [10]",
-                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [11]",
-                "🇩🇰 DK | 🔒 SS | @free1ss [12]",
+                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [10]",
+                "🇩🇰 DK | 🔒 SS | @free1ss [11]",
+                "🇫🇷 FR | 🔒 SS | @free1ss [12]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
@@ -137,8 +137,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -157,9 +156,9 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
-                "🇺🇸 US | 🔒 SS | @free1ss [10]",
-                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [11]",
-                "🇩🇰 DK | 🔒 SS | @free1ss [12]",
+                "🇰🇿 KZ | 🔓 TROJAN | @free1ss [10]",
+                "🇩🇰 DK | 🔒 SS | @free1ss [11]",
+                "🇫🇷 FR | 🔒 SS | @free1ss [12]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [11]",
@@ -206,8 +205,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -421,27 +419,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @free1ss [10]",
-            "type": "shadowsocks",
-            "server": "71.19.148.143",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "p78naCf2EfOlRSLTX0wFVx"
-        },
-        {
-            "tag": "🇰🇿 KZ | 🔓 TROJAN | @free1ss [11]",
+            "tag": "🇰🇿 KZ | 🔓 TROJAN | @free1ss [10]",
             "type": "trojan",
             "server": "45.82.14.144",
             "server_port": 2025,
             "password": "vpn"
         },
         {
-            "tag": "🇩🇰 DK | 🔒 SS | @free1ss [12]",
+            "tag": "🇩🇰 DK | 🔒 SS | @free1ss [11]",
             "type": "shadowsocks",
             "server": "195.88.89.138",
             "server_port": 808,
             "method": "chacha20-ietf-poly1305",
             "password": "tvX1v#NSFP_LG_bJ"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 SS | @free1ss [12]",
+            "type": "shadowsocks",
+            "server": "62.210.88.22",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4UB7B4K1ACk6c3X4TsnUKT"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -1207,24 +1205,6 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
-            "server": "d8.mmadcoffee.info",
-            "server_port": 443,
-            "uuid": "4b213611-74ec-4d2e-ae88-8deb082a3630",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "d8.mmadcoffee.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
             "server": "172.66.40.99",
             "server_port": 443,
             "uuid": "telegram-id-Arfilter",
@@ -1248,7 +1228,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8880,
