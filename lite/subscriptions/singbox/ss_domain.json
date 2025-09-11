@@ -1,18 +1,40 @@
+//profile-title: base64:UFNHIHwgU1NfRE9NQUlO
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/yebekhe
+//profile-web-page-url: ithub.com/itsyebekhe/PSG
 {
     "dns": {
-        "independent_cache": true,
+        "final": "local-dns",
         "rules": [
             {
-                "domain": [
-                    "dns.google"
-                ],
-                "server": "dns-direct"
+                "action": "route",
+                "clash_mode": "Global",
+                "server": "proxy-dns",
+                "source_ip_cidr": [
+                    "172.19.0.0/30",
+                    "fdfe:dcba:9876::1/126"
+                ]
             },
             {
-                "outbound": [
-                    "any"
+                "action": "route",
+                "server": "proxy-dns",
+                "source_ip_cidr": [
+                    "172.19.0.0/30",
+                    "fdfe:dcba:9876::1/126"
+                ]
+            },
+            {
+                "action": "route",
+                "clash_mode": "Direct",
+                "server": "direct-dns"
+            },
+            {
+                "action": "route",
+                "rule_set": [
+                    "geosite-ir"
                 ],
-                "server": "dns-direct"
+                "server": "direct-dns"
             }
         ],
         "servers": [
@@ -32,46 +54,36 @@
                 "detour": "direct",
                 "tag": "direct-dns"
             }
-        ]
-    },
-    "experimental": {
-        "cache_file": {
-            "enabled": true,
-            "path": "../cache/clash.db",
-            "store_fakeip": true
-        },
-        "clash_api": {
-            "external_controller": "127.0.0.1:9090",
-            "external_ui": "../files/yacd"
-        }
+        ],
+        "strategy": "prefer_ipv4"
     },
     "inbounds": [
         {
-            "domain_strategy": "",
-            "endpoint_independent_nat": true,
-            "inet4_address": [
-                "172.19.0.1/28"
+            "address": [
+                "172.19.0.1/30",
+                "fdfe:dcba:9876::1/126"
             ],
+            "auto_route": true,
+            "endpoint_independent_nat": false,
             "mtu": 9000,
-            "sniff": true,
-            "sniff_override_destination": false,
-            "stack": "mixed",
-            "tag": "tun-in",
+            "platform": {
+                "http_proxy": {
+                    "enabled": true,
+                    "server": "127.0.0.1",
+                    "server_port": 2080
+                }
+            },
+            "stack": "system",
+            "strict_route": false,
             "type": "tun"
         },
         {
-            "domain_strategy": "",
             "listen": "127.0.0.1",
             "listen_port": 2080,
-            "sniff": true,
-            "sniff_override_destination": false,
-            "tag": "mixed-in",
-            "type": "mixed"
+            "type": "mixed",
+            "users": []
         }
     ],
-    "log": {
-        "level": "info"
-    },
     "outbounds": [
         {
             "outbounds": [
@@ -80,13 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @free1ss [12]",
-                "🇸🇪 SE | 🔒 SS | @free1ss [13]",
-                "🇮🇸 IS | 🔒 SS | @free1ss [14]",
-                "🇺🇸 US | 🔒 SS | @kafing_2 [12]",
-                "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
-                "🇩🇪 DE | 🔒 SS | @v2ray1_ng [8]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
                 "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "proxy",
@@ -98,13 +103,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @free1ss [12]",
-                "🇸🇪 SE | 🔒 SS | @free1ss [13]",
-                "🇮🇸 IS | 🔒 SS | @free1ss [14]",
-                "🇺🇸 US | 🔒 SS | @kafing_2 [12]",
-                "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
-                "🇩🇪 DE | 🔒 SS | @v2ray1_ng [8]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
                 "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]"
             ],
             "tag": "auto",
@@ -114,10 +112,6 @@
         },
         {
             "tag": "direct",
-            "type": "direct"
-        },
-        {
-            "tag": "bypass",
             "type": "direct"
         },
         {
@@ -196,62 +190,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @free1ss [12]",
-            "type": "shadowsocks",
-            "server": "193.29.139.240",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 SS | @free1ss [13]",
-            "type": "shadowsocks",
-            "server": "46.246.90.20",
-            "server_port": 808,
-            "method": "chacha20-ietf-poly1305",
-            "password": "tvX1v#NSFP_LG_bJ"
-        },
-        {
-            "tag": "🇮🇸 IS | 🔒 SS | @free1ss [14]",
-            "type": "shadowsocks",
-            "server": "37.235.49.124",
-            "server_port": 808,
-            "method": "chacha20-ietf-poly1305",
-            "password": "tvX1v#NSFP_LG_bJ"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @kafing_2 [12]",
-            "type": "shadowsocks",
-            "server": "45.87.175.22",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 SS | @megavpn_link [12]",
-            "type": "shadowsocks",
-            "server": "85.210.120.237",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 SS | @v2ray1_ng [8]",
-            "type": "shadowsocks",
-            "server": "80.71.157.175",
-            "server_port": 38211,
-            "method": "chacha20-ietf-poly1305",
-            "password": "eQp7xK1HNhPbRu98ucuCoG"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
-            "type": "shadowsocks",
-            "server": "45.87.175.157",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "QCXDxuDlTTMD7jtgHUjIoj"
-        },
-        {
             "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
             "type": "shadowsocks",
             "server": "pupas-shirting-unsung.freesocks.work",
@@ -262,29 +200,76 @@
     ],
     "route": {
         "auto_detect_interface": true,
-        "rule_set": [],
+        "final": "proxy",
+        "rule_set": [
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-ads",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-private",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-ir",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geoip-private",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geoip-ir",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs"
+            }
+        ],
         "rules": [
             {
-                "action": "hijack-dns",
-                "port": [
-                    53
-                ]
+                "action": "sniff"
+            },
+            {
+                "action": "route",
+                "clash_mode": "Direct",
+                "outbound": "direct"
+            },
+            {
+                "action": "route",
+                "clash_mode": "Global",
+                "outbound": "proxy"
             },
             {
                 "action": "hijack-dns",
-                "protocol": [
-                    "dns"
+                "protocol": "dns"
+            },
+            {
+                "action": "route",
+                "outbound": "direct",
+                "rule_set": [
+                    "geoip-private",
+                    "geosite-private",
+                    "geosite-ir",
+                    "geoip-ir"
                 ]
             },
             {
                 "action": "reject",
-                "ip_cidr": [
-                    "224.0.0.0/3",
-                    "ff00::/8"
-                ],
-                "source_ip_cidr": [
-                    "224.0.0.0/3",
-                    "ff00::/8"
+                "rule_set": [
+                    "geosite-ads"
                 ]
             }
         ]

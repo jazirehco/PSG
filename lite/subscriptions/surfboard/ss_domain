@@ -1,0 +1,21 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/ss_domain interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇺🇸 US | 🔒 SS | @v2ray_free_conf [20] = ss, pupas-shirting-unsung.freesocks.work, 443, encrypt-method = chacha20-ietf-poly1305, password = p78naCf2EfOlRSLTX0wFVx
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
