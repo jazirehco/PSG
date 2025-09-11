@@ -104,8 +104,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -129,8 +129,8 @@
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -380,15 +380,6 @@
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "radhan.configraybot.sbs",
-            "server_port": 11559,
-            "uuid": "7ed9be93-e2ff-4a8b-892c-b373aefca10f",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
             "server": "panel1.ipyar.org",
             "server_port": 42684,
             "uuid": "c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1",
@@ -396,13 +387,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "47.239.183.87",
             "server_port": 28590,
             "uuid": "d75481c7-b5c8-40a9-811a-02b709e74816",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "104.19.47.88",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.19.47.88"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",

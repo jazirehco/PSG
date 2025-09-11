@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]"
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]"
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,30 +192,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
-            "type": "vless",
-            "server": "FreakConfig.snapfood.org",
-            "server_port": 443,
-            "uuid": "FreakConfig",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
-                    "short_id": "6993f143e90756"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -234,6 +211,29 @@
                     "enabled": true,
                     "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
                     "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+            "type": "vless",
+            "server": "deu246.bypassall.org",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
             }
         }
