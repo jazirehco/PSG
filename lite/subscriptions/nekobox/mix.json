@@ -128,17 +128,19 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-                "🇩🇪 DE | 🔒 SS | @v2ray1_ng [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 SS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -197,17 +199,19 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-                "🇩🇪 DE | 🔒 SS | @v2ray1_ng [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
-                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔒 SS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
-                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]"
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
+                "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1074,32 +1078,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "6389113402676776505.rtxiran.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "6389113402676776505.rtxiran.info"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 SS | @v2ray1_ng [7]",
+            "tag": "🇩🇪 DE | 🔒 SS | @v2ray1_ng [4]",
             "type": "shadowsocks",
             "server": "80.71.157.175",
             "server_port": 38211,
@@ -1107,7 +1086,7 @@
             "password": "eQp7xK1HNhPbRu98ucuCoG"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
             "type": "vless",
             "server": "deu246.bypassall.org",
             "server_port": 443,
@@ -1130,13 +1109,72 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
+            "type": "vless",
+            "server": "91.107.137.185",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.107.137.185",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "panel3.ipyar.org",
-            "server_port": 32017,
-            "uuid": "c0ccdeb9-784c-4d67-b904-20dcaac9902a",
+            "server": "82.197.69.131",
+            "server_port": 39674,
+            "uuid": "5a89386a-827b-4f54-8778-2f1b5122c6ef",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "lammaland.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "lammaland.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "lammaland.org"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "amin.karkas1.ir",
+            "server_port": 80,
+            "uuid": "11ae0edd-2f63-4495-8683-037abbda9986",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/t14FEa4TBzLbwZsNkGkxxW7",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
@@ -1220,29 +1258,6 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "hoho.yakarimmilan.ir",
-            "server_port": 16548,
-            "uuid": "f01faecf-1ad4-4eb9-a21d-7400a5e1a6f4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "preview.redd.it",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D7bY9fWkLs_S2_TMQ1bBI-MIJzeJ3rV5RA1_pOl6HBo",
-                    "short_id": "4660232e77cd95"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "speedtestcustom.com",
@@ -1268,6 +1283,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "93.127.180.128",
+            "server_port": 123,
+            "uuid": "1b197700-e6fd-43ea-96ca-488f4c4cd731",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

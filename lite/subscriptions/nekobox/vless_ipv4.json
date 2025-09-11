@@ -97,9 +97,11 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [14]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
+                "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -127,9 +129,11 @@
                 "🇺🇸 US | 🔓 VLESS | @proxyfn [18]",
                 "🇦🇹 AT | 🔒 VLESS | @rnrifci [5]",
                 "🚩 CF | 🔒 VLESS | @tobevasl [14]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
-                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]"
+                "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
+                "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -532,6 +536,24 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
+            "type": "vless",
+            "server": "91.107.137.185",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.107.137.185",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
             "type": "vless",
             "server": "172.66.40.99",
@@ -602,6 +624,15 @@
                 "type": "grpc",
                 "service_name": "fix.ahwaz14.ir"
             }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "93.127.180.128",
+            "server_port": 123,
+            "uuid": "1b197700-e6fd-43ea-96ca-488f4c4cd731",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
