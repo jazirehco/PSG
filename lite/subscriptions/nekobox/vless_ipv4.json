@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇦🇪 AE | 🔓 VLESS | @free1ss [10]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [13]",
@@ -101,7 +100,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,7 +113,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
-                "🇦🇪 AE | 🔓 VLESS | @free1ss [10]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [13]",
@@ -133,7 +132,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -238,15 +238,6 @@
                     "Host": "104.18.26.90"
                 }
             }
-        },
-        {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @free1ss [10]",
-            "type": "vless",
-            "server": "93.127.180.92",
-            "server_port": 8443,
-            "uuid": "5978e847-93cb-4477-9539-242dcf21eb69",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
@@ -626,13 +617,54 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
-            "server": "93.127.180.128",
-            "server_port": 123,
-            "uuid": "1b197700-e6fd-43ea-96ca-488f4c4cd731",
+            "server": "104.26.6.89",
+            "server_port": 443,
+            "uuid": "a4b17aa4-8723-4f12-945d-9e3bdf926bf7",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "77777788.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/hajmi?ed=2560",
+                "headers": {
+                    "Host": "77777788.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "104.21.32.1",
+            "server_port": 443,
+            "uuid": "406034dd-4b2a-41f5-8405-cf3dedd5760f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "jnir-cdn.29394900.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed=2560",
+                "headers": {
+                    "Host": "jnir-cdn.29394900.xyz"
+                }
+            }
         }
     ],
     "route": {
