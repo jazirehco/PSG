@@ -97,6 +97,7 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -110,8 +111,7 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -127,6 +127,7 @@
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -140,8 +141,7 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -317,6 +317,29 @@
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
             "uuid": "FreakConfig1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -544,7 +567,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
             "type": "vless",
             "server": "deu246.bypassall.org",
             "server_port": 443,
@@ -563,31 +586,6 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.arfilter.blog",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "www.arfilter.blog"
                 }
             }
         }

@@ -93,7 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]"
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [8]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,7 +107,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
-                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]"
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+                "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [8]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -215,7 +219,30 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [6]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray1_ng [8]",
             "type": "vless",
             "server": "91.107.137.185",
             "server_port": 443,
@@ -231,6 +258,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "12d5ffb5-4d83-4631-c3e4-fd87b8b1a843",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
