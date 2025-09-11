@@ -103,9 +103,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -128,9 +127,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -378,41 +376,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "82.197.69.131",
-            "server_port": 39674,
-            "uuid": "5a89386a-827b-4f54-8778-2f1b5122c6ef",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "lammaland.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "lammaland.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "lammaland.org"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
             "server": "amin.karkas1.ir",
             "server_port": 80,
@@ -422,6 +386,22 @@
             "transport": {
                 "type": "ws",
                 "path": "/t14FEa4TBzLbwZsNkGkxxW7",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "45.8.146.129",
+            "server_port": 80,
+            "uuid": "0704016f-5435-4655-be6a-771a5aba52c3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
                 "headers": {
                     "Host": ""
                 }
