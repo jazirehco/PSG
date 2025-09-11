@@ -111,11 +111,11 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -145,11 +145,11 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
-                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
+                "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -575,7 +575,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -600,7 +600,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
             "type": "vless",
             "server": "deu246.bypassall.org",
             "server_port": 443,
@@ -623,16 +623,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "hoho.yakarimmilan.ir",
             "server_port": 16548,
@@ -655,13 +646,31 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "f6b73b24-f250-4c81-8a27-78dab763a9a0",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "sss57281.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss57281.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
