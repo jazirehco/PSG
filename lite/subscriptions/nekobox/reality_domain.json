@@ -82,7 +82,9 @@
                 "KingRezaPahlavi",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -95,7 +97,9 @@
                 "KingRezaPahlavi",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -251,6 +255,52 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "a938de6a-7524-40ec-a7a7-b5cc883ff58a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "4fcc456d-de78-417d-97af-898436485c66",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
                 }
             }
         }

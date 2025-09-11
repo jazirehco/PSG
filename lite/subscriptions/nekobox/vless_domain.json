@@ -99,8 +99,11 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -130,8 +133,11 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -561,6 +567,31 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "6389113402676776505.rtxiran.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "6389113402676776505.rtxiran.info"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
             "type": "vless",
             "server": "deu246.bypassall.org",
@@ -584,13 +615,59 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "69f6d665-19a8-4a20-93ff-2ff20b8aff7f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "a938de6a-7524-40ec-a7a7-b5cc883ff58a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [14]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "4fcc456d-de78-417d-97af-898436485c66",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         }
     ],
     "route": {
