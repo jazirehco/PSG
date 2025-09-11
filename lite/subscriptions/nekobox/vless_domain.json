@@ -84,7 +84,8 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -94,11 +95,12 @@
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
-                "❔ XX | 🔓 VLESS | @tobevasl [16]",
+                "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -113,7 +115,8 @@
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [1]",
                 "❔ XX | 🔒 VLESS | @deragv2ray [2]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🇨🇦 CA | 🔒 VLESS | @n2vpn [8]",
@@ -123,11 +126,12 @@
                 "🇫🇮 FI | 🔓 VLESS | @proxse11 [2]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
-                "❔ XX | 🔓 VLESS | @tobevasl [16]",
+                "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]"
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -302,7 +306,30 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -477,7 +504,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @tobevasl [16]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
             "type": "vless",
             "server": "1conf.top",
             "server_port": 3333,
@@ -555,6 +582,15 @@
                     "short_id": ""
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "69f6d665-19a8-4a20-93ff-2ff20b8aff7f",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

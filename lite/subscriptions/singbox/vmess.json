@@ -103,8 +103,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -127,8 +126,7 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -376,43 +374,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "test3.flha.ru",
-            "server_port": 80,
-            "uuid": "9a81340d-f81b-4c76-8abb-f4d305c535c0",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "a06f0f04-d32d-4c39-a0dc-f1fe2cfc67c8",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess",
+                "path": "/",
                 "headers": {
-                    "Host": "test3.flha.ru"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "xcf036.facai2024.com",
-            "server_port": 443,
-            "uuid": "96c585de-c7e4-41cb-a232-9aba535ea9ac",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "xcf036.facai2024.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/96c585de",
-                "headers": {
-                    "Host": "xcf036.facai2024.com"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
