@@ -110,9 +110,8 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -132,8 +131,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -162,9 +161,8 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔓 VLESS | @Fr33C0nfig [13]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
@@ -184,8 +182,8 @@
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
                 "🚩 CF | 🔒 VLESS | @vaiking_vpn [1]",
-                "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -588,31 +586,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "6389113402676776505.rtxiran.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "6389113402676776505.rtxiran.info"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
             "type": "vless",
             "server": "deu246.bypassall.org",
@@ -636,7 +609,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "d8.mmadcoffee.info",
             "server_port": 443,
@@ -1024,11 +997,36 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.arfilter.blog",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+                "headers": {
+                    "Host": "www.arfilter.blog"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8880,
-            "uuid": "6977b1bd-b5b3-40d1-884a-4e6b02cf568b",
+            "uuid": "43536228-b11e-4498-8705-20abebea9551",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -1038,15 +1036,6 @@
                     "Host": "172.66.40.99"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "0c3693b1-4b96-4a6a-b980-a927ae85e025",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

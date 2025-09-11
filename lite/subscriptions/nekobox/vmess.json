@@ -91,9 +91,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "proxy",
@@ -116,9 +115,8 @@
                 "🇮🇷 IR | 🔓 VMESS | @proxse11 [1]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [4]",
                 "🇦🇹 AT | 🔓 VMESS | @rnrifci [6]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]"
             ],
             "tag": "auto",
@@ -370,36 +368,43 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "panel1.ipyar.org",
-            "server_port": 42684,
-            "uuid": "c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "47.239.183.87",
-            "server_port": 28590,
-            "uuid": "d75481c7-b5c8-40a9-811a-02b709e74816",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [20]",
-            "type": "vmess",
-            "server": "104.19.47.88",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "server": "test3.flha.ru",
+            "server_port": 80,
+            "uuid": "9a81340d-f81b-4c76-8abb-f4d305c535c0",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/9a81340d-f81b-4c76-8abb-f4d305c535c0-vmess",
                 "headers": {
-                    "Host": "104.19.47.88"
+                    "Host": "test3.flha.ru"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "xcf036.facai2024.com",
+            "server_port": 443,
+            "uuid": "96c585de-c7e4-41cb-a232-9aba535ea9ac",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "xcf036.facai2024.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/96c585de",
+                "headers": {
+                    "Host": "xcf036.facai2024.com"
                 }
             }
         },

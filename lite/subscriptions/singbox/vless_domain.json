@@ -110,9 +110,8 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -141,9 +140,8 @@
                 "❔ XX | 🔓 VLESS | @turboo_server [12]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]"
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -546,31 +544,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [7]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "6389113402676776505.rtxiran.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "6389113402676776505.rtxiran.info"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
             "type": "vless",
             "server": "deu246.bypassall.org",
@@ -594,7 +567,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "d8.mmadcoffee.info",
             "server_port": 443,
