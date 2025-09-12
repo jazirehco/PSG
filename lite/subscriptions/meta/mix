@@ -23,9 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @outline_ir [17]","type":"vless","server":"198.62.62.2","port":443,"uuid":"598b4251-fd03-48fe-b12d-630ac3adf2e5","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ftm2.gerlemondns.info","ws-opts":{"path":"/hjgfdws","headers":{"Host":"ftm2.gerlemondns.info"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @outline_ir [18]","type":"vless","server":"m44a.vip784.com","port":33801,"uuid":"39c8e0d3-c932-4ff7-b3e3-83002647907b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @outline_ir [19]","type":"vless","server":"91.98.35.142","port":443,"uuid":"c99f45df-5daf-4610-81ea-b9b4ea7258f4","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":""}}}
   - {"name":"🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
@@ -41,9 +38,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @outline_ir [17]'
-      - '🇩🇪 DE | 🔓 VLESS | @outline_ir [18]'
-      - '🇩🇪 DE | 🔓 VLESS | @outline_ir [19]'
       - '🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]'
       - '🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]'
 

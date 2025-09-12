@@ -79,9 +79,7 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @outline_ir [17]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]"
+                "KingRezaPahlavi"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,9 +89,7 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @outline_ir [17]",
-                "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]"
+                "KingRezaPahlavi"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -180,49 +176,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @outline_ir [17]",
-            "type": "vless",
-            "server": "198.62.62.2",
-            "server_port": 443,
-            "uuid": "598b4251-fd03-48fe-b12d-630ac3adf2e5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ftm2.gerlemondns.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/hjgfdws",
-                "headers": {
-                    "Host": "ftm2.gerlemondns.info"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
-            "type": "vless",
-            "server": "91.98.35.142",
-            "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.98.35.142",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
