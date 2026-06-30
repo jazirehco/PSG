@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,22 +184,47 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]",
             "type": "vless",
-            "server": "91.107.165.227",
-            "server_port": 555,
-            "uuid": "b87e603e-cef1-43c9-b92d-d65006bdce51",
+            "server": "dalton.makanyab.app",
+            "server_port": 443,
+            "uuid": "a4cb769e-78ee-483f-8a9f-42e768ea1f1d",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dalton.makanyab.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]",
             "type": "vless",
-            "server": "91.107.165.227",
-            "server_port": 444,
-            "uuid": "b87e603e-cef1-43c9-b92d-d65006bdce51",
+            "server": "104.25.146.77",
+            "server_port": 443,
+            "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "khoda.ak-khoda.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "khoda.ak-khoda.workers.dev"
+                }
+            }
         }
     ],
     "route": {

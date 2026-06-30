@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]","type":"vless","server":"91.107.165.227","port":555,"uuid":"b87e603e-cef1-43c9-b92d-d65006bdce51","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]","type":"vless","server":"91.107.165.227","port":444,"uuid":"b87e603e-cef1-43c9-b92d-d65006bdce51","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]","type":"vless","server":"dalton.makanyab.app","port":443,"uuid":"a4cb769e-78ee-483f-8a9f-42e768ea1f1d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [64]","type":"vless","server":"104.25.146.77","port":443,"uuid":"e6cc4788-3c45-4df1-94f3-8303504a65bf","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"khoda.ak-khoda.workers.dev","ws-opts":{"path":"/sync","headers":{"Host":"khoda.ak-khoda.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [64]'
 
   - name: 🌍 Global Media
     type: select
