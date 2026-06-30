@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,29 +192,22 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
             "type": "vless",
-            "server": "104.16.75.214",
-            "server_port": 443,
-            "uuid": "b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c",
+            "server": "91.107.165.227",
+            "server_port": 555,
+            "uuid": "b87e603e-cef1-43c9-b92d-d65006bdce51",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "server-ir-3.ariyuz.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/page=2",
-                "headers": {
-                    "Host": "server-ir-3.ariyuz.org"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]",
+            "type": "vless",
+            "server": "91.107.165.227",
+            "server_port": 444,
+            "uuid": "b87e603e-cef1-43c9-b92d-d65006bdce51",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
