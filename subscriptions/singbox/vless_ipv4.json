@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 SS | @NamiraConfigs [58]"
+                "🇭🇺 HU | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 SS | @NamiraConfigs [58]"
+                "🇭🇺 HU | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,12 +190,29 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 SS | @NamiraConfigs [58]",
-            "type": "shadowsocks",
-            "server": "beesyar.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u"
+            "tag": "🇭🇺 HU | 🔒 VLESS | @NamiraConfigs [55]",
+            "type": "vless",
+            "server": "141.11.202.133",
+            "server_port": 443,
+            "uuid": "45d2fe56-2da3-409a-bdc7-5b95f30817bd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sahand-m.sahand5.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/xiron",
+                "headers": {
+                    "Host": "sahand-m.sahand5.workers.dev"
+                }
+            }
         }
     ],
     "route": {
