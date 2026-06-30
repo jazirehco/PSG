@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,27 +182,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [61]",
             "type": "vless",
-            "server": "104.25.146.77",
+            "server": "13.40.188.81",
             "server_port": 443,
-            "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+            "uuid": "7e6a38f4-7150-4eff-ae68-579852357ddb",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "khoda.ak-khoda.workers.dev",
+                "server_name": "13.40.188.81",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "khoda.ak-khoda.workers.dev"
                 }
             }
         }

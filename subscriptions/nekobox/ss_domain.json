@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]"
+                "🇷🇺 RU | 🔒 SS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]"
+                "🇷🇺 RU | 🔒 SS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +182,12 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]",
-            "type": "vmess",
-            "server": "47.251.91.241",
-            "server_port": 42899,
-            "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇷🇺 RU | 🔒 SS | @NamiraConfigs [50]",
+            "type": "shadowsocks",
+            "server": "ru.moktana.app",
+            "server_port": 51523,
+            "method": "chacha20-ietf-poly1305",
+            "password": "7SEstdmLhf-aFK_G9eaYHKT_YpSov58B"
         }
     ],
     "route": {
