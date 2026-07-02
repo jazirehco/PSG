@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [42]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [42]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,7 +192,16 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [51]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [42]",
+            "type": "vless",
+            "server": "niga.mohammadaz2sub.ir",
+            "server_port": 62803,
+            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [53]",
             "type": "vless",
             "server": "tstsrat.speed1vipsarbaziclick.site",
             "server_port": 80,
@@ -204,31 +213,6 @@
                 "path": "/profile",
                 "headers": {
                     "Host": "tstsrat.speed1vipsarbaziclick.site"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "rvg-production-2828.up.railway.app",
-            "server_port": 443,
-            "uuid": "3ecae3b7-2654-abf6-6d48-23c18d4369f9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rvg-production-2828.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/3ecae3b7-2654-abf6-6d48-23c18d4369f9",
-                "headers": {
-                    "Host": "rvg-production-2828.up.railway.app"
                 }
             }
         }
