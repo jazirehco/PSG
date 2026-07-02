@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +190,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "57.129.41.216",
             "server_port": 80,
@@ -206,42 +202,6 @@
                 "path": "/vless/",
                 "headers": {
                     "Host": "57.129.41.216"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "85.234.114.53",
-            "server_port": 22231,
-            "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "r1.mizulina.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "85.234.114.53",
-            "server_port": 443,
-            "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "r1.mizulina.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
