@@ -80,9 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,16 +182,16 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @NamiraConfigs [66]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "57.129.137.57",
-            "server_port": 443,
-            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "server": "104.26.14.160",
+            "server_port": 2083,
+            "uuid": "8525fe74-67e6-4a55-8a26-95f227bd1384",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vpn47.cc.cd",
+                "server_name": "muddy-leaf-e8c4.alvlirm3636.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -204,59 +200,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/proxyip=45.150.108.59,80.178.58.56,185.162.127.54",
                 "headers": {
-                    "Host": "vpn47.cc.cd"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "82.64.152.55",
-            "server_port": 20304,
-            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn47.cc.cd",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "vpn47.cc.cd"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "161.35.217.79",
-            "server_port": 2087,
-            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn47.cc.cd",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "vpn47.cc.cd"
+                    "Host": "muddy-leaf-e8c4.alvlirm3636.workers.dev"
                 }
             }
         }
