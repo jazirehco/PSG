@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]","type":"vmess","server":"140.238.2.250","port":443,"cipher":"auto","uuid":"41a7089a-040b-4538-8b8d-010902405bde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [52]","type":"vmess","server":"47.250.45.234","port":43063,"cipher":"auto","uuid":"c77f48f5-4be3-4461-b52b-49998e7b897b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":"47.250.45.234"}}}
+  - {"name":"🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [54]","type":"vmess","server":"140.238.2.250","port":443,"cipher":"auto","uuid":"41a7089a-040b-4538-8b8d-010902405bde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]'
-      - '🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [52]'
+      - '🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
     type: select
