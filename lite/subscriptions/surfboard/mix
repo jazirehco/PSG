@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-
+🇺🇸 US | 🔒 SS | @NamiraConfigs [59] = ss, 172.245.235.84, 2375, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
-PSG-AUTO = url-test, 
-PSG-FALLBACK = fallback, 
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @NamiraConfigs [59]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @NamiraConfigs [59]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @NamiraConfigs [59]
 
 [Rule]
 GEOIP,IR,DIRECT
