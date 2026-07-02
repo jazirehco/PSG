@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [61]"
+                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [61]"
+                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +182,22 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [61]",
+            "tag": "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
-            "server": "217.144.107.202",
-            "server_port": 28831,
-            "uuid": "29c80813-35db-47ff-ab35-459f8201155d",
+            "server": "cd.pascalplus.com",
+            "server_port": 8443,
+            "uuid": "ebb957fc-5a5a-4a50-b550-c05d24f5ff36",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn3.w-ert.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

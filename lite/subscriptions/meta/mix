@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [59]","type":"ss","server":"172.245.235.84","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [60]","type":"vless","server":"151.115.167.1","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [61]","type":"vless","server":"217.144.107.202","port":28831,"uuid":"29c80813-35db-47ff-ab35-459f8201155d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [60]","type":"vless","server":"cd.pascalplus.com","port":8443,"uuid":"ebb957fc-5a5a-4a50-b550-c05d24f5ff36","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"cdn3.w-ert.org"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [61]","type":"ss","server":"172.245.235.84","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [59]'
-      - '🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [60]'
-      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [61]'
+      - '🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [60]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [61]'
 
   - name: 🌍 Global Media
     type: select
