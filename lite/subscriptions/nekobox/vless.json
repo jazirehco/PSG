@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,29 +184,22 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
             "type": "vless",
-            "server": "162.159.141.147",
-            "server_port": 443,
-            "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
+            "server": "usa.mohammadaz2.shop",
+            "server_port": 42348,
+            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rAyAn-007.fOtOn.dPdNs.oRg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "rAyAn-007.fOtOn.dPdNs.oRg"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "niga.mohammadaz2sub.ir",
+            "server_port": 62803,
+            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
