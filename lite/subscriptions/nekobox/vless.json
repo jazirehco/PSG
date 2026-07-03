@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [53]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [53]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,25 +186,9 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "31.76.82.3",
-            "server_port": 8080,
-            "uuid": "c9ec8f14-3e9b-44a0-a1cd-0b1d270c4556",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/dda12c57317ed12178061db1b799ebd2",
-                "headers": {
-                    "Host": "31.76.82.3"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "104.26.13.222",
+            "server": "octopusss5.info",
             "server_port": 443,
             "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
             "flow": "",
@@ -227,16 +211,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+            "tag": "🇦🇹 AT | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "104.18.35.13",
-            "server_port": 443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "server": "130.49.219.126",
+            "server_port": 8443,
+            "uuid": "2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
+                "server_name": "at16.fastlanehosting.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "104.26.15.137",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -245,9 +247,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/rsedgws",
                 "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
+                    "Host": "shegeftihaaa.net"
                 }
             }
         }

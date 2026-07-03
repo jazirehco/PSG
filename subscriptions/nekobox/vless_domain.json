@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +184,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "nahan-core.fatitelegram.workers.dev",
+            "server_port": 443,
+            "uuid": "73796e63-0000-4000-8000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nahan-core.fatitelegram.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "nahan-core.fatitelegram.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
             "type": "vless",
             "server": "octopusss5.info",
             "server_port": 443,
@@ -205,31 +230,6 @@
                 "path": "/udfyfws",
                 "headers": {
                     "Host": "octopusss5.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "fast.motorbazan.com",
-            "server_port": 443,
-            "uuid": "06462f62-5f9c-4632-9041-d35fedd0df97",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ssl.fastly.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "ssl.fastly.com"
                 }
             }
         }
