@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51] = vmess, 69.84.182.49, 80, username = f8975871-a7a0-4906-8835-a23c1258ca1e, ws = true, tls = false, ws-path = /, ws-headers = Host:"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+🇺🇸 US | 🔒 VMESS | @NamiraConfigs [51] = vmess, 69.84.182.49, 80, username = f8975871-a7a0-4906-8835-a23c1258ca1e, ws = true, tls = false, ws-path = /, ws-headers = Host:"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52] = vmess, 69.84.182.49, 80, username = f8975871-a7a0-4906-8835-a23c1258ca1e, ws = true, tls = false, ws-path = /, ws-headers = Host:"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]
-PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [51], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [51], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [51], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]
 
 [Rule]
 GEOIP,IR,DIRECT

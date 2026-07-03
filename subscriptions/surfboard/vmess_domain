@@ -9,17 +9,17 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [39] = vmess, 165.140.216.141, 443, username = e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, ws = false, tls = false
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40] = vmess, 82.198.246.9, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [48] = vmess, 134.195.196.211, 18000, username = f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, ws = false, tls = false
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49] = vmess, 82.198.246.250, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇺🇸 US | 🔒 VMESS | @NamiraConfigs [50] = vmess, 69.84.182.49, 80, username = f8975871-a7a0-4906-8835-a23c1258ca1e, ws = true, tls = false, ws-path = /, ws-headers = Host:"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51] = vmess, 69.84.182.49, 80, username = f8975871-a7a0-4906-8835-a23c1258ca1e, ws = true, tls = false, ws-path = /, ws-headers = Host:"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40] = vmess, 165.140.216.141, 443, username = e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41] = vmess, 82.198.246.9, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49] = vmess, 134.195.196.211, 18000, username = f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [50] = vmess, 82.198.246.250, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇺🇸 US | 🔒 VMESS | @NamiraConfigs [51] = vmess, 69.84.182.49, 80, username = f8975871-a7a0-4906-8835-a23c1258ca1e, ws = true, tls = false, ws-path = /, ws-headers = Host:"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52] = vmess, 69.84.182.49, 80, username = f8975871-a7a0-4906-8835-a23c1258ca1e, ws = true, tls = false, ws-path = /, ws-headers = Host:"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [39], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [48], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [50], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]
-PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [39], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [48], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [50], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [39], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [48], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [50], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [50], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [51], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [50], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [51], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [50], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [51], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]
 
 [Rule]
 GEOIP,IR,DIRECT
