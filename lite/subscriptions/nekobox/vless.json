@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,34 +182,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "tstsrat.speed1vipsarbaziclick.site",
-            "server_port": 80,
-            "uuid": "1b5660c7-e4be-43e1-a4bd-3b6b3dfc8791",
+            "server": "162.159.141.147",
+            "server_port": 443,
+            "uuid": "d2d0f796-edb0-427a-af32-ae360679f9e7",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/profile",
-                "headers": {
-                    "Host": "tstsrat.speed1vipsarbaziclick.site"
+            "tls": {
+                "enabled": true,
+                "server_name": "rAyAn-007.fOtOn.dPdNs.oRg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "57.129.41.216",
-            "server_port": 80,
-            "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
                 "type": "ws",
-                "path": "/vless/",
+                "path": "/",
                 "headers": {
-                    "Host": "57.129.41.216"
+                    "Host": "rAyAn-007.fOtOn.dPdNs.oRg"
                 }
             }
         }
