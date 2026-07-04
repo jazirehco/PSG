@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
-                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
-                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,34 +182,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]",
             "type": "vmess",
-            "server": "45.89.223.61",
-            "server_port": 2083,
-            "uuid": "b56e65b2-18b1-44fb-90ac-5314d261f01d",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]",
-            "type": "vmess",
-            "server": "132.145.80.230",
-            "server_port": 80,
-            "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/cctv13.m3u8",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
