@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +190,29 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "91.107.150.147",
-            "server_port": 26191,
-            "uuid": "5cbc3beb-61f1-45eb-b365-9555353cdf96",
+            "server": "156.154.245.83",
+            "server_port": 443,
+            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn47.cc.cd",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vpn47.cc.cd"
+                }
+            }
         }
     ],
     "route": {
