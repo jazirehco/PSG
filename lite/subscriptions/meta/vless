@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"13.40.188.81","port":443,"uuid":"7e6a38f4-7150-4eff-ae68-579852357ddb","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]","type":"vless","server":"57.129.41.216","port":80,"uuid":"7d74eae4-8a06-4306-a923-ad686f30bf26","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"OV-Germany1.09vpn.com"}}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [54]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]'
 
   - name: 🌍 Global Media
