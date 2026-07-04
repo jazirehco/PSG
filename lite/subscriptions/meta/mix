@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [55]","type":"vmess","server":"hl112.cowjump.site","port":443,"cipher":"auto","uuid":"0bf1cead-bdd4-4692-b3d4-6866ccb9f37a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hl112.cowjump.site"}}}
-  - {"name":"🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]","type":"vless","server":"abr.mohammadaz2arvan.ir","port":42348,"uuid":"e286cebe-7473-44e9-8c30-273ac36ac83b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [57]","type":"ss","server":"98.71.81.64","port":443,"password":"7kxYV8faLKFy8q1S","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"104.16.72.2","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"104.16.72.41","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
+  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [52]","type":"vmess","server":"hl112.cowjump.site","port":443,"cipher":"auto","uuid":"0bf1cead-bdd4-4692-b3d4-6866ccb9f37a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hl112.cowjump.site"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [55]'
-      - '🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]'
-      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [57]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [52]'
 
   - name: 🌍 Global Media
     type: select

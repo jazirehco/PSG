@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [55]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇮🇪 IE | 🔒 SS | @NamiraConfigs [57]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [55]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇮🇪 IE | 🔒 SS | @NamiraConfigs [57]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,57 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "104.16.72.2",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rsedgws",
+                "headers": {
+                    "Host": "shegeftihaaa.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "104.16.72.41",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rsedgws",
+                "headers": {
+                    "Host": "shegeftihaaa.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]",
             "type": "vmess",
             "server": "hl112.cowjump.site",
             "server_port": 443,
@@ -136,23 +186,6 @@
                     "Host": "hl112.cowjump.site"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "abr.mohammadaz2arvan.ir",
-            "server_port": 42348,
-            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇪 IE | 🔒 SS | @NamiraConfigs [57]",
-            "type": "shadowsocks",
-            "server": "98.71.81.64",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "7kxYV8faLKFy8q1S"
         }
     ],
     "route": {

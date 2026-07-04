@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +184,54 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "abr.mohammadaz2arvan.ir",
-            "server_port": 42348,
-            "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
+            "server": "104.16.72.2",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rsedgws",
+                "headers": {
+                    "Host": "shegeftihaaa.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "104.16.72.41",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rsedgws",
+                "headers": {
+                    "Host": "shegeftihaaa.net"
+                }
+            }
         }
     ],
     "route": {
