@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]"
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]"
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,36 +190,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [55]",
             "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58]",
-            "type": "vmess",
-            "server": "134.195.196.211",
-            "server_port": 18000,
-            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
-            "type": "vmess",
-            "server": "69.84.182.49",
-            "server_port": 80,
-            "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+            "server": "hl112.cowjump.site",
+            "server_port": 443,
+            "uuid": "0bf1cead-bdd4-4692-b3d4-6866ccb9f37a",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "hl112.cowjump.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": ""
+                    "Host": "hl112.cowjump.site"
                 }
             }
         }

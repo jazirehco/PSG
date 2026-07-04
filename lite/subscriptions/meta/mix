@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58]","type":"vmess","server":"134.195.196.211","port":18000,"cipher":"auto","uuid":"f8c8dc3d-0d37-46b0-8b34-a7232882fcfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]","type":"vmess","server":"69.84.182.49","port":80,"cipher":"auto","uuid":"f8975871-a7a0-4906-8835-a23c1258ca1e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."}}}
+  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [55]","type":"vmess","server":"hl112.cowjump.site","port":443,"cipher":"auto","uuid":"0bf1cead-bdd4-4692-b3d4-6866ccb9f37a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hl112.cowjump.site"}}}
+  - {"name":"🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]","type":"vless","server":"abr.mohammadaz2arvan.ir","port":42348,"uuid":"e286cebe-7473-44e9-8c30-273ac36ac83b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [57]","type":"ss","server":"98.71.81.64","port":443,"password":"7kxYV8faLKFy8q1S","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]'
-      - '🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [58]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]'
+      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [55]'
+      - '🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]'
+      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [57]'
 
   - name: 🌍 Global Media
     type: select
