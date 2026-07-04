@@ -23,9 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"104.27.7.125","port":443,"uuid":"72d1797c-cef8-410a-b8fd-db9104dc3cb0","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"amooaliii.net","ws-opts":{"path":"/jdhfyws","headers":{"Host":"amooaliii.net"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"91.107.150.147","port":26191,"uuid":"5cbc3beb-61f1-45eb-b365-9555353cdf96","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"156.154.245.83","port":443,"uuid":"0970324b-8c61-4ae7-8c3f-385a6f1e17e4","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vpn47.cc.cd","ws-opts":{"path":"/","headers":{"Host":"vpn47.cc.cd"}}}
+  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]","type":"vless","server":"13.40.188.81","port":443,"uuid":"7e6a38f4-7150-4eff-ae68-579852357ddb","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"213.108.20.152","port":443,"uuid":"f76412c3-abdf-4318-baf8-4a1bfa438968","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"node-de-frankfurt.neverlock.uk","flow":"xtls-rprx-vision"}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"57.129.41.216","port":80,"uuid":"7d74eae4-8a06-4306-a923-ad686f30bf26","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"OV-Germany1.09vpn.com"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"104.26.15.137","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"104.17.121.110","port":443,"uuid":"b2f6aa3a-2550-4a1c-b2c0-1c94b1207217","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"terazhediii.info","ws-opts":{"path":"/hdgrbws","headers":{"Host":"terazhediii.info"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [60]","type":"vless","server":"104.27.7.125","port":443,"uuid":"72d1797c-cef8-410a-b8fd-db9104dc3cb0","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"amooaliii.net","ws-opts":{"path":"/jdhfyws","headers":{"Host":"amooaliii.net"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [44]'
+      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [48]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]'
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [55]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [55]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [56]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [60]'
 
   - name: 🌍 Global Media
     type: select
