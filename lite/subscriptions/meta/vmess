@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [52]","type":"vmess","server":"hl112.cowjump.site","port":443,"cipher":"auto","uuid":"0bf1cead-bdd4-4692-b3d4-6866ccb9f37a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hl112.cowjump.site"}}}
+  - {"name":"🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]","type":"vmess","server":"45.89.223.61","port":2083,"cipher":"auto","uuid":"b56e65b2-18b1-44fb-90ac-5314d261f01d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]","type":"vmess","server":"132.145.80.230","port":80,"cipher":"auto","uuid":"5155860e-d07d-46c3-9128-3afbd84626c7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/cctv13.m3u8","headers":{"Host":"kr02.a0a.xyz"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [52]'
+      - '🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]'
+      - '🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]'
 
   - name: 🌍 Global Media
     type: select

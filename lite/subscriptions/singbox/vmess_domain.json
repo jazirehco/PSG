@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]"
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
+                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]"
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
+                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,27 +192,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
             "type": "vmess",
-            "server": "hl112.cowjump.site",
-            "server_port": 443,
-            "uuid": "0bf1cead-bdd4-4692-b3d4-6866ccb9f37a",
+            "server": "45.89.223.61",
+            "server_port": 2083,
+            "uuid": "b56e65b2-18b1-44fb-90ac-5314d261f01d",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "hl112.cowjump.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "hl112.cowjump.site"
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]",
+            "type": "vmess",
+            "server": "132.145.80.230",
+            "server_port": 80,
+            "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/cctv13.m3u8",
+                "headers": {
+                    "Host": ""
                 }
             }
         }

@@ -80,11 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [44]",
-                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [46]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [47]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
+                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -95,11 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [44]",
-                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [46]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [47]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
+                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +186,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46]",
             "type": "vmess",
             "server": "165.140.216.141",
             "server_port": 443,
@@ -208,7 +204,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [44]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [47]",
             "type": "vmess",
             "server": "45.89.223.61",
             "server_port": 2083,
@@ -224,7 +220,7 @@
             }
         },
         {
-            "tag": "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [46]",
+            "tag": "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [49]",
             "type": "vmess",
             "server": "132.145.80.230",
             "server_port": 80,
@@ -236,47 +232,6 @@
                 "path": "/cctv13.m3u8",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [47]",
-            "type": "vmess",
-            "server": "69.84.182.49",
-            "server_port": 80,
-            "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [52]",
-            "type": "vmess",
-            "server": "hl112.cowjump.site",
-            "server_port": 443,
-            "uuid": "0bf1cead-bdd4-4692-b3d4-6866ccb9f37a",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "hl112.cowjump.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "hl112.cowjump.site"
                 }
             }
         }
