@@ -80,9 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [62]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [63]"
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [62]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [63]"
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,63 +182,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [61]",
             "type": "vless",
-            "server": "104.17.121.110",
-            "server_port": 443,
-            "uuid": "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "terazhediii.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/hdgrbws",
-                "headers": {
-                    "Host": "terazhediii.info"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "188.213.198.238",
-            "server_port": 7080,
-            "uuid": "ac9b2102-53de-4e07-98e5-5aec6dee694b",
+            "server": "ns-fi.onlinernet.ir",
+            "server_port": 20018,
+            "uuid": "199436d3-2fa2-4e34-a1de-844419de5a4f",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [63]",
-            "type": "vless",
-            "server": "161.35.217.79",
-            "server_port": 2087,
-            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn47.cc.cd",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "vpn47.cc.cd"
-                }
-            }
         }
     ],
     "route": {
