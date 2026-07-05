@@ -1,0 +1,301 @@
+{
+    "dns": {
+        "independent_cache": true,
+        "rules": [
+            {
+                "domain": [
+                    "dns.google"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": [
+                    "any"
+                ],
+                "server": "dns-direct"
+            }
+        ],
+        "servers": [
+            {
+                "address": "tcp://1.1.1.1",
+                "address_resolver": "local-dns",
+                "detour": "proxy",
+                "tag": "proxy-dns"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "local-dns"
+            },
+            {
+                "address": "tcp://8.8.8.8",
+                "detour": "direct",
+                "tag": "direct-dns"
+            }
+        ]
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "path": "../cache/clash.db",
+            "store_fakeip": true
+        },
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "../files/yacd"
+        }
+    },
+    "inbounds": [
+        {
+            "domain_strategy": "",
+            "endpoint_independent_nat": true,
+            "inet4_address": [
+                "172.19.0.1/28"
+            ],
+            "mtu": 9000,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "stack": "mixed",
+            "tag": "tun-in",
+            "type": "tun"
+        },
+        {
+            "domain_strategy": "",
+            "listen": "127.0.0.1",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "log": {
+        "level": "info"
+    },
+    "outbounds": [
+        {
+            "outbounds": [
+                "auto",
+                "direct",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [44]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]"
+            ],
+            "tag": "proxy",
+            "type": "selector"
+        },
+        {
+            "interval": "10m",
+            "outbounds": [
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [44]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]"
+            ],
+            "tag": "auto",
+            "tolerance": 50,
+            "type": "urltest",
+            "url": "http://www.gstatic.com/generate_204"
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "همکاری_ملی",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [44]",
+            "type": "vless",
+            "server": "HSHSHSJSJJSHSJJSJJEJJSHE.SUUSJSJJWJ.mamli12.ir",
+            "server_port": 8080,
+            "uuid": "47e9fa2b-1146-47cb-9623-18a5343ed061",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "fn.fifapes.monster",
+            "server_port": 2090,
+            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "tmesubgift.up.railway.app",
+            "server_port": 443,
+            "uuid": "2fec08e2-76f8-8b7b-71cc-6b6569db7eb2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tmesubgift.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/2fec08e2-76f8-8b7b-71cc-6b6569db7eb2",
+                "headers": {
+                    "Host": "tmesubgift.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "s643.ccgfw.top",
+            "server_port": 443,
+            "uuid": "6d49fae1-374d-313e-b360-1227b0ea8dea",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "7190s643.ccgfw.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "rule_set": [],
+        "rules": [
+            {
+                "action": "hijack-dns",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "action": "hijack-dns",
+                "protocol": [
+                    "dns"
+                ]
+            },
+            {
+                "action": "reject",
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "source_ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ]
+            }
+        ]
+    }
+}
