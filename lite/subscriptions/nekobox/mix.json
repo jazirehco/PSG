@@ -77,8 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -86,8 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -101,6 +103,35 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "45.86.159.134",
+            "server_port": 2085,
+            "uuid": "1ea1b30b-4114-4a5c-bd3a-9637bdae1948",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "cdnjs.com",
+            "server_port": 2095,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/fp=randomized",
+                "headers": {
+                    "Host": "cdnjs.com"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
@@ -119,15 +150,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "JDHDHDJJDHDU.DJJDHUDIISJJEJSJ.eorvexo.ir",
-            "server_port": 8080,
-            "uuid": "47e9fa2b-1146-47cb-9623-18a5343ed061",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
