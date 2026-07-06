@@ -23,11 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47]","type":"vmess","server":"47.250.45.234","port":43063,"cipher":"auto","uuid":"c77f48f5-4be3-4461-b52b-49998e7b897b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":"47.250.45.234"}}}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]","type":"vmess","server":"173.249.209.146","port":20086,"cipher":"auto","uuid":"3935c2dc-dbb0-43f7-b367-fe89abe87fdf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
-  - {"name":"🇮🇹 IT | 🔒 VMESS | @NamiraConfigs [53]","type":"vmess","server":"57.131.32.191","port":8443,"cipher":"auto","uuid":"848af33c-81f2-40c9-93b2-4681d056936b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"OV-Italy1.09vpn.com"}}}
-  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [54]","type":"ss","server":"213.226.68.8","port":31348,"password":"hkasb5cVrs4jE18jCEJxB4Gr55hVGW24y35gU9GIIeyT31Fw","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [56]","type":"vmess","server":"23.162.200.198","port":18000,"cipher":"auto","uuid":"f8c8dc3d-0d37-46b0-8b34-a7232882fcfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [44]","type":"vmess","server":"47.250.45.234","port":43063,"cipher":"auto","uuid":"c77f48f5-4be3-4461-b52b-49998e7b897b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":"47.250.45.234"}}}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49]","type":"vmess","server":"173.249.209.146","port":20086,"cipher":"auto","uuid":"3935c2dc-dbb0-43f7-b367-fe89abe87fdf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🇮🇹 IT | 🔒 VMESS | @NamiraConfigs [50]","type":"vmess","server":"57.131.32.191","port":8443,"cipher":"auto","uuid":"848af33c-81f2-40c9-93b2-4681d056936b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"OV-Italy1.09vpn.com"}}}
+  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [51]","type":"ss","server":"213.226.68.8","port":31348,"password":"hkasb5cVrs4jE18jCEJxB4Gr55hVGW24y35gU9GIIeyT31Fw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [53]","type":"vmess","server":"23.162.200.198","port":18000,"cipher":"auto","uuid":"f8c8dc3d-0d37-46b0-8b34-a7232882fcfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]'
-      - '🇮🇹 IT | 🔒 VMESS | @NamiraConfigs [53]'
-      - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [54]'
-      - '🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [56]'
+      - '🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [44]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49]'
+      - '🇮🇹 IT | 🔒 VMESS | @NamiraConfigs [50]'
+      - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [51]'
+      - '🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [53]'
 
   - name: 🌍 Global Media
     type: select
