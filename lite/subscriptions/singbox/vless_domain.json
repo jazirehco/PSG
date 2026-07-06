@@ -91,8 +91,7 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]"
+                "KingRezaPahlavi"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +101,7 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]"
+                "KingRezaPahlavi"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,22 +184,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "cdnjs.com",
-            "server_port": 2095,
-            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/fp=randomized",
-                "headers": {
-                    "Host": "cdnjs.com"
                 }
             }
         }

@@ -77,9 +77,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +86,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,7 +103,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
+            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "89.19.223.139",
+            "server_port": 8443,
+            "uuid": "f0be198c-db8c-4622-8803-ba3c8c8db515",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "45.86.159.134",
             "server_port": 2085,
@@ -115,40 +122,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vless"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "cdnjs.com",
-            "server_port": 2095,
-            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/fp=randomized",
-                "headers": {
-                    "Host": "cdnjs.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "213.108.20.152",
-            "server_port": 443,
-            "uuid": "f76412c3-abdf-4318-baf8-4a1bfa438968",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "node-de-frankfurt.neverlock.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         }
     ],
