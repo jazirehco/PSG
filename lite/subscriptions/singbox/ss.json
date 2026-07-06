@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgU1M=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -91,9 +91,7 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [53]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [54]"
+                "KingRezaPahlavi"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,9 +101,7 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [53]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [54]"
+                "KingRezaPahlavi"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -189,28 +185,6 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "89.19.223.139",
-            "server_port": 8443,
-            "uuid": "f0be198c-db8c-4622-8803-ba3c8c8db515",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "45.86.159.134",
-            "server_port": 2085,
-            "uuid": "1ea1b30b-4114-4a5c-bd3a-9637bdae1948",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "vless"
             }
         }
     ],

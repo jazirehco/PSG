@@ -80,7 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [47]"
+                "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]",
+                "🇮🇹 IT | 🔒 VMESS | @NamiraConfigs [53]",
+                "🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +94,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [47]"
+                "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]",
+                "🇮🇹 IT | 🔒 VMESS | @NamiraConfigs [53]",
+                "🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,11 +188,68 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [47]",
+            "tag": "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47]",
             "type": "vmess",
-            "server": "57.151.100.27",
-            "server_port": 10086,
-            "uuid": "550e8400-e29b-41d4-a716-446655440000",
+            "server": "47.250.45.234",
+            "server_port": 43063,
+            "uuid": "c77f48f5-4be3-4461-b52b-49998e7b897b",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]",
+            "type": "vmess",
+            "server": "173.249.209.146",
+            "server_port": 20086,
+            "uuid": "3935c2dc-dbb0-43f7-b367-fe89abe87fdf",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VMESS | @NamiraConfigs [53]",
+            "type": "vmess",
+            "server": "57.131.32.191",
+            "server_port": 8443,
+            "uuid": "848af33c-81f2-40c9-93b2-4681d056936b",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "OV-Italy1.09vpn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": "OV-Italy1.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VMESS | @NamiraConfigs [56]",
+            "type": "vmess",
+            "server": "23.162.200.198",
+            "server_port": 18000,
+            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
             "security": "auto",
             "alter_id": 0
         }
