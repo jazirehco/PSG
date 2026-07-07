@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]","type":"ss","server":"pasarguard.losthonor.ir","port":1080,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]","type":"vless","server":"pasarguard.losthonor.ir","port":48871,"uuid":"afbfce18-0317-4209-b2ba-76b7f3fd9046","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [67]","type":"vless","server":"turkey.losthonor.ir","port":47850,"uuid":"afbfce18-0317-4209-b2ba-76b7f3fd9046","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"gr"}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]","type":"vless","server":"pasarguard.losthonor.ir","port":16453,"uuid":"afbfce18-0317-4209-b2ba-76b7f3fd9046","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]","type":"ss","server":"pasarguard.losthonor.ir","port":3035,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [66]","type":"ss","server":"pasarguard.losthonor.ir","port":1080,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [64]'
       - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]'
-      - '🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [67]'
+      - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [66]'
 
   - name: 🌍 Global Media
     type: select
