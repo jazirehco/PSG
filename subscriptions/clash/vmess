@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [59]","type":"vless","server":"assets.fiverr.com","port":443,"uuid":"cee8c30c-fb13-4a89-abb4-5a32cf716c97","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"api.mozestan.dpdns.org","ws-opts":{"path":"/api-api","headers":{"Host":"api.mozestan.dpdns.org"}}}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48]","type":"vmess","server":"57.151.100.27","port":10086,"cipher":"auto","uuid":"550e8400-e29b-41d4-a716-446655440000","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [59]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48]'
 
   - name: 🌍 Global Media
     type: select

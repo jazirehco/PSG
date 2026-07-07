@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1M=
+//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -91,8 +91,7 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "KingRezaPahlavi"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +101,7 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "KingRezaPahlavi"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,31 +184,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "assets.fiverr.com",
-            "server_port": 443,
-            "uuid": "cee8c30c-fb13-4a89-abb4-5a32cf716c97",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.mozestan.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api-api",
-                "headers": {
-                    "Host": "api.mozestan.dpdns.org"
                 }
             }
         }

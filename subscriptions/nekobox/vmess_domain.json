@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,29 +182,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "assets.fiverr.com",
-            "server_port": 443,
-            "uuid": "cee8c30c-fb13-4a89-abb4-5a32cf716c97",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.mozestan.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api-api",
-                "headers": {
-                    "Host": "api.mozestan.dpdns.org"
-                }
-            }
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48]",
+            "type": "vmess",
+            "server": "57.151.100.27",
+            "server_port": 10086,
+            "uuid": "550e8400-e29b-41d4-a716-446655440000",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {

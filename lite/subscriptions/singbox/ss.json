@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 SS | @NamiraConfigs [57]",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]"
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [59]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [60]",
+                "🇬🇧 GB | 🔒 SS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 SS | @NamiraConfigs [57]",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]"
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [59]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [60]",
+                "🇬🇧 GB | 🔒 SS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,20 +194,28 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 SS | @NamiraConfigs [57]",
+            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [59]",
+            "type": "shadowsocks",
+            "server": "bot.sobhanpor.ir",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "B3mkXKgRCibW_mgNFWqW7Qpgiwm_I5yB"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [60]",
+            "type": "shadowsocks",
+            "server": "82.38.31.164",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 SS | @NamiraConfigs [61]",
             "type": "shadowsocks",
             "server": "94.156.250.148",
             "server_port": 7001,
             "method": "aes-256-gcm",
             "password": "RexnBgU7EV5ADxG"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]",
-            "type": "shadowsocks",
-            "server": "82.38.31.16",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         }
     ],
     "route": {
