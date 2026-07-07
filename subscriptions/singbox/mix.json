@@ -89,20 +89,21 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [54]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [55]",
                 "🇩🇪 DE | 🔒 SS | @NamiraConfigs [56]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [57]",
                 "🇩🇪 DE | 🔒 SS | @NamiraConfigs [58]",
                 "🇩🇪 DE | 🔒 SS | @NamiraConfigs [59]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [62]",
-                "🇹🇷 TR | 🔒 SS | @NamiraConfigs [63]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [65]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [60]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [61]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [62]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [64]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -110,20 +111,21 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [54]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [55]",
                 "🇩🇪 DE | 🔒 SS | @NamiraConfigs [56]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [57]",
                 "🇩🇪 DE | 🔒 SS | @NamiraConfigs [58]",
                 "🇩🇪 DE | 🔒 SS | @NamiraConfigs [59]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [62]",
-                "🇹🇷 TR | 🔒 SS | @NamiraConfigs [63]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [65]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [60]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [61]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [62]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [64]",
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -135,85 +137,9 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [56]",
-            "type": "shadowsocks",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 3044,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 16453,
-            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [58]",
-            "type": "shadowsocks",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 3035,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [59]",
-            "type": "shadowsocks",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 1080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 48871,
-            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "turkey.losthonor.ir",
-            "server_port": 47850,
-            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "gr"
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "turkey.losthonor.ir",
-            "server_port": 32430,
-            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 SS | @NamiraConfigs [63]",
-            "type": "shadowsocks",
-            "server": "turkey.losthonor.ir",
-            "server_port": 1080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "104.18.35.13",
+            "server": "store.ubi.com",
             "server_port": 443,
             "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
             "flow": "",
@@ -236,75 +162,126 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [65]",
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [54]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3064,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [55]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3043,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [56]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3041,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [57]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3034,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [58]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3048,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [59]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3042,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [60]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3045,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [61]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3049,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [62]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3044,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]",
             "type": "vless",
-            "server": "193.111.236.227",
-            "server_port": 8443,
-            "uuid": "bb7850af-10de-406d-a847-cf5deee939d7",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 16453,
+            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "g1eewf.tron2tron.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [66]",
-            "type": "vless",
-            "server": "87.107.193.242",
-            "server_port": 8443,
-            "uuid": "bb7850af-10de-406d-a847-cf5deee939d7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "f2iooen.tron2tron.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [64]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 3035,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
-            "type": "vmess",
-            "server": "82.198.246.37",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "89.39.121.54",
-            "server_port": 110,
-            "uuid": "9e1671d2-4092-4ae4-93b3-1d2db0f1a071",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 48871,
+            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "91.107.195.92",
-            "server_port": 443,
-            "uuid": "9328c557-61af-46bc-aafa-19affffae7ad",
+            "server": "turkey.losthonor.ir",
+            "server_port": 47850,
+            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.107.195.92",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "gr"
             }
         }
     ],

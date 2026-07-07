@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,31 +190,12 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "89.39.121.54",
-            "server_port": 110,
-            "uuid": "9e1671d2-4092-4ae4-93b3-1d2db0f1a071",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "91.107.195.92",
-            "server_port": 443,
-            "uuid": "9328c557-61af-46bc-aafa-19affffae7ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.107.195.92",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
         }
     ],
     "route": {

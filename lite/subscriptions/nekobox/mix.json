@@ -77,8 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -86,8 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,30 +105,33 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "tag": "🇩🇪 DE | 🔒 SS | @NamiraConfigs [65]",
+            "type": "shadowsocks",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "89.39.121.54",
-            "server_port": 110,
-            "uuid": "9e1671d2-4092-4ae4-93b3-1d2db0f1a071",
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 48871,
+            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "91.107.195.92",
-            "server_port": 443,
-            "uuid": "9328c557-61af-46bc-aafa-19affffae7ad",
+            "server": "turkey.losthonor.ir",
+            "server_port": 47850,
+            "uuid": "afbfce18-0317-4209-b2ba-76b7f3fd9046",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.107.195.92",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "gr"
             }
         }
     ],
