@@ -80,9 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇿 CZ | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇿 CZ | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,66 +184,30 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🔒 VLESS | @NamiraConfigs [66]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "14.102.228.201",
-            "server_port": 8443,
-            "uuid": "1bcec283-e4a6-4859-80d1-c836ef0d8048",
+            "server": "89.39.121.54",
+            "server_port": 110,
+            "uuid": "9e1671d2-4092-4ae4-93b3-1d2db0f1a071",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.subster.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "www.subster.ir"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [67]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]",
             "type": "vless",
-            "server": "45.8.211.217",
+            "server": "91.107.195.92",
             "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "uuid": "9328c557-61af-46bc-aafa-19affffae7ad",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vangoghhh.info",
+                "server_name": "91.107.195.92",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "45.86.159.134",
-            "server_port": 2085,
-            "uuid": "1ea1b30b-4114-4a5c-bd3a-9637bdae1948",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "vless"
             }
         }
     ],

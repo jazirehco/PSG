@@ -1,0 +1,24 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/ss interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇩🇪 DE | 🔒 SS | @NamiraConfigs [56] = ss, pasarguard.losthonor.ir, 3044, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+🇩🇪 DE | 🔒 SS | @NamiraConfigs [58] = ss, pasarguard.losthonor.ir, 3035, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+🇩🇪 DE | 🔒 SS | @NamiraConfigs [59] = ss, pasarguard.losthonor.ir, 1080, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+🇹🇷 TR | 🔒 SS | @NamiraConfigs [63] = ss, turkey.losthonor.ir, 1080, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 SS | @NamiraConfigs [56], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [58], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [59], 🇹🇷 TR | 🔒 SS | @NamiraConfigs [63]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔒 SS | @NamiraConfigs [56], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [58], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [59], 🇹🇷 TR | 🔒 SS | @NamiraConfigs [63]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 SS | @NamiraConfigs [56], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [58], 🇩🇪 DE | 🔒 SS | @NamiraConfigs [59], 🇹🇷 TR | 🔒 SS | @NamiraConfigs [63]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
