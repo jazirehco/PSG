@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [62]","type":"ss","server":"pasarguard.losthonor.ir","port":3040,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [63]","type":"ss","server":"pasarguard.losthonor.ir","port":3055,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔒 SS | @NamiraConfigs [64]","type":"ss","server":"pasarguard.losthonor.ir","port":3033,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [59]","type":"vless","server":"assets.fiverr.com","port":443,"uuid":"cee8c30c-fb13-4a89-abb4-5a32cf716c97","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"api.mozestan.dpdns.org","ws-opts":{"path":"/api-api","headers":{"Host":"api.mozestan.dpdns.org"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [62]'
-      - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [63]'
-      - '🇩🇪 DE | 🔒 SS | @NamiraConfigs [64]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [59]'
 
   - name: 🌍 Global Media
     type: select
