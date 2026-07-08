@@ -9,14 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44] = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [45] = vmess, ir.masterlord.ir, 1900, username = a5ae0167-b947-4394-a5b8-23a87b63c158, ws = false, tls = false
-❔ XX | 🔒 VMESS | @NamiraConfigs [46] = vmess, nlt.reata.ir, 1020, username = 6244c41a-f4c1-4733-a654-c38f7729b13c, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43] = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [44] = vmess, ir.masterlord.ir, 1900, username = a5ae0167-b947-4394-a5b8-23a87b63c158, ws = false, tls = false
+🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [45] = vmess, nlt.reata.ir, 1020, username = 6244c41a-f4c1-4733-a654-c38f7729b13c, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [45], ❔ XX | 🔒 VMESS | @NamiraConfigs [46]
-PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [45], ❔ XX | 🔒 VMESS | @NamiraConfigs [46]
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [45], ❔ XX | 🔒 VMESS | @NamiraConfigs [46]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [44], 🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [45]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [44], 🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [45]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [44], 🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [45]
 
 [Rule]
 GEOIP,IR,DIRECT
