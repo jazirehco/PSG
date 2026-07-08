@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1M=
+//profile-title: base64:UFNHIHwgVk1FU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [62]",
+                "🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [63]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [62]",
+                "🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [63]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,54 +194,31 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "xn--sont23oo-mk75gi8a.netbazshop.ir",
-            "server_port": 2035,
-            "uuid": "96f5436d-6496-4473-b4ca-ae37f170387c",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
+            "type": "vmess",
+            "server": "82.198.246.97",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "104.25.122.72",
-            "server_port": 80,
-            "uuid": "6cd78ec7-b715-471c-92b4-0c3842caea4b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
-                "headers": {
-                    "Host": "104.25.122.72"
-                }
-            }
+            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [62]",
+            "type": "vmess",
+            "server": "ir.masterlord.ir",
+            "server_port": 1900,
+            "uuid": "a5ae0167-b947-4394-a5b8-23a87b63c158",
+            "security": "auto",
+            "alter_id": 0
         },
         {
-            "tag": "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "45.131.6.5",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
+            "tag": "🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [63]",
+            "type": "vmess",
+            "server": "nlt.reata.ir",
+            "server_port": 1020,
+            "uuid": "6244c41a-f4c1-4733-a654-c38f7729b13c",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {
