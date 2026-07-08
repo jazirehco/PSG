@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]","type":"ss","server":"82.38.31.195","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]","type":"ss","server":"82.38.31.2","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [59]","type":"ss","server":"82.38.31.204","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"45.131.6.5","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"37.139.24.45","port":443,"uuid":"bbbde6b4-eb72-4018-b702-1c782c528927","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"etppnyfi.j84lb8cxseup4s2nb3if.workers.dev","ws-opts":{"path":"/","headers":{"Host":"etppnyfi.j84lb8cxseup4s2nb3if.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]'
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]'
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [59]'
+      - '🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [54]'
+      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [55]'
 
   - name: 🌍 Global Media
     type: select
