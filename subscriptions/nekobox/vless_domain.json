@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [41]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [41]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [43]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [41]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [41]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [43]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +186,32 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [41]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [41]",
+            "type": "vless",
+            "server": "x4g-production-b104.up.railway.app",
+            "server_port": 443,
+            "uuid": "eb6100e8-8f59-d6aa-c018-b3b48795fb7b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-b104.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/eb6100e8-8f59-d6aa-c018-b3b48795fb7b",
+                "headers": {
+                    "Host": "x4g-production-b104.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "TurkGame.soltankabos.ir",
             "server_port": 22337,
@@ -193,7 +220,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
             "type": "vless",
             "server": "xn--sont23oo-mk75gi8a.netbazshop.ir",
             "server_port": 2035,

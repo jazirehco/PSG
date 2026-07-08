@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [54]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [54]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +184,23 @@
             }
         },
         {
-            "tag": "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "104.25.122.72",
+            "server_port": 80,
+            "uuid": "6cd78ec7-b715-471c-92b4-0c3842caea4b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
+                "headers": {
+                    "Host": "104.25.122.72"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "45.131.6.5",
             "server_port": 443,
@@ -205,31 +221,6 @@
                 "path": "/rdfgtws",
                 "headers": {
                     "Host": "vangoghhh.info"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "37.139.24.45",
-            "server_port": 443,
-            "uuid": "bbbde6b4-eb72-4018-b702-1c782c528927",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "etppnyfi.j84lb8cxseup4s2nb3if.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "etppnyfi.j84lb8cxseup4s2nb3if.workers.dev"
                 }
             }
         }
