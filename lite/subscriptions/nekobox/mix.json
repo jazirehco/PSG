@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [62]",
-                "🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [63]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [62]",
-                "🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [63]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,7 +105,32 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+            "type": "vless",
+            "server": "172.64.40.79",
+            "server_port": 2083,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t1s1.rittbo.kdns.fr"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]",
             "type": "vmess",
             "server": "82.198.246.97",
             "server_port": 180,
@@ -114,20 +139,11 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [62]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [61]",
             "type": "vmess",
             "server": "ir.masterlord.ir",
             "server_port": 1900,
             "uuid": "a5ae0167-b947-4394-a5b8-23a87b63c158",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [63]",
-            "type": "vmess",
-            "server": "nlt.reata.ir",
-            "server_port": 1020,
-            "uuid": "6244c41a-f4c1-4733-a654-c38f7729b13c",
             "security": "auto",
             "alter_id": 0
         }

@@ -23,12 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇪🇪 EE | 🔒 SS | @NamiraConfigs [50]","type":"ss","server":"45.83.181.155","port":14475,"password":"j1HaUANVRdB5ltSqhLYPWm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [58]","type":"ss","server":"mmd.radanjami.org","port":37309,"password":"b4jq8kdzbfpt7ipf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [62]","type":"vmess","server":"ir.masterlord.ir","port":1900,"cipher":"auto","uuid":"a5ae0167-b947-4394-a5b8-23a87b63c158","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [63]","type":"vmess","server":"nlt.reata.ir","port":1020,"cipher":"auto","uuid":"6244c41a-f4c1-4733-a654-c38f7729b13c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇪🇪 EE | 🔒 SS | @NamiraConfigs [49]","type":"ss","server":"45.83.181.155","port":14475,"password":"j1HaUANVRdB5ltSqhLYPWm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [53]","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [57]","type":"ss","server":"mmd.radanjami.org","port":37309,"password":"b4jq8kdzbfpt7ipf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [61]","type":"vmess","server":"ir.masterlord.ir","port":1900,"cipher":"auto","uuid":"a5ae0167-b947-4394-a5b8-23a87b63c158","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,12 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | 🔒 SS | @NamiraConfigs [50]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]'
-      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [58]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]'
-      - '🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [62]'
-      - '🇮🇷 IR | 🔒 VMESS | @NamiraConfigs [63]'
+      - '🇪🇪 EE | 🔒 SS | @NamiraConfigs [49]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [53]'
+      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [57]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]'
+      - '🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [61]'
 
   - name: 🌍 Global Media
     type: select
