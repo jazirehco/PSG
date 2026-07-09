@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [62]","type":"vless","server":"213.108.20.152","port":443,"uuid":"f76412c3-abdf-4318-baf8-4a1bfa438968","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"node-de-frankfurt.neverlock.uk","flow":"xtls-rprx-vision"}
-  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [63]","type":"ss","server":"168.63.66.81","port":443,"password":"qkRNNhsIrzU6qnkL","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [64]","type":"ss","server":"82.38.31.164","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [63]","type":"vless","server":"213.108.20.152","port":443,"uuid":"f76412c3-abdf-4318-baf8-4a1bfa438968","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"node-de-frankfurt.neverlock.uk","flow":"xtls-rprx-vision"}
+  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [64]","type":"ss","server":"168.63.66.81","port":443,"password":"qkRNNhsIrzU6qnkL","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]","type":"ss","server":"82.38.31.164","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [62]'
-      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [63]'
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [64]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [63]'
+      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [64]'
+      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]'
 
   - name: 🌍 Global Media
     type: select
