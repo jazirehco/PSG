@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇪🇪 EE | 🔒 SS | @NamiraConfigs [61]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇪🇪 EE | 🔒 SS | @NamiraConfigs [61]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,12 +184,29 @@
             }
         },
         {
-            "tag": "🇪🇪 EE | 🔒 SS | @NamiraConfigs [61]",
-            "type": "shadowsocks",
-            "server": "45.83.181.155",
-            "server_port": 14475,
-            "method": "chacha20-ietf-poly1305",
-            "password": "j1HaUANVRdB5ltSqhLYPWm"
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "mypanel.unixzone.us",
+            "server_port": 12068,
+            "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mypanel.unixzone.us"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "ka1781041r.dadashinet10.ir",
+            "server_port": 2044,
+            "uuid": "d82dbe41-d2c5-46f7-989f-56499f33fda0",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

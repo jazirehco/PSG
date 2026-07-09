@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [55]","type":"ss","server":"147.90.234.133","port":443,"password":"hbGrpfvNrJsUmKmPbR3iY2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [59]","type":"ss","server":"168.63.66.81","port":443,"password":"qkRNNhsIrzU6qnkL","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [60]","type":"ss","server":"82.38.31.164","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"mypanel.unixzone.us","port":12068,"uuid":"05caca6c-9e97-4c0f-8edf-7b88a6e572c5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"mypanel.unixzone.us"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]","type":"vless","server":"ka1781041r.dadashinet10.ir","port":2044,"uuid":"d82dbe41-d2c5-46f7-989f-56499f33fda0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [55]'
-      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [59]'
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [60]'
+      - '🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]'
 
   - name: 🌍 Global Media
     type: select
