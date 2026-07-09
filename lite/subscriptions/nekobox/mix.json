@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
+                "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [64]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [59]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
+                "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [64]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,25 +105,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [59]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [63]",
             "type": "vless",
-            "server": "TurkGame.soltankabos.ir",
-            "server_port": 22337,
-            "uuid": "fdebd2b4-4c8f-474a-851a-981082195643",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "172.64.40.79",
-            "server_port": 2083,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "server": "104.21.74.63",
+            "server_port": 443,
+            "uuid": "72d1797c-cef8-410a-b8fd-db9104dc3cb0",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
+                "server_name": "amooaliii.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -132,16 +123,32 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/jdhfyws",
                 "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
+                    "Host": "amooaliii.net"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
+            "tag": "🇪🇸 ES | 🔓 VLESS | @NamiraConfigs [64]",
+            "type": "vless",
+            "server": "spain.unixzone.us",
+            "server_port": 36326,
+            "uuid": "63ff4bfa-0f1d-48e4-8314-e882b14e602c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/jdiedjiedjijd",
+                "headers": {
+                    "Host": "spain.unixzone.us"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]",
             "type": "vmess",
-            "server": "82.198.246.97",
+            "server": "82.198.246.37",
             "server_port": 180,
             "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
