@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [64]","type":"ss","server":"168.63.66.81","port":443,"password":"qkRNNhsIrzU6qnkL","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]","type":"ss","server":"82.38.31.164","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [61]","type":"ss","server":"147.90.234.133","port":443,"password":"hbGrpfvNrJsUmKmPbR3iY2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]","type":"vmess","server":"57.151.100.27","port":10086,"cipher":"auto","uuid":"550e8400-e29b-41d4-a716-446655440000","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [64]'
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [65]'
+      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [61]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63]'
 
   - name: 🌍 Global Media
     type: select
