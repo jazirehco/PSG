@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
@@ -101,8 +102,7 @@
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
                 "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -110,6 +110,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
@@ -122,8 +123,7 @@
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
                 "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -133,6 +133,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "x4g-production-13a0.up.railway.app",
+            "server_port": 443,
+            "uuid": "3a9d300b-ccd9-c036-773e-9300b21689a1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-13a0.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/3a9d300b-ccd9-c036-773e-9300b21689a1#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+                "headers": {
+                    "Host": "x4g-production-13a0.up.railway.app"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
@@ -381,22 +406,6 @@
                 "path": "/ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
                 "headers": {
                     "Host": "146.75.119.82"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "185.249.199.100",
-            "server_port": 8585,
-            "uuid": "c9f992e1-e838-4130-a2cd-81997b62f65e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/spammers",
-                "headers": {
-                    "Host": "185.249.199.100"
                 }
             }
         }
