@@ -92,11 +92,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,11 +109,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -198,7 +202,50 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "ansooyefilter-production-454e.up.railway.app",
+            "server_port": 443,
+            "uuid": "a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ansooyefilter-production-454e.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+                "headers": {
+                    "Host": "ansooyefilter-production-454e.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "turki.gelqino.ir",
             "server_port": 17830,
@@ -214,7 +261,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "store.ubi.com",
             "server_port": 443,
@@ -239,7 +286,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "hayabusa.proxy.rlwy.net",
             "server_port": 48106,
@@ -255,7 +302,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [57]",
             "type": "vless",
             "server": "mypanel.unixzone.us",
             "server_port": 12068,
@@ -271,7 +318,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
             "type": "vless",
             "server": "ka1781041r.dadashinet10.ir",
             "server_port": 2044,

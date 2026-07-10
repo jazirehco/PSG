@@ -9,14 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔒 SS | @NamiraConfigs [61] = ss, 147.90.234.133, 443, encrypt-method = chacha20-ietf-poly1305, password = hbGrpfvNrJsUmKmPbR3iY2
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62] = vmess, 57.151.100.27, 10086, username = 550e8400-e29b-41d4-a716-446655440000, ws = false, tls = false
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63] = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @NamiraConfigs [61], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63]
-PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @NamiraConfigs [61], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63]
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @NamiraConfigs [61], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
+PSG-AUTO = url-test, 
+PSG-FALLBACK = fallback, 
 
 [Rule]
 GEOIP,IR,DIRECT

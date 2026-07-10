@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,30 +113,54 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
-            "type": "shadowsocks",
-            "server": "147.90.234.133",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "146.75.119.82",
+            "server_port": 80,
+            "uuid": "e9c56342-e57b-47f0-8da0-b79bc04d8305",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/ws/?ed=2048/@v2ray_configs_pools/?2048",
+                "headers": {
+                    "Host": "146.75.119.82"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
+            "type": "vless",
+            "server": "ka1781041r.dadashinet10.ir",
+            "server_port": 2044,
+            "uuid": "d82dbe41-d2c5-46f7-989f-56499f33fda0",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
+            "type": "vless",
+            "server": "104.21.117.9",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "hbGrpfvNrJsUmKmPbR3iY2"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]",
-            "type": "vmess",
-            "server": "57.151.100.27",
-            "server_port": 10086,
-            "uuid": "550e8400-e29b-41d4-a716-446655440000",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [63]",
-            "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
+            "uuid": "0926b50d-3a90-18dd-7c8e-0cf100000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "netlivpn4024.bgfjhd.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
+                "headers": {
+                    "Host": "netlivpn4024.bgfjhd.workers.dev"
+                }
+            }
         }
     ],
     "route": {
