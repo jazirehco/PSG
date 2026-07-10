@@ -92,13 +92,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [40]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [41]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [36]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [40]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,13 +109,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [40]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [41]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [36]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [40]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -202,7 +202,66 @@
             }
         },
         {
-            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "rare-creation-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "39dfd8b4-47a8-158c-80e9-e80a747828fc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rare-creation-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/39dfd8b4-47a8-158c-80e9-e80a747828fc",
+                "headers": {
+                    "Host": "rare-creation-production.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "germany-de-1.appcodes.ir",
+            "server_port": 8080,
+            "uuid": "f8cae104-2eaa-4b16-b258-65be28281b70",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
+            "type": "vless",
+            "server": "octopusss5.info",
+            "server_port": 443,
+            "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "octopusss5.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/udfyfws",
+                "headers": {
+                    "Host": "octopusss5.info"
+                }
+            }
+        },
+        {
+            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [40]",
             "type": "vless",
             "server": "x4g-production-13a0.up.railway.app",
             "server_port": 443,
@@ -220,7 +279,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [38]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "s2.cnavippanel.com",
             "server_port": 4568,
@@ -229,7 +288,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [40]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
             "type": "vless",
             "server": "x4g-production-213b.up.railway.app",
             "server_port": 443,
@@ -254,7 +313,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [41]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [46]",
             "type": "vless",
             "server": "mypanel.unixzone.us",
             "server_port": 12068,
@@ -266,65 +325,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "mypanel.unixzone.us"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [45]",
-            "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.samrayan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "ansooyefilter-production-454e.up.railway.app",
-            "server_port": 443,
-            "uuid": "a9d1b03b-e73c-a9ce-6520-1f988c20749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ansooyefilter-production-454e.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e",
-                "headers": {
-                    "Host": "ansooyefilter-production-454e.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "turki.gelqino.ir",
-            "server_port": 17830,
-            "uuid": "e1c7f7ce-5bf8-41a8-87d5-896d2659f08a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless",
-                "headers": {
-                    "Host": "turki.gelqino.ir"
                 }
             }
         }

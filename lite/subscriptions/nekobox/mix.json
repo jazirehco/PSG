@@ -77,9 +77,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +86,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,16 +103,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
             "type": "vless",
-            "server": "ansooyefilter-production-454e.up.railway.app",
+            "server": "172.67.170.11",
             "server_port": 443,
-            "uuid": "a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ansooyefilter-production-454e.up.railway.app",
+                "server_name": "t1s1.rittbo.kdns.fr",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -123,43 +121,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+                "path": "/",
                 "headers": {
-                    "Host": "ansooyefilter-production-454e.up.railway.app"
+                    "Host": "t1s1.rittbo.kdns.fr"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "46.4.230.210",
-            "server_port": 443,
-            "uuid": "c2876487-c0f5-4cb5-95d0-c764920f0636",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "46.4.230.210",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "turki.gelqino.ir",
-            "server_port": 17830,
-            "uuid": "e1c7f7ce-5bf8-41a8-87d5-896d2659f08a",
+            "server": "104.27.2.172",
+            "server_port": 80,
+            "uuid": "234c52f2-0d7b-dc4a-0d6b-b0b300000025",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/vless",
+                "path": "/sync",
                 "headers": {
-                    "Host": "turki.gelqino.ir"
+                    "Host": "billowing-surf-d251.netizo06.workers.dev"
                 }
             }
         }
