@@ -80,10 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [44]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,10 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [44]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -188,25 +184,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
             "type": "vless",
-            "server": "45.95.0.219",
-            "server_port": 46292,
-            "uuid": "ef5e8ad2-9f17-4337-b4b3-9a91ea96f115",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]",
-            "type": "vless",
-            "server": "8.47.69.0",
+            "server": "x4g-production-213b.up.railway.app",
             "server_port": 443,
-            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "uuid": "6e475ace-9410-5f61-8ea9-f05fadd1f604",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "shegeftihaaa.net",
+                "server_name": "x4g-production-213b.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -215,50 +202,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/rsedgws",
+                "path": "/ws/6e475ace-9410-5f61-8ea9-f05fadd1f604",
                 "headers": {
-                    "Host": "shegeftihaaa.net"
+                    "Host": "x4g-production-213b.up.railway.app"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [44]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]",
             "type": "vless",
-            "server": "69.46.46.55",
-            "server_port": 443,
-            "uuid": "9a50f494-e264-fcef-406d-52c5eb6dc2df",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-f37e.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/9a50f494-e264-fcef-406d-52c5eb6dc2df",
-                "headers": {
-                    "Host": "x4g-production-f37e.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "172.67.250.163",
-            "server_port": 80,
-            "uuid": "234c52f2-0d7b-dc4a-0d6b-b0b30000002e",
+            "server": "mypanel.unixzone.us",
+            "server_port": 12068,
+            "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/",
                 "headers": {
-                    "Host": "billowing-surf-d251.netizo06.workers.dev"
+                    "Host": "mypanel.unixzone.us"
                 }
             }
         }
