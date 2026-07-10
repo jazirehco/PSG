@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTUlY
+//profile-title: base64:UFNHIHwgVk1FU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,16 +115,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
+            "tag": "همکاری_ملی",
             "type": "vless",
-            "server": "ansooyefilter-production-454e.up.railway.app",
+            "server": "127.0.0.1",
             "server_port": 443,
-            "uuid": "a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ansooyefilter-production-454e.up.railway.app",
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -131,43 +133,75 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+                "path": "/",
                 "headers": {
-                    "Host": "ansooyefilter-production-454e.up.railway.app"
+                    "Host": "127.0.0.1"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "جاویدشاه",
             "type": "vless",
-            "server": "46.4.230.210",
+            "server": "127.0.0.1",
             "server_port": 443,
-            "uuid": "c2876487-c0f5-4cb5-95d0-c764920f0636",
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "46.4.230.210",
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
+            "tag": "KingRezaPahlavi",
             "type": "vless",
-            "server": "turki.gelqino.ir",
-            "server_port": 17830,
-            "uuid": "e1c7f7ce-5bf8-41a8-87d5-896d2659f08a",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/vless",
+                "path": "/",
                 "headers": {
-                    "Host": "turki.gelqino.ir"
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]",
+            "type": "vmess",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
                 }
             }
         }

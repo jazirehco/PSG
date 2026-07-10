@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
@@ -103,6 +104,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
@@ -186,6 +188,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
+            "type": "vless",
+            "server": "ansooyefilter-production-454e.up.railway.app",
+            "server_port": 443,
+            "uuid": "a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ansooyefilter-production-454e.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+                "headers": {
+                    "Host": "ansooyefilter-production-454e.up.railway.app"
                 }
             }
         },

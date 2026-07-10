@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,6 +103,31 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
+            "type": "vless",
+            "server": "ansooyefilter-production-454e.up.railway.app",
+            "server_port": 443,
+            "uuid": "a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ansooyefilter-production-454e.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e",
+                "headers": {
+                    "Host": "ansooyefilter-production-454e.up.railway.app"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
@@ -135,22 +160,6 @@
                 "path": "/vless",
                 "headers": {
                     "Host": "turki.gelqino.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "146.75.119.82",
-            "server_port": 80,
-            "uuid": "e9c56342-e57b-47f0-8da0-b79bc04d8305",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
-                "headers": {
-                    "Host": "146.75.119.82"
                 }
             }
         }

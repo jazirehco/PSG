@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,36 +194,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
             "type": "vless",
-            "server": "46.4.230.210",
+            "server": "ansooyefilter-production-454e.up.railway.app",
             "server_port": 443,
-            "uuid": "c2876487-c0f5-4cb5-95d0-c764920f0636",
+            "uuid": "a9d1b03b-e73c-a9ce-6520-1f988c20749e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "46.4.230.210",
+                "server_name": "ansooyefilter-production-454e.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "146.75.119.82",
-            "server_port": 80,
-            "uuid": "e9c56342-e57b-47f0-8da0-b79bc04d8305",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
                 "type": "ws",
-                "path": "/ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
+                "path": "/ws/a9d1b03b-e73c-a9ce-6520-1f988c20749e",
                 "headers": {
-                    "Host": "146.75.119.82"
+                    "Host": "ansooyefilter-production-454e.up.railway.app"
                 }
             }
         },
@@ -240,6 +231,24 @@
                 "path": "/vless",
                 "headers": {
                     "Host": "turki.gelqino.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
+            "type": "vless",
+            "server": "46.4.230.210",
+            "server_port": 443,
+            "uuid": "c2876487-c0f5-4cb5-95d0-c764920f0636",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "46.4.230.210",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
@@ -101,8 +102,7 @@
                 "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [45]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -110,6 +110,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
@@ -122,8 +123,7 @@
                 "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [45]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -133,6 +133,22 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]",
+            "type": "vmess",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [35]",
@@ -390,22 +406,6 @@
                 "path": "/vless",
                 "headers": {
                     "Host": "turki.gelqino.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "146.75.119.82",
-            "server_port": 80,
-            "uuid": "e9c56342-e57b-47f0-8da0-b79bc04d8305",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
-                "headers": {
-                    "Host": "146.75.119.82"
                 }
             }
         }
