@@ -80,13 +80,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [39]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [44]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,13 +98,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [39]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [44]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,6 +192,56 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "8.47.69.0",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rsedgws",
+                "headers": {
+                    "Host": "shegeftihaaa.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+            "type": "vless",
+            "server": "69.46.46.55",
+            "server_port": 443,
+            "uuid": "9a50f494-e264-fcef-406d-52c5eb6dc2df",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-f37e.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/9a50f494-e264-fcef-406d-52c5eb6dc2df",
+                "headers": {
+                    "Host": "x4g-production-f37e.up.railway.app"
                 }
             }
         },
@@ -297,24 +349,6 @@
                 "path": "/spammers",
                 "headers": {
                     "Host": "185.249.199.100"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "138.201.189.15",
-            "server_port": 443,
-            "uuid": "8474fbfe-0baf-48f2-a239-b7c3ff27a027",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "138.201.189.15",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
