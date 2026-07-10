@@ -80,14 +80,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [47]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [39]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [44]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,14 +97,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [47]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [39]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [44]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +194,23 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [39]",
+            "type": "vless",
+            "server": "172.67.250.163",
+            "server_port": 80,
+            "uuid": "234c52f2-0d7b-dc4a-0d6b-b0b30000002e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "billowing-surf-d251.netizo06.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "172.67.170.11",
             "server_port": 443,
@@ -221,7 +235,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [44]",
             "type": "vless",
             "server": "104.27.2.172",
             "server_port": 80,
@@ -237,7 +251,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
             "type": "vless",
             "server": "46.4.230.210",
             "server_port": 443,
@@ -255,7 +269,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
             "type": "vless",
             "server": "146.75.119.82",
             "server_port": 80,
@@ -271,7 +285,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
             "server": "185.249.199.100",
             "server_port": 8585,
@@ -287,7 +301,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "138.201.189.15",
             "server_port": 443,
@@ -301,47 +315,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "146.75.119.82",
-            "server_port": 80,
-            "uuid": "e9c56342-e57b-47f0-8da0-b79bc04d8305",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/ws/?ed=2048/@v2ray_configs_pools/?2048",
-                "headers": {
-                    "Host": "146.75.119.82"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "104.21.117.9",
-            "server_port": 443,
-            "uuid": "0926b50d-3a90-18dd-7c8e-0cf100000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "netlivpn4024.bgfjhd.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
-                "headers": {
-                    "Host": "netlivpn4024.bgfjhd.workers.dev"
                 }
             }
         }
