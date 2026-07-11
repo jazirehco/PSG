@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,43 +182,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "69.46.46.55",
-            "server_port": 443,
-            "uuid": "9a50f494-e264-fcef-406d-52c5eb6dc2df",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-f37e.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/9a50f494-e264-fcef-406d-52c5eb6dc2df",
-                "headers": {
-                    "Host": "x4g-production-f37e.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "172.67.250.163",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [51]",
+            "type": "vmess",
+            "server": "57.129.132.223",
             "server_port": 80,
-            "uuid": "234c52f2-0d7b-dc4a-0d6b-b0b30000002e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/vmess/",
                 "headers": {
-                    "Host": "billowing-surf-d251.netizo06.workers.dev"
+                    "Host": ""
                 }
             }
         }
