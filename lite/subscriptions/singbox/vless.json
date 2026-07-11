@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [52]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [52]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,16 +190,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "104.16.72.101",
+            "server": "104.16.75.207",
             "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "uuid": "b26ec0f4-6c92-45f7-b287-2a664abf1963",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vangoghhh.info",
+                "server_name": "main-2.ariyuz.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -210,20 +208,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/rdfgtws",
+                "path": "/",
                 "headers": {
-                    "Host": "vangoghhh.info"
+                    "Host": "main-2.ariyuz.org"
                 }
             }
-        },
-        {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "fn.fifapes.monster",
-            "server_port": 2090,
-            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
