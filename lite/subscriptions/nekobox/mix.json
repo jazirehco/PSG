@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,7 +105,41 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "69.46.46.55",
+            "server_port": 443,
+            "uuid": "9a50f494-e264-fcef-406d-52c5eb6dc2df",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-f37e.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/9a50f494-e264-fcef-406d-52c5eb6dc2df",
+                "headers": {
+                    "Host": "x4g-production-f37e.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]",
+            "type": "vless",
+            "server": "s2.cnavippanel.com",
+            "server_port": 4568,
+            "uuid": "4d712194-6765-4f4a-863b-97cc53c3260a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [47]",
             "type": "vless",
             "server": "172.67.250.163",
             "server_port": 80,
@@ -117,47 +151,6 @@
                 "path": "/sync",
                 "headers": {
                     "Host": "billowing-surf-d251.netizo06.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "x4g-production-213b.up.railway.app",
-            "server_port": 443,
-            "uuid": "6e475ace-9410-5f61-8ea9-f05fadd1f604",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-213b.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/6e475ace-9410-5f61-8ea9-f05fadd1f604",
-                "headers": {
-                    "Host": "x4g-production-213b.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "mypanel.unixzone.us",
-            "server_port": 12068,
-            "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "mypanel.unixzone.us"
                 }
             }
         }
