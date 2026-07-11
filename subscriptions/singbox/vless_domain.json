@@ -92,7 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [38]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [38]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +194,48 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+            "type": "vless",
+            "server": "cf1.danesh-bonyan.com",
+            "server_port": 8443,
+            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [38]",
+            "type": "vless",
+            "server": "www.npmjs.com",
+            "server_port": 2095,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/fp",
+                "headers": {
+                    "Host": "fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "fn.fifapes.monster",
             "server_port": 2090,

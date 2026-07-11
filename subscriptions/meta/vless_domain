@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]","type":"vless","server":"cf1.danesh-bonyan.com","port":8443,"uuid":"b916e241-4be3-4a9c-81ca-70b92a0be6c4","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store","ws-opts":{"path":"/","headers":{"Host":"server-2.danesh-bonyan.Store"}}}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [38]","type":"vless","server":"www.npmjs.com","port":2095,"uuid":"86c50e3a-5b87-49dd-bd20-03c7f2735e40","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fuckingfangbinxing.cnmfangbinxing-n.workers.dev","ws-opts":{"path":"/fp","headers":{"Host":"fuckingfangbinxing.cnmfangbinxing-n.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [38]'
 
   - name: 🌍 Global Media
     type: select
