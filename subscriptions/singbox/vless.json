@@ -92,18 +92,17 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
+                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [34]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [43]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [46]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [39]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [42]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,18 +113,17 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
+                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [34]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [43]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [46]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [39]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [42]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -212,7 +210,73 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
+            "tag": "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [34]",
+            "type": "vless",
+            "server": "89.117.112.4",
+            "server_port": 80,
+            "uuid": "424fa201-3f94-479e-b533-d5257cf9a207",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=Telegram🇨🇳 @WangCai2",
+                "headers": {
+                    "Host": "89.117.112.4"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "104.16.72.50",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rsedgws",
+                "headers": {
+                    "Host": "shegeftihaaa.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "104.16.75.207",
+            "server_port": 443,
+            "uuid": "b26ec0f4-6c92-45f7-b287-2a664abf1963",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "main-2.ariyuz.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "main-2.ariyuz.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]",
             "type": "vless",
             "server": "104.16.72.101",
             "server_port": 443,
@@ -237,7 +301,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "172.67.195.229",
             "server_port": 443,
@@ -262,7 +326,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
             "type": "vless",
             "server": "104.27.78.43",
             "server_port": 2083,
@@ -287,7 +351,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]",
             "type": "vless",
             "server": "23.88.37.253",
             "server_port": 80,
@@ -296,7 +360,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [43]",
+            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [46]",
             "type": "vless",
             "server": "192.144.13.35",
             "server_port": 59242,
@@ -305,7 +369,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
             "type": "vless",
             "server": "104.18.35.13",
             "server_port": 443,
@@ -330,7 +394,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
             "type": "vless",
             "server": "172.64.150.246",
             "server_port": 2083,
@@ -355,113 +419,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "162.159.44.172",
-            "server_port": 2083,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "172.64.40.79",
-            "server_port": 2083,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "172.64.151.158",
-            "server_port": 443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [39]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [42]",
             "type": "vless",
             "server": "fn.fifapes.monster",
             "server_port": 2090,
             "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "x4g-production-213b.up.railway.app",
-            "server_port": 443,
-            "uuid": "6e475ace-9410-5f61-8ea9-f05fadd1f604",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-213b.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/6e475ace-9410-5f61-8ea9-f05fadd1f604",
-                "headers": {
-                    "Host": "x4g-production-213b.up.railway.app"
-                }
-            }
         }
     ],
     "route": {
