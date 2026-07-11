@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,6 +186,31 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "foloki-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "d3a18bec-bb33-81e2-7671-66dac9921868",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "foloki-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/d3a18bec-bb33-81e2-7671-66dac9921868",
+                "headers": {
+                    "Host": "foloki-production.up.railway.app"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
             "type": "vless",
             "server": "rare-creation-production.up.railway.app",
@@ -216,15 +241,6 @@
             "server": "germany-de-1.appcodes.ir",
             "server_port": 8080,
             "uuid": "f8cae104-2eaa-4b16-b258-65be28281b70",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "45.95.0.219",
-            "server_port": 46292,
-            "uuid": "ef5e8ad2-9f17-4337-b4b3-9a91ea96f115",
             "flow": "",
             "packet_encoding": "xudp"
         }

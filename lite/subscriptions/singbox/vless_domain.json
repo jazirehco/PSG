@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
             ],
@@ -104,6 +105,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
             ],
@@ -188,6 +190,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "foloki-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "d3a18bec-bb33-81e2-7671-66dac9921868",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "foloki-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/d3a18bec-bb33-81e2-7671-66dac9921868",
+                "headers": {
+                    "Host": "foloki-production.up.railway.app"
                 }
             }
         },
