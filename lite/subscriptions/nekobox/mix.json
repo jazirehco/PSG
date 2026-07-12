@@ -77,8 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [66]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -86,8 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [66]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,7 +105,43 @@
             "type": "direct"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [66]",
+            "type": "vmess",
+            "server": "jazzghost.com",
+            "server_port": 8998,
+            "uuid": "45e6cc1d-fc2e-4c97-8633-b33caa28e130",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "jazzghost.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]",
+            "type": "vmess",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]",
             "type": "vmess",
             "server": "165.140.216.142",
             "server_port": 443,
@@ -113,24 +151,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "165.140.216.142",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "13.40.188.81",
-            "server_port": 443,
-            "uuid": "7e6a38f4-7150-4eff-ae68-579852357ddb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "13.40.188.81",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

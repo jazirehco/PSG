@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-
+  - {"name":"🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [66]","type":"vmess","server":"jazzghost.com","port":8998,"cipher":"auto","uuid":"45e6cc1d-fc2e-4c97-8633-b33caa28e130","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]","type":"vmess","server":"165.140.216.141","port":443,"cipher":"auto","uuid":"e7d72a8d-26f2-4b54-b366-0c43e0bcba7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-
+      - '🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [66]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [67]'
 
   - name: 🌍 Global Media
     type: select
