@@ -77,8 +77,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [66]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -86,8 +86,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [66]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,7 +103,25 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [66]",
+            "type": "vless",
+            "server": "13.40.188.81",
+            "server_port": 443,
+            "uuid": "7e6a38f4-7150-4eff-ae68-579852357ddb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "13.40.188.81",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
             "server": "108.162.193.162",
             "server_port": 443,
@@ -124,31 +142,6 @@
                 "path": "/udfyfws",
                 "headers": {
                     "Host": "octopusss5.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "cf2.danesh-bonyan.com",
-            "server_port": 8443,
-            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
                 }
             }
         }
