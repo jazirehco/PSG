@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [65]",
-                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [66]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [65]",
-                "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [66]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,16 +186,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [65]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "172.64.147.104",
-            "server_port": 443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "server": "cf2.danesh-bonyan.com",
+            "server_port": 8443,
+            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
+                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -204,23 +206,48 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
+                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
                 }
             }
         },
         {
-            "tag": "🇧🇬 BG | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "89.117.112.4",
-            "server_port": 80,
-            "uuid": "424fa201-3f94-479e-b533-d5257cf9a207",
+            "server": "cf1.danesh-bonyan.com",
+            "server_port": 8443,
+            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "www.npmjs.com",
+            "server_port": 2095,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/pyip=Telegram🇨🇳 @WangCai2",
+                "path": "/fp",
                 "headers": {
-                    "Host": "89.117.112.4"
+                    "Host": "fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
                 }
             }
         }
