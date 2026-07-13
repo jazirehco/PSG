@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [69]","type":"vless","server":"zeus-panel-g75bgi.zeus-1e8zqa.workers.dev","port":2082,"uuid":"febc7c0d-1c70-4fb6-9326-51da52efc483","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"zeus-panel-g75bgi.zeus-1e8zqa.workers.dev"}}}
+  - {"name":"🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [68]","type":"vmess","server":"dn.torontomovie.com","port":8080,"cipher":"auto","uuid":"a020b5fa-fa21-4f08-9bcd-95f4de69484c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [69]'
+      - '🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [68]'
 
   - name: 🌍 Global Media
     type: select
