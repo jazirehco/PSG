@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]","type":"vless","server":"using.neobo-tooth.ru","port":2083,"uuid":"0c6b632a-cd96-4b74-9b51-151e3b5697db","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [59]","type":"vless","server":"kamo1.parsianboton.ir","port":8443,"uuid":"80b917d7-9a05-4cba-8a99-286dce8d9b3d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"nanicdn.parsianboton.ir","ws-opts":{"path":"/","headers":{"Host":"nanicdn.parsianboton.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [59]'
 
   - name: 🌍 Global Media
     type: select

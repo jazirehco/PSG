@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,38 +190,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
             "type": "vless",
-            "server": "using.neobo-tooth.ru",
-            "server_port": 2083,
-            "uuid": "0c6b632a-cd96-4b74-9b51-151e3b5697db",
+            "server": "kamo1.parsianboton.ir",
+            "server_port": 8443,
+            "uuid": "80b917d7-9a05-4cba-8a99-286dce8d9b3d",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "using.neobo-tooth.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]",
-            "type": "vless",
-            "server": "rvg-production-aa24.up.railway.app",
-            "server_port": 443,
-            "uuid": "3aedf221-f6c5-9f8d-49da-2547c302cb03",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rvg-production-aa24.up.railway.app",
+                "server_name": "nanicdn.parsianboton.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -232,9 +208,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/3aedf221-f6c5-9f8d-49da-2547c302cb03",
+                "path": "/",
                 "headers": {
-                    "Host": "rvg-production-aa24.up.railway.app"
+                    "Host": "nanicdn.parsianboton.ir"
                 }
             }
         }

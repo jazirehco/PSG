@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [67]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [68]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [69]"
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [67]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [68]",
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,47 +186,28 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "172.67.193.253",
-            "server_port": 443,
-            "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "octopusss5.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/udfyfws",
-                "headers": {
-                    "Host": "octopusss5.info"
-                }
-            }
+            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [67]",
+            "type": "shadowsocks",
+            "server": "82.38.31.192",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "13.36.204.235",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [68]",
+            "type": "shadowsocks",
+            "server": "82.38.31.179",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "k1dBOmOB4oqi7Ump37a1bQ"
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "13.36.204.235",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [69]",
+            "type": "shadowsocks",
+            "server": "82.38.31.2",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         }
     ],
     "route": {
