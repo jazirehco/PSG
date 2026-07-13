@@ -80,10 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [61]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [63]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,10 +95,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [61]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [63]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -188,7 +190,41 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "gb.f6r.ir",
+            "server_port": 3389,
+            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
+            "type": "vless",
+            "server": "earthpro.wasmer.app",
+            "server_port": 443,
+            "uuid": "9b0b4404-f1eb-4551-9b88-e0aac7843c86",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "earthpro.wasmer.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/9b0b4404",
+                "headers": {
+                    "Host": "earthpro.wasmer.app"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [63]",
             "type": "vless",
             "server": "it.fifapes.monster",
             "server_port": 29148,
@@ -197,7 +233,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
             "server": "api.amirv2yats.qzz.io",
             "server_port": 443,
@@ -222,7 +258,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [61]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
             "type": "vless",
             "server": "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev",
             "server_port": 2082,
@@ -234,31 +270,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
-            "type": "vless",
-            "server": "kamo1.parsianboton.ir",
-            "server_port": 8443,
-            "uuid": "80b917d7-9a05-4cba-8a99-286dce8d9b3d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nanicdn.parsianboton.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "nanicdn.parsianboton.ir"
                 }
             }
         }

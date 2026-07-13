@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [61]","type":"vless","server":"zeus-panel-g75bgi.zeus-1e8zqa.workers.dev","port":2082,"uuid":"febc7c0d-1c70-4fb6-9326-51da52efc483","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"zeus-panel-g75bgi.zeus-1e8zqa.workers.dev"}}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [66]","type":"vless","server":"kamo1.parsianboton.ir","port":8443,"uuid":"80b917d7-9a05-4cba-8a99-286dce8d9b3d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"nanicdn.parsianboton.ir","ws-opts":{"path":"/","headers":{"Host":"nanicdn.parsianboton.ir"}}}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [53]","type":"vless","server":"gb.f6r.ir","port":3389,"uuid":"e6e2eec6-dcd0-4b65-a75b-6945fb827dec","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]","type":"vless","server":"earthpro.wasmer.app","port":443,"uuid":"9b0b4404-f1eb-4551-9b88-e0aac7843c86","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"earthpro.wasmer.app","ws-opts":{"path":"/9b0b4404","headers":{"Host":"earthpro.wasmer.app"}}}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [69]","type":"vless","server":"zeus-panel-g75bgi.zeus-1e8zqa.workers.dev","port":2082,"uuid":"febc7c0d-1c70-4fb6-9326-51da52efc483","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"zeus-panel-g75bgi.zeus-1e8zqa.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [61]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [66]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [53]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [69]'
 
   - name: 🌍 Global Media
     type: select
