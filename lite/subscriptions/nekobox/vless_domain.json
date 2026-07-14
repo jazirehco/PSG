@@ -77,9 +77,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇨🇭 CH | 🔒 SS | @NamiraConfigs [69]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +88,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇨🇭 CH | 🔒 SS | @NamiraConfigs [69]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,28 +107,86 @@
             "type": "direct"
         },
         {
+            "tag": "همکاری_ملی",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [68]",
             "type": "vless",
             "server": "gb.f6r.ir",
             "server_port": 3389,
             "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 SS | @NamiraConfigs [69]",
-            "type": "shadowsocks",
-            "server": "45.95.232.138",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XHYr2n0lkPTtez7RFjWJOK"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "91.99.173.29",
-            "server_port": 12767,
-            "uuid": "7ff3f986-f72c-4ebd-9eaa-bba121399cd2",
             "flow": "",
             "packet_encoding": "xudp"
         }
