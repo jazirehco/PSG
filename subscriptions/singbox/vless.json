@@ -92,10 +92,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇨🇭 CH | 🔓 VLESS | @NamiraConfigs [60]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [62]",
+                "🇨🇭 CH | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +108,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇨🇭 CH | 🔓 VLESS | @NamiraConfigs [60]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [62]",
+                "🇨🇭 CH | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +200,57 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "172.64.150.130",
+            "server_port": 443,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t1s1.rittbo.kdns.fr"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "104.21.47.19",
+            "server_port": 443,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t1s1.rittbo.kdns.fr"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
             "type": "vless",
             "server": "x4g-production-88cb7.up.railway.app",
             "server_port": 443,
@@ -221,7 +275,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [59]",
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "fi1-website.iramsnew3.ir",
             "server_port": 443,
@@ -239,7 +293,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔓 VLESS | @NamiraConfigs [60]",
+            "tag": "🇨🇭 CH | 🔓 VLESS | @NamiraConfigs [63]",
             "type": "vless",
             "server": "swiss.motorbazan.com",
             "server_port": 2087,
@@ -248,7 +302,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [61]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [64]",
             "type": "vless",
             "server": "ainet.sanaiehdasti.com",
             "server_port": 1323,
