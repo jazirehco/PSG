@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]","type":"vless","server":"69.46.46.0","port":443,"uuid":"c61aeb7d-f7bb-47ab-8ca2-b532dc728f86","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"x4g-production-951c.up.railway.app","ws-opts":{"path":"/ws/c61aeb7d-f7bb-47ab-8ca2-b532dc728f86","headers":{"Host":"x4g-production-951c.up.railway.app"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]","type":"vless","server":"52.28.107.75","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]","type":"vless","server":"69.46.46.0","port":443,"uuid":"c61aeb7d-f7bb-47ab-8ca2-b532dc728f86","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"x4g-production-951c.up.railway.app","ws-opts":{"path":"/ws/c61aeb7d-f7bb-47ab-8ca2-b532dc728f86","headers":{"Host":"x4g-production-951c.up.railway.app"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]","type":"vless","server":"52.28.107.75","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [69]'
 
   - name: 🌍 Global Media
     type: select
