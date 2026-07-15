@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,22 +190,20 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "s---w.pagess.ir",
-            "server_port": 3389,
-            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
+            "server": "sos.oakcup.ir",
+            "server_port": 2052,
+            "uuid": "83f61e10-2242-4e33-82fe-045a3e58e3d2",
             "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "gb.f6r.ir",
-            "server_port": 3389,
-            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/api",
+                "headers": {
+                    "Host": "sos.oakcup.ir"
+                }
+            }
         }
     ],
     "route": {

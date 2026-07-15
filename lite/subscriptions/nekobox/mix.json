@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,30 +105,54 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "s---w.pagess.ir",
-            "server_port": 3389,
-            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
+            "server": "sos.oakcup.ir",
+            "server_port": 2052,
+            "uuid": "83f61e10-2242-4e33-82fe-045a3e58e3d2",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/api",
+                "headers": {
+                    "Host": "sos.oakcup.ir"
+                }
+            }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [67]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "gb.f6r.ir",
-            "server_port": 3389,
-            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]",
-            "type": "shadowsocks",
-            "server": "45.95.232.138",
+            "server": "69.46.46.0",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XHYr2n0lkPTtez7RFjWJOK"
+            "uuid": "c61aeb7d-f7bb-47ab-8ca2-b532dc728f86",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-951c.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/c61aeb7d-f7bb-47ab-8ca2-b532dc728f86",
+                "headers": {
+                    "Host": "x4g-production-951c.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "52.28.107.75",
+            "server_port": 22222,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,12 +192,38 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 SS | @NamiraConfigs [68]",
-            "type": "shadowsocks",
-            "server": "45.95.232.138",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+            "type": "vless",
+            "server": "69.46.46.0",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XHYr2n0lkPTtez7RFjWJOK"
+            "uuid": "c61aeb7d-f7bb-47ab-8ca2-b532dc728f86",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-951c.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/c61aeb7d-f7bb-47ab-8ca2-b532dc728f86",
+                "headers": {
+                    "Host": "x4g-production-951c.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "52.28.107.75",
+            "server_port": 22222,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
