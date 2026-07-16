@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [54]","type":"vmess","server":"31.77.149.131","port":110,"cipher":"auto","uuid":"5ed7206a-cd8d-4b02-add1-4f7b787178c9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔒 VMESS | @NamiraConfigs [59]","type":"vmess","server":"69.46.46.71","port":443,"cipher":"auto","uuid":"63d7e870-e195-47b9-abc1-8f21f999a0ea","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"Host":"3x-ui-upgrade-production-4817.up.railway.app"}}}
-  - {"name":"🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [67]","type":"vmess","server":"47.250.45.234","port":43063,"cipher":"auto","uuid":"c77f48f5-4be3-4461-b52b-49998e7b897b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki?ed=2048","headers":{"Host":""}}}
+  - {"name":"🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [61]","type":"vmess","server":"31.77.149.131","port":110,"cipher":"auto","uuid":"5ed7206a-cd8d-4b02-add1-4f7b787178c9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔒 VMESS | @NamiraConfigs [66]","type":"vmess","server":"69.46.46.71","port":443,"cipher":"auto","uuid":"63d7e870-e195-47b9-abc1-8f21f999a0ea","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"Host":"3x-ui-upgrade-production-4817.up.railway.app"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [54]'
-      - '🇺🇸 US | 🔒 VMESS | @NamiraConfigs [59]'
-      - '🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [67]'
+      - '🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [61]'
+      - '🇺🇸 US | 🔒 VMESS | @NamiraConfigs [66]'
 
   - name: 🌍 Global Media
     type: select

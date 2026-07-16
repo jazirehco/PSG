@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [54]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [59]",
-                "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [67]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]",
+                "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [54]",
-                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [59]",
-                "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [67]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]",
+                "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,7 +186,25 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [54]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [54]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "165.140.216.142",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [61]",
             "type": "vmess",
             "server": "31.77.149.131",
             "server_port": 110,
@@ -195,7 +213,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [59]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [66]",
             "type": "vmess",
             "server": "69.46.46.71",
             "server_port": 443,
@@ -216,22 +234,6 @@
                 "path": "/ws",
                 "headers": {
                     "Host": "3x-ui-upgrade-production-4817.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [67]",
-            "type": "vmess",
-            "server": "47.250.45.234",
-            "server_port": 43063,
-            "uuid": "c77f48f5-4be3-4461-b52b-49998e7b897b",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki?ed=2048",
-                "headers": {
-                    "Host": ""
                 }
             }
         }

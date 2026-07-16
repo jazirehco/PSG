@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [67]"
+                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [66]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [67]"
+                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [66]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,16 +105,16 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "my-pp.arminpixel2.workers.dev",
+            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [66]",
+            "type": "vmess",
+            "server": "69.46.46.71",
             "server_port": 443,
-            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "63d7e870-e195-47b9-abc1-8f21f999a0ea",
+            "security": "auto",
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "my-pp.arminpixel2.workers.dev",
+                "server_name": "3x-ui-upgrade-production-4817.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -123,41 +123,59 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/ws",
                 "headers": {
-                    "Host": "my-pp.arminpixel2.workers.dev"
+                    "Host": "3x-ui-upgrade-production-4817.up.railway.app"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "my-pp.arminpixel2.workers.dev",
-            "server_port": 2095,
-            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+            "server": "yx.cloudflare.182682.xyz",
+            "server_port": 443,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/sync",
+                "path": "/",
                 "headers": {
-                    "Host": "my-pp.arminpixel2.workers.dev"
+                    "Host": "t1s1.rittbo.kdns.fr"
                 }
             }
         },
         {
-            "tag": "🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [67]",
-            "type": "vmess",
-            "server": "47.250.45.234",
-            "server_port": 43063,
-            "uuid": "c77f48f5-4be3-4461-b52b-49998e7b897b",
-            "security": "auto",
-            "alter_id": 0,
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+            "type": "vless",
+            "server": "104.26.5.60",
+            "server_port": 443,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/arki?ed=2048",
+                "path": "/",
                 "headers": {
-                    "Host": ""
+                    "Host": "t1s1.rittbo.kdns.fr"
                 }
             }
         }
