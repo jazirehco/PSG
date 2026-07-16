@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [63]","type":"vmess","server":"31.77.149.131","port":110,"cipher":"auto","uuid":"5ed7206a-cd8d-4b02-add1-4f7b787178c9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔒 VMESS | @NamiraConfigs [68]","type":"vmess","server":"69.46.46.71","port":443,"cipher":"auto","uuid":"63d7e870-e195-47b9-abc1-8f21f999a0ea","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"Host":"3x-ui-upgrade-production-4817.up.railway.app"}}}
+  - {"name":"🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]","type":"vmess","server":"speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir","port":2087,"cipher":"auto","uuid":"efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"Host":"speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"}}}
+  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [58]","type":"vmess","server":"2cdn.njkrpl.com","port":443,"cipher":"auto","uuid":"a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]","type":"vmess","server":"31.77.149.131","port":110,"cipher":"auto","uuid":"5ed7206a-cd8d-4b02-add1-4f7b787178c9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [63]'
-      - '🇺🇸 US | 🔒 VMESS | @NamiraConfigs [68]'
+      - '🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]'
+      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [58]'
+      - '🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]'
 
   - name: 🌍 Global Media
     type: select
