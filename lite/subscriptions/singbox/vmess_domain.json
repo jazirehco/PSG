@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgVk1FU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [69]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [69]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,40 +190,22 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "18.194.133.160",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [69]",
-            "type": "vless",
-            "server": "62.238.41.102",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [68]",
+            "type": "vmess",
+            "server": "165.140.216.142",
             "server_port": 443,
-            "uuid": "154c18ae-f5eb-4cfd-8429-1f582c93913b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "bot.sobhanpor.ir",
+                "server_name": "165.140.216.142",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "18.194.133.160",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
