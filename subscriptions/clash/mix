@@ -23,9 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]","type":"vmess","server":"speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir","port":2087,"cipher":"auto","uuid":"efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"Host":"speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"}}}
-  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [58]","type":"vmess","server":"2cdn.njkrpl.com","port":443,"cipher":"auto","uuid":"a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
-  - {"name":"🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]","type":"vmess","server":"31.77.149.131","port":110,"cipher":"auto","uuid":"5ed7206a-cd8d-4b02-add1-4f7b787178c9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]","type":"ss","server":"82.38.31.35","port":443,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]","type":"ss","server":"82.38.31.213","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]","type":"ss","server":"82.38.31.180","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]","type":"vmess","server":"165.140.216.141","port":443,"cipher":"auto","uuid":"e7d72a8d-26f2-4b54-b366-0c43e0bcba7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"❔ XX | 🔒 VMESS | @NamiraConfigs [60]","type":"vmess","server":"speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir","port":2087,"cipher":"auto","uuid":"efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mehdi","headers":{"Host":"speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"}}}
+  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [62]","type":"vmess","server":"2cdn.njkrpl.com","port":443,"cipher":"auto","uuid":"a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]'
-      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [58]'
-      - '🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]'
+      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [56]'
+      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [57]'
+      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [58]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]'
+      - '❔ XX | 🔒 VMESS | @NamiraConfigs [60]'
+      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [62]'
 
   - name: 🌍 Global Media
     type: select

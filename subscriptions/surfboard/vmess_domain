@@ -9,14 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56] = vmess, speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir, 2087, username = efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b, ws = true, tls = true, ws-path = /mehdi, ws-headers = Host:"speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"
-🚩 CF | 🔒 VMESS | @NamiraConfigs [58] = vmess, 2cdn.njkrpl.com, 443, username = a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8, ws = true, tls = true, ws-path = /, ws-headers = Host:""
-🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68] = vmess, 31.77.149.131, 110, username = 5ed7206a-cd8d-4b02-add1-4f7b787178c9, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59] = vmess, 165.140.216.141, 443, username = e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, ws = false, tls = false
+❔ XX | 🔒 VMESS | @NamiraConfigs [60] = vmess, speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir, 2087, username = efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b, ws = true, tls = true, ws-path = /mehdi, ws-headers = Host:"speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir"
+🚩 CF | 🔒 VMESS | @NamiraConfigs [62] = vmess, 2cdn.njkrpl.com, 443, username = a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8, ws = true, tls = true, ws-path = /, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56], 🚩 CF | 🔒 VMESS | @NamiraConfigs [58], 🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56], 🚩 CF | 🔒 VMESS | @NamiraConfigs [58], 🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56], 🚩 CF | 🔒 VMESS | @NamiraConfigs [58], 🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59], ❔ XX | 🔒 VMESS | @NamiraConfigs [60], 🚩 CF | 🔒 VMESS | @NamiraConfigs [62]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59], ❔ XX | 🔒 VMESS | @NamiraConfigs [60], 🚩 CF | 🔒 VMESS | @NamiraConfigs [62]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59], ❔ XX | 🔒 VMESS | @NamiraConfigs [60], 🚩 CF | 🔒 VMESS | @NamiraConfigs [62]
 
 [Rule]
 GEOIP,IR,DIRECT

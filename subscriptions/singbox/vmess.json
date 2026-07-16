@@ -92,10 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
-                "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
+                "❔ XX | 🔒 VMESS | @NamiraConfigs [60]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [62]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
-                "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
+                "❔ XX | 🔒 VMESS | @NamiraConfigs [60]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [62]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +196,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [56]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [59]",
+            "type": "vmess",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @NamiraConfigs [60]",
             "type": "vmess",
             "server": "speedtestgoogleyahoobingyandexgmailappleaol.andishehnegariran.ir",
             "server_port": 2087,
@@ -221,7 +239,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [58]",
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [62]",
             "type": "vmess",
             "server": "2cdn.njkrpl.com",
             "server_port": 443,
@@ -246,7 +264,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [61]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [65]",
             "type": "vmess",
             "server": "165.140.216.142",
             "server_port": 443,
@@ -262,15 +280,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VMESS | @NamiraConfigs [68]",
-            "type": "vmess",
-            "server": "31.77.149.131",
-            "server_port": 110,
-            "uuid": "5ed7206a-cd8d-4b02-add1-4f7b787178c9",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {

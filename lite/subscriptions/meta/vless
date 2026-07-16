@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [69]","type":"vless","server":"15.188.249.140","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [70]","type":"vless","server":"193.84.255.91","port":26072,"uuid":"91c053b5-2682-4ec6-93ad-307a17ce5139","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]","type":"vless","server":"18.194.133.160","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [69]","type":"vless","server":"62.238.41.102","port":443,"uuid":"154c18ae-f5eb-4cfd-8429-1f582c93913b","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"bot.sobhanpor.ir"}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]","type":"vless","server":"18.194.133.160","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [69]'
-      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [70]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [69]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [70]'
 
   - name: 🌍 Global Media
     type: select
