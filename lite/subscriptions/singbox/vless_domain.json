@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [63]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [65]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [63]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [65]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,7 +190,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [63]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
             "type": "vless",
             "server": "x4g-production-d4c1.up.railway.app",
             "server_port": 443,
@@ -213,31 +211,6 @@
                 "path": "/ws/1d737707-a14d-a990-c71a-aa04ce18ecee",
                 "headers": {
                     "Host": "x4g-production-d4c1.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "dash1.dequa.ir",
-            "server_port": 443,
-            "uuid": "26c5d167-03ae-42f9-81a2-b9d57b3409a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
