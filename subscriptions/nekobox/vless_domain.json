@@ -80,10 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
+                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,10 +94,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
+                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -188,7 +188,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "d.socialxxmedia.com",
+            "server_port": 200,
+            "uuid": "6bc19aa1-d94b-488c-9b25-47214d371851",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "nin9.gd.sanaiehdasti.com",
             "server_port": 1418,
@@ -197,7 +206,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
             "type": "vless",
             "server": "datacloud.sorvexrt.ir",
             "server_port": 2096,
@@ -222,7 +231,7 @@
             }
         },
         {
-            "tag": "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [56]",
+            "tag": "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "cdn1.portalcode.ir",
             "server_port": 8443,
@@ -236,31 +245,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "x4g-production-d4c1.up.railway.app",
-            "server_port": 443,
-            "uuid": "1d737707-a14d-a990-c71a-aa04ce18ecee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-d4c1.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/1d737707-a14d-a990-c71a-aa04ce18ecee",
-                "headers": {
-                    "Host": "x4g-production-d4c1.up.railway.app"
                 }
             }
         }
