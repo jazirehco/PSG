@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,27 +182,18 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "43.174.246.46",
-            "server_port": 443,
-            "uuid": "fd9a728d-ece1-4168-c5a4-c28ecb5a0065",
+            "server": "195.63.137.251",
+            "server_port": 8090,
+            "uuid": "ef14c532-b69a-4f46-ae29-272f2fdaf673",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sni2.irandoc.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/37807/api",
+                "path": "/ws",
                 "headers": {
-                    "Host": "sni2.irandoc.info"
+                    "Host": "195.63.137.251"
                 }
             }
         }

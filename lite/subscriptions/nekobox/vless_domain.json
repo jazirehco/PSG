@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,20 +182,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [70]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "juso5.pastilbastani.ir",
+            "server": "x4g-production-ed65.up.railway.app",
             "server_port": 443,
-            "uuid": "799843c2-ebb5-4376-b402-a8f479c029b9",
+            "uuid": "37966092-f71c-8f7a-484f-d68c68f01ab7",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "juso5.pastilbastani.ir",
+                "server_name": "x4g-production-ed65.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/37966092-f71c-8f7a-484f-d68c68f01ab7",
+                "headers": {
+                    "Host": "x4g-production-ed65.up.railway.app"
                 }
             }
         }

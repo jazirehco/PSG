@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,16 +190,16 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @NamiraConfigs [68]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "43.174.246.46",
+            "server": "x4g-production-ed65.up.railway.app",
             "server_port": 443,
-            "uuid": "fd9a728d-ece1-4168-c5a4-c28ecb5a0065",
+            "uuid": "37966092-f71c-8f7a-484f-d68c68f01ab7",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sni2.irandoc.info",
+                "server_name": "x4g-production-ed65.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -210,27 +208,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/37807/api",
+                "path": "/ws/37966092-f71c-8f7a-484f-d68c68f01ab7",
                 "headers": {
-                    "Host": "sni2.irandoc.info"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [70]",
-            "type": "vless",
-            "server": "juso5.pastilbastani.ir",
-            "server_port": 443,
-            "uuid": "799843c2-ebb5-4376-b402-a8f479c029b9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "juso5.pastilbastani.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": "x4g-production-ed65.up.railway.app"
                 }
             }
         }

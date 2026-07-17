@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"❔ XX | 🔓 VLESS | @NamiraConfigs [70]","type":"vless","server":"juso5.pastilbastani.ir","port":443,"uuid":"799843c2-ebb5-4376-b402-a8f479c029b9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"195.63.137.251","port":8090,"uuid":"ef14c532-b69a-4f46-ae29-272f2fdaf673","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/ws","headers":{"Host":"rukr.speedload.ru"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"dash1.dequa.ir","port":443,"uuid":"26c5d167-03ae-42f9-81a2-b9d57b3409a7","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"dash1.dequa.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '❔ XX | 🔓 VLESS | @NamiraConfigs [70]'
+      - '🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [54]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [55]'
 
   - name: 🌍 Global Media
     type: select
