@@ -92,10 +92,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [57]",
-                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [59]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [65]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
+                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [61]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +107,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [57]",
-                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [59]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [65]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
+                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [61]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +198,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "eventloophub.org",
+            "server_port": 8443,
+            "uuid": "aa28b265-baff-42e4-927e-7a8dee0ef623",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "eventloophub.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir",
             "server_port": 443,
@@ -221,7 +245,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [57]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
             "type": "vless",
             "server": "Ppotbfff.dadashinet10.ir",
             "server_port": 2044,
@@ -230,7 +254,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [59]",
+            "tag": "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [61]",
             "type": "vless",
             "server": "cdn1.portalcode.ir",
             "server_port": 8443,
@@ -248,7 +272,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [65]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]",
             "type": "vless",
             "server": "gr1.fifapes.monster",
             "server_port": 8882,
