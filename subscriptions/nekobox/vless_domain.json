@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
+                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
+                "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,31 +186,40 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [51]",
             "type": "vless",
-            "server": "gr1.fifapes.monster",
-            "server_port": 8882,
-            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+            "server": "Ppotbfff.dadashinet10.ir",
+            "server_port": 2044,
+            "uuid": "52743398-f47f-4074-a355-fd85076600fd",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]",
+            "tag": "🇧🇪 BE | 🔒 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
+            "server": "cdn1.portalcode.ir",
+            "server_port": 8443,
+            "uuid": "df0e61f6-dd51-49d6-bee7-6d5ff06ae44b",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "a.samrayan.ir",
+                "server_name": "434df2a384e0a10f.rainzone.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [59]",
+            "type": "vless",
+            "server": "gr1.fifapes.monster",
+            "server_port": 8882,
+            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
