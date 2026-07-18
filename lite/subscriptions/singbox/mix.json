@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [70]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,7 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [68]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [70]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -109,16 +113,41 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [69]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir",
+            "server": "52.47.123.79",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [69]",
+            "type": "vless",
+            "server": "172.67.161.104",
+            "server_port": 8880,
+            "uuid": "11046a7c-fa1b-4653-ab87-400feb465540",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "172.67.161.104"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [70]",
+            "type": "vless",
+            "server": "104.16.72.50",
             "server_port": 443,
-            "uuid": "01839038-ddc0-484f-957a-879b6e6e2116",
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir",
+                "server_name": "shegeftihaaa.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -127,9 +156,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/mehdi",
+                "path": "/rsedgws",
                 "headers": {
-                    "Host": "speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir"
+                    "Host": "shegeftihaaa.net"
                 }
             }
         }

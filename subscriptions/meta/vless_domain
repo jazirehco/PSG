@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]","type":"vless","server":"Samd.softupdl.ir","port":56792,"uuid":"c7fb07cb-4de9-4030-acd4-decd15825f35","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [65]","type":"vless","server":"eventloophub.org","port":8443,"uuid":"aa28b265-baff-42e4-927e-7a8dee0ef623","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"eventloophub.org","grpc-opts":{"grpc-service-name":"grpc"}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [69]","type":"vless","server":"speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir","port":443,"uuid":"01839038-ddc0-484f-957a-879b6e6e2116","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir","ws-opts":{"path":"/mehdi","headers":{"Host":"speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
+  - {"name":"🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [62]","type":"vless","server":"ronaldo21.fordnsdirect.shop","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]","type":"vless","server":"Samd.softupdl.ir","port":56792,"uuid":"c7fb07cb-4de9-4030-acd4-decd15825f35","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]'
-      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [65]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [69]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]'
+      - '🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [62]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [63]'
 
   - name: 🌍 Global Media
     type: select
