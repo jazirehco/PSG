@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇸🇨 SC | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [67]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇸🇨 SC | 🔓 VLESS | @NamiraConfigs [66]",
+                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [67]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,23 @@
             "type": "direct"
         },
         {
-            "tag": "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🇸🇨 SC | 🔓 VLESS | @NamiraConfigs [66]",
+            "type": "vless",
+            "server": "45.130.125.207",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/http",
+                "headers": {
+                    "Host": "45.130.125.207"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [67]",
             "type": "vless",
             "server": "212.183.88.30",
             "server_port": 8880,
@@ -129,7 +145,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [67]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [68]",
             "type": "vless",
             "server": "199.232.29.204",
             "server_port": 443,
@@ -150,22 +166,6 @@
                 "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed",
                 "headers": {
                     "Host": "ssl.fastly.com"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "185.247.16.3",
-            "server_port": 2200,
-            "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "185.247.16.3"
                 }
             }
         }
