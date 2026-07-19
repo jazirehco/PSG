@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]",
+                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]",
+                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,25 +111,34 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "YaMaL.Sav-savteAm.iR",
-            "server_port": 6985,
-            "uuid": "e39ac861-974c-4c7d-8300-97c7bbca512a",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [62]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "165.140.216.142",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [61]",
+            "tag": "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [64]",
             "type": "vless",
-            "server": "199.232.22.39",
+            "server": "45.131.211.136",
             "server_port": 443,
-            "uuid": "891710f4-45f3-41b1-99a6-6f1510f83c10",
+            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ssl.fastly.com",
+                "server_name": "vangoghhh.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -140,20 +147,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed",
+                "path": "/rdfgtws",
                 "headers": {
-                    "Host": "ssl.fastly.com"
+                    "Host": "vangoghhh.info"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "207.154.229.155",
-            "server_port": 440,
-            "uuid": "78a1da80-7383-4ff6-b0ff-b6626b2f72cd",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

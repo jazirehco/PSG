@@ -1,0 +1,24 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/vmess interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🚩 CF | 🔒 VMESS | @NamiraConfigs [55] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
+🚩 CF | 🔒 VMESS | @NamiraConfigs [56] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
+🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [60] = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
+🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [61] = vmess, 65.109.219.124, 52525, username = 358f44f0-2686-46c8-9cc6-ec52abd66df4, ws = false, tls = false
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔒 VMESS | @NamiraConfigs [55], 🚩 CF | 🔒 VMESS | @NamiraConfigs [56], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [60], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [61]
+PSG-AUTO = url-test, 🚩 CF | 🔒 VMESS | @NamiraConfigs [55], 🚩 CF | 🔒 VMESS | @NamiraConfigs [56], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [60], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [61]
+PSG-FALLBACK = fallback, 🚩 CF | 🔒 VMESS | @NamiraConfigs [55], 🚩 CF | 🔒 VMESS | @NamiraConfigs [56], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [60], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [61]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
