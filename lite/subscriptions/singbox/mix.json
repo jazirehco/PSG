@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [66]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [66]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,29 +111,22 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [64]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
+            "type": "vless",
+            "server": "yamal.sav-savteam.ir",
+            "server_port": 6985,
+            "uuid": "882516d7-aa11-4dbd-962c-e72cd3c49c0b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [66]",
             "type": "vless",
             "server": "65.109.219.124",
             "server_port": 10485,
             "uuid": "358f44f0-2686-46c8-9cc6-ec52abd66df4",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [66]",
-            "type": "vmess",
-            "server": "152.67.8.205",
-            "server_port": 80,
-            "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "152.67.8.205"
-                }
-            }
         }
     ],
     "route": {
