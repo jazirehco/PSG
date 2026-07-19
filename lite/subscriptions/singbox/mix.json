@@ -89,8 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [69]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,45 +111,22 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [68]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "104.21.74.63",
-            "server_port": 443,
-            "uuid": "72d1797c-cef8-410a-b8fd-db9104dc3cb0",
+            "server": "Samd.softupdl.ir",
+            "server_port": 56792,
+            "uuid": "c7fb07cb-4de9-4030-acd4-decd15825f35",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "amooaliii.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/jdhfyws",
-                "headers": {
-                    "Host": "amooaliii.net"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [70]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [69]",
             "type": "vless",
-            "server": "172.67.148.26",
-            "server_port": 80,
-            "uuid": "95de071f-747c-dc07-36ac-5c0854a9e50e",
+            "server": "13.39.56.66",
+            "server_port": 22222,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "172.67.148.26"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
