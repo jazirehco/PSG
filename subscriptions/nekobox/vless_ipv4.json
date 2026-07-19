@@ -80,9 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [64]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [64]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,7 +184,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
             "type": "vless",
             "server": "69.48.201.136",
             "server_port": 30016,
@@ -202,38 +200,13 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [58]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "65.109.219.124",
             "server_port": 10485,
             "uuid": "358f44f0-2686-46c8-9cc6-ec52abd66df4",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "45.131.211.136",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
         }
     ],
     "route": {
