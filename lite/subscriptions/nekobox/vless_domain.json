@@ -80,7 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]"
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [60]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]"
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [60]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,11 +186,43 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
+            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [60]",
             "type": "vless",
-            "server": "yamal.sav-savteam.ir",
-            "server_port": 6985,
-            "uuid": "882516d7-aa11-4dbd-962c-e72cd3c49c0b",
+            "server": "mabar130.mobail1010.ir",
+            "server_port": 2082,
+            "uuid": "a9e937d6-6df5-42ef-9b14-3e1165d56c22",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mabar130.mobail1010.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
+            "type": "vless",
+            "server": "uspanel.unixzone.us",
+            "server_port": 30016,
+            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/usserver",
+                "headers": {
+                    "Host": "uspanel.unixzone.us"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
+            "type": "vless",
+            "server": "jdhdjdjdjm.belamona.ir",
+            "server_port": 1323,
+            "uuid": "f67b7960-d5a1-4108-80c4-2adbcff716e8",
             "flow": "",
             "packet_encoding": "xudp"
         }
