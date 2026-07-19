@@ -9,15 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🚩 CF | 🔒 VMESS | @NamiraConfigs [59] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
-🚩 CF | 🔒 VMESS | @NamiraConfigs [60] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
-🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [64] = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
-🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [65] = vmess, 65.109.219.124, 52525, username = 358f44f0-2686-46c8-9cc6-ec52abd66df4, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [53] = vmess, 165.140.216.141, 443, username = e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, ws = false, tls = false
+🚩 CF | 🔒 VMESS | @NamiraConfigs [61] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
+🚩 CF | 🔒 VMESS | @NamiraConfigs [62] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
+🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [66] = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔒 VMESS | @NamiraConfigs [59], 🚩 CF | 🔒 VMESS | @NamiraConfigs [60], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [64], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [65]
-PSG-AUTO = url-test, 🚩 CF | 🔒 VMESS | @NamiraConfigs [59], 🚩 CF | 🔒 VMESS | @NamiraConfigs [60], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [64], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [65]
-PSG-FALLBACK = fallback, 🚩 CF | 🔒 VMESS | @NamiraConfigs [59], 🚩 CF | 🔒 VMESS | @NamiraConfigs [60], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [64], 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [65]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [53], 🚩 CF | 🔒 VMESS | @NamiraConfigs [61], 🚩 CF | 🔒 VMESS | @NamiraConfigs [62], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [66]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [53], 🚩 CF | 🔒 VMESS | @NamiraConfigs [61], 🚩 CF | 🔒 VMESS | @NamiraConfigs [62], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [66]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [53], 🚩 CF | 🔒 VMESS | @NamiraConfigs [61], 🚩 CF | 🔒 VMESS | @NamiraConfigs [62], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [66]
 
 [Rule]
 GEOIP,IR,DIRECT
