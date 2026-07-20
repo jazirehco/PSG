@@ -80,7 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [44]"
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [39]",
+                "🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [40]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [41]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VMESS | @NamiraConfigs [44]"
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [39]",
+                "🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [40]",
+                "🚩 CF | 🔒 VMESS | @NamiraConfigs [41]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,7 +186,48 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [44]",
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [39]",
+            "type": "vmess",
+            "server": "tg.hrmp.kdns.fr",
+            "server_port": 8443,
+            "uuid": "af1ccd89-b66b-44e8-99b8-0d945078c04b",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "tg.hrmp.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tirexvmess",
+                "headers": {
+                    "Host": "tg.hrmp.kdns.fr"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [40]",
+            "type": "vmess",
+            "server": "152.67.8.205",
+            "server_port": 80,
+            "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "152.67.8.205"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @NamiraConfigs [41]",
             "type": "vmess",
             "server": "tg.hrmp.kdns.fr",
             "server_port": 8443,
