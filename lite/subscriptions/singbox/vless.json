@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +194,48 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [60]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
+            "type": "vless",
+            "server": "Time.is",
+            "server_port": 2096,
+            "uuid": "1a0509ce-31e5-c439-40d8-c8050000000c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.testiam13.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/v2box",
+                "headers": {
+                    "Host": "a.testiam13.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
+            "type": "vless",
+            "server": "subb.biscuitnazari.ir",
+            "server_port": 8080,
+            "uuid": "c2b185f7-14bc-4b8b-a3d2-f05e69426230",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/arme",
+                "headers": {
+                    "Host": "subb.biscuitnazari.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "mabar130.mobail1010.ir",
             "server_port": 2082,
@@ -208,31 +249,6 @@
                     "Host": "mabar130.mobail1010.ir"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "uspanel.unixzone.us",
-            "server_port": 30016,
-            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/usserver",
-                "headers": {
-                    "Host": "uspanel.unixzone.us"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "jdhdjdjdjm.belamona.ir",
-            "server_port": 1323,
-            "uuid": "f67b7960-d5a1-4108-80c4-2adbcff716e8",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
