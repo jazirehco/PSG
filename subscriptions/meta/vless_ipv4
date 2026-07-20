@@ -23,9 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"104.18.35.13","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"108.162.194.119","port":443,"uuid":"8ad6f598-cd8d-4fca-848e-05fc9be15ff3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"deicl.redstone-vex.sbs","ws-opts":{"path":"/sea","headers":{"Host":"deicl.redstone-vex.sbs"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]","type":"vless","server":"108.61.210.223","port":55867,"uuid":"399f7f1b-0f5e-43a1-b0b5-6f255367d778","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [40]","type":"vless","server":"87.228.122.108","port":4100,"uuid":"155e8dd4-a559-407a-9ea8-13a5e829f066","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"87.228.122.108"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"104.18.35.13","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"108.162.194.119","port":443,"uuid":"8ad6f598-cd8d-4fca-848e-05fc9be15ff3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"deicl.redstone-vex.sbs","ws-opts":{"path":"/sea","headers":{"Host":"deicl.redstone-vex.sbs"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]","type":"vless","server":"108.61.210.223","port":55867,"uuid":"399f7f1b-0f5e-43a1-b0b5-6f255367d778","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [48]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [49]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]'
+      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [40]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]'
 
   - name: 🌍 Global Media
     type: select
