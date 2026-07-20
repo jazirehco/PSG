@@ -80,9 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [61]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [61]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,16 +182,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
-            "server": "Time.is",
-            "server_port": 2096,
-            "uuid": "1a0509ce-31e5-c439-40d8-c8050000000c",
+            "server": "x4g-production-c124.up.railway.app",
+            "server_port": 443,
+            "uuid": "34d473ff-7f1f-d596-e64d-1a27ab988054",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "a.testiam13.workers.dev",
+                "server_name": "x4g-production-c124.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -204,41 +200,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/v2box",
+                "path": "/ws/34d473ff-7f1f-d596-e64d-1a27ab988054",
                 "headers": {
-                    "Host": "a.testiam13.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "subb.biscuitnazari.ir",
-            "server_port": 8080,
-            "uuid": "c2b185f7-14bc-4b8b-a3d2-f05e69426230",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/arme",
-                "headers": {
-                    "Host": "subb.biscuitnazari.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "mabar130.mobail1010.ir",
-            "server_port": 2082,
-            "uuid": "a9e937d6-6df5-42ef-9b14-3e1165d56c22",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "mabar130.mobail1010.ir"
+                    "Host": "x4g-production-c124.up.railway.app"
                 }
             }
         }
