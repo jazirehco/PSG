@@ -9,14 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🚩 CF | 🔒 VMESS | @NamiraConfigs [41] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
-🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [42] = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
-🚩 CF | 🔒 VMESS | @NamiraConfigs [43] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
+🚩 CF | 🔒 VMESS | @NamiraConfigs [44] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
+🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [45] = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
+🚩 CF | 🔒 VMESS | @NamiraConfigs [46] = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔒 VMESS | @NamiraConfigs [41], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [42], 🚩 CF | 🔒 VMESS | @NamiraConfigs [43]
-PSG-AUTO = url-test, 🚩 CF | 🔒 VMESS | @NamiraConfigs [41], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [42], 🚩 CF | 🔒 VMESS | @NamiraConfigs [43]
-PSG-FALLBACK = fallback, 🚩 CF | 🔒 VMESS | @NamiraConfigs [41], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [42], 🚩 CF | 🔒 VMESS | @NamiraConfigs [43]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔒 VMESS | @NamiraConfigs [44], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [45], 🚩 CF | 🔒 VMESS | @NamiraConfigs [46]
+PSG-AUTO = url-test, 🚩 CF | 🔒 VMESS | @NamiraConfigs [44], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [45], 🚩 CF | 🔒 VMESS | @NamiraConfigs [46]
+PSG-FALLBACK = fallback, 🚩 CF | 🔒 VMESS | @NamiraConfigs [44], 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [45], 🚩 CF | 🔒 VMESS | @NamiraConfigs [46]
 
 [Rule]
 GEOIP,IR,DIRECT
