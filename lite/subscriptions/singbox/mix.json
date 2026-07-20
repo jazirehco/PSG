@@ -89,9 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [63]"
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +98,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [63]"
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,25 +111,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [57]",
             "type": "vless",
-            "server": "167.233.234.78",
+            "server": "finland9011-tswe.horlutr.ir",
             "server_port": 2087,
             "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]",
             "type": "vless",
-            "server": "69.46.46.67",
+            "server": "199.232.22.39",
             "server_port": 443,
-            "uuid": "913ef4fb-a33b-47a3-9fa2-3a9723c54874",
+            "uuid": "891710f4-45f3-41b1-99a6-6f1510f83c10",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "web-production-dd6e.up.railway.app",
+                "server_name": "ssl.fastly.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -140,20 +138,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/913ef4fb-a33b-47a3-9fa2-3a9723c54874?ed=2048",
+                "path": "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed",
                 "headers": {
-                    "Host": "web-production-dd6e.up.railway.app"
+                    "Host": "ssl.fastly.com"
                 }
             }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [63]",
-            "type": "vless",
-            "server": "95.182.116.76",
-            "server_port": 8882,
-            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
