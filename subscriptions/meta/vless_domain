@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [36]","type":"vless","server":"betty.ns.cloudflare.com","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
   - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [44]","type":"vless","server":"Tamland.ir","port":2082,"uuid":"3b42c5de-276f-41db-bd4e-b79038af4b0c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"FBI.LithiumHost.ir"}}}
 
 proxy-groups:
@@ -38,7 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [36]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [43]'
       - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [44]'
 
   - name: 🌍 Global Media
