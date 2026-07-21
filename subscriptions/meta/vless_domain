@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [36]","type":"vless","server":"betty.ns.cloudflare.com","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
-  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [44]","type":"vless","server":"Tamland.ir","port":2082,"uuid":"3b42c5de-276f-41db-bd4e-b79038af4b0c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"FBI.LithiumHost.ir"}}}
+  - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]","type":"vless","server":"ger.wafer.fun","port":443,"uuid":"5a4ea216-9597-4df7-a119-02949a3b6b82","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"ger.wafer.fun","grpc-opts":{"grpc-service-name":"Ts7kIzm7a8mYEa7OOaBF"}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [42]","type":"vless","server":"betty.ns.cloudflare.com","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [36]'
-      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [43]'
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [44]'
+      - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [42]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]'
 
   - name: 🌍 Global Media
     type: select

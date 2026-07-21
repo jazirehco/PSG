@@ -1,0 +1,23 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/vmess_domain interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [36] = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [38] = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40] = vmess, 165.140.216.141, 443, username = e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, ws = false, tls = false
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [36], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [38], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [36], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [38], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [36], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [38], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL

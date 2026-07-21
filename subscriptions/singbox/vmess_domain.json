@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgVk1FU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔒 SS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [36]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [37]",
+                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [38]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔒 SS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [36]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [37]",
+                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [38]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,12 +196,58 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 SS | @NamiraConfigs [48]",
-            "type": "shadowsocks",
-            "server": "38.180.113.194",
-            "server_port": 8119,
-            "method": "aes-256-gcm",
-            "password": "cdBIDV42DCwnfIN"
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [36]",
+            "type": "vmess",
+            "server": "82.198.246.97",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [37]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [38]",
+            "type": "vmess",
+            "server": "165.154.195.38",
+            "server_port": 35034,
+            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
+            "type": "vmess",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
