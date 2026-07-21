@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVk1FU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
+                "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [51]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
+                "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [51]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +192,31 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "MelineT4.Sav-savteAm.iR",
-            "server_port": 6985,
-            "uuid": "e044297a-304f-40a9-a9fb-d17b744fa781",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [51]",
+            "type": "vmess",
+            "server": "65.109.219.124",
+            "server_port": 52525,
+            "uuid": "358f44f0-2686-46c8-9cc6-ec52abd66df4",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "165.140.216.142",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
