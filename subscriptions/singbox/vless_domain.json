@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]"
+                "❔ XX | 🔒 VLESS | @NamiraConfigs [35]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [43]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]"
+                "❔ XX | 🔒 VLESS | @NamiraConfigs [35]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [43]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +194,50 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
+            "tag": "❔ XX | 🔒 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "hossein1.roozaraa.ir",
+            "server_port": 8083,
+            "uuid": "6e11a95e-3cfb-4473-bd7e-01fe11846a2e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hossein1.roozaraa.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hossein1.roozaraa.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "mci.pictureiran.ir",
+            "server_port": 2087,
+            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "norway.alfather.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "ger.wafer.fun",
             "server_port": 443,
@@ -213,49 +256,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Ts7kIzm7a8mYEa7OOaBF"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
-            "type": "vless",
-            "server": "betty.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.samrayan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         }
     ],
