@@ -23,9 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [44]","type":"vmess","server":"tg.hrmp.kdns.fr","port":8443,"cipher":"auto","uuid":"af1ccd89-b66b-44e8-99b8-0d945078c04b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tirexvmess","headers":{"Host":"tg.hrmp.kdns.fr"}}}
-  - {"name":"🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [45]","type":"vmess","server":"152.67.8.205","port":80,"cipher":"auto","uuid":"9db4c708-aef8-4359-821b-38e47990be0d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
-  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [46]","type":"vmess","server":"tg.hrmp.kdns.fr","port":8443,"cipher":"auto","uuid":"af1ccd89-b66b-44e8-99b8-0d945078c04b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tirexvmess","headers":{"Host":"tg.hrmp.kdns.fr"}}}
+  - {"name":"🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [39]","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [48]","type":"vmess","server":"tg.hrmp.kdns.fr","port":8443,"cipher":"auto","uuid":"af1ccd89-b66b-44e8-99b8-0d945078c04b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tirexvmess","headers":{"Host":"tg.hrmp.kdns.fr"}}}
+  - {"name":"🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [49]","type":"vmess","server":"152.67.8.205","port":80,"cipher":"auto","uuid":"9db4c708-aef8-4359-821b-38e47990be0d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🚩 CF | 🔒 VMESS | @NamiraConfigs [50]","type":"vmess","server":"tg.hrmp.kdns.fr","port":8443,"cipher":"auto","uuid":"af1ccd89-b66b-44e8-99b8-0d945078c04b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tirexvmess","headers":{"Host":"tg.hrmp.kdns.fr"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [44]'
-      - '🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [45]'
-      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [46]'
+      - '🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [39]'
+      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [48]'
+      - '🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [49]'
+      - '🚩 CF | 🔒 VMESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select
