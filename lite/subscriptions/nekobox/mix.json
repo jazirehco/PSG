@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,35 +105,43 @@
             "type": "direct"
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "31.192.244.42",
-            "server_port": 12683,
-            "uuid": "8c8d8180-a2c5-4478-a86e-4117f841e88e",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46]",
+            "type": "vmess",
+            "server": "165.154.195.38",
+            "server_port": 35034,
+            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+            "security": "auto",
+            "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [47]",
             "type": "vless",
-            "server": "45.86.159.131",
-            "server_port": 2085,
-            "uuid": "ae86f68e-84c7-41de-b69f-87285451fb71",
+            "server": "ger.wafer.fun",
+            "server_port": 443,
+            "uuid": "5a4ea216-9597-4df7-a119-02949a3b6b82",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ger.wafer.fun",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "grpc",
-                "service_name": "vless"
+                "service_name": "Ts7kIzm7a8mYEa7OOaBF"
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "193.36.61.82",
-            "server_port": 4430,
-            "uuid": "4db03cf7-9bee-4a27-8ef2-bf95a778b96a",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [48]",
+            "type": "shadowsocks",
+            "server": "0721-syah.kovira2.ir",
+            "server_port": 25026,
+            "method": "chacha20-ietf-poly1305",
+            "password": "r2v53aul8lsaweki"
         }
     ],
     "route": {

@@ -9,15 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [34] = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40] = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [42] = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44] = vmess, 165.140.216.141, 443, username = e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, ws = false, tls = false
+🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [38] = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44] = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46] = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [34], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [42], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44]
-PSG-AUTO = url-test, 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [34], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [42], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44]
-PSG-FALLBACK = fallback, 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [34], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [42], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [38], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46]
+PSG-AUTO = url-test, 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [38], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46]
+PSG-FALLBACK = fallback, 🇮🇳 IN | 🔓 VMESS | @NamiraConfigs [38], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46]
 
 [Rule]
 GEOIP,IR,DIRECT

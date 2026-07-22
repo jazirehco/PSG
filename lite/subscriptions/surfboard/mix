@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-
+🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46] = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
+🇫🇮 FI | 🔒 SS | @NamiraConfigs [48] = ss, 0721-syah.kovira2.ir, 25026, encrypt-method = chacha20-ietf-poly1305, password = r2v53aul8lsaweki
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
-PSG-AUTO = url-test, 
-PSG-FALLBACK = fallback, 
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [48]
+PSG-AUTO = url-test, 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [48]
+PSG-FALLBACK = fallback, 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [46], 🇫🇮 FI | 🔒 SS | @NamiraConfigs [48]
 
 [Rule]
 GEOIP,IR,DIRECT
