@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]","type":"vless","server":"mci.pictureiran.ir","port":2087,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"norway.alfather.ir"}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"betty.ns.cloudflare.com","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [31]","type":"vless","server":"cdn1.beshdash.ir","port":21972,"uuid":"9d564717-cee2-482f-a841-f7a3af7a08d3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [32]","type":"vless","server":"mci.pictureiran.ir","port":2087,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"norway.alfather.ir"}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"betty.ns.cloudflare.com","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [41]'
+      - '🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [31]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [32]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [40]'
 
   - name: 🌍 Global Media
     type: select
