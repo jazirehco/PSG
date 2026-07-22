@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [31]",
                 "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [32]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [34]",
@@ -101,8 +102,7 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [43]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [44]",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [45]",
-                "🇮🇪 IE | 🔒 SS | @NamiraConfigs [46]"
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -110,6 +110,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [31]",
                 "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [32]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [34]",
@@ -122,8 +123,7 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [43]",
                 "🇳🇱 NL | 🔒 SS | @NamiraConfigs [44]",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [45]",
-                "🇮🇪 IE | 🔒 SS | @NamiraConfigs [46]"
+                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -133,6 +133,24 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [31]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [32]",
@@ -352,14 +370,6 @@
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "k1dBOmOB4oqi7Ump37a1bQ"
-        },
-        {
-            "tag": "🇮🇪 IE | 🔒 SS | @NamiraConfigs [46]",
-            "type": "shadowsocks",
-            "server": "20.166.58.64",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "217Fg9zpgpVS4DGE"
         }
     ],
     "route": {
