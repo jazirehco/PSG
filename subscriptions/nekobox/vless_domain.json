@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,7 +184,25 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
+            "type": "vless",
+            "server": "mci.pictureiran.ir",
+            "server_port": 2087,
+            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "norway.alfather.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]",
             "type": "vless",
             "server": "betty.ns.cloudflare.com",
             "server_port": 443,
