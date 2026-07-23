@@ -92,9 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +196,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 2096,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "my-pp.arminpixel2.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "my-pp.arminpixel2.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 2095,
@@ -210,7 +237,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
             "type": "vless",
             "server": "celestara.biz",
             "server_port": 443,
@@ -235,7 +262,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
             "type": "vless",
             "server": "ez-6174e8.nova-970a2c.workers.dev",
             "server_port": 443,
