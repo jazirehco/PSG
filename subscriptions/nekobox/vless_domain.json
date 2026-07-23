@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [36]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [32]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [41]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [36]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [32]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [41]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,7 +186,32 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [36]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [32]",
+            "type": "vless",
+            "server": "ez-6174e8.nova-970a2c.workers.dev",
+            "server_port": 443,
+            "uuid": "a140f7c4-78aa-ba57-8d45-3f2d00000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ez-6174e8.nova-970a2c.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "ez-6174e8.nova-970a2c.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [41]",
             "type": "vless",
             "server": "cdn1.beshdash.ir",
             "server_port": 21972,
@@ -195,7 +220,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [37]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
             "type": "vless",
             "server": "mci.pictureiran.ir",
             "server_port": 2087,
@@ -209,31 +234,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
-            "type": "vless",
-            "server": "betty.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
                 }
             }
         }
