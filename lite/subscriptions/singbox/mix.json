@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,11 +113,11 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]",
             "type": "vmess",
-            "server": "165.140.216.142",
+            "server": "165.140.216.141",
             "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
             "security": "auto",
             "alter_id": 0,
             "tls": {
@@ -131,25 +131,34 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [45]",
-            "type": "vless",
-            "server": "cdn1.beshdash.ir",
-            "server_port": 21972,
-            "uuid": "9d564717-cee2-482f-a841-f7a3af7a08d3",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "mci.pictureiran.ir",
-            "server_port": 2087,
-            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "norway.alfather.ir",
+                "server_name": "165.140.216.142",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
