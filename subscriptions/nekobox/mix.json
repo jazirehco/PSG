@@ -77,6 +77,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
                 "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [37]",
@@ -90,8 +91,7 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,6 +99,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
                 "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [37]",
@@ -112,8 +113,7 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
                 "🇧🇿 BZ | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -127,6 +127,22 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
+            "type": "vless",
+            "server": "my-pp.arminpixel2.workers.dev",
+            "server_port": 2095,
+            "uuid": "631a49ec-2eb5-2215-0cac-9d292696d162",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "my-pp.arminpixel2.workers.dev"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
@@ -381,31 +397,6 @@
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "104.21.5.137",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
         }
     ],
     "route": {
