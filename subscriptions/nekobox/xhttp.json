@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,27 +182,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
             "type": "vless",
-            "server": "ez-6174e8.nova-970a2c.workers.dev",
-            "server_port": 443,
-            "uuid": "a140f7c4-78aa-ba57-8d45-3f2d00000000",
+            "server": "ip.kickfarsi.com",
+            "server_port": 8443,
+            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ez-6174e8.nova-970a2c.workers.dev",
+                "server_name": "ger2.kickfarsi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "ez-6174e8.nova-970a2c.workers.dev"
                 }
             }
         }

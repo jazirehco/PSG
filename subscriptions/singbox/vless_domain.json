@@ -92,10 +92,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [34]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +108,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [34]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +200,75 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
+            "type": "vless",
+            "server": "ip.kickfarsi.com",
+            "server_port": 8443,
+            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ger2.kickfarsi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [34]",
+            "type": "vless",
+            "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
+            "server_port": 443,
+            "uuid": "4908acbe-485f-4e1c-bb11-5dd04b9f7e88",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "restless-base-fe24.alirezahabibi20009.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "headers": {
+                    "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+            "server_port": 443,
+            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 2096,
@@ -221,7 +293,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
             "type": "vless",
             "server": "my-pp.arminpixel2.workers.dev",
             "server_port": 2095,
@@ -237,7 +309,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
             "type": "vless",
             "server": "celestara.biz",
             "server_port": 443,
@@ -258,31 +330,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "ez-6174e8.nova-970a2c.workers.dev",
-            "server_port": 443,
-            "uuid": "a140f7c4-78aa-ba57-8d45-3f2d00000000",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ez-6174e8.nova-970a2c.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "ez-6174e8.nova-970a2c.workers.dev"
                 }
             }
         }

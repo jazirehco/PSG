@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVk1FU1M=
+//profile-title: base64:UFNHIHwgWEhUVFA=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +190,22 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42]",
-            "type": "vmess",
-            "server": "47.83.221.185",
-            "server_port": 80,
-            "uuid": "771a590c-5eac-5732-b796-17251132f8d2",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
+            "type": "vless",
+            "server": "ip.kickfarsi.com",
+            "server_port": 8443,
+            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ger2.kickfarsi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
