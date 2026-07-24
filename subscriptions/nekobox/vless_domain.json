@@ -80,12 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [40]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -96,12 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [40]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,7 +186,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
             "type": "vless",
             "server": "de.vpnbase.net",
             "server_port": 80,
@@ -208,7 +202,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [40]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "perplexity.ai",
             "server_port": 2052,
@@ -224,7 +218,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [45]",
             "type": "vless",
             "server": "zxcvbnm1.roozaraa.ir",
             "server_port": 8880,
@@ -245,74 +239,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "zxcvbnm1.roozaraa.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "ip.kickfarsi.com",
-            "server_port": 8443,
-            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ger2.kickfarsi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
-            "server_port": 443,
-            "uuid": "4908acbe-485f-4e1c-bb11-5dd04b9f7e88",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "restless-base-fe24.alirezahabibi20009.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-                "headers": {
-                    "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-            "server_port": 443,
-            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
                 }
             }
         }

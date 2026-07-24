@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWEhUVFA=
+//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [50]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
@@ -103,6 +105,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [50]",
                 "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
@@ -190,20 +194,45 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "63.185.19.86",
+            "server_port": 22222,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "15.188.211.23",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
-            "server": "ip.kickfarsi.com",
-            "server_port": 8443,
-            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+            "server": "69.46.46.89",
+            "server_port": 443,
+            "uuid": "f411d02a-fff5-86a4-9f02-cfd75fa76d41",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ger2.kickfarsi.com",
+                "server_name": "x4g-production-ee29.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/f411d02a-fff5-86a4-9f02-cfd75fa76d41",
+                "headers": {
+                    "Host": "x4g-production-ee29.up.railway.app"
                 }
             }
         }
