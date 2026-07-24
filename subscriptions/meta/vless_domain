@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]","type":"vless","server":"de.vpnbase.net","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
-  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [52]","type":"vless","server":"perplexity.ai","port":2052,"uuid":"74038e5c-ed59-485d-a2fb-2eb9d9891ef5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"gerdooai.cafebario.ir"}}}
-  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"zxcvbnm1.roozaraa.ir","port":8880,"uuid":"899a5fb4-c142-4707-9199-69808f1f71e3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"zxcvbnm1.roozaraa.ir","ws-opts":{"path":"/","headers":{"Host":"zxcvbnm1.roozaraa.ir"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]","type":"vless","server":"ara.public.lat","port":58748,"uuid":"21e22226-0b96-4b4e-9a91-5c7f9e3f1760","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"de.vpnbase.net","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]'
-      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [52]'
-      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
     type: select

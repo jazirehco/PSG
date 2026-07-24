@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,27 +190,18 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "zxcvbnm1.roozaraa.ir",
-            "server_port": 8880,
-            "uuid": "899a5fb4-c142-4707-9199-69808f1f71e3",
+            "server": "de.vpnbase.net",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zxcvbnm1.roozaraa.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/http",
                 "headers": {
-                    "Host": "zxcvbnm1.roozaraa.ir"
+                    "Host": "de.vpnbase.net"
                 }
             }
         }

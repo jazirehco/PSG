@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,16 +186,16 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
             "type": "vless",
-            "server": "zxcvbnm1.roozaraa.ir",
-            "server_port": 8880,
-            "uuid": "899a5fb4-c142-4707-9199-69808f1f71e3",
+            "server": "104.18.1.1",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zxcvbnm1.roozaraa.ir",
+                "server_name": "po.fastbrokencompony.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -206,27 +206,34 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "zxcvbnm1.roozaraa.ir"
+                    "Host": "po.fastbrokencompony.com"
                 }
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "95.181.167.171",
-            "server_port": 9090,
-            "uuid": "d3aebc17-a731-40fb-a755-aac1a4cf80f2",
+            "server": "59.152.127.76",
+            "server_port": 50863,
+            "uuid": "cbc1b9e7-c393-4053-a338-6ed714daf4eb",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "13.39.58.127",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "de.vpnbase.net",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/http",
+                "headers": {
+                    "Host": "de.vpnbase.net"
+                }
+            }
         }
     ],
     "route": {

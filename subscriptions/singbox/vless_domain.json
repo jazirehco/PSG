@@ -92,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +192,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]",
+            "type": "vless",
+            "server": "ara.public.lat",
+            "server_port": 58748,
+            "uuid": "21e22226-0b96-4b4e-9a91-5c7f9e3f1760",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
             "type": "vless",
             "server": "de.vpnbase.net",
             "server_port": 80,
@@ -206,47 +213,6 @@
                 "path": "/http",
                 "headers": {
                     "Host": "de.vpnbase.net"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "perplexity.ai",
-            "server_port": 2052,
-            "uuid": "74038e5c-ed59-485d-a2fb-2eb9d9891ef5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "perplexity.ai"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "zxcvbnm1.roozaraa.ir",
-            "server_port": 8880,
-            "uuid": "899a5fb4-c142-4707-9199-69808f1f71e3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zxcvbnm1.roozaraa.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "zxcvbnm1.roozaraa.ir"
                 }
             }
         }
