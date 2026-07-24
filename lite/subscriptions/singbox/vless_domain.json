@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVk1FU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [44]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [44]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +190,29 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [44]",
-            "type": "vmess",
-            "server": "47.83.221.185",
-            "server_port": 80,
-            "uuid": "771a590c-5eac-5732-b796-17251132f8d2",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "celestara.biz",
+            "server_port": 443,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t1s1.rittbo.kdns.fr"
+                }
+            }
         }
     ],
     "route": {
