@@ -23,9 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"ip.kickfarsi.com","port":8443,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"ger2.kickfarsi.com"}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [45]","type":"vless","server":"restless-base-fe24.alirezahabibi20009.workers.dev","port":443,"uuid":"4908acbe-485f-4e1c-bb11-5dd04b9f7e88","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"restless-base-fe24.alirezahabibi20009.workers.dev","ws-opts":{"path":"/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=","headers":{"Host":"restless-base-fe24.alirezahabibi20009.workers.dev"}}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"celestara.biz","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [40]","type":"vless","server":"de.vpnbase.net","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [41]","type":"vless","server":"perplexity.ai","port":2052,"uuid":"74038e5c-ed59-485d-a2fb-2eb9d9891ef5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"gerdooai.cafebario.ir"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"zxcvbnm1.roozaraa.ir","port":8880,"uuid":"899a5fb4-c142-4707-9199-69808f1f71e3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"zxcvbnm1.roozaraa.ir","ws-opts":{"path":"/","headers":{"Host":"zxcvbnm1.roozaraa.ir"}}}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"ip.kickfarsi.com","port":8443,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"ger2.kickfarsi.com"}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [53]","type":"vless","server":"restless-base-fe24.alirezahabibi20009.workers.dev","port":443,"uuid":"4908acbe-485f-4e1c-bb11-5dd04b9f7e88","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"restless-base-fe24.alirezahabibi20009.workers.dev","ws-opts":{"path":"/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=","headers":{"Host":"restless-base-fe24.alirezahabibi20009.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [44]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [45]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [40]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [41]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [43]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [53]'
 
   - name: 🌍 Global Media
     type: select
