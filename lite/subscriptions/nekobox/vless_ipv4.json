@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,20 +184,27 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
+            "type": "vless",
+            "server": "104.17.58.113",
+            "server_port": 8880,
+            "uuid": "f77a1ad9-5ffa-4684-ba91-82f0df247eef",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip",
+                "headers": {
+                    "Host": "104.17.58.113"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]",
             "type": "vless",
             "server": "45.13.119.219",
             "server_port": 8888,
             "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "185.128.139.11",
-            "server_port": 18244,
-            "uuid": "0d543aed-4e30-4553-b5ac-211419bb0961",
             "flow": "",
             "packet_encoding": "xudp"
         }

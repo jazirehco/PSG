@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,6 +111,22 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [43]",
+            "type": "vless",
+            "server": "104.17.58.113",
+            "server_port": 8880,
+            "uuid": "f77a1ad9-5ffa-4684-ba91-82f0df247eef",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip",
+                "headers": {
+                    "Host": "104.17.58.113"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [44]",
@@ -127,15 +143,6 @@
             "server": "ara.public.lat",
             "server_port": 58748,
             "uuid": "21e22226-0b96-4b4e-9a91-5c7f9e3f1760",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "185.128.139.11",
-            "server_port": 18244,
-            "uuid": "0d543aed-4e30-4553-b5ac-211419bb0961",
             "flow": "",
             "packet_encoding": "xudp"
         }
