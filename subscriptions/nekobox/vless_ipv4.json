@@ -80,6 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [34]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [35]",
                 "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [36]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
@@ -87,10 +89,7 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇨🇿 CZ | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇷🇸 RS | 🔓 VLESS | @NamiraConfigs [48]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]"
+                "🇨🇿 CZ | 🔓 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,6 +100,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [34]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [35]",
                 "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [36]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
@@ -108,10 +109,7 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [41]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🇸🇪 SE | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇨🇿 CZ | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇷🇸 RS | 🔓 VLESS | @NamiraConfigs [48]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
-                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]"
+                "🇨🇿 CZ | 🔓 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -200,6 +198,40 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [34]",
+            "type": "vless",
+            "server": "162.159.10.87",
+            "server_port": 443,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t1s1.rittbo.kdns.fr"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "193.233.174.195",
+            "server_port": 27331,
+            "uuid": "af1e0692-6c91-4d61-bc6b-108f2e897c37",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [36]",
@@ -352,58 +384,6 @@
             "uuid": "5eecb34f-c905-4c77-b7fb-d830b451cd11",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇷🇸 RS | 🔓 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "195.133.18.161",
-            "server_port": 30153,
-            "uuid": "da97d2d7-d255-4efd-8398-7101d698768e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "162.159.45.218",
-            "server_port": 443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/fp",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
-                }
-            }
-        },
-        {
-            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "8.47.69.0",
-            "server_port": 443,
-            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "8.47.69.0",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {

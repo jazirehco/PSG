@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇿 CZ | 🔓 VLESS | @NamiraConfigs [47]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇿 CZ | 🔓 VLESS | @NamiraConfigs [47]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +182,22 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [33]",
             "type": "vless",
-            "server": "193.124.57.208",
-            "server_port": 20342,
-            "uuid": "5eecb34f-c905-4c77-b7fb-d830b451cd11",
+            "server": "mci.pictureiran.ir",
+            "server_port": 2087,
+            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "norway.alfather.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
