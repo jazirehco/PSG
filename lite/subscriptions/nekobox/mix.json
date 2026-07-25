@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [55]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]",
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [55]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]",
+                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,61 +105,36 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "80.74.29.157",
-            "server_port": 443,
-            "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vp58.cc.cd",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram🇨🇳 @VPNine1",
-                "headers": {
-                    "Host": "vp58.cc.cd"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [55]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]",
             "type": "vmess",
-            "server": "165.154.195.38",
-            "server_port": 35034,
-            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+            "server": "110.34.38.23",
+            "server_port": 521,
+            "uuid": "8d8458d9-7b00-49c4-90ad-4d98a92c8a4a",
             "security": "auto",
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "104.26.15.137",
-            "server_port": 443,
-            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "server": "5.144.179.113",
+            "server_port": 2044,
+            "uuid": "e061b5ef-8a10-4a35-8192-ef4f058f96d5",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "172.67.215.44",
+            "server_port": 2052,
+            "uuid": "86442a2b-417d-426d-9b42-955573b5c6e4",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "shegeftihaaa.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/rsedgws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+                "path": "/eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==",
                 "headers": {
-                    "Host": "shegeftihaaa.net"
+                    "Host": "172.67.215.44"
                 }
             }
         }
