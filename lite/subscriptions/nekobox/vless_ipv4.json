@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,16 +184,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "104.16.174.159",
-            "server_port": 2096,
-            "uuid": "03360a7d-bdb1-42a5-aedf-d0f14249be48",
+            "server": "104.21.15.212",
+            "server_port": 8880,
+            "uuid": "902fd911-ca5d-49a6-99ad-47372a266804",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+                "headers": {
+                    "Host": "104.21.15.212"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "148.251.41.50",
+            "server_port": 10000,
+            "uuid": "d096c0b7-2205-478f-9e2f-0c8366e5a2b8",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "slips.stepson.ir",
+                "server_name": "3byyf8q0.qnts33mtgi0ebq9tjd34.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -199,8 +217,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "slips.stepson.ir"
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "3byyf8q0.qnts33mtgi0ebq9tjd34.workers.dev"
+                }
             }
         }
     ],

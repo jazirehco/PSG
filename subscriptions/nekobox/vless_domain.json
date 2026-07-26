@@ -80,9 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [44]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [52]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [44]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [52]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,47 +182,22 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [44]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]",
             "type": "vless",
-            "server": "d.socialxxmedia.com",
-            "server_port": 200,
-            "uuid": "6bc19aa1-d94b-488c-9b25-47214d371851",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
-            "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
+                "server_name": "a.samrayan.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
             }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "nl.qarvian.ir",
-            "server_port": 8882,
-            "uuid": "9fb7bd98-9d35-c441-2394-41aa925804ad",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
