@@ -23,12 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [46]","type":"ss","server":"coco3.farajet.net","port":3030,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [47]","type":"ss","server":"coco2.farajet.net","port":2020,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [48]","type":"ss","server":"coco1.farajet.net","port":1010,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [51]","type":"ss","server":"20.107.187.192","port":443,"password":"vWcimUSiT1rfVM1v","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [53]","type":"vmess","server":"110.34.38.23","port":521,"cipher":"auto","uuid":"8d8458d9-7b00-49c4-90ad-4d98a92c8a4a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [47]","type":"ss","server":"coco3.farajet.net","port":3030,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [48]","type":"ss","server":"coco2.farajet.net","port":2020,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [49]","type":"ss","server":"coco1.farajet.net","port":1010,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [52]","type":"ss","server":"20.107.187.192","port":443,"password":"vWcimUSiT1rfVM1v","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]","type":"vmess","server":"110.34.38.23","port":521,"cipher":"auto","uuid":"8d8458d9-7b00-49c4-90ad-4d98a92c8a4a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,12 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]'
-      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [46]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]'
       - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [47]'
       - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [48]'
-      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [51]'
-      - '🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [53]'
+      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [49]'
+      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [52]'
+      - '🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
     type: select
