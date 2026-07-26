@@ -23,12 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]","type":"vmess","server":"165.140.216.141","port":443,"cipher":"auto","uuid":"e7d72a8d-26f2-4b54-b366-0c43e0bcba7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [48]","type":"ss","server":"coco3.farajet.net","port":3030,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [49]","type":"ss","server":"coco2.farajet.net","port":2020,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [50]","type":"ss","server":"coco1.farajet.net","port":1010,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪 IE | 🔒 SS | @NamiraConfigs [53]","type":"ss","server":"20.107.187.192","port":443,"password":"vWcimUSiT1rfVM1v","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38]","type":"vmess","server":"47.250.135.244","port":10000,"cipher":"auto","uuid":"aedc66b8-99d7-4a21-8310-61870e7f870d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [50]","type":"ss","server":"coco3.farajet.net","port":3030,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]","type":"ss","server":"coco2.farajet.net","port":2020,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,12 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]'
-      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [48]'
-      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [49]'
+      - '🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38]'
       - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [50]'
-      - '🇮🇪 IE | 🔒 SS | @NamiraConfigs [53]'
+      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]'
 
   - name: 🌍 Global Media
     type: select
