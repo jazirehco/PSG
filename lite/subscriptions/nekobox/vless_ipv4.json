@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [57]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [54]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [57]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [54]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +186,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "66.81.247.91",
+            "server_port": 443,
+            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vangoghhh.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rdfgtws",
+                "headers": {
+                    "Host": "vangoghhh.info"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "104.21.15.212",
             "server_port": 8880,
@@ -200,7 +227,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [57]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "148.251.41.50",
             "server_port": 10000,
