@@ -92,9 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +196,43 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
+            "type": "vmess",
+            "server": "165.140.216.141",
+            "server_port": 443,
+            "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]",
             "type": "vmess",
             "server": "165.140.216.142",
             "server_port": 443,
@@ -212,20 +250,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43]",
             "type": "vmess",
             "server": "82.198.246.97",
             "server_port": 180,
             "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]",
-            "type": "vmess",
-            "server": "110.34.38.23",
-            "server_port": 521,
-            "uuid": "8d8458d9-7b00-49c4-90ad-4d98a92c8a4a",
             "security": "auto",
             "alter_id": 0
         }
