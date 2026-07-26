@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVk1FU1M=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 SS | @NamiraConfigs [50]",
-                "🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 SS | @NamiraConfigs [50]",
-                "🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,20 +192,40 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 SS | @NamiraConfigs [50]",
-            "type": "shadowsocks",
-            "server": "coco3.farajet.net",
-            "server_port": 3030,
-            "method": "chacha20-ietf-poly1305",
-            "password": "0u47xJvp2_pGbA5c13ASHK87DxDwk5zm"
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]",
-            "type": "shadowsocks",
-            "server": "coco2.farajet.net",
-            "server_port": 2020,
-            "method": "chacha20-ietf-poly1305",
-            "password": "0u47xJvp2_pGbA5c13ASHK87DxDwk5zm"
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "165.140.216.142",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

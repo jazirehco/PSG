@@ -9,14 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38] = vmess, 47.250.135.244, 10000, username = aedc66b8-99d7-4a21-8310-61870e7f870d, ws = false, tls = false
-🇮🇷 IR | 🔒 SS | @NamiraConfigs [50] = ss, coco3.farajet.net, 3030, encrypt-method = chacha20-ietf-poly1305, password = 0u47xJvp2_pGbA5c13ASHK87DxDwk5zm
-🇮🇷 IR | 🔒 SS | @NamiraConfigs [51] = ss, coco2.farajet.net, 2020, encrypt-method = chacha20-ietf-poly1305, password = 0u47xJvp2_pGbA5c13ASHK87DxDwk5zm
+🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [50] = vmess, 47.250.135.244, 10000, username = aedc66b8-99d7-4a21-8310-61870e7f870d, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38], 🇮🇷 IR | 🔒 SS | @NamiraConfigs [50], 🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]
-PSG-AUTO = url-test, 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38], 🇮🇷 IR | 🔒 SS | @NamiraConfigs [50], 🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]
-PSG-FALLBACK = fallback, 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [38], 🇮🇷 IR | 🔒 SS | @NamiraConfigs [50], 🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [50]
+PSG-AUTO = url-test, 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [50]
+PSG-FALLBACK = fallback, 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [50]
 
 [Rule]
 GEOIP,IR,DIRECT

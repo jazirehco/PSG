@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"ronaldo17.fordnsdirect.shop","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [50]","type":"ss","server":"coco3.farajet.net","port":3030,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]","type":"ss","server":"coco2.farajet.net","port":2020,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [55]","type":"vless","server":"104.16.174.159","port":2096,"uuid":"03360a7d-bdb1-42a5-aedf-d0f14249be48","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"slips.stepson.ir","grpc-opts":{"grpc-service-name":"slips.stepson.ir"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇹 IT | 🔓 VLESS | @NamiraConfigs [49]'
-      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [50]'
-      - '🇮🇷 IR | 🔒 SS | @NamiraConfigs [51]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [55]'
 
   - name: 🌍 Global Media
     type: select
