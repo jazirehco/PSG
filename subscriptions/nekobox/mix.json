@@ -77,6 +77,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [37]",
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [38]",
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [39]",
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [40]",
@@ -89,8 +90,7 @@
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [47]",
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [48]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [50]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,6 +98,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [37]",
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [38]",
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [39]",
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [40]",
@@ -110,8 +111,7 @@
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [47]",
                 "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [48]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [50]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -125,6 +125,15 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [37]",
+            "type": "vless",
+            "server": "165.22.119.251",
+            "server_port": 59421,
+            "uuid": "aeaa2919-cec1-4d04-a752-594aa6b8b75f",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [38]",
@@ -251,31 +260,6 @@
             "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "66.81.247.91",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
         }
     ],
     "route": {
