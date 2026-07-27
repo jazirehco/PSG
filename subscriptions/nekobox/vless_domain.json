@@ -80,11 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [40]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [44]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [47]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -95,11 +94,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [40]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [44]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [47]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +188,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [40]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]",
+            "type": "vless",
+            "server": "dalton.makanyab.app",
+            "server_port": 443,
+            "uuid": "a4cb769e-78ee-483f-8a9f-42e768ea1f1d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dalton.makanyab.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [47]",
             "type": "vless",
             "server": "uspanel.unixzone.us",
             "server_port": 30016,
@@ -206,7 +222,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
             "type": "vless",
             "server": "ezaccess1-x4g-ezaccess1-f1bf.up.railway.app",
             "server_port": 443,
@@ -231,7 +247,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
             "type": "vless",
             "server": "ipv4-address.iranvatanam.com",
             "server_port": 8443,
@@ -254,40 +270,6 @@
                     "Host": "email-page6.iranvatanam.com"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [44]",
-            "type": "vless",
-            "server": "nl2.levikogjgfdd.ir",
-            "server_port": 2087,
-            "uuid": "38a43f18-b4d9-443f-9ff1-4cf9de3d666e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "valid22.validbv9501.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiS0ZJaGhSaG14Z0NMeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTE0LjEzNCJdfQ==",
-                "headers": {
-                    "Host": "valid22.validbv9501.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "YaMaL.Sav-savteAm.iR",
-            "server_port": 6985,
-            "uuid": "672e23dd-be41-44fc-b606-e6891fee5e6f",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

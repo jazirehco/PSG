@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [52]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [52]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,31 +194,63 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [50]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [48]",
             "type": "vless",
-            "server": "68.183.41.179",
-            "server_port": 41089,
-            "uuid": "3b522f6b-1b18-470f-99ee-6e99dcf73525",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "165.232.100.206",
+            "server": "167.99.203.130",
             "server_port": 41941,
             "uuid": "81f9b6e0-638a-4e94-9119-f93909b6bebd",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [52]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "165.22.119.251",
-            "server_port": 59421,
-            "uuid": "aeaa2919-cec1-4d04-a752-594aa6b8b75f",
+            "server": "ezaccess1-x4g-ezaccess1-f1bf.up.railway.app",
+            "server_port": 443,
+            "uuid": "e78a5cfe-42c3-fbf5-6dbf-e4602250e39b",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ezaccess1-x4g-ezaccess1-f1bf.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/e78a5cfe-42c3-fbf5-6dbf-e4602250e39b",
+                "headers": {
+                    "Host": "ezaccess1-x4g-ezaccess1-f1bf.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "ipv4-address.iranvatanam.com",
+            "server_port": 8443,
+            "uuid": "35abc17e-82b8-4bb1-baa0-299dc2f8ea12",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "email-page6.iranvatanam.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed",
+                "headers": {
+                    "Host": "email-page6.iranvatanam.com"
+                }
+            }
         }
     ],
     "route": {

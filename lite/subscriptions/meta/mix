@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [50]","type":"vless","server":"68.183.41.179","port":41089,"uuid":"3b522f6b-1b18-470f-99ee-6e99dcf73525","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]","type":"vless","server":"165.232.100.206","port":41941,"uuid":"81f9b6e0-638a-4e94-9119-f93909b6bebd","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [52]","type":"vless","server":"165.22.119.251","port":59421,"uuid":"aeaa2919-cec1-4d04-a752-594aa6b8b75f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [48]","type":"vless","server":"167.99.203.130","port":41941,"uuid":"81f9b6e0-638a-4e94-9119-f93909b6bebd","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"ipv4-address.iranvatanam.com","port":8443,"uuid":"35abc17e-82b8-4bb1-baa0-299dc2f8ea12","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"email-page6.iranvatanam.com","ws-opts":{"path":"/?ed","headers":{"Host":"ipv4-address.iranvatanam.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [50]'
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [51]'
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [52]'
+      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [48]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select
