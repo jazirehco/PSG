@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔓 VLESS | @NamiraConfigs [40]","type":"vless","server":"182.16.61.2","port":45647,"uuid":"caec0d8d-ab2f-4247-b97d-7fb1a34ab195","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [41]","type":"vless","server":"134.209.180.189","port":41941,"uuid":"81f9b6e0-638a-4e94-9119-f93909b6bebd","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [42]","type":"vless","server":"159.65.27.185","port":36096,"uuid":"b97695e2-4295-45fb-8238-78a8bc9f82e0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"104.18.41.190","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]","type":"vmess","server":"74.211.102.179","port":20001,"cipher":"auto","uuid":"7f5f0705-3dfb-4f56-9657-c95cade2ba83","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]","type":"vless","server":"dalton.makanyab.app","port":443,"uuid":"a4cb769e-78ee-483f-8a9f-42e768ea1f1d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔓 VLESS | @NamiraConfigs [40]'
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [41]'
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [42]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [40]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [42]'
 
   - name: 🌍 Global Media
     type: select
