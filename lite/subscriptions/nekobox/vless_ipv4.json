@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [42]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [41]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [42]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [41]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,18 +184,52 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [42]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [40]",
             "type": "vless",
-            "server": "www.iplocation.net",
-            "server_port": 8880,
-            "uuid": "05e7abc2-46e1-4a23-9cdc-173ce17eb0d4",
+            "server": "162.159.38.119",
+            "server_port": 443,
+            "uuid": "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "terazhediii.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+                "path": "/hdgrbws",
                 "headers": {
-                    "Host": "www.iplocation.net"
+                    "Host": "terazhediii.info"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [41]",
+            "type": "vless",
+            "server": "66.81.247.91",
+            "server_port": 443,
+            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vangoghhh.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rdfgtws",
+                "headers": {
+                    "Host": "vangoghhh.info"
                 }
             }
         }

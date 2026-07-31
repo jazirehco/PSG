@@ -92,11 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [37]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [40]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [41]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [42]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [28]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [42]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,11 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [37]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [40]",
-                "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [41]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [42]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [28]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [42]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -198,7 +196,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [34]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [28]",
+            "type": "vless",
+            "server": "music1000.melobitmusic1.ir",
+            "server_port": 2053,
+            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "music1000.melobitmusic1.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "music1000.melobitmusic1.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
             "type": "vless",
             "server": "ordakbot.ir",
             "server_port": 80,
@@ -214,7 +237,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [37]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
             "type": "vless",
             "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
             "server_port": 443,
@@ -239,7 +262,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [40]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [42]",
             "type": "vless",
             "server": "www.iplocation.net",
             "server_port": 8880,
@@ -253,24 +276,6 @@
                     "Host": "www.iplocation.net"
                 }
             }
-        },
-        {
-            "tag": "🇱🇻 LV | 🔓 VLESS | @NamiraConfigs [41]",
-            "type": "vless",
-            "server": "d.socialxxmedia.com",
-            "server_port": 200,
-            "uuid": "6bc19aa1-d94b-488c-9b25-47214d371851",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [42]",
-            "type": "vless",
-            "server": "utera.temas-fars.ir",
-            "server_port": 60231,
-            "uuid": "3557dcfe-4b3c-46e9-b98f-810d959a188f",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
