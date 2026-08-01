@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,61 +194,40 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [58]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [58]",
             "type": "vless",
-            "server": "p01.parsi.sbs",
-            "server_port": 2086,
-            "uuid": "1ee1f28d-4975-4d7c-95c7-76172c20eed5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "p01.parsi.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "104.16.72.41",
-            "server_port": 80,
-            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/http",
-                "headers": {
-                    "Host": "104.16.72.41"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "185.195.69.119",
-            "server_port": 2053,
-            "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
+            "server": "8.6.112.7",
+            "server_port": 8443,
+            "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "forfreeuse.sub-flow.online",
+                "server_name": "ger3.kickfarsi.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "forfreeuse.sub-flow.online"
-                }
             }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
+            "type": "vless",
+            "server": "15.224.27.66",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
+            "type": "vless",
+            "server": "178.104.53.175",
+            "server_port": 3031,
+            "uuid": "1b73f053-2709-4698-bbec-cb20e8a5f288",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
