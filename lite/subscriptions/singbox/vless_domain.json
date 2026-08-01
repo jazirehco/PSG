@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVk1FU1M=
+//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +190,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [54]",
-            "type": "vmess",
-            "server": "tun1.wizardx1.com",
-            "server_port": 2078,
-            "uuid": "8c207682-e007-4a0d-88a3-68b8638b3d10",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "uspanel.unixzone.us",
+            "server_port": 30016,
+            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/usserver",
+                "headers": {
+                    "Host": "uspanel.unixzone.us"
+                }
+            }
         }
     ],
     "route": {

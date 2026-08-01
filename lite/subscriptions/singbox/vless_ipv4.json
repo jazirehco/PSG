@@ -92,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,29 +192,33 @@
             }
         },
         {
-            "tag": "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [59]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "45.138.100.226",
+            "server_port": 2083,
+            "uuid": "0c6b632a-cd96-4b74-9b51-151e3b5697db",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "using.neobo-tooth.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
+        },
+        {
+            "tag": "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [58]",
             "type": "vless",
             "server": "157.137.228.255",
             "server_port": 62145,
             "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "167.233.47.127",
-            "server_port": 1234,
-            "uuid": "957797d5-1710-4e4a-bf41-9f5b641503e3",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "128.140.114.57",
-            "server_port": 1234,
-            "uuid": "957797d5-1710-4e4a-bf41-9f5b641503e3",
             "flow": "",
             "packet_encoding": "xudp"
         }

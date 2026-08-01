@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [59]","type":"vless","server":"157.137.228.255","port":62145,"uuid":"8fb65472-5957-4f64-ba2d-b5812b2f155a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]","type":"vless","server":"167.233.47.127","port":1234,"uuid":"957797d5-1710-4e4a-bf41-9f5b641503e3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]","type":"vless","server":"128.140.114.57","port":1234,"uuid":"957797d5-1710-4e4a-bf41-9f5b641503e3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"45.138.100.226","port":2083,"uuid":"0c6b632a-cd96-4b74-9b51-151e3b5697db","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"using.neobo-tooth.ru","grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [58]","type":"vless","server":"157.137.228.255","port":62145,"uuid":"8fb65472-5957-4f64-ba2d-b5812b2f155a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔓 VLESS | @NamiraConfigs [57]","type":"vless","server":"uspanel.unixzone.us","port":30016,"uuid":"03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/usserver","headers":{"Host":"uspanel.unixzone.us"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [59]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [61]'
+      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]'
+      - '🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [58]'
+      - '🇺🇸 US | 🔓 VLESS | @NamiraConfigs [57]'
 
   - name: 🌍 Global Media
     type: select
