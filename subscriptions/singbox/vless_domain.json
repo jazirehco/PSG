@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [59]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [59]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,34 +190,27 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
             "type": "vless",
-            "server": "dl.nl.cdn.doctor-alan.ir",
-            "server_port": 8080,
-            "uuid": "312eed52-b74a-41d7-a399-62efdc8f0122",
+            "server": "one-for-all.levikogjgfdd.ir",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v-ws",
-                "headers": {
-                    "Host": "dl.nl.cdn.doctor-alan.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "p01.parsi.sbs",
-            "server_port": 2086,
-            "uuid": "1ee1f28d-4975-4d7c-95c7-76172c20eed5",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "p01.parsi.sbs"
+                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }
