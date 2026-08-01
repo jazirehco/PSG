@@ -92,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [57]"
+                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [57]"
+                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,16 +192,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "45.138.100.226",
-            "server_port": 2083,
-            "uuid": "0c6b632a-cd96-4b74-9b51-151e3b5697db",
+            "server": "185.195.69.119",
+            "server_port": 2053,
+            "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "using.neobo-tooth.ru",
+                "server_name": "forfreeuse.sub-flow.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -211,32 +209,28 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "forfreeuse.sub-flow.online"
+                }
             }
         },
         {
-            "tag": "🇨🇴 CO | 🔓 VLESS | @NamiraConfigs [58]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "157.137.228.255",
-            "server_port": 62145,
-            "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [57]",
-            "type": "vless",
-            "server": "uspanel.unixzone.us",
-            "server_port": 30016,
-            "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+            "server": "ddc-chr.astralweb.tech",
+            "server_port": 443,
+            "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/usserver",
-                "headers": {
-                    "Host": "uspanel.unixzone.us"
+            "tls": {
+                "enabled": true,
+                "server_name": "ddc-chr.astralweb.tech",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
