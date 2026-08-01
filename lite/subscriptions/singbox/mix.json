@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [55]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [58]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
+                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [55]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [56]"
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [58]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
+                "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,39 @@
             "type": "direct"
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "p01.parsi.sbs",
+            "server_port": 2086,
+            "uuid": "1ee1f28d-4975-4d7c-95c7-76172c20eed5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "p01.parsi.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
+            "type": "vless",
+            "server": "104.16.72.41",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/http",
+                "headers": {
+                    "Host": "104.16.72.41"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "185.195.69.119",
             "server_port": 2053,
@@ -134,33 +166,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "forfreeuse.sub-flow.online"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [55]",
-            "type": "vmess",
-            "server": "tun1.wizardx1.com",
-            "server_port": 2078,
-            "uuid": "8c207682-e007-4a0d-88a3-68b8638b3d10",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "ddc-chr.astralweb.tech",
-            "server_port": 443,
-            "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ddc-chr.astralweb.tech",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }

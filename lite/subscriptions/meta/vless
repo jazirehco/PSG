@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [54]","type":"vless","server":"185.195.69.119","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"forfreeuse.sub-flow.online","ws-opts":{"path":"/","headers":{"Host":"forfreeuse.sub-flow.online"}}}
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"ddc-chr.astralweb.tech","port":443,"uuid":"3ad1d277-5715-4ca1-84db-5baea72f822d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ddc-chr.astralweb.tech"}
+  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [58]","type":"vless","server":"p01.parsi.sbs","port":2086,"uuid":"1ee1f28d-4975-4d7c-95c7-76172c20eed5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"parsi.parsi.sbs"}}}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [59]","type":"vless","server":"104.16.72.41","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
+  - {"name":"🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [60]","type":"vless","server":"185.195.69.119","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"forfreeuse.sub-flow.online","ws-opts":{"path":"/","headers":{"Host":"forfreeuse.sub-flow.online"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [54]'
-      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [56]'
+      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [58]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [59]'
+      - '🇨🇭 CH | 🔒 VLESS | @NamiraConfigs [60]'
 
   - name: 🌍 Global Media
     type: select
