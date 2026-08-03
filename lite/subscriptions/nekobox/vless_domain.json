@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [67]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [67]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +182,29 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [67]",
-            "type": "vmess",
-            "server": "tun1.wizardx1.com",
-            "server_port": 2078,
-            "uuid": "8c207682-e007-4a0d-88a3-68b8638b3d10",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
+            "type": "vless",
+            "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
+            "server_port": 443,
+            "uuid": "4908acbe-485f-4e1c-bb11-5dd04b9f7e88",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "restless-base-fe24.alirezahabibi20009.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "headers": {
+                    "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
+                }
+            }
         }
     ],
     "route": {

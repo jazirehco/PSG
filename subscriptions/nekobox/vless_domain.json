@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
-                "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [64]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [63]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
-                "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [64]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [63]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,7 +186,32 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [63]",
             "type": "vless",
             "server": "tr2.soundfiy.ir",
             "server_port": 61169,
@@ -195,7 +220,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
             "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
             "server_port": 443,
@@ -218,15 +243,6 @@
                     "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
                 }
             }
-        },
-        {
-            "tag": "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "learngerman.torexa.ir",
-            "server_port": 2090,
-            "uuid": "0103cdc9-3927-44f0-88aa-e1162b7fedaf",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

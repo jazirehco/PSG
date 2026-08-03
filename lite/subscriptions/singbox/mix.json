@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [66]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,29 +113,45 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "62.238.55.96",
-            "server_port": 1234,
-            "uuid": "8b0c48db-c228-47d9-b634-6ea6edf81e22",
+            "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
+            "server_port": 443,
+            "uuid": "4908acbe-485f-4e1c-bb11-5dd04b9f7e88",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "restless-base-fe24.alirezahabibi20009.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "headers": {
+                    "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
+            "type": "vless",
+            "server": "182.16.61.3",
+            "server_port": 45647,
+            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [67]",
-            "type": "vmess",
-            "server": "tun1.wizardx1.com",
-            "server_port": 2078,
-            "uuid": "8c207682-e007-4a0d-88a3-68b8638b3d10",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
             "type": "vless",
-            "server": "168.119.156.100",
+            "server": "104.167.199.76",
             "server_port": 1234,
-            "uuid": "8b0c48db-c228-47d9-b634-6ea6edf81e22",
+            "uuid": "5de3f60c-7cc2-4f66-9177-706a2693dc19",
             "flow": "",
             "packet_encoding": "xudp"
         }
