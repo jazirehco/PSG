@@ -80,7 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]"
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [49]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +94,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]"
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [49]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,16 +188,25 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "mahdipok.paydar.site",
+            "server_port": 80,
+            "uuid": "116f860d-c67a-4443-b478-18e11d193592",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+            "server_port": 443,
+            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
+                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -200,11 +215,29 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/sync",
                 "headers": {
-                    "Host": "po.fastbrokencompony.com"
+                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "myip.montago-shop.ir",
+            "server_port": 42542,
+            "uuid": "dc780e62-11b3-4360-9401-56d3326acc2f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "deplay.montago-shop.ir",
+            "server_port": 42542,
+            "uuid": "dc780e62-11b3-4360-9401-56d3326acc2f",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [62]","type":"vless","server":"po.fastbrokencompony.com","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
+  - {"name":"🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"mahdipok.paydar.site","port":80,"uuid":"116f860d-c67a-4443-b478-18e11d193592","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]","type":"vless","server":"myip.montago-shop.ir","port":42542,"uuid":"dc780e62-11b3-4360-9401-56d3326acc2f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]","type":"vless","server":"deplay.montago-shop.ir","port":42542,"uuid":"dc780e62-11b3-4360-9401-56d3326acc2f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [62]'
+      - '🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [49]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]'
 
   - name: 🌍 Global Media
     type: select
