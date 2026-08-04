@@ -77,9 +77,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +86,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,16 +103,32 @@
             "type": "direct"
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+            "type": "vless",
+            "server": "172.67.148.26",
+            "server_port": 80,
+            "uuid": "95de071f-747c-dc07-36ac-5c0854a9e50e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "172.67.148.26"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "restless-base-fe24.alirezahabibi20009.workers.dev",
-            "server_port": 443,
-            "uuid": "4908acbe-485f-4e1c-bb11-5dd04b9f7e88",
+            "server": "104.18.1.1",
+            "server_port": 8443,
+            "uuid": "a039c938-0792-424a-8a8a-d0508c7fcab1",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "restless-base-fe24.alirezahabibi20009.workers.dev",
+                "server_name": "sweet-art-a13d.5ejrdnfcv.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -123,29 +137,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+                "path": "/",
                 "headers": {
-                    "Host": "restless-base-fe24.alirezahabibi20009.workers.dev"
+                    "Host": "sweet-art-a13d.5ejrdnfcv.workers.dev"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "182.16.61.3",
-            "server_port": 45647,
-            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "104.167.199.76",
-            "server_port": 1234,
-            "uuid": "5de3f60c-7cc2-4f66-9177-706a2693dc19",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

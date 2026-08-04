@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,22 +192,45 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [67]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
             "type": "vless",
-            "server": "182.16.61.3",
-            "server_port": 45647,
-            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
+            "server": "172.67.148.26",
+            "server_port": 80,
+            "uuid": "95de071f-747c-dc07-36ac-5c0854a9e50e",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "172.67.148.26"
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [68]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "104.167.199.76",
-            "server_port": 1234,
-            "uuid": "5de3f60c-7cc2-4f66-9177-706a2693dc19",
+            "server": "104.18.1.1",
+            "server_port": 8443,
+            "uuid": "a039c938-0792-424a-8a8a-d0508c7fcab1",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sweet-art-a13d.5ejrdnfcv.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "sweet-art-a13d.5ejrdnfcv.workers.dev"
+                }
+            }
         }
     ],
     "route": {
