@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,45 +186,47 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+            "server_port": 443,
+            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
             "type": "vless",
-            "server": "deplay.montago-shop.ir",
+            "server": "myip.montago-shop.ir",
             "server_port": 42542,
             "uuid": "dc780e62-11b3-4360-9401-56d3326acc2f",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]",
             "type": "vless",
-            "server": "173.245.59.84",
-            "server_port": 80,
-            "uuid": "dd53235d-06c2-4120-9278-b93ddc969d0d",
+            "server": "deplay.montago-shop.ir",
+            "server_port": 42542,
+            "uuid": "dc780e62-11b3-4360-9401-56d3326acc2f",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/secure-vpn/",
-                "headers": {
-                    "Host": "173.245.59.84"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "162.159.147.159",
-            "server_port": 80,
-            "uuid": "dd53235d-06c2-4120-9278-b93ddc969d0d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/secure-vpn/",
-                "headers": {
-                    "Host": "162.159.147.159"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

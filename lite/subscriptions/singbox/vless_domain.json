@@ -92,7 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +194,41 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+            "server_port": 443,
+            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "myip.montago-shop.ir",
+            "server_port": 42542,
+            "uuid": "dc780e62-11b3-4360-9401-56d3326acc2f",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [58]",
             "type": "vless",
             "server": "deplay.montago-shop.ir",
             "server_port": 42542,
