@@ -77,8 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -86,8 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,32 +105,34 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [65]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
             "type": "vless",
-            "server": "172.67.148.26",
-            "server_port": 80,
-            "uuid": "95de071f-747c-dc07-36ac-5c0854a9e50e",
+            "server": "159.69.193.221",
+            "server_port": 1234,
+            "uuid": "a481265c-a4d8-4d1a-9ae1-48eb3f7fccb4",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "172.67.148.26"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [66]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
             "type": "vless",
-            "server": "104.18.1.1",
-            "server_port": 8443,
-            "uuid": "a039c938-0792-424a-8a8a-d0508c7fcab1",
+            "server": "15.188.16.112",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
+            "type": "vless",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "sweet-art-a13d.5ejrdnfcv.workers.dev",
+                "server_name": "po.fastbrokencompony.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -139,7 +143,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "sweet-art-a13d.5ejrdnfcv.workers.dev"
+                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }
