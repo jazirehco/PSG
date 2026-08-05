@@ -80,11 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [36]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [43]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [38]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -95,11 +95,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [36]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [43]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [38]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +190,25 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [36]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [38]",
             "type": "vless",
             "server": "iran-tehran.co.uk",
             "server_port": 443,
@@ -208,7 +226,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [43]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [45]",
             "type": "vless",
             "server": "farhang.athforce.ir",
             "server_port": 38778,
@@ -217,7 +235,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
             "type": "vless",
             "server": "iran-tehran.co.uk",
             "server_port": 443,
@@ -235,7 +253,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
             "type": "vless",
             "server": "nl-bl-nl.karmatel.ir",
             "server_port": 20828,
@@ -247,22 +265,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "nl-bl-nl.karmatel.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "nobitex.ir",
-            "server_port": 2086,
-            "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "nobitex.ir"
                 }
             }
         }

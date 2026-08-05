@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇹🇷 TR | 🔒 VMESS | @NamiraConfigs [47]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]"
+                "🇹🇷 TR | 🔒 VMESS | @NamiraConfigs [47]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,34 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🇹🇷 TR | 🔒 VMESS | @NamiraConfigs [47]",
+            "type": "vmess",
+            "server": "5.188.190.252",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "iran-tehran.co.uk",
+            "server_port": 443,
+            "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iran-tehran.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
             "type": "vless",
             "server": "nl-bl-nl.karmatel.ir",
             "server_port": 20828,
@@ -125,31 +152,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "nl-bl-nl.karmatel.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "116.202.13.37",
-            "server_port": 50399,
-            "uuid": "bede50f5-3674-426a-9088-cffd1fd1f2b9",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "nobitex.ir",
-            "server_port": 2086,
-            "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "nobitex.ir"
                 }
             }
         }

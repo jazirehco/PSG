@@ -23,11 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [36]","type":"vless","server":"iran-tehran.co.uk","port":443,"uuid":"509c0aa6-f98b-4f57-b73c-c707129f556e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"iran-tehran.co.uk"}
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [43]","type":"vless","server":"farhang.athforce.ir","port":38778,"uuid":"7a74bb65-e652-4c0e-a1a7-d0bc0d963352","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]","type":"vless","server":"iran-tehran.co.uk","port":443,"uuid":"509c0aa6-f98b-4f57-b73c-c707129f556e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"iran-tehran.co.uk"}
-  - {"name":"🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]","type":"vless","server":"nl-bl-nl.karmatel.ir","port":20828,"uuid":"35a6946a-2003-448f-9c1b-911efaa8c9a7","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"nl-bl-nl.karmatel.ir"}}}
-  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"nobitex.ir","port":2086,"uuid":"9ec0f053-4dd2-4511-b5f8-00257ead90d4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"iranpars.yeksancloud.ir"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [36]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [38]","type":"vless","server":"iran-tehran.co.uk","port":443,"uuid":"509c0aa6-f98b-4f57-b73c-c707129f556e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"iran-tehran.co.uk"}
+  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [45]","type":"vless","server":"farhang.athforce.ir","port":38778,"uuid":"7a74bb65-e652-4c0e-a1a7-d0bc0d963352","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"iran-tehran.co.uk","port":443,"uuid":"509c0aa6-f98b-4f57-b73c-c707129f556e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"iran-tehran.co.uk"}
+  - {"name":"🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"nl-bl-nl.karmatel.ir","port":20828,"uuid":"35a6946a-2003-448f-9c1b-911efaa8c9a7","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"nl-bl-nl.karmatel.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [36]'
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [43]'
-      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [46]'
-      - '🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]'
-      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [36]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [38]'
+      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [45]'
+      - '🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [48]'
+      - '🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]'
 
   - name: 🌍 Global Media
     type: select
