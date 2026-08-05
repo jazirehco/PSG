@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +192,36 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]",
             "type": "vless",
-            "server": "116.202.13.37",
-            "server_port": 50399,
-            "uuid": "bede50f5-3674-426a-9088-cffd1fd1f2b9",
+            "server": "nl-bl-nl.karmatel.ir",
+            "server_port": 20828,
+            "uuid": "35a6946a-2003-448f-9c1b-911efaa8c9a7",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "nl-bl-nl.karmatel.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "nobitex.ir",
+            "server_port": 2086,
+            "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "nobitex.ir"
+                }
+            }
         }
     ],
     "route": {

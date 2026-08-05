@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]","type":"vless","server":"164.92.206.40","port":25619,"uuid":"9432b345-529f-4236-b0b8-4b57aece9a82","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [47]","type":"vless","server":"165.232.111.141","port":42593,"uuid":"79b80d30-6837-48cf-8259-f284f9ec306b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]","type":"vless","server":"157.230.109.99","port":18319,"uuid":"6d238427-e07d-4820-9782-bfe47ecf05c9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]","type":"vless","server":"nl-bl-nl.karmatel.ir","port":20828,"uuid":"35a6946a-2003-448f-9c1b-911efaa8c9a7","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"nl-bl-nl.karmatel.ir"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]","type":"vless","server":"116.202.13.37","port":50399,"uuid":"bede50f5-3674-426a-9088-cffd1fd1f2b9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"nobitex.ir","port":2086,"uuid":"9ec0f053-4dd2-4511-b5f8-00257ead90d4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"iranpars.yeksancloud.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]'
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [47]'
+      - '🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [47]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]'
+      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]'
 
   - name: 🌍 Global Media
     type: select
