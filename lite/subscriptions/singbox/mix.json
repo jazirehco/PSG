@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇷 TR | 🔒 VMESS | @NamiraConfigs [51]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [53]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇯🇵 JP | 🔓 VMESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇷 TR | 🔒 VMESS | @NamiraConfigs [51]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [53]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇯🇵 JP | 🔓 VMESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,47 +113,38 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VMESS | @NamiraConfigs [51]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [56]",
             "type": "vmess",
-            "server": "5.188.190.252",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "82.198.246.37",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [57]",
             "type": "vless",
-            "server": "iran-tehran.co.uk",
-            "server_port": 443,
-            "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iran-tehran.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "nl-bl-nl.karmatel.ir",
-            "server_port": 20828,
-            "uuid": "35a6946a-2003-448f-9c1b-911efaa8c9a7",
+            "server": "104.26.3.125",
+            "server_port": 2052,
+            "uuid": "e8d06b09-acd9-448c-9874-3c36151d36ee",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "nl-bl-nl.karmatel.ir"
+                    "Host": "104.26.3.125"
                 }
             }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔓 VMESS | @NamiraConfigs [58]",
+            "type": "vmess",
+            "server": "140.235.37.128",
+            "server_port": 32203,
+            "uuid": "0e288730-2200-4578-8e70-bc2b562bef7f",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {
