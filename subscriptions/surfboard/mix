@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-
+🇳🇱 NL | 🔒 SS | @NamiraConfigs [40] = ss, 92.112.126.90, 443, encrypt-method = chacha20-ietf-poly1305, password = RFK38Cg7APneSB5cWDcpbm
+🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41] = vmess, fj260403.freechatup.com, 27726, username = 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
-PSG-AUTO = url-test, 
-PSG-FALLBACK = fallback, 
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔒 SS | @NamiraConfigs [40], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]
+PSG-AUTO = url-test, 🇳🇱 NL | 🔒 SS | @NamiraConfigs [40], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🔒 SS | @NamiraConfigs [40], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]
 
 [Rule]
 GEOIP,IR,DIRECT
