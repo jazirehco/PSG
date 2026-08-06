@@ -89,6 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [39]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [40]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [44]",
@@ -100,10 +102,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [50]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [51]",
                 "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [52]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,6 +110,8 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [39]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [40]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [44]",
@@ -122,10 +123,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [50]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [51]",
                 "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [52]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -135,6 +133,33 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [39]",
+            "type": "vless",
+            "server": "178.236.255.234",
+            "server_port": 654,
+            "uuid": "6d3f20bc-0993-422e-b0cd-be6bcfc645be",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [40]",
+            "type": "vless",
+            "server": "89.208.113.16",
+            "server_port": 443,
+            "uuid": "adce7c2a-3191-49ae-b61c-9b8258ea1b0e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "89.208.113.16",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
@@ -348,58 +373,6 @@
                     "Host": "po.fastbrokencompony.com"
                 }
             }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "iran-tehran.co.uk",
-            "server_port": 443,
-            "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iran-tehran.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "104.16.239.120",
-            "server_port": 443,
-            "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "support.zoom.us.yxls.eu.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sg-melbi",
-                "headers": {
-                    "Host": "support.zoom.us.yxls.eu.cc"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "18.194.146.225",
-            "server_port": 22224,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
