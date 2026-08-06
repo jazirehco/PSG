@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [57]","type":"vless","server":"104.26.3.125","port":2052,"uuid":"e8d06b09-acd9-448c-9874-3c36151d36ee","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"icy-wildflower-2590.lihuifeng595.workers.dev"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]","type":"vless","server":"18.194.146.225","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [58]","type":"vless","server":"104.26.3.125","port":2052,"uuid":"e8d06b09-acd9-448c-9874-3c36151d36ee","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"icy-wildflower-2590.lihuifeng595.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [57]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [58]'
 
   - name: 🌍 Global Media
     type: select
