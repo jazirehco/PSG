@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [53]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [51]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]"
+                "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [53]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,7 +105,50 @@
             "type": "direct"
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [51]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "78.159.245.32",
+            "server_port": 28474,
+            "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "secure.furrycdn.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "104.16.75.99",
+            "server_port": 443,
+            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "germany-2.ariyuz.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "germany-2.ariyuz.org"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "87.228.122.108",
             "server_port": 4100,
@@ -117,40 +160,6 @@
                 "path": "/v1",
                 "headers": {
                     "Host": "87.228.122.108"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]",
-            "type": "vless",
-            "server": "de.vpnbase.net",
-            "server_port": 80,
-            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/http",
-                "headers": {
-                    "Host": "de.vpnbase.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "react.dev",
-            "server_port": 443,
-            "uuid": "c0899a53-cc3b-4066-a3b4-d6d07b4853ee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "react.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }

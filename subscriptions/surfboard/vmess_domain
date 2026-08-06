@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40] = vmess, fj260403.freechatup.com, 27726, username = 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, ws = false, tls = false
+🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [42] = vmess, 91.107.157.137, 18003, username = e41f1455-24f5-4d28-9588-a2cba790171c, ws = false, tls = false
+🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [44] = vmess, fj260403.freechatup.com, 27726, username = 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [42], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [44]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [42], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [44]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [42], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [44]
 
 [Rule]
 GEOIP,IR,DIRECT
