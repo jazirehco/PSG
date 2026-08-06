@@ -80,10 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,10 +95,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [52]",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -188,7 +190,32 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
+            "type": "vless",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
             "server": "de.vpnbase.net",
             "server_port": 80,
@@ -204,7 +231,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [48]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "react.dev",
             "server_port": 443,
@@ -222,7 +249,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "a.samrayan.ir",
             "server_port": 443,
@@ -240,7 +267,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [57]",
             "type": "vless",
             "server": "iran-tehran.co.uk",
             "server_port": 443,
