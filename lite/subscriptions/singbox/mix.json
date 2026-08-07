@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇪 IE | 🔒 SS | @NamiraConfigs [51]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52]",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇮🇪 IE | 🔒 SS | @NamiraConfigs [50]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇪 IE | 🔒 SS | @NamiraConfigs [51]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52]",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇮🇪 IE | 🔒 SS | @NamiraConfigs [50]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇪 IE | 🔒 SS | @NamiraConfigs [51]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "91.107.157.137",
+            "server_port": 40124,
+            "uuid": "e41f1455-24f5-4d28-9588-a2cba790171c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇪 IE | 🔒 SS | @NamiraConfigs [50]",
             "type": "shadowsocks",
             "server": "20.123.9.48",
             "server_port": 443,
@@ -121,21 +130,13 @@
             "password": "o917uvp3jWIMky5u"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [51]",
             "type": "vmess",
             "server": "91.107.157.137",
             "server_port": 18003,
             "uuid": "e41f1455-24f5-4d28-9588-a2cba790171c",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]",
-            "type": "shadowsocks",
-            "server": "92.112.126.90",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "RFK38Cg7APneSB5cWDcpbm"
         }
     ],
     "route": {
