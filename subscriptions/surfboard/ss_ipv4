@@ -9,18 +9,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇷🇺 RU | 🔒 SS | @NamiraConfigs [40] = ss, 193.233.216.247, 1080, encrypt-method = chacha20-ietf-poly1305, password = eAfQb4p8exIxYlbiO04QPQ
-🇮🇪 IE | 🔒 SS | @NamiraConfigs [43] = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = Gml2e6zluIa8WSpN
-🇮🇪 IE | 🔒 SS | @NamiraConfigs [44] = ss, 20.123.9.48, 443, encrypt-method = chacha20-ietf-poly1305, password = bX297As31bQMRsLP
-🇮🇪 IE | 🔒 SS | @NamiraConfigs [45] = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = BLenXy8jlIgSbafc
-🇮🇪 IE | 🔒 SS | @NamiraConfigs [46] = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = mffAKRtk8wJi8fFu
-🇮🇪 IE | 🔒 SS | @NamiraConfigs [48] = ss, 20.123.9.48, 443, encrypt-method = chacha20-ietf-poly1305, password = o917uvp3jWIMky5u
-🇳🇱 NL | 🔒 SS | @NamiraConfigs [50] = ss, 92.112.126.90, 443, encrypt-method = chacha20-ietf-poly1305, password = RFK38Cg7APneSB5cWDcpbm
+🇺🇸 US | 🔒 SS | @NamiraConfigs [38] = ss, 193.42.38.209, 1080, encrypt-method = chacha20-ietf-poly1305, password = XF0klw7870vXn3uQIxe19Q
+🇷🇺 RU | 🔒 SS | @NamiraConfigs [43] = ss, 193.233.216.247, 1080, encrypt-method = chacha20-ietf-poly1305, password = eAfQb4p8exIxYlbiO04QPQ
+🇮🇪 IE | 🔒 SS | @NamiraConfigs [46] = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = Gml2e6zluIa8WSpN
+🇮🇪 IE | 🔒 SS | @NamiraConfigs [47] = ss, 20.123.9.48, 443, encrypt-method = chacha20-ietf-poly1305, password = bX297As31bQMRsLP
+🇮🇪 IE | 🔒 SS | @NamiraConfigs [48] = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = BLenXy8jlIgSbafc
+🇮🇪 IE | 🔒 SS | @NamiraConfigs [49] = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = mffAKRtk8wJi8fFu
+🇮🇪 IE | 🔒 SS | @NamiraConfigs [51] = ss, 20.123.9.48, 443, encrypt-method = chacha20-ietf-poly1305, password = o917uvp3jWIMky5u
+🇳🇱 NL | 🔒 SS | @NamiraConfigs [53] = ss, 92.112.126.90, 443, encrypt-method = chacha20-ietf-poly1305, password = RFK38Cg7APneSB5cWDcpbm
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | 🔒 SS | @NamiraConfigs [40], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [43], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [44], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [45], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [46], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [48], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [50]
-PSG-AUTO = url-test, 🇷🇺 RU | 🔒 SS | @NamiraConfigs [40], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [43], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [44], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [45], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [46], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [48], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [50]
-PSG-FALLBACK = fallback, 🇷🇺 RU | 🔒 SS | @NamiraConfigs [40], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [43], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [44], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [45], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [46], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [48], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [50]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔒 SS | @NamiraConfigs [38], 🇷🇺 RU | 🔒 SS | @NamiraConfigs [43], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [46], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [47], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [48], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [49], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [51], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]
+PSG-AUTO = url-test, 🇺🇸 US | 🔒 SS | @NamiraConfigs [38], 🇷🇺 RU | 🔒 SS | @NamiraConfigs [43], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [46], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [47], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [48], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [49], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [51], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔒 SS | @NamiraConfigs [38], 🇷🇺 RU | 🔒 SS | @NamiraConfigs [43], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [46], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [47], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [48], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [49], 🇮🇪 IE | 🔒 SS | @NamiraConfigs [51], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]
 
 [Rule]
 GEOIP,IR,DIRECT
