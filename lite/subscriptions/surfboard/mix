@@ -9,14 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇮🇪 IE | 🔒 SS | @NamiraConfigs [51] = ss, 20.123.9.48, 443, encrypt-method = chacha20-ietf-poly1305, password = o917uvp3jWIMky5u
 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52] = vmess, 91.107.157.137, 18003, username = e41f1455-24f5-4d28-9588-a2cba790171c, ws = false, tls = false
 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53] = ss, 92.112.126.90, 443, encrypt-method = chacha20-ietf-poly1305, password = RFK38Cg7APneSB5cWDcpbm
-🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54] = vmess, fj260403.freechatup.com, 27726, username = 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [54]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇪 IE | 🔒 SS | @NamiraConfigs [51], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]
+PSG-AUTO = url-test, 🇮🇪 IE | 🔒 SS | @NamiraConfigs [51], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]
+PSG-FALLBACK = fallback, 🇮🇪 IE | 🔒 SS | @NamiraConfigs [51], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [52], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [53]
 
 [Rule]
 GEOIP,IR,DIRECT
