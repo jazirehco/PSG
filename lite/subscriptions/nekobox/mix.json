@@ -77,8 +77,8 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [52]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -86,8 +86,8 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [52]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,52 +103,29 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [52]",
             "type": "vless",
-            "server": "104.18.37.228",
-            "server_port": 443,
-            "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+            "server": "178.236.255.234",
+            "server_port": 654,
+            "uuid": "6d3f20bc-0993-422e-b0cd-be6bcfc645be",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hhlfy.twiladaphne.ndjp.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/fp",
-                "headers": {
-                    "Host": "hhlfy.twiladaphne.ndjp.net"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [53]",
             "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "89.208.113.16",
+            "server_port": 443,
+            "uuid": "adce7c2a-3191-49ae-b61c-9b8258ea1b0e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
+                "server_name": "89.208.113.16",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }
