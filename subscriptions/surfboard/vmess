@@ -9,15 +9,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [42] = vmess, 65.109.208.236, 46962, username = c896406b-ccc4-4c37-8b8c-15964f32a9a2, ws = false, tls = false
 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [43] = vmess, 195.133.193.18, 27726, username = 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, ws = false, tls = false
 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44] = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45] = vmess, 82.198.246.37, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [47] = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [47]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [47]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [47]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [42], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [47]
+PSG-AUTO = url-test, 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [42], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [47]
+PSG-FALLBACK = fallback, 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [42], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [47]
 
 [Rule]
 GEOIP,IR,DIRECT
