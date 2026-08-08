@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +192,32 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [51]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "ez-6174e8.nova-970a2c.workers.dev",
+            "server_port": 443,
+            "uuid": "a140f7c4-78aa-ba57-8d45-3f2d00000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ez-6174e8.nova-970a2c.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "ez-6174e8.nova-970a2c.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "nasnet-162191099-direct.mbghalibaf.com",
             "server_port": 443,
