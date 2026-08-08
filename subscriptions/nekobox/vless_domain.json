@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]"
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [37]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]"
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [37]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +184,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [36]",
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "ulk.lorqina.ir",
+            "server_port": 40813,
+            "uuid": "c47b7032-5184-4034-9a81-346c35c61fc5",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [37]",
             "type": "vless",
             "server": "ez-6174e8.nova-970a2c.workers.dev",
             "server_port": 443,
@@ -205,24 +214,6 @@
                 "path": "/sync",
                 "headers": {
                     "Host": "ez-6174e8.nova-970a2c.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "nasnet-162191099-direct.mbghalibaf.com",
-            "server_port": 443,
-            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nasnet-162191099-direct.mbghalibaf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
