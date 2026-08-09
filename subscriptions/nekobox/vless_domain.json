@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +186,23 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "mypanel.unixzone.us",
+            "server_port": 12068,
+            "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mypanel.unixzone.us"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "x4g-production-ff3b.up.railway.app",
             "server_port": 443,
@@ -209,7 +227,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
             "type": "vless",
             "server": "de.vpnbase.net",
             "server_port": 80,
