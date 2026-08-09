@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"mypanel.unixzone.us","port":12068,"uuid":"05caca6c-9e97-4c0f-8edf-7b88a6e572c5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"mypanel.unixzone.us"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"de.vpnbase.net","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]","type":"vless","server":"3.77.122.78","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [50]","type":"vless","server":"89.208.113.16","port":443,"uuid":"adce7c2a-3191-49ae-b61c-9b8258ea1b0e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇸🇬 SG | 🔓 VLESS | @NamiraConfigs [51]","type":"vless","server":"206.189.146.23","port":17658,"uuid":"7362c389-7f4b-4c41-9594-fdb847570243","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/Free By Tharuwa (0767597317)","headers":{"Host":"zoom.us"}}}
   - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [53]","type":"vless","server":"164.37.111.117","port":2020,"uuid":"0dbacd35-9159-4648-89ac-c38b741567a8","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -33,6 +32,8 @@ proxies:
   - {"name":"🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]","type":"vless","server":"138.68.53.88","port":443,"uuid":"413a66e9-b05b-4ae6-a9eb-6d28204a28f4","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [60]","type":"vless","server":"172.67.215.44","port":2052,"uuid":"86442a2b-417d-426d-9b42-955573b5c6e4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==","headers":{"Host":"ez-bfa272.ezaccess1d90628.workers.dev"}}}
   - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [61]","type":"vless","server":"194.26.229.218","port":2200,"uuid":"af325624-e28d-44fd-a8a7-058a439d128f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"194.26.229.218"}}}
+  - {"name":"🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"mypanel.unixzone.us","port":12068,"uuid":"05caca6c-9e97-4c0f-8edf-7b88a6e572c5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"mypanel.unixzone.us"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"de.vpnbase.net","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -46,8 +47,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]'
       - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [50]'
       - '🇸🇬 SG | 🔓 VLESS | @NamiraConfigs [51]'
       - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [53]'
@@ -56,6 +56,8 @@ proxy-groups:
       - '🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]'
       - '🚩 CF | 🔓 VLESS | @NamiraConfigs [60]'
       - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [61]'
+      - '🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [49]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
     type: select
