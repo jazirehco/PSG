@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [63]","type":"vless","server":"194.26.229.218","port":2200,"uuid":"af325624-e28d-44fd-a8a7-058a439d128f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"194.26.229.218"}}}
-  - {"name":"🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [64]","type":"vmess","server":"65.109.208.236","port":46962,"cipher":"auto","uuid":"c896406b-ccc4-4c37-8b8c-15964f32a9a2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [65]","type":"vmess","server":"195.133.193.18","port":27726,"cipher":"chacha20-poly1305","uuid":"98e2be3c-8f84-4b85-996b-b68dcc2fbcb6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [62]","type":"vless","server":"194.26.229.218","port":2200,"uuid":"af325624-e28d-44fd-a8a7-058a439d128f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"194.26.229.218"}}}
+  - {"name":"🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [63]","type":"vmess","server":"65.109.208.236","port":46962,"cipher":"auto","uuid":"c896406b-ccc4-4c37-8b8c-15964f32a9a2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [64]","type":"vmess","server":"195.133.193.18","port":27726,"cipher":"chacha20-poly1305","uuid":"98e2be3c-8f84-4b85-996b-b68dcc2fbcb6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [63]'
-      - '🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [64]'
-      - '🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [65]'
+      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [62]'
+      - '🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [63]'
+      - '🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [64]'
 
   - name: 🌍 Global Media
     type: select
