@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [60]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [60]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +192,45 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [60]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
             "type": "vless",
-            "server": "ulk.lorqina.ir",
-            "server_port": 40813,
-            "uuid": "c47b7032-5184-4034-9a81-346c35c61fc5",
+            "server": "x4g-production-ff3b.up.railway.app",
+            "server_port": 443,
+            "uuid": "d517ffb6-9d5c-278d-8df3-5398b941f578",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "x4g-production-ff3b.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/d517ffb6-9d5c-278d-8df3-5398b941f578",
+                "headers": {
+                    "Host": "x4g-production-ff3b.up.railway.app"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "de.vpnbase.net",
+            "server_port": 80,
+            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/http",
+                "headers": {
+                    "Host": "de.vpnbase.net"
+                }
+            }
         }
     ],
     "route": {
