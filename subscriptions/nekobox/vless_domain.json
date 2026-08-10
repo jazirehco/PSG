@@ -80,10 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]"
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,10 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]"
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -188,7 +186,23 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [46]",
+            "type": "vless",
+            "server": "95.lorqino.ir",
+            "server_port": 998,
+            "uuid": "928cfab8-097c-4f24-9bad-0d6e2abdfc66",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/mmd",
+                "headers": {
+                    "Host": "95.lorqino.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "nasnet-162191099-direct.mbghalibaf.com",
             "server_port": 443,
@@ -206,7 +220,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "mypanel.unixzone.us",
             "server_port": 12068,
@@ -218,47 +232,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "mypanel.unixzone.us"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "x4g-production-ff3b.up.railway.app",
-            "server_port": 443,
-            "uuid": "d517ffb6-9d5c-278d-8df3-5398b941f578",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-ff3b.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/d517ffb6-9d5c-278d-8df3-5398b941f578",
-                "headers": {
-                    "Host": "x4g-production-ff3b.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "de.vpnbase.net",
-            "server_port": 80,
-            "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/http",
-                "headers": {
-                    "Host": "de.vpnbase.net"
                 }
             }
         }

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTUlY
+//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -89,7 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
                 "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]"
             ],
@@ -99,7 +101,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
                 "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]"
             ],
@@ -113,13 +117,79 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "همکاری_ملی",
             "type": "vless",
-            "server": "3.77.122.78",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
