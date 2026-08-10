@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [41]","type":"vless","server":"3.64.99.156","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]","type":"vless","server":"3.77.122.78","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]","type":"vless","server":"3.64.99.156","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"104.21.35.235","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"music1000.melobitmusic1.ir"}}}
@@ -34,7 +35,6 @@ proxies:
   - {"name":"🇸🇬 SG | 🔓 VLESS | @NamiraConfigs [51]","type":"vless","server":"206.189.146.23","port":17658,"uuid":"7362c389-7f4b-4c41-9594-fdb847570243","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/Free By Tharuwa (0767597317)","headers":{"Host":"zoom.us"}}}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]","type":"vless","server":"135.125.184.182","port":50559,"uuid":"3fd3909b-238f-42c4-9170-38d10014b1d8","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"Play.googel.com"}}}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"3.77.122.78","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]","type":"vless","server":"mypanel.unixzone.us","port":12068,"uuid":"05caca6c-9e97-4c0f-8edf-7b88a6e572c5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"mypanel.unixzone.us"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -48,6 +48,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [41]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]'
       - '🚩 CF | 🔒 VLESS | @NamiraConfigs [44]'
@@ -59,7 +60,6 @@ proxy-groups:
       - '🇸🇬 SG | 🔓 VLESS | @NamiraConfigs [51]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [52]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]'
-      - '🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]'
 
   - name: 🌍 Global Media
     type: select

@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,6 +111,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "69.46.46.23",
+            "server_port": 443,
+            "uuid": "d5b47aca-7cb6-e80c-fca8-f4a6df54c8c5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rvg-production-4594.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/d5b47aca-7cb6-e80c-fca8-f4a6df54c8c5",
+                "headers": {
+                    "Host": "rvg-production-4594.up.railway.app"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
@@ -136,22 +161,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "mypanel.unixzone.us",
-            "server_port": 12068,
-            "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "mypanel.unixzone.us"
                 }
             }
         }

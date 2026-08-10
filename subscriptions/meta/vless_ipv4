@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [41]","type":"vless","server":"3.64.99.156","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]","type":"vless","server":"3.77.122.78","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]","type":"vless","server":"3.64.99.156","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [44]","type":"vless","server":"104.21.35.235","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"music1000.melobitmusic1.ir"}}}
@@ -46,6 +47,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [41]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [42]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]'
       - '🚩 CF | 🔒 VLESS | @NamiraConfigs [44]'
