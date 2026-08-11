@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [32]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [33]",
                 "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [34]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [35]",
@@ -102,8 +103,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]",
                 "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [44]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,6 +111,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [32]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [33]",
                 "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [34]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [35]",
@@ -124,8 +125,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [43]",
                 "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [44]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -135,6 +135,15 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [32]",
+            "type": "vless",
+            "server": "cdn-cloudflare455.korvexe.ir",
+            "server_port": 2095,
+            "uuid": "74a025dd-c287-4acf-a5fb-e573e10feef9",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [33]",
@@ -313,24 +322,6 @@
             "uuid": "ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "31.56.185.20",
-            "server_port": 443,
-            "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nl2-akn.astralweb.tech",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {

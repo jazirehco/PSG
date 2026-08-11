@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [44]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [44]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]"
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,6 +103,15 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [44]",
+            "type": "vless",
+            "server": "185.14.160.173",
+            "server_port": 8080,
+            "uuid": "ebae54a2-227d-4f69-b3df-f5355c1dbc45",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [45]",
@@ -137,24 +146,6 @@
             "uuid": "ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "31.56.185.20",
-            "server_port": 443,
-            "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nl2-akn.astralweb.tech",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
