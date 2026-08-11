@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTUlY
+//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -89,9 +89,10 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
-                "🇹🇼 TW | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [35]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +100,10 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
-                "🇹🇼 TW | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]"
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [35]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,40 +115,97 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [44]",
+            "tag": "همکاری_ملی",
             "type": "vless",
-            "server": "31.56.185.20",
+            "server": "127.0.0.1",
             "server_port": 443,
-            "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
+            "uuid": "00000000-0000-0000-0000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "nl2-akn.astralweb.tech",
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇹🇼 TW | 🔓 VLESS | @NamiraConfigs [45]",
-            "type": "vless",
-            "server": "103.227.225.198",
-            "server_port": 32355,
-            "uuid": "a2f6da81-64bd-4b86-b806-5658e161b7e4",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "18.197.75.14",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
