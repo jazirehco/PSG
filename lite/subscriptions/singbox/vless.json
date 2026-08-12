@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
                 "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
@@ -103,6 +104,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
                 "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
@@ -186,6 +188,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "69.46.46.195",
+            "server_port": 443,
+            "uuid": "33462eea-6519-4126-ba17-5eba4bb8c2ee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-90c343-bedd79-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/vless/33462eea-6519-4126-ba17-5eba4bb8c2ee?ed=2048",
+                "headers": {
+                    "Host": "api-90c343-bedd79-production.up.railway.app"
                 }
             }
         },
