@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [55]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,31 +105,63 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "tuntr.supros.ir",
-            "server_port": 2095,
-            "uuid": "bf58f3cd-7c8c-4650-bd7a-028df18b3ba0",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [55]",
+            "type": "vmess",
+            "server": "168.222.49.188",
+            "server_port": 80,
+            "uuid": "20e840a9-b3d6-4941-ab1f-d37cd958b0b8",
+            "security": "auto",
+            "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "52.58.164.47",
-            "server_port": 22224,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "c2.nyanners.ir",
+            "server_port": 443,
+            "uuid": "956d6917-0f67-4515-aafa-d6210312648d",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ilia1.ironmouse.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "ilia1.ironmouse.ir"
+                }
+            }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
             "type": "vless",
-            "server": "52.58.164.47",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "172.64.150.28",
+            "server_port": 443,
+            "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hhlfy.twiladaphne.ndjp.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/fp",
+                "headers": {
+                    "Host": "hhlfy.twiladaphne.ndjp.net"
+                }
+            }
         }
     ],
     "route": {

@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +182,29 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "tuntr.supros.ir",
-            "server_port": 2095,
-            "uuid": "bf58f3cd-7c8c-4650-bd7a-028df18b3ba0",
+            "server": "c2.nyanners.ir",
+            "server_port": 443,
+            "uuid": "956d6917-0f67-4515-aafa-d6210312648d",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ilia1.ironmouse.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "ilia1.ironmouse.ir"
+                }
+            }
         }
     ],
     "route": {
