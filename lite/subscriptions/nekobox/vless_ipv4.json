@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,11 +184,36 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "104.16.65.1",
+            "server_port": 443,
+            "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "0h3qt.oqwt.pl0.hh.vavava.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "0h3qt.oqwt.pl0.hh.vavava.kdns.fr"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
             "type": "vless",
             "server": "93.123.13.7",
-            "server_port": 15755,
-            "uuid": "c863c8f0-cda1-429c-be76-cbefc8a418a1",
+            "server_port": 40312,
+            "uuid": "9f108161-c3cf-444b-989a-2d864b165435",
             "flow": "",
             "packet_encoding": "xudp"
         }
