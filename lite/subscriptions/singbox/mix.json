@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [51]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,6 +111,47 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
+            "type": "vless",
+            "server": "cctvhikvision.center",
+            "server_port": 2083,
+            "uuid": "07f82c34-bd45-4a7e-b70a-d4e73e2e5a39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "uwu.blueknight.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "uwu.blueknight.site"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "icook.tw",
+            "server_port": 8880,
+            "uuid": "9adb120c-0cce-4b56-9023-ccf7f1e13536",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=ProxyIP.US.CMLiussss.net",
+                "headers": {
+                    "Host": "icook.tw"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
@@ -136,24 +177,6 @@
                     "Host": "api-90c343-bedd79-production.up.railway.app"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "31.15.16.154",
-            "server_port": 13423,
-            "uuid": "4a6013ef-36ed-4db7-9fde-f9a4f3171acf",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [51]",
-            "type": "vmess",
-            "server": "5.188.190.252",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {

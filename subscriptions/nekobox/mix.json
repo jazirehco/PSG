@@ -77,6 +77,8 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [35]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [36]",
                 "🇦🇺 AU | 🔒 SS | @NamiraConfigs [37]",
                 "🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [38]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
@@ -89,9 +91,7 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [51]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,6 +99,8 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇫🇮 FI | 🔒 SS | @NamiraConfigs [35]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [36]",
                 "🇦🇺 AU | 🔒 SS | @NamiraConfigs [37]",
                 "🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [38]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
@@ -111,9 +113,7 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [51]"
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -127,6 +127,23 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @NamiraConfigs [35]",
+            "type": "shadowsocks",
+            "server": "93.123.13.7",
+            "server_port": 25783,
+            "method": "chacha20-ietf-poly1305",
+            "password": "8cmuvza9gyetx0z8"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "93.123.13.7",
+            "server_port": 15755,
+            "uuid": "c863c8f0-cda1-429c-be76-cbefc8a418a1",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇦🇺 AU | 🔒 SS | @NamiraConfigs [37]",
@@ -330,24 +347,6 @@
                     "Host": "api-90c343-bedd79-production.up.railway.app"
                 }
             }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "31.15.16.154",
-            "server_port": 13423,
-            "uuid": "4a6013ef-36ed-4db7-9fde-f9a4f3171acf",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [51]",
-            "type": "vmess",
-            "server": "5.188.190.252",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {
