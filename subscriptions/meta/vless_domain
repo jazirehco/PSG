@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [47]","type":"vless","server":"c2.nyanners.ir","port":443,"uuid":"956d6917-0f67-4515-aafa-d6210312648d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ilia1.ironmouse.ir","ws-opts":{"path":"/ws","headers":{"Host":"c2.nyanners.ir"}}}
-  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"tuntr.supros.ir","port":2095,"uuid":"bf58f3cd-7c8c-4650-bd7a-028df18b3ba0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [43]","type":"vless","server":"app-q0zc4t.user-4gfyh5.workers.dev","port":443,"uuid":"07f9bc85-613f-4a33-8da1-191973c43c0a","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/cmh","headers":{"Host":"app-q0zc4t.user-4gfyh5.workers.dev"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [51]","type":"vless","server":"c2.nyanners.ir","port":443,"uuid":"956d6917-0f67-4515-aafa-d6210312648d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ilia1.ironmouse.ir","ws-opts":{"path":"/ws","headers":{"Host":"c2.nyanners.ir"}}}
+  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [53]","type":"vless","server":"tuntr.supros.ir","port":2095,"uuid":"bf58f3cd-7c8c-4650-bd7a-028df18b3ba0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [47]'
-      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [43]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [51]'
+      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [53]'
 
   - name: 🌍 Global Media
     type: select

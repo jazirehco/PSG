@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [53]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,7 +194,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+            "type": "vless",
+            "server": "app-q0zc4t.user-4gfyh5.workers.dev",
+            "server_port": 443,
+            "uuid": "07f9bc85-613f-4a33-8da1-191973c43c0a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "app-q0zc4t.user-4gfyh5.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/cmh",
+                "headers": {
+                    "Host": "app-q0zc4t.user-4gfyh5.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
             "type": "vless",
             "server": "c2.nyanners.ir",
             "server_port": 443,
@@ -217,7 +244,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [49]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [53]",
             "type": "vless",
             "server": "tuntr.supros.ir",
             "server_port": 2095,
