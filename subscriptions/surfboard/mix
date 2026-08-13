@@ -9,17 +9,17 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42] = vmess, 82.198.246.233, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇺🇸 US | 🔒 VMESS | @NamiraConfigs [43] = vmess, 82.198.246.37, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [44] = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45] = vmess, 82.198.246.37, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47] = vmess, 47.250.135.244, 10000, username = aedc66b8-99d7-4a21-8310-61870e7f870d, ws = false, tls = false
-🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [53] = vmess, 168.222.49.188, 80, username = 20e840a9-b3d6-4941-ab1f-d37cd958b0b8, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43] = vmess, 82.198.246.233, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇺🇸 US | 🔒 VMESS | @NamiraConfigs [44] = vmess, 82.198.246.37, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [45] = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46] = vmess, 82.198.246.37, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [48] = vmess, 47.250.135.244, 10000, username = aedc66b8-99d7-4a21-8310-61870e7f870d, ws = false, tls = false
+🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [54] = vmess, 168.222.49.188, 80, username = 20e840a9-b3d6-4941-ab1f-d37cd958b0b8, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [43], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47], 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [53]
-PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [43], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47], 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [53]
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [43], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [44], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45], 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [47], 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [53]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [44], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [45], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46], 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [48], 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [54]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [44], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [45], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46], 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [48], 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [54]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [43], 🇺🇸 US | 🔒 VMESS | @NamiraConfigs [44], 🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [45], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46], 🇲🇾 MY | 🔓 VMESS | @NamiraConfigs [48], 🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [54]
 
 [Rule]
 GEOIP,IR,DIRECT
