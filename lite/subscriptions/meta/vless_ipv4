@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]","type":"vless","server":"69.46.46.195","port":443,"uuid":"33462eea-6519-4126-ba17-5eba4bb8c2ee","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"api-90c343-bedd79-production.up.railway.app","ws-opts":{"path":"/ws/vless/33462eea-6519-4126-ba17-5eba4bb8c2ee?ed=2048","headers":{"Host":"api-90c343-bedd79-production.up.railway.app"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"172.67.180.173","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"172.67.180.173"}}}
+  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]","type":"vless","server":"185.226.140.140","port":8880,"uuid":"30fcec7f-164b-465c-87f4-b93784a6056b","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"azsv1.drpingservice.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [56]'
+      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]'
 
   - name: 🌍 Global Media
     type: select

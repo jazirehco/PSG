@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVk1FU1M=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [51]"
+                "🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,43 +190,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "cctvhikvision.center",
-            "server_port": 2083,
-            "uuid": "07f82c34-bd45-4a7e-b70a-d4e73e2e5a39",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇳🇱 NL | 🔒 VMESS | @NamiraConfigs [55]",
+            "type": "vmess",
+            "server": "176.120.17.21",
+            "server_port": 1016,
+            "uuid": "40de0de7-0edc-4959-9ec2-86d938b50f0c",
+            "security": "auto",
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "uwu.blueknight.site",
+                "server_name": "astra.iraniangamersclub.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "uwu.blueknight.site"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "icook.tw",
-            "server_port": 8880,
-            "uuid": "9adb120c-0cce-4b56-9023-ccf7f1e13536",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/pyip=ProxyIP.US.CMLiussss.net",
-                "headers": {
-                    "Host": "icook.tw"
                 }
             }
         }

@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,16 +192,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [52]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "69.46.46.195",
-            "server_port": 443,
-            "uuid": "33462eea-6519-4126-ba17-5eba4bb8c2ee",
+            "server": "172.67.180.173",
+            "server_port": 2053,
+            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "api-90c343-bedd79-production.up.railway.app",
+                "server_name": "music1000.melobitmusic1.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -208,9 +210,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ws/vless/33462eea-6519-4126-ba17-5eba4bb8c2ee?ed=2048",
+                "path": "/",
                 "headers": {
-                    "Host": "api-90c343-bedd79-production.up.railway.app"
+                    "Host": "music1000.melobitmusic1.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "185.226.140.140",
+            "server_port": 8880,
+            "uuid": "30fcec7f-164b-465c-87f4-b93784a6056b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "185.226.140.140"
                 }
             }
         }
