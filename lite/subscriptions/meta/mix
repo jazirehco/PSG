@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [59]","type":"vless","server":"87.228.122.108","port":4100,"uuid":"155e8dd4-a559-407a-9ea8-13a5e829f066","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"87.228.122.108"}}}
-  - {"name":"🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]","type":"vless","server":"180.178.60.253","port":10000,"uuid":"431fe973-a43a-4fac-bf83-2a772e0d0625","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [59]","type":"vless","server":"france.io-com-de-dev.org","port":8443,"uuid":"05cf7b0e-ad1a-42bb-80e7-73ae45b1019a","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"france.io-com-de-dev.org","ws-opts":{"path":"/api/voip/updates/static/x9i2","headers":{"Host":"france.io-com-de-dev.org"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [60]","type":"vless","server":"po.fastbrokencompony.com","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
+  - {"name":"🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [59]'
-      - '🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [59]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [60]'
+      - '🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]'
 
   - name: 🌍 Global Media
     type: select

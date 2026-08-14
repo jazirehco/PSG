@@ -92,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,38 +192,54 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [59]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
             "type": "vless",
-            "server": "87.228.122.108",
-            "server_port": 4100,
-            "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
+            "server": "france.io-com-de-dev.org",
+            "server_port": 8443,
+            "uuid": "05cf7b0e-ad1a-42bb-80e7-73ae45b1019a",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "france.io-com-de-dev.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/v1",
+                "path": "/api/voip/updates/static/x9i2",
                 "headers": {
-                    "Host": "87.228.122.108"
+                    "Host": "france.io-com-de-dev.org"
                 }
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [60]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
-            "server": "185.126.236.181",
-            "server_port": 80,
-            "uuid": "eab81857-a729-4c61-c8e9-bd3b46608161",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "180.178.60.253",
-            "server_port": 10000,
-            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
         }
     ],
     "route": {

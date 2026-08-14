@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"france.io-com-de-dev.org","port":8443,"uuid":"05cf7b0e-ad1a-42bb-80e7-73ae45b1019a","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"france.io-com-de-dev.org","ws-opts":{"path":"/api/voip/updates/static/x9i2","headers":{"Host":"france.io-com-de-dev.org"}}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [57]","type":"vless","server":"po.fastbrokencompony.com","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [59]","type":"vless","server":"france.io-com-de-dev.org","port":8443,"uuid":"05cf7b0e-ad1a-42bb-80e7-73ae45b1019a","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"france.io-com-de-dev.org","ws-opts":{"path":"/api/voip/updates/static/x9i2","headers":{"Host":"france.io-com-de-dev.org"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [60]","type":"vless","server":"po.fastbrokencompony.com","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [56]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [57]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [59]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [60]'
 
   - name: 🌍 Global Media
     type: select

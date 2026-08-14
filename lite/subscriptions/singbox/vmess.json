@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgVk1FU1M=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]"
+                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]"
+                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,38 +190,13 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "87.228.122.108",
-            "server_port": 4100,
-            "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "87.228.122.108"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "185.126.236.181",
-            "server_port": 80,
-            "uuid": "eab81857-a729-4c61-c8e9-bd3b46608161",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "180.178.60.253",
-            "server_port": 10000,
-            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [61]",
+            "type": "vmess",
+            "server": "82.198.246.37",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {

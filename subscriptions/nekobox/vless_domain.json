@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +186,25 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
             "type": "vless",
             "server": "france.io-com-de-dev.org",
             "server_port": 8443,
@@ -209,7 +229,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "po.fastbrokencompony.com",
             "server_port": 2053,
