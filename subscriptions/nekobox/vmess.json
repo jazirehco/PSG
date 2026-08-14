@@ -80,9 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]",
-                "🇵🇱 PL | 🔓 VMESS | @NamiraConfigs [52]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [47]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]",
-                "🇵🇱 PL | 🔓 VMESS | @NamiraConfigs [52]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [54]"
+                "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [47]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,38 +182,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [41]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @NamiraConfigs [47]",
             "type": "vmess",
-            "server": "82.198.246.250",
+            "server": "82.198.246.37",
             "server_port": 180,
             "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇵🇱 PL | 🔓 VMESS | @NamiraConfigs [52]",
-            "type": "vmess",
-            "server": "168.222.49.188",
-            "server_port": 80,
-            "uuid": "055de40d-c5d0-4064-b124-949ba284c3b4",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [54]",
-            "type": "vmess",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/vmess/",
-                "headers": {
-                    "Host": ""
-                }
-            }
         }
     ],
     "route": {
