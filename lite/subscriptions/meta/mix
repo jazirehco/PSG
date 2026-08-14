@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [53]","type":"vless","server":"93.123.13.7","port":15139,"uuid":"ab16b404-1d3a-4ba6-a37c-67bed61e3b5d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"95.85.224.3","port":8443,"uuid":"7e8f7489-e65f-4be6-93ed-867a74ec6759","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
-  - {"name":"🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [55]","type":"vmess","server":"168.222.49.188","port":80,"cipher":"auto","uuid":"20e840a9-b3d6-4941-ab1f-d37cd958b0b8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [52]","type":"vless","server":"93.123.13.7","port":15139,"uuid":"ab16b404-1d3a-4ba6-a37c-67bed61e3b5d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [53]","type":"vless","server":"95.85.224.3","port":8443,"uuid":"7e8f7489-e65f-4be6-93ed-867a74ec6759","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [54]","type":"vmess","server":"168.222.49.188","port":80,"cipher":"auto","uuid":"20e840a9-b3d6-4941-ab1f-d37cd958b0b8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [53]'
-      - '🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [54]'
-      - '🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [55]'
+      - '🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [52]'
+      - '🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [53]'
+      - '🇵🇱 PL | 🔒 VMESS | @NamiraConfigs [54]'
 
   - name: 🌍 Global Media
     type: select
