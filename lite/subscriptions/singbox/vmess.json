@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
+//profile-title: base64:UFNHIHwgVk1FU1M=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [54]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [54]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,22 +190,20 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "93.123.13.7",
-            "server_port": 40312,
-            "uuid": "9f108161-c3cf-444b-989a-2d864b165435",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "93.123.13.7",
-            "server_port": 15139,
-            "uuid": "ab16b404-1d3a-4ba6-a37c-67bed61e3b5d",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [54]",
+            "type": "vmess",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         }
     ],
     "route": {
