@@ -82,8 +82,9 @@
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [49]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [50]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [52]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]",
@@ -102,8 +103,9 @@
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [49]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [50]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [52]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]",
@@ -202,7 +204,7 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
             "type": "vless",
-            "server": "172.67.180.173",
+            "server": "104.21.35.235",
             "server_port": 2053,
             "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
             "flow": "",
@@ -227,6 +229,31 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
             "type": "vless",
+            "server": "172.67.180.173",
+            "server_port": 2053,
+            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "music1000.melobitmusic1.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "music1000.melobitmusic1.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
+            "type": "vless",
             "server": "104.16.75.42",
             "server_port": 443,
             "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
@@ -250,7 +277,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [48]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
             "type": "vless",
             "server": "45.74.178.41",
             "server_port": 719,
@@ -266,7 +293,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [49]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
             "server": "93.123.13.7",
             "server_port": 15755,
