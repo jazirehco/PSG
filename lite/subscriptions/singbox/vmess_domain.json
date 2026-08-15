@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkxFU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVk1FU1NfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [61]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [61]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,36 +190,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "billowing-wind-5b29.133-323.workers.dev",
-            "server_port": 8880,
-            "uuid": "c18fd69e-92ba-446e-981b-213dbb551593",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [61]",
+            "type": "vmess",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+                "path": "/vmess/",
                 "headers": {
-                    "Host": "billowing-wind-5b29.133-323.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.samrayan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": ""
                 }
             }
         }

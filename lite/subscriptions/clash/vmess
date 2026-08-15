@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [57]","type":"vless","server":"172.64.150.28","port":443,"uuid":"e5cc16a6-ea42-46b2-82ae-ad2157e1641b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"hhlfy.twiladaphne.ndjp.net","ws-opts":{"path":"/fp","headers":{"Host":"hhlfy.twiladaphne.ndjp.net"}}}
-  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [58]","type":"vless","server":"89.208.113.16","port":443,"uuid":"adce7c2a-3191-49ae-b61c-9b8258ea1b0e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [59]","type":"vless","server":"95.85.224.3","port":8443,"uuid":"7e8f7489-e65f-4be6-93ed-867a74ec6759","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [61]","type":"vmess","server":"57.129.132.223","port":80,"cipher":"auto","uuid":"a25cbf11-2908-4a1b-a3a8-9a571777dca3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"google.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [57]'
-      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [58]'
-      - '🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [59]'
+      - '🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [61]'
 
   - name: 🌍 Global Media
     type: select
