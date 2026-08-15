@@ -92,6 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
@@ -100,10 +103,7 @@
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [52]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [57]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]"
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,6 +114,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [46]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [47]",
@@ -122,10 +125,7 @@
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [52]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [57]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]"
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -208,6 +208,81 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+            "type": "vless",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "iribnewreport.watch-out.ir",
+            "server_port": 443,
+            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iribnewreport.watch-out.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/j/47164",
+                "headers": {
+                    "Host": "iribnewreport.watch-out.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
+            "type": "vless",
+            "server": "104.16.75.99",
+            "server_port": 443,
+            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "germany-2.ariyuz.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "germany-2.ariyuz.org"
                 }
             }
         },
@@ -372,63 +447,6 @@
                 "path": "/v1",
                 "headers": {
                     "Host": "168.222.202.187"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "168.222.202.15",
-            "server_port": 4100,
-            "uuid": "2001e98b-e06e-4244-910f-7ff640746eda",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "168.222.202.15"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "9e20b04d-5a81-4e16-b421-01e502f0aac6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless/",
-                "headers": {
-                    "Host": "57.129.132.223"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "iribnewreport.watch-out.ir",
-            "server_port": 443,
-            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iribnewreport.watch-out.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/j/47164",
-                "headers": {
-                    "Host": "iribnewreport.watch-out.ir"
                 }
             }
         }
