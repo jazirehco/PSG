@@ -80,8 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [41]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
@@ -91,7 +90,8 @@
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [51]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [54]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -102,8 +102,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [47]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [41]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [45]",
@@ -113,7 +112,8 @@
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [51]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [54]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [47]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -204,54 +204,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [41]",
             "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "93.123.13.7",
+            "server_port": 15139,
+            "uuid": "ab16b404-1d3a-4ba6-a37c-67bed61e3b5d",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "iribnewreport.watch-out.ir",
-            "server_port": 443,
-            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iribnewreport.watch-out.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/j/47164",
-                "headers": {
-                    "Host": "iribnewreport.watch-out.ir"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
@@ -427,18 +386,52 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
             "type": "vless",
-            "server": "168.222.202.187",
-            "server_port": 4100,
-            "uuid": "55009b9b-7b9c-4830-86c6-cb058a7a2e2f",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/v1",
+                "path": "/",
                 "headers": {
-                    "Host": "168.222.202.187"
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [47]",
+            "type": "vless",
+            "server": "iribnewreport.watch-out.ir",
+            "server_port": 443,
+            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iribnewreport.watch-out.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/j/47164",
+                "headers": {
+                    "Host": "iribnewreport.watch-out.ir"
                 }
             }
         }

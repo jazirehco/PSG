@@ -89,6 +89,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [41]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
@@ -102,8 +103,7 @@
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [53]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,6 +111,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [41]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [44]",
@@ -124,8 +125,7 @@
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [52]",
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [53]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -135,6 +135,15 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [41]",
+            "type": "vless",
+            "server": "93.123.13.7",
+            "server_port": 15139,
+            "uuid": "ab16b404-1d3a-4ba6-a37c-67bed61e3b5d",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
@@ -383,22 +392,6 @@
                 "path": "/v1",
                 "headers": {
                     "Host": "31.129.96.186"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "168.222.202.187",
-            "server_port": 4100,
-            "uuid": "55009b9b-7b9c-4830-86c6-cb058a7a2e2f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "168.222.202.187"
                 }
             }
         }
