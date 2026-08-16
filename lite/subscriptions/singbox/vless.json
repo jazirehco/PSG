@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,63 +194,45 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "172.67.143.54",
+            "server_port": 2086,
+            "uuid": "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/taha3",
+                "headers": {
+                    "Host": "aged-silence-8d7d.tahaggs.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇹 AT | 🔓 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "185.126.236.181",
+            "server_port": 2052,
+            "uuid": "daa34529-5219-4323-d26a-2c395b25a56d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "185.126.236.181"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "93.123.13.7",
             "server_port": 15139,
             "uuid": "ab16b404-1d3a-4ba6-a37c-67bed61e3b5d",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "104.16.75.99",
-            "server_port": 443,
-            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "germany-2.ariyuz.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "germany-2.ariyuz.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
-            }
         }
     ],
     "route": {
