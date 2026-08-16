@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
+                "🚩 CF | 🔓 VMESS | @NamiraConfigs [42]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
+                "🚩 CF | 🔓 VMESS | @NamiraConfigs [42]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,29 +182,13 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
-            }
+            "tag": "🚩 CF | 🔓 VMESS | @NamiraConfigs [42]",
+            "type": "vmess",
+            "server": "cdn-cloudflare455.korvexe.ir",
+            "server_port": 2095,
+            "uuid": "8000e374-6b7f-4bbf-b45f-2272657ed5f9",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {

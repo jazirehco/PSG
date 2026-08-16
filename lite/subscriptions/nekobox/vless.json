@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,7 +186,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "93.123.13.7",
+            "server_port": 15139,
+            "uuid": "ab16b404-1d3a-4ba6-a37c-67bed61e3b5d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "104.16.75.99",
             "server_port": 443,
@@ -211,16 +220,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "104.21.35.235",
+            "server": "po.fastbrokencompony.com",
             "server_port": 2053,
-            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "music1000.melobitmusic1.ir",
+                "server_name": "po.fastbrokencompony.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -231,32 +240,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "music1000.melobitmusic1.ir"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "172.67.180.173",
-            "server_port": 2053,
-            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "music1000.melobitmusic1.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "music1000.melobitmusic1.ir"
+                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }
