@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [62]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
-                "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [62]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +194,57 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [60]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "172.67.180.173",
+            "server_port": 2053,
+            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "music1000.melobitmusic1.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "music1000.melobitmusic1.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "104.16.75.42",
+            "server_port": 443,
+            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "de-new-1.ariyuz.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "de-new-1.ariyuz.org"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]",
             "type": "vless",
             "server": "iribnewreport.watch-out.ir",
             "server_port": 443,
@@ -217,31 +267,6 @@
                     "Host": "iribnewreport.watch-out.ir"
                 }
             }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "45.74.178.41",
-            "server_port": 719,
-            "uuid": "ae9bcc43-5fd8-4891-b06e-1c93e2747ed9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/api/v2/xtrnwqjbkr?ed=2560",
-                "headers": {
-                    "Host": "45.74.178.41"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "93.123.13.7",
-            "server_port": 15755,
-            "uuid": "c863c8f0-cda1-429c-be76-cbefc8a418a1",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
