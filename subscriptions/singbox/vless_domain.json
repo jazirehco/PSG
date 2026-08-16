@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,7 +190,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "po.fastbrokencompony.com",
             "server_port": 2053,
@@ -213,31 +211,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "po.fastbrokencompony.com"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]",
-            "type": "vless",
-            "server": "iribnewreport.watch-out.ir",
-            "server_port": 443,
-            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iribnewreport.watch-out.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/j/47164",
-                "headers": {
-                    "Host": "iribnewreport.watch-out.ir"
                 }
             }
         }

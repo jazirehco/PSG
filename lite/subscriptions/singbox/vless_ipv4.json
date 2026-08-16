@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,9 +194,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
             "type": "vless",
-            "server": "172.67.180.173",
+            "server": "104.16.75.99",
+            "server_port": 443,
+            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "germany-2.ariyuz.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "germany-2.ariyuz.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "104.21.35.235",
             "server_port": 2053,
             "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
             "flow": "",
@@ -217,16 +244,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [57]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
             "type": "vless",
-            "server": "104.16.75.42",
-            "server_port": 443,
-            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+            "server": "172.67.180.173",
+            "server_port": 2053,
+            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "de-new-1.ariyuz.org",
+                "server_name": "music1000.melobitmusic1.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -237,7 +264,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "de-new-1.ariyuz.org"
+                    "Host": "music1000.melobitmusic1.ir"
                 }
             }
         }
