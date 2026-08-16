@@ -1,0 +1,24 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/ss_ipv4 interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇳🇱 NL | 🔒 SS | @NamiraConfigs [33] = ss, 193.29.139.235, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇳🇱 NL | 🔒 SS | @NamiraConfigs [34] = ss, 193.29.139.151, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇵🇱 PL | 🔒 SS | @NamiraConfigs [35] = ss, 54.36.174.140, 443, encrypt-method = chacha20-ietf-poly1305, password = ytw2awn
+🇿🇦 ZA | 🔒 SS | @NamiraConfigs [36] = ss, 4.168.234.5, 443, encrypt-method = chacha20-ietf-poly1305, password = LY94CL8HouUwEPF3
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔒 SS | @NamiraConfigs [33], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [34], 🇵🇱 PL | 🔒 SS | @NamiraConfigs [35], 🇿🇦 ZA | 🔒 SS | @NamiraConfigs [36]
+PSG-AUTO = url-test, 🇳🇱 NL | 🔒 SS | @NamiraConfigs [33], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [34], 🇵🇱 PL | 🔒 SS | @NamiraConfigs [35], 🇿🇦 ZA | 🔒 SS | @NamiraConfigs [36]
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🔒 SS | @NamiraConfigs [33], 🇳🇱 NL | 🔒 SS | @NamiraConfigs [34], 🇵🇱 PL | 🔒 SS | @NamiraConfigs [35], 🇿🇦 ZA | 🔒 SS | @NamiraConfigs [36]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
