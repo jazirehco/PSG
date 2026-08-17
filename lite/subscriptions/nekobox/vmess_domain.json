@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [53]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [53]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +184,29 @@
             }
         },
         {
-            "tag": "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [53]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]",
             "type": "vmess",
-            "server": "165.154.195.38",
-            "server_port": 35034,
-            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+            "server": "82.198.246.97",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [56]",
+            "type": "vmess",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         }
     ],
     "route": {

@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [49]","type":"ss","server":"193.29.139.235","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @NamiraConfigs [50]","type":"ss","server":"193.29.139.151","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱 PL | 🔒 SS | @NamiraConfigs [51]","type":"ss","server":"54.36.174.140","port":443,"password":"ytw2awn","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇿🇦 ZA | 🔒 SS | @NamiraConfigs [52]","type":"ss","server":"4.168.234.5","port":443,"password":"LY94CL8HouUwEPF3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"dash.zeneco.ir","port":8443,"uuid":"fdf4a9b1-3471-41a4-9a18-c1986917fe57","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"dash.zeneco.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [49]'
-      - '🇳🇱 NL | 🔒 SS | @NamiraConfigs [50]'
-      - '🇵🇱 PL | 🔒 SS | @NamiraConfigs [51]'
-      - '🇿🇦 ZA | 🔒 SS | @NamiraConfigs [52]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select

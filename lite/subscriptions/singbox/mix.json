@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [53]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [53]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,25 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇹🇼 TW | 🔓 VMESS | @NamiraConfigs [53]",
-            "type": "vmess",
-            "server": "165.154.195.38",
-            "server_port": 35034,
-            "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "172.64.93.246",
-            "server_port": 443,
-            "uuid": "50414e45-4c5f-5a45-5553-5d36fccf19c3",
+            "server": "104.19.44.174",
+            "server_port": 2083,
+            "uuid": "56e4896e-90a9-4fe0-8480-90d3d68b9928",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zeus-panel-24zdq8.bikhabi.workers.dev",
+                "server_name": "go.iranfree.de5.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -140,27 +131,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/stream/PANEL_ZEUS/5d36fccf19c3/loc-0",
+                "path": "/",
                 "headers": {
-                    "Host": "zeus-panel-24zdq8.bikhabi.workers.dev"
+                    "Host": "go.iranfree.de5.net"
                 }
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "188.121.103.122",
-            "server_port": 443,
-            "uuid": "66843e20-96cf-4332-bb4d-45b4f5dd844b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "188.121.103.122",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]",
+            "type": "vmess",
+            "server": "82.198.246.97",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [56]",
+            "type": "vmess",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
                 }
             }
         }

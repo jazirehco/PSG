@@ -80,10 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [50]",
-                "🇵🇱 PL | 🔒 SS | @NamiraConfigs [51]",
-                "🇿🇦 ZA | 🔒 SS | @NamiraConfigs [52]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,10 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [49]",
-                "🇳🇱 NL | 🔒 SS | @NamiraConfigs [50]",
-                "🇵🇱 PL | 🔒 SS | @NamiraConfigs [51]",
-                "🇿🇦 ZA | 🔒 SS | @NamiraConfigs [52]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -188,36 +182,29 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [49]",
-            "type": "shadowsocks",
-            "server": "193.29.139.235",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 SS | @NamiraConfigs [50]",
-            "type": "shadowsocks",
-            "server": "193.29.139.151",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 SS | @NamiraConfigs [51]",
-            "type": "shadowsocks",
-            "server": "54.36.174.140",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ytw2awn"
-        },
-        {
-            "tag": "🇿🇦 ZA | 🔒 SS | @NamiraConfigs [52]",
-            "type": "shadowsocks",
-            "server": "4.168.234.5",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "LY94CL8HouUwEPF3"
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "dash.zeneco.ir",
+            "server_port": 8443,
+            "uuid": "fdf4a9b1-3471-41a4-9a18-c1986917fe57",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.zeneco.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dash.zeneco.ir"
+                }
+            }
         }
     ],
     "route": {
