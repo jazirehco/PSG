@@ -77,6 +77,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [37]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [38]",
                 "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [39]",
@@ -90,8 +91,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,6 +99,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [37]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [38]",
                 "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [39]",
@@ -112,8 +113,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [47]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [48]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [49]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -127,6 +127,22 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [36]",
+            "type": "vless",
+            "server": "cf.levikogjgfdd.ir",
+            "server_port": 8880,
+            "uuid": "d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "cf.levikogjgfdd.ir"
+                }
+            }
         },
         {
             "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [37]",
@@ -386,31 +402,6 @@
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [51]",
-            "type": "vless",
-            "server": "dash.zeneco.ir",
-            "server_port": 8443,
-            "uuid": "fdf4a9b1-3471-41a4-9a18-c1986917fe57",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.zeneco.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "dash.zeneco.ir"
-                }
-            }
         }
     ],
     "route": {
