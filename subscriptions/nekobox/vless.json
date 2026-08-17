@@ -81,9 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [49]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -95,9 +94,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [49]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,6 +188,31 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
             "type": "vless",
+            "server": "104.19.44.174",
+            "server_port": 2083,
+            "uuid": "56e4896e-90a9-4fe0-8480-90d3d68b9928",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "go.iranfree.de5.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "go.iranfree.de5.net"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
             "server": "172.64.93.246",
             "server_port": 443,
             "uuid": "50414e45-4c5f-5a45-5553-5d36fccf19c3",
@@ -213,7 +236,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [44]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "188.121.103.122",
             "server_port": 443,
@@ -227,38 +250,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [48]",
-            "type": "vless",
-            "server": "185.247.16.117",
-            "server_port": 2200,
-            "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "185.247.16.117"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [49]",
-            "type": "vless",
-            "server": "77.222.37.89",
-            "server_port": 2200,
-            "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "77.222.37.89"
                 }
             }
         }
