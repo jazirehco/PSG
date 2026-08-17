@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [38]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
                 "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [40]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [41]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [43]",
@@ -103,7 +105,6 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]"
             ],
@@ -116,6 +117,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [38]",
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
                 "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [40]",
                 "🚩 CF | 🔓 VLESS | @NamiraConfigs [41]",
                 "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [43]",
@@ -127,7 +130,6 @@
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [49]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
                 "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]"
             ],
@@ -212,6 +214,47 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [38]",
+            "type": "vless",
+            "server": "87.228.122.100",
+            "server_port": 2200,
+            "uuid": "099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/v1",
+                "headers": {
+                    "Host": "87.228.122.100"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [39]",
+            "type": "vless",
+            "server": "188.241.241.37",
+            "server_port": 2053,
+            "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "forfreeuse.rtqa.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "forfreeuse.rtqa.ru"
                 }
             }
         },
@@ -407,31 +450,6 @@
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [53]",
-            "type": "vless",
-            "server": "104.21.41.140",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [42]",
