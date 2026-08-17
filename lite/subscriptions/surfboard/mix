@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-
+🚩 CF | 🔓 VMESS | @NamiraConfigs [44] = vmess, cdn-cloudflare455.korvexe.ir, 2095, username = 8000e374-6b7f-4bbf-b45f-2272657ed5f9, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
-PSG-AUTO = url-test, 
-PSG-FALLBACK = fallback, 
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔓 VMESS | @NamiraConfigs [44]
+PSG-AUTO = url-test, 🚩 CF | 🔓 VMESS | @NamiraConfigs [44]
+PSG-FALLBACK = fallback, 🚩 CF | 🔓 VMESS | @NamiraConfigs [44]
 
 [Rule]
 GEOIP,IR,DIRECT

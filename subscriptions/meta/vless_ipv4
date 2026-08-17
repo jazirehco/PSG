@@ -23,11 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [39]","type":"vless","server":"188.121.103.122","port":443,"uuid":"66843e20-96cf-4332-bb4d-45b4f5dd844b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [43]","type":"vless","server":"185.247.16.117","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
-  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [44]","type":"vless","server":"77.222.37.89","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]","type":"vless","server":"63.180.184.26","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]","type":"vless","server":"5.75.197.25","port":1000,"uuid":"97ee39cc-cb22-42fd-9476-0c1a5f5a9621","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [41]","type":"vless","server":"188.121.103.122","port":443,"uuid":"66843e20-96cf-4332-bb4d-45b4f5dd844b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [45]","type":"vless","server":"185.247.16.117","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
+  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [46]","type":"vless","server":"77.222.37.89","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [39]'
-      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [43]'
-      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [44]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]'
+      - '🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [41]'
+      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [45]'
+      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [46]'
 
   - name: 🌍 Global Media
     type: select

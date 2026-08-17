@@ -80,9 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]"
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [44]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]"
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [45]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [46]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,7 +184,23 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [44]",
+            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [45]",
+            "type": "vless",
+            "server": "185.247.16.117",
+            "server_port": 2200,
+            "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/v1",
+                "headers": {
+                    "Host": "185.247.16.117"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [46]",
             "type": "vless",
             "server": "77.222.37.89",
             "server_port": 2200,
@@ -200,24 +214,6 @@
                     "Host": "77.222.37.89"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]",
-            "type": "vless",
-            "server": "63.180.184.26",
-            "server_port": 22223,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [46]",
-            "type": "vless",
-            "server": "5.75.197.25",
-            "server_port": 1000,
-            "uuid": "97ee39cc-cb22-42fd-9476-0c1a5f5a9621",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
