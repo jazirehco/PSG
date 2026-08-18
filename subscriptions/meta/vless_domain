@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [41]","type":"vless","server":"cf.levikogjgfdd.ir","port":8880,"uuid":"d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"weathered-lake-e883.35-bc4.workers.dev"}}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [46]","type":"vless","server":"purple-butterfly-8496.erfannull36.workers.dev","port":443,"uuid":"29fb68bb-ff05-4fd4-8393-cc6c05d81a79","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"purple-butterfly-8496.erfannull36.workers.dev"}}}
+  - {"name":"🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [41]","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [45]","type":"vless","server":"cf.levikogjgfdd.ir","port":8880,"uuid":"d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"weathered-lake-e883.35-bc4.workers.dev"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [50]","type":"vless","server":"purple-butterfly-8496.erfannull36.workers.dev","port":443,"uuid":"29fb68bb-ff05-4fd4-8393-cc6c05d81a79","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"purple-butterfly-8496.erfannull36.workers.dev"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [41]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [46]'
+      - '🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [41]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [45]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select
