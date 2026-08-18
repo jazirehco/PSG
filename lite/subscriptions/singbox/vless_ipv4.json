@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [60]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [60]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,6 +192,22 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "104.18.11.118",
+            "server_port": 8880,
+            "uuid": "17b2ed22-5fd0-47ad-b5f0-658379379ced",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+                "headers": {
+                    "Host": "104.18.11.118"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "82.117.87.199",
@@ -204,31 +220,6 @@
                 "path": "/v1",
                 "headers": {
                     "Host": "82.117.87.199"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "172.67.191.52",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }
