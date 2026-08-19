@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [59]","type":"vless","server":"172.67.161.109","port":443,"uuid":"13da3f61-36bc-4f4f-9b49-4152de570bd3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"1-m14.aYUTTHAYa-1.KdNs.Fr","ws-opts":{"path":"/awsDCktnglce5OhBQMBK8JLBwh2V","headers":{"Host":"1-m14.aYUTthaya-1.kdns.fr"}}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [56]","type":"vless","server":"po.fastbrokencompony.com","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [56]'
       - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]'
       - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [59]'
 
   - name: 🌍 Global Media
     type: select
