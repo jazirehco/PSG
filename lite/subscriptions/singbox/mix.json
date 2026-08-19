@@ -89,8 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -98,8 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [55]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -111,34 +113,46 @@
             "type": "direct"
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
+            "type": "vmess",
+            "server": "82.198.246.233",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
+            "type": "vmess",
+            "server": "82.198.246.37",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
             "type": "vless",
-            "server": "nl-ydlod.doratbonn.fun",
+            "server": "172.67.161.109",
             "server_port": 443,
-            "uuid": "7d92ab01-d719-40b0-b954-420edfb61582",
+            "uuid": "13da3f61-36bc-4f4f-9b49-4152de570bd3",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "nl-ydlod.doratbonn.fun",
+                "server_name": "1-m14.aYUTTHAYa-1.KdNs.Fr",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "95.85.224.3",
-            "server_port": 8443,
-            "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "grpc"
+                "type": "ws",
+                "path": "/awsDCktnglce5OhBQMBK8JLBwh2V",
+                "headers": {
+                    "Host": "1-m14.aYUTTHAYa-1.KdNs.Fr"
+                }
             }
         }
     ],
