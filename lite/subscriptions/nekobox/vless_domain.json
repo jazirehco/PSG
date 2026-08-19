@@ -79,8 +79,7 @@
                 "direct",
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [55]"
+                "KingRezaPahlavi"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -90,8 +89,7 @@
             "outbounds": [
                 "همکاری_ملی",
                 "جاویدشاه",
-                "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [55]"
+                "KingRezaPahlavi"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -178,24 +176,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "a.samrayan.ir",
-            "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "a.samrayan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }

@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [54]","type":"vless","server":"104.21.55.229","port":8880,"uuid":"f55a75a7-5aa6-4df7-814a-99da0edb5c86","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.US.CMLiussss.net","headers":{"Host":"autumn-cloud-ab5e.229-601.workers.dev"}}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]","type":"vless","server":"18.199.26.134","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]","type":"vless","server":"89.208.113.16","port":443,"uuid":"adce7c2a-3191-49ae-b61c-9b8258ea1b0e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [54]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [55]'
+      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [56]'
 
   - name: 🌍 Global Media
     type: select
