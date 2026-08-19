@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,27 +182,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
-            "server": "purple-butterfly-8496.erfannull36.workers.dev",
+            "server": "a.samrayan.ir",
             "server_port": 443,
-            "uuid": "29fb68bb-ff05-4fd4-8393-cc6c05d81a79",
-            "flow": "",
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "purple-butterfly-8496.erfannull36.workers.dev",
+                "server_name": "a.samrayan.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "purple-butterfly-8496.erfannull36.workers.dev"
                 }
             }
         }

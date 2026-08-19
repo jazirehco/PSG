@@ -92,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [46]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [50]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]"
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [46]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +192,25 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [50]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [46]",
+            "type": "vless",
+            "server": "nl-ydlod.doratbonn.fun",
+            "server_port": 443,
+            "uuid": "7d92ab01-d719-40b0-b954-420edfb61582",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nl-ydlod.doratbonn.fun",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "a.samrayan.ir",
             "server_port": 443,
@@ -208,47 +224,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [54]",
-            "type": "vless",
-            "server": "cf.levikogjgfdd.ir",
-            "server_port": 8880,
-            "uuid": "d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "cf.levikogjgfdd.ir"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "purple-butterfly-8496.erfannull36.workers.dev",
-            "server_port": 443,
-            "uuid": "29fb68bb-ff05-4fd4-8393-cc6c05d81a79",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "purple-butterfly-8496.erfannull36.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "purple-butterfly-8496.erfannull36.workers.dev"
                 }
             }
         }

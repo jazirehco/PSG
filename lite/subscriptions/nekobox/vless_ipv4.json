@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [57]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [57]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,43 +184,36 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @NamiraConfigs [57]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "65.109.12.58",
-            "server_port": 2053,
-            "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
+            "server": "104.21.55.229",
+            "server_port": 8880,
+            "uuid": "f55a75a7-5aa6-4df7-814a-99da0edb5c86",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "forfreeuse.rtqa.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/pyip=ProxyIP.US.CMLiussss.net",
                 "headers": {
-                    "Host": "forfreeuse.rtqa.ru"
+                    "Host": "104.21.55.229"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [58]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [57]",
             "type": "vless",
-            "server": "104.18.11.118",
-            "server_port": 8880,
-            "uuid": "17b2ed22-5fd0-47ad-b5f0-658379379ced",
-            "flow": "",
+            "server": "162.19.10.99",
+            "server_port": 443,
+            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-                "headers": {
-                    "Host": "104.18.11.118"
+            "tls": {
+                "enabled": true,
+                "server_name": "nasnet-162191099-direct.mbghalibaf.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
