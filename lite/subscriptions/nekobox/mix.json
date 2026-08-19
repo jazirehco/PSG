@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]"
+                "🇺🇦 UA | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]"
+                "🇺🇦 UA | 🔓 VLESS | @NamiraConfigs [57]",
+                "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [59]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,47 +105,31 @@
             "type": "direct"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "tag": "🇺🇦 UA | 🔓 VLESS | @NamiraConfigs [57]",
             "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "2.59.223.72",
+            "server_port": 667,
+            "uuid": "76fd8cd7-cff8-42fa-9b65-d10532536ae7",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]",
-            "type": "vmess",
-            "server": "82.198.246.97",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇳🇱 NL | 🔓 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "167.71.70.47",
+            "server_port": 440,
+            "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]",
-            "type": "vmess",
-            "server": "82.198.246.233",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [59]",
+            "type": "vless",
+            "server": "168.222.49.215",
+            "server_port": 16089,
+            "uuid": "9a85fe34-213a-43ef-acbd-bb84552302f3",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
