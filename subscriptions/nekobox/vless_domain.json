@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [54]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,18 +184,43 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [66]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [54]",
             "type": "vless",
-            "server": "millionaire.levikogjgfdd.ir",
-            "server_port": 8880,
-            "uuid": "7db9bcc1-78f1-455d-944b-3363b867e670",
+            "server": "finite-node.rtxconfigz.com",
+            "server_port": 443,
+            "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "finite-node.rtxconfigz.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "finite-node.rtxconfigz.com"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [55]",
+            "type": "vless",
+            "server": "usejh2.neobo-tooth.ru",
+            "server_port": 2096,
+            "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+                "path": "/",
                 "headers": {
-                    "Host": "millionaire.levikogjgfdd.ir"
+                    "Host": "usejh2.neobo-tooth.ru"
                 }
             }
         }
