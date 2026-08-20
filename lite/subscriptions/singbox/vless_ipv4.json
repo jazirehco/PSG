@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVk1FU1NfRE9NQUlO
+//profile-title: base64:UFNHIHwgVkxFU1NfSVBWNA==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [59]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [59]"
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [58]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +190,22 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [59]",
-            "type": "vmess",
-            "server": "43.132.192.16",
-            "server_port": 9527,
-            "uuid": "ae862e1d-3b8c-443a-027b-37c6c69ef43c",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "177.3.212.127",
+            "server_port": 8443,
+            "uuid": "14da77da-4fb3-4e49-ac4f-7881ea19b267",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "neth6.lckdwn.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
