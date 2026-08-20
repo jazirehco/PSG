@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [66]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [66]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +184,45 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
-            "server": "52.59.78.15",
-            "server_port": 22224,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "finite-node.rtxconfigz.com",
+            "server_port": 443,
+            "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "finite-node.rtxconfigz.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "finite-node.rtxconfigz.com"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]",
+            "type": "vless",
+            "server": "usejh2.neobo-tooth.ru",
+            "server_port": 2096,
+            "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "usejh2.neobo-tooth.ru"
+                }
+            }
         }
     ],
     "route": {

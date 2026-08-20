@@ -23,10 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔒 VMESS | @NamiraConfigs [56]","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇿🇦 ZA | 🔒 SS | @NamiraConfigs [60]","type":"ss","server":"20.164.205.35","port":443,"password":"0JtCfjPIHnLCzDia","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔒 VMESS | @NamiraConfigs [58]","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇿🇦 ZA | 🔒 SS | @NamiraConfigs [62]","type":"ss","server":"20.164.205.35","port":443,"password":"0JtCfjPIHnLCzDia","cipher":"chacha20-ietf-poly1305"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,9 +42,10 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [55]'
-      - '🇺🇸 US | 🔒 VMESS | @NamiraConfigs [56]'
-      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [58]'
-      - '🇿🇦 ZA | 🔒 SS | @NamiraConfigs [60]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [57]'
+      - '🇺🇸 US | 🔒 VMESS | @NamiraConfigs [58]'
+      - '🇺🇸 US | 🔓 VMESS | @NamiraConfigs [60]'
+      - '🇿🇦 ZA | 🔒 SS | @NamiraConfigs [62]'
 
   - name: 🌍 Global Media
     type: select
