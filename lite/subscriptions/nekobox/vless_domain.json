@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
                 "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [66]",
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
@@ -92,6 +93,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
                 "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [66]",
                 "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
@@ -180,6 +182,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
+            "type": "vless",
+            "server": "rvg-production-2017.up.railway.app",
+            "server_port": 443,
+            "uuid": "20a78de0-bdc3-7068-860d-441000b15836",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rvg-production-2017.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/20a78de0-bdc3-7068-860d-441000b15836",
+                "headers": {
+                    "Host": "rvg-production-2017.up.railway.app"
                 }
             }
         },

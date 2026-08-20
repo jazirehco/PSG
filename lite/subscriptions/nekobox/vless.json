@@ -80,9 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
                 "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
                 "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,6 +186,31 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [65]",
+            "type": "vless",
+            "server": "rvg-production-2017.up.railway.app",
+            "server_port": 443,
+            "uuid": "20a78de0-bdc3-7068-860d-441000b15836",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rvg-production-2017.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/20a78de0-bdc3-7068-860d-441000b15836",
+                "headers": {
+                    "Host": "rvg-production-2017.up.railway.app"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [66]",
             "type": "vless",
             "server": "finite-node.rtxconfigz.com",
@@ -225,15 +250,6 @@
                     "Host": "usejh2.neobo-tooth.ru"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [68]",
-            "type": "vless",
-            "server": "52.59.78.15",
-            "server_port": 22224,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
