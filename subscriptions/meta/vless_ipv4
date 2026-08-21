@@ -23,13 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]","type":"vless","server":"63.183.163.238","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"135.106.195.75","port":701,"uuid":"c63b5d3f-7417-4c8f-9262-5c603279f042","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [50]","type":"vless","server":"95.85.224.3","port":8443,"uuid":"7e8f7489-e65f-4be6-93ed-867a74ec6759","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
-  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [59]","type":"vless","server":"172.67.191.52","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [60]","type":"vless","server":"167.104.217.250","port":443,"uuid":"efd400cd-98e1-4a9b-a98c-6f4a3b7cce7f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"nl-spec-1.atlanta-api.com"}
-  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]","type":"vless","server":"35.180.213.197","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [62]","type":"vless","server":"35.180.213.197","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔓 VLESS | @NamiraConfigs [49]","type":"vless","server":"180.178.60.253","port":10000,"uuid":"431fe973-a43a-4fac-bf83-2a772e0d0625","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]","type":"vless","server":"63.183.163.238","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]","type":"vless","server":"63.183.163.238","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [52]","type":"vless","server":"135.106.195.75","port":701,"uuid":"c63b5d3f-7417-4c8f-9262-5c603279f042","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [53]","type":"vless","server":"95.85.224.3","port":8443,"uuid":"7e8f7489-e65f-4be6-93ed-867a74ec6759","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🚩 CF | 🔒 VLESS | @NamiraConfigs [62]","type":"vless","server":"172.67.191.52","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]'
-      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [49]'
-      - '🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [50]'
-      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [59]'
-      - '🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [60]'
-      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]'
-      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [62]'
+      - '🇺🇸 US | 🔓 VLESS | @NamiraConfigs [49]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [50]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [51]'
+      - '🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [52]'
+      - '🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [53]'
+      - '🚩 CF | 🔒 VLESS | @NamiraConfigs [62]'
 
   - name: 🌍 Global Media
     type: select
