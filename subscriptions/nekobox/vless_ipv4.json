@@ -80,9 +80,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [65]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [59]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [60]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -93,9 +96,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [56]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [65]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [59]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [60]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [66]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,7 +192,93 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [58]",
+            "type": "vless",
+            "server": "172.67.191.52",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [59]",
+            "type": "vless",
+            "server": "167.104.217.250",
+            "server_port": 443,
+            "uuid": "efd400cd-98e1-4a9b-a98c-6f4a3b7cce7f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nl-spec-1.atlanta-api.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [60]",
+            "type": "vless",
+            "server": "35.180.213.197",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+            "type": "vless",
+            "server": "35.180.213.197",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+            "type": "vless",
+            "server": "151.101.56.6",
+            "server_port": 443,
+            "uuid": "b4b3b4e3-5b3c-48f7-800a-ce69aeb25c51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ssl.fastly.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN",
+                "headers": {
+                    "Host": "ssl.fastly.com"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [66]",
             "type": "vless",
             "server": "128.204.223.94",
             "server_port": 9815,
@@ -198,31 +290,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "128.204.223.94"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "135.106.193.180",
-            "server_port": 54,
-            "uuid": "9972a440-39a6-4672-8883-5dd188863acf",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "95.38.184.199",
-            "server_port": 996,
-            "uuid": "36b78162-4e57-4e08-b3d0-ef13b788f7ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/mmd",
-                "headers": {
-                    "Host": "95.38.184.199"
                 }
             }
         }

@@ -92,8 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [67]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +103,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [67]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,54 +190,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [66]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [67]",
             "type": "vless",
-            "server": "rvg-production-2017.up.railway.app",
-            "server_port": 443,
-            "uuid": "20a78de0-bdc3-7068-860d-441000b15836",
+            "server": "xn-de.dbsll.ir",
+            "server_port": 20017,
+            "uuid": "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rvg-production-2017.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/20a78de0-bdc3-7068-860d-441000b15836",
-                "headers": {
-                    "Host": "rvg-production-2017.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [67]",
-            "type": "vless",
-            "server": "finite-node.rtxconfigz.com",
-            "server_port": 443,
-            "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "finite-node.rtxconfigz.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "finite-node.rtxconfigz.com"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
