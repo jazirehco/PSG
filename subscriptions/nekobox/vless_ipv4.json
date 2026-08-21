@@ -80,12 +80,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [57]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [64]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [50]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -96,12 +97,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [57]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [58]",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [64]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [49]",
+                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [50]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
+                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,7 +194,38 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [56]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "63.183.163.238",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [49]",
+            "type": "vless",
+            "server": "135.106.195.75",
+            "server_port": 701,
+            "uuid": "c63b5d3f-7417-4c8f-9262-5c603279f042",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "95.85.224.3",
+            "server_port": 8443,
+            "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [59]",
             "type": "vless",
             "server": "172.67.191.52",
             "server_port": 2053,
@@ -217,7 +250,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [57]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "167.104.217.250",
             "server_port": 443,
@@ -235,7 +268,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [58]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
             "type": "vless",
             "server": "35.180.213.197",
             "server_port": 22223,
@@ -244,54 +277,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [59]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "35.180.213.197",
             "server_port": 22224,
             "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [60]",
-            "type": "vless",
-            "server": "151.101.56.6",
-            "server_port": 443,
-            "uuid": "b4b3b4e3-5b3c-48f7-800a-ce69aeb25c51",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ssl.fastly.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN",
-                "headers": {
-                    "Host": "ssl.fastly.com"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "128.204.223.94",
-            "server_port": 9815,
-            "uuid": "37a0bd7c-8b9f-4693-8916-bd1e2da0a817",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "128.204.223.94"
-                }
-            }
         }
     ],
     "route": {
