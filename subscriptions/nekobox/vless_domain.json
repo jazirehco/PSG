@@ -80,10 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [64]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -94,10 +93,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [54]",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [64]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [60]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -188,7 +186,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [52]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [54]",
             "type": "vless",
             "server": "tapsi-mall.topdigit.ir",
             "server_port": 34769,
@@ -197,7 +195,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [54]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "gr2.levikogjgfdd.ir",
             "server_port": 443,
@@ -222,7 +220,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [58]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "sos2.speedit.ir",
             "server_port": 443,
@@ -241,31 +239,6 @@
                     "enabled": true,
                     "public_key": "cAxXNYa_hg_WJxa5jRWupnQf9J-OfShX0tqXvpWeZVc",
                     "short_id": "203afac07a"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "irhub-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "5502dc8c-1939-aa92-9436-9b8d28bb48ee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "irhub-production.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/5502dc8c-1939-aa92-9436-9b8d28bb48ee",
-                "headers": {
-                    "Host": "irhub-production.up.railway.app"
                 }
             }
         }
