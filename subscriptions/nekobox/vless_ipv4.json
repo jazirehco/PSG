@@ -80,13 +80,16 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [52]",
+                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,13 +100,16 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
                 "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [50]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
-                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [52]",
+                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [54]",
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
+                "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [62]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +200,51 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [49]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [50]",
+            "type": "vless",
+            "server": "180.178.60.252",
+            "server_port": 10000,
+            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "185.140.12.160",
+            "server_port": 2083,
+            "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "derman.neobo-tooth.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
+        },
+        {
+            "tag": "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [54]",
+            "type": "vless",
+            "server": "95.85.224.3",
+            "server_port": 8443,
+            "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [55]",
             "type": "vless",
             "server": "45.74.159.200",
             "server_port": 10131,
@@ -203,7 +253,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [50]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "180.178.60.253",
             "server_port": 10000,
@@ -212,7 +262,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [52]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [58]",
             "type": "vless",
             "server": "180.178.60.253",
             "server_port": 10000,
@@ -221,7 +271,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [59]",
             "type": "vless",
             "server": "63.183.163.238",
             "server_port": 22222,
@@ -230,7 +280,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [54]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [60]",
             "type": "vless",
             "server": "63.183.163.238",
             "server_port": 22224,
@@ -239,7 +289,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [55]",
+            "tag": "🇷🇺 RU | 🔓 VLESS | @NamiraConfigs [61]",
             "type": "vless",
             "server": "135.106.195.75",
             "server_port": 701,
@@ -248,7 +298,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🇪🇪 EE | 🔓 VLESS | @NamiraConfigs [62]",
             "type": "vless",
             "server": "95.85.224.3",
             "server_port": 8443,
