@@ -92,7 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [63]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [60]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [63]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +194,41 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [60]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+            "type": "vless",
+            "server": "cpanel.linux-panel.com",
+            "server_port": 2044,
+            "uuid": "bf885c93-bec5-4175-a17f-3b038a92f2e3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+            "type": "vless",
+            "server": "k2.cloud--vpn.site",
+            "server_port": 443,
+            "uuid": "b4b3b4e3-5b3c-48f7-800a-ce69aeb25c51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ssl.fastly.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ssl.fastly.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [63]",
             "type": "vless",
             "server": "it2ws.wba-pn.ru",
             "server_port": 443,

@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [63]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]"
+                "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+                "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [63]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,41 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [60]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [61]",
+            "type": "vless",
+            "server": "cpanel.linux-panel.com",
+            "server_port": 2044,
+            "uuid": "bf885c93-bec5-4175-a17f-3b038a92f2e3",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [62]",
+            "type": "vless",
+            "server": "k2.cloud--vpn.site",
+            "server_port": 443,
+            "uuid": "b4b3b4e3-5b3c-48f7-800a-ce69aeb25c51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ssl.fastly.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ssl.fastly.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @NamiraConfigs [63]",
             "type": "vless",
             "server": "it2ws.wba-pn.ru",
             "server_port": 443,
@@ -134,39 +168,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "it2ws.wba-pn.ru"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [61]",
-            "type": "shadowsocks",
-            "server": "15.204.246.132",
-            "server_port": 7307,
-            "method": "aes-256-gcm",
-            "password": "FoOiGlkAA9yPEGP"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [62]",
-            "type": "vless",
-            "server": "172.67.191.52",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }
