@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [62]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]",
-                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]"
+                "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [62]",
+                "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [63]",
+                "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [64]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,7 +105,25 @@
             "type": "direct"
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [63]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @NamiraConfigs [62]",
+            "type": "vless",
+            "server": "45.74.159.200",
+            "server_port": 10131,
+            "uuid": "745bac6d-e48d-4556-aa77-09b68743a9ce",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [63]",
+            "type": "vless",
+            "server": "180.178.60.253",
+            "server_port": 10000,
+            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @NamiraConfigs [64]",
             "type": "vless",
             "server": "sos2.speedit.ir",
             "server_port": 443,
@@ -126,24 +144,6 @@
                     "short_id": "203afac07a"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @NamiraConfigs [64]",
-            "type": "vless",
-            "server": "180.178.60.253",
-            "server_port": 10000,
-            "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [65]",
-            "type": "vless",
-            "server": "63.183.163.238",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
