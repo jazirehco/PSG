@@ -92,10 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [59]",
-                "❔ XX | 🔒 VLESS | @NamiraConfigs [61]"
+                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,10 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [48]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [59]",
-                "❔ XX | 🔒 VLESS | @NamiraConfigs [61]"
+                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [48]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,7 +194,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [48]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [48]",
+            "type": "vless",
+            "server": "lizca2.footballfantasyforum.com",
+            "server_port": 443,
+            "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lizca2.footballfantasyforum.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [56]",
             "type": "vless",
             "server": "web-production-7bd3d.up.railway.app",
             "server_port": 443,
@@ -221,7 +237,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [49]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [57]",
             "type": "vless",
             "server": "hphphphph-production.up.railway.app",
             "server_port": 443,
@@ -242,40 +258,6 @@
                 "path": "/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048",
                 "headers": {
                     "Host": "hphphphph-production.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [59]",
-            "type": "vless",
-            "server": "tapsi-mall.topdigit.ir",
-            "server_port": 34769,
-            "uuid": "81a5be1e-aa3c-4c50-83c1-885050d8b880",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @NamiraConfigs [61]",
-            "type": "vless",
-            "server": "gr2.levikogjgfdd.ir",
-            "server_port": 443,
-            "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "finite-node.rtxconfigz.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "finite-node.rtxconfigz.com"
                 }
             }
         }
