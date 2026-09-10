@@ -92,9 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [50]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [44]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [50]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [48]",
-                "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [50]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [44]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [50]",
+                "❔ XX | 🔓 VLESS | @NamiraConfigs [51]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,34 +196,50 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @NamiraConfigs [47]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [44]",
             "type": "vless",
-            "server": "vip-nl-1.hkd4fwmg.vip",
-            "server_port": 31883,
-            "uuid": "20593145-d975-46f9-9bad-d9f3c8e2d899",
-            "flow": "xtls-rprx-vision",
+            "server": "undef.network",
+            "server_port": 2052,
+            "uuid": "b0a6832e-e6a3-491c-8137-fee5a7912ed4",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vip-nl-1.hkd4fwmg.vip",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/@BlueKnight_net--@BlueKnight_net",
+                "headers": {
+                    "Host": "undef.network"
                 }
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [48]",
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [50]",
             "type": "vless",
-            "server": "neth6.lckdwn.ru",
-            "server_port": 443,
-            "uuid": "14da77da-4fb3-4e49-ac4f-7881ea19b267",
+            "server": "turk.mamadhpbot.ir",
+            "server_port": 50118,
+            "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [51]",
+            "type": "vless",
+            "server": "germanndnew.mamadhpbot.ir",
+            "server_port": 50118,
+            "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [52]",
+            "type": "vless",
+            "server": "b2n.ir",
+            "server_port": 2083,
+            "uuid": "b8e0eb1a-9967-4753-b278-6ef1226dd195",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "neth6.lckdwn.ru",
+                "server_name": "s.dpiccolo.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -230,27 +248,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/hero",
                 "headers": {
-                    "Host": "neth6.lckdwn.ru"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "lizca2.footballfantasyforum.com",
-            "server_port": 443,
-            "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lizca2.footballfantasyforum.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": "s.dpiccolo.ir"
                 }
             }
         }
