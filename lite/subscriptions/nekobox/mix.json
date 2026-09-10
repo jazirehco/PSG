@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [56]",
-                "❔ XX | 🔒 VLESS | @NamiraConfigs [57]",
-                "❔ XX | 🔒 SS | @NamiraConfigs [58]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [56]",
-                "❔ XX | 🔒 VLESS | @NamiraConfigs [57]",
-                "❔ XX | 🔒 SS | @NamiraConfigs [58]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
+                "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [57]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,25 +105,16 @@
             "type": "direct"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [56]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [55]",
             "type": "vless",
-            "server": "63.184.211.42",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @NamiraConfigs [57]",
-            "type": "vless",
-            "server": "45.155.68.9",
-            "server_port": 443,
-            "uuid": "2b622609-bb92-49e8-9631-4ada00324f47",
+            "server": "b2n.ir",
+            "server_port": 2083,
+            "uuid": "b8e0eb1a-9967-4753-b278-6ef1226dd195",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "it2ws.wba-pn.ru",
+                "server_name": "s.dpiccolo.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -132,19 +123,29 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/hero",
                 "headers": {
-                    "Host": "it2ws.wba-pn.ru"
+                    "Host": "s.dpiccolo.ir"
                 }
             }
         },
         {
-            "tag": "❔ XX | 🔒 SS | @NamiraConfigs [58]",
-            "type": "shadowsocks",
-            "server": "141.164.45.187",
-            "server_port": 6679,
-            "method": "aes-256-gcm",
-            "password": "TEzjfAYq2IjtuoS"
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
+            "type": "vless",
+            "server": "63.184.211.42",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇰 DK | 🔓 VLESS | @NamiraConfigs [57]",
+            "type": "vless",
+            "server": "81.27.110.79",
+            "server_port": 8080,
+            "uuid": "cde8e374-bf71-4a1f-9386-db050bc46190",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
