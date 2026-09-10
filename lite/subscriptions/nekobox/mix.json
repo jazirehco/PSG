@@ -77,9 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [54]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [54]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [55]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -87,9 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔒 SS | @NamiraConfigs [54]",
-                "❔ XX | 🔓 VLESS | @NamiraConfigs [55]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
+                "🇨🇦 CA | 🔒 SS | @NamiraConfigs [54]",
+                "🇺🇸 US | 🔒 SS | @NamiraConfigs [55]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -105,30 +105,29 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [54]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]",
+            "type": "vless",
+            "server": "3.72.202.163",
+            "server_port": 22222,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 SS | @NamiraConfigs [54]",
+            "type": "shadowsocks",
+            "server": "51.222.12.127",
+            "server_port": 445,
+            "method": "aes-256-gcm",
+            "password": "zDNVedRFPQexG9v"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @NamiraConfigs [55]",
             "type": "shadowsocks",
             "server": "15.204.247.124",
             "server_port": 2375,
             "method": "aes-256-gcm",
             "password": "faBAoD54k87UJG7"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @NamiraConfigs [55]",
-            "type": "vless",
-            "server": "turk.mamadhpbot.ir",
-            "server_port": 50118,
-            "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [56]",
-            "type": "vless",
-            "server": "germanndnew.mamadhpbot.ir",
-            "server_port": 50118,
-            "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

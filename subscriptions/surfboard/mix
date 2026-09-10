@@ -9,14 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48] = vmess, 82.198.246.250, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇨🇦 CA | 🔒 SS | @NamiraConfigs [53] = ss, 51.222.12.127, 445, encrypt-method = aes-256-gcm, password = zDNVedRFPQexG9v
-🇺🇸 US | 🔒 SS | @NamiraConfigs [54] = ss, 15.204.247.124, 2375, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
+🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41] = vmess, snnsjsowowiwueieyeye.sobu.ir, 40864, username = 4a9a2ec3-91f4-46ed-a647-0a092bf4b6a3, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49] = vmess, 82.198.246.250, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇨🇦 CA | 🔒 SS | @NamiraConfigs [54] = ss, 51.222.12.127, 445, encrypt-method = aes-256-gcm, password = zDNVedRFPQexG9v
+🇺🇸 US | 🔒 SS | @NamiraConfigs [55] = ss, 15.204.247.124, 2375, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48], 🇨🇦 CA | 🔒 SS | @NamiraConfigs [53], 🇺🇸 US | 🔒 SS | @NamiraConfigs [54]
-PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48], 🇨🇦 CA | 🔒 SS | @NamiraConfigs [53], 🇺🇸 US | 🔒 SS | @NamiraConfigs [54]
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [48], 🇨🇦 CA | 🔒 SS | @NamiraConfigs [53], 🇺🇸 US | 🔒 SS | @NamiraConfigs [54]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49], 🇨🇦 CA | 🔒 SS | @NamiraConfigs [54], 🇺🇸 US | 🔒 SS | @NamiraConfigs [55]
+PSG-AUTO = url-test, 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49], 🇨🇦 CA | 🔒 SS | @NamiraConfigs [54], 🇺🇸 US | 🔒 SS | @NamiraConfigs [55]
+PSG-FALLBACK = fallback, 🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41], 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [49], 🇨🇦 CA | 🔒 SS | @NamiraConfigs [54], 🇺🇸 US | 🔒 SS | @NamiraConfigs [55]
 
 [Rule]
 GEOIP,IR,DIRECT
