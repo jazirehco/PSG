@@ -77,6 +77,7 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [28]",
                 "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [29]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [31]",
                 "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [33]",
@@ -88,8 +89,7 @@
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [39]",
                 "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]",
                 "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]"
+                "❔ XX | 🔓 VMESS | @NamiraConfigs [42]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -97,6 +97,7 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [28]",
                 "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [29]",
                 "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [31]",
                 "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [33]",
@@ -108,8 +109,7 @@
                 "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [39]",
                 "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]",
                 "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]"
+                "❔ XX | 🔓 VMESS | @NamiraConfigs [42]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -123,6 +123,22 @@
         {
             "tag": "bypass",
             "type": "direct"
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [28]",
+            "type": "vmess",
+            "server": "47.244.120.197",
+            "server_port": 23026,
+            "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [29]",
@@ -258,19 +274,10 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42]",
+            "tag": "❔ XX | 🔓 VMESS | @NamiraConfigs [42]",
             "type": "vmess",
             "server": "tun-1.veraspeed.ir",
             "server_port": 1003,
-            "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]",
-            "type": "vmess",
-            "server": "tun-1.veraspeed.ir",
-            "server_port": 2002,
             "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e",
             "security": "auto",
             "alter_id": 0
