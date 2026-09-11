@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]","type":"vless","server":"3.72.202.163","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇨🇦 CA | 🔒 SS | @NamiraConfigs [54]","type":"ss","server":"51.222.12.127","port":445,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸 US | 🔒 SS | @NamiraConfigs [55]","type":"ss","server":"15.204.247.124","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [45]","type":"vless","server":"15.188.69.42","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [46]","type":"vless","server":"15.188.69.42","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [47]","type":"vless","server":"15.188.69.42","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [53]'
-      - '🇨🇦 CA | 🔒 SS | @NamiraConfigs [54]'
-      - '🇺🇸 US | 🔒 SS | @NamiraConfigs [55]'
+      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [45]'
+      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [46]'
+      - '🇫🇷 FR | 🔓 VLESS | @NamiraConfigs [47]'
 
   - name: 🌍 Global Media
     type: select

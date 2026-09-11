@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [50]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
-                "🚩 CF | 🔓 VLESS | @NamiraConfigs [50]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
+                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -184,7 +184,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [39]",
+            "type": "vless",
+            "server": "xnforo.ir",
+            "server_port": 2087,
+            "uuid": "c75775e9-cf53-47b6-9d1d-29c3a46633fd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "xnforo.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "spiderpanel-production-aedc.up.railway.app",
             "server_port": 443,
@@ -205,22 +223,6 @@
                 "path": "/ws/b9724ecb-a72d-41e6-be9d-86d64fed9204",
                 "headers": {
                     "Host": "spiderpanel-production-aedc.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [50]",
-            "type": "vless",
-            "server": "undef.network",
-            "server_port": 2052,
-            "uuid": "b0a6832e-e6a3-491c-8137-fee5a7912ed4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@BlueKnight_net--@BlueKnight_net",
-                "headers": {
-                    "Host": "undef.network"
                 }
             }
         }
