@@ -9,12 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44] = vmess, 188.132.232.85, 2086, username = f6361af8-bb8f-4609-bf5d-3fc0f688f47b, ws = false, tls = false
+🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41] = vmess, 57.129.132.223, 80, username = a25cbf11-2908-4a1b-a3a8-9a571777dca3, ws = true, tls = false, ws-path = /vmess/, ws-headers = Host:"google.com"
+🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42] = vmess, tun-1.veraspeed.ir, 1003, username = 8605b8dd-5b4c-4f2f-96c1-a01495cbc37e, ws = false, tls = false
+🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43] = vmess, tun-1.veraspeed.ir, 2002, username = 8605b8dd-5b4c-4f2f-96c1-a01495cbc37e, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]
-PSG-AUTO = url-test, 🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]
-PSG-FALLBACK = fallback, 🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]
+PSG-AUTO = url-test, 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42], 🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]
 
 [Rule]
 GEOIP,IR,DIRECT

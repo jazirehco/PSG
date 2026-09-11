@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,8 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -192,31 +194,38 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
             "type": "vmess",
-            "server": "188.132.232.85",
-            "server_port": 2086,
-            "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
+            "server": "57.129.132.223",
+            "server_port": 80,
+            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [42]",
+            "type": "vmess",
+            "server": "tun-1.veraspeed.ir",
+            "server_port": 1003,
+            "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e",
             "security": "auto",
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [43]",
             "type": "vmess",
-            "server": "165.140.217.2",
-            "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "server": "tun-1.veraspeed.ir",
+            "server_port": 2002,
+            "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "alter_id": 0
         }
     ],
     "route": {
