@@ -9,14 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40] = vmess, newrelax.relaxedboy.online, 110, username = 8e9687fc-a3a7-414a-8676-8e2136797cfe, ws = false, tls = false
-🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41] = vmess, 57.129.132.223, 80, username = a25cbf11-2908-4a1b-a3a8-9a571777dca3, ws = true, tls = false, ws-path = /vmess/, ws-headers = Host:"google.com"
-❔ XX | 🔓 VMESS | @NamiraConfigs [42] = vmess, tun-1.veraspeed.ir, 1003, username = 8605b8dd-5b4c-4f2f-96c1-a01495cbc37e, ws = false, tls = false
+🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38] = vmess, 82.198.246.233, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39] = vmess, newrelax.relaxedboy.online, 110, username = 8e9687fc-a3a7-414a-8676-8e2136797cfe, ws = false, tls = false
+🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40] = vmess, 57.129.132.223, 80, username = a25cbf11-2908-4a1b-a3a8-9a571777dca3, ws = true, tls = false, ws-path = /vmess/, ws-headers = Host:"google.com"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41], ❔ XX | 🔓 VMESS | @NamiraConfigs [42]
-PSG-AUTO = url-test, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41], ❔ XX | 🔓 VMESS | @NamiraConfigs [42]
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41], ❔ XX | 🔓 VMESS | @NamiraConfigs [42]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]
+PSG-AUTO = url-test, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38], 🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]
 
 [Rule]
 GEOIP,IR,DIRECT

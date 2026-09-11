@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
-                "❔ XX | 🔓 VMESS | @NamiraConfigs [42]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
-                "❔ XX | 🔓 VMESS | @NamiraConfigs [42]"
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,7 +113,16 @@
             "type": "direct"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
+            "type": "vmess",
+            "server": "82.198.246.233",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
             "type": "vmess",
             "server": "newrelax.relaxedboy.online",
             "server_port": 110,
@@ -122,7 +131,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]",
             "type": "vmess",
             "server": "57.129.132.223",
             "server_port": 80,
@@ -136,15 +145,6 @@
                     "Host": ""
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @NamiraConfigs [42]",
-            "type": "vmess",
-            "server": "tun-1.veraspeed.ir",
-            "server_port": 1003,
-            "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {
