@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]"
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,61 +113,47 @@
             "type": "direct"
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41]",
-            "type": "vmess",
-            "server": "snnsjsowowiwueieyeye.sobu.ir",
-            "server_port": 40864,
-            "uuid": "4a9a2ec3-91f4-46ed-a647-0a092bf4b6a3",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
             "type": "vless",
-            "server": "spiderpanel-production-aedc.up.railway.app",
-            "server_port": 443,
-            "uuid": "b9724ecb-a72d-41e6-be9d-86d64fed9204",
+            "server": "xnforo.ir",
+            "server_port": 2087,
+            "uuid": "c75775e9-cf53-47b6-9d1d-29c3a46633fd",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "spiderpanel-production-aedc.up.railway.app",
+                "server_name": "xnforo.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws/b9724ecb-a72d-41e6-be9d-86d64fed9204",
-                "headers": {
-                    "Host": "spiderpanel-production-aedc.up.railway.app"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-            "type": "vless",
-            "server": "172.67.217.10",
+            "tag": "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
+            "type": "vmess",
+            "server": "188.132.232.85",
+            "server_port": 2086,
+            "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]",
+            "type": "vmess",
+            "server": "165.140.217.2",
             "server_port": 443,
-            "uuid": "bfea31b5-371b-48d9-a9fa-4767ed6a5973",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "bluerocketway-bcc.lat",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/jetiona",
-                "headers": {
-                    "Host": "bluerocketway-bcc.lat"
                 }
             }
         }

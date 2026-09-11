@@ -92,9 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [33]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🇬🇷 GR | 🔓 VLESS | @NamiraConfigs [34]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -105,9 +106,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
-                "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
-                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]"
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [33]",
+                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [35]",
+                "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
+                "🇬🇷 GR | 🔓 VLESS | @NamiraConfigs [34]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -194,7 +196,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [38]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [33]",
+            "type": "vless",
+            "server": "ww6.levikogjgfdd.ir",
+            "server_port": 443,
+            "uuid": "cf990ae8-ee77-4436-aa3a-bbc2fb040c53",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ww6.levikogjgfdd.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [35]",
+            "type": "vless",
+            "server": "1.spotify24.ir",
+            "server_port": 8080,
+            "uuid": "034be838-d28a-4bdb-9116-cedfc244359b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
             "type": "vless",
             "server": "xnforo.ir",
             "server_port": 2087,
@@ -212,53 +241,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @NamiraConfigs [42]",
+            "tag": "🇬🇷 GR | 🔓 VLESS | @NamiraConfigs [34]",
             "type": "vless",
-            "server": "spiderpanel-production-aedc.up.railway.app",
-            "server_port": 443,
-            "uuid": "b9724ecb-a72d-41e6-be9d-86d64fed9204",
+            "server": "185.126.238.87",
+            "server_port": 2083,
+            "uuid": "7668f678-faee-40cc-9b56-9c39dc773388",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "spiderpanel-production-aedc.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "/ws/b9724ecb-a72d-41e6-be9d-86d64fed9204",
-                "headers": {
-                    "Host": "spiderpanel-production-aedc.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @NamiraConfigs [43]",
-            "type": "vless",
-            "server": "172.67.217.10",
-            "server_port": 443,
-            "uuid": "bfea31b5-371b-48d9-a9fa-4767ed6a5973",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bluerocketway-bcc.lat",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/jetiona",
-                "headers": {
-                    "Host": "bluerocketway-bcc.lat"
-                }
+                "type": "grpc",
+                "service_name": "security.debian.org"
             }
         }
     ],

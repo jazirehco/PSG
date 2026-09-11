@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41]"
+                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41]"
+                "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,13 +192,31 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @NamiraConfigs [41]",
+            "tag": "🇹🇷 TR | 🔓 VMESS | @NamiraConfigs [44]",
             "type": "vmess",
-            "server": "snnsjsowowiwueieyeye.sobu.ir",
-            "server_port": 40864,
-            "uuid": "4a9a2ec3-91f4-46ed-a647-0a092bf4b6a3",
+            "server": "188.132.232.85",
+            "server_port": 2086,
+            "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [45]",
+            "type": "vmess",
+            "server": "165.140.217.2",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
