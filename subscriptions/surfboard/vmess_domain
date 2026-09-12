@@ -9,17 +9,18 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [32] = vmess, 217.142.138.61, 80, username = ac1b933d-afff-4487-93ef-f57130a55dff, ws = false, tls = false
-🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [33] = vmess, 57.129.132.223, 80, username = a25cbf11-2908-4a1b-a3a8-9a571777dca3, ws = true, tls = false, ws-path = /vmess/, ws-headers = Host:"google.com"
-🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [34] = vmess, renderer-stream-2-62.mirra.now, 443, username = db50a20e-7ff5-4e70-948f-17cc9ca7c154, ws = true, tls = true, ws-path = /api/v1/gpu-stream/socket, ws-headers = Host:""
-🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [35] = vmess, 212.95.34.195, 443, username = db50a20e-7ff5-4e70-948f-17cc9ca7c154, ws = true, tls = true, ws-path = /api/v1/gpu-stream/socket, ws-headers = Host:"renderer-stream-2-62.mirra.now"
-🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [36] = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
-🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [37] = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
+🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [33] = vmess, 149.88.23.207, 18000, username = f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, ws = false, tls = false
+🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [38] = vmess, 217.142.138.61, 80, username = ac1b933d-afff-4487-93ef-f57130a55dff, ws = false, tls = false
+🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39] = vmess, 57.129.132.223, 80, username = a25cbf11-2908-4a1b-a3a8-9a571777dca3, ws = true, tls = false, ws-path = /vmess/, ws-headers = Host:"google.com"
+🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [40] = vmess, renderer-stream-2-62.mirra.now, 443, username = db50a20e-7ff5-4e70-948f-17cc9ca7c154, ws = true, tls = true, ws-path = /api/v1/gpu-stream/socket, ws-headers = Host:""
+🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [41] = vmess, 212.95.34.195, 443, username = db50a20e-7ff5-4e70-948f-17cc9ca7c154, ws = true, tls = true, ws-path = /api/v1/gpu-stream/socket, ws-headers = Host:"renderer-stream-2-62.mirra.now"
+🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42] = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
+🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [43] = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [32], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [33], 🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [34], 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [35], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [36], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [37]
-PSG-AUTO = url-test, 🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [32], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [33], 🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [34], 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [35], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [36], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [37]
-PSG-FALLBACK = fallback, 🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [32], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [33], 🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [34], 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [35], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [36], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [37]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [33], 🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [38], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39], 🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [40], 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [41], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [43]
+PSG-AUTO = url-test, 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [33], 🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [38], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39], 🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [40], 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [41], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [43]
+PSG-FALLBACK = fallback, 🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [33], 🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [38], 🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39], 🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [40], 🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [41], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42], 🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [43]
 
 [Rule]
 GEOIP,IR,DIRECT

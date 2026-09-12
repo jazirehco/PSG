@@ -23,10 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [30]","type":"vless","server":"161.35.170.229","port":443,"uuid":"18f1b94e-35f1-4c7f-953c-7b4681c52339","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [31]","type":"vless","server":"18.169.214.185","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]","type":"vless","server":"91.107.179.8","port":15003,"uuid":"69d8dc73-20ff-4241-bdd8-a9d6d07553b6","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇷 GR | 🔓 VLESS | @NamiraConfigs [43]","type":"vless","server":"185.126.238.87","port":2083,"uuid":"7668f678-faee-40cc-9b56-9c39dc773388","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"security.debian.org"}}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [35]","type":"vless","server":"138.197.190.97","port":443,"uuid":"18f1b94e-35f1-4c7f-953c-7b4681c52339","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [36]","type":"vless","server":"161.35.170.229","port":443,"uuid":"18f1b94e-35f1-4c7f-953c-7b4681c52339","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [37]","type":"vless","server":"18.169.214.185","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]","type":"vless","server":"91.107.179.8","port":15003,"uuid":"69d8dc73-20ff-4241-bdd8-a9d6d07553b6","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [30]'
-      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [31]'
-      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [39]'
-      - '🇬🇷 GR | 🔓 VLESS | @NamiraConfigs [43]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [35]'
+      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [36]'
+      - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [37]'
+      - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [45]'
 
   - name: 🌍 Global Media
     type: select
