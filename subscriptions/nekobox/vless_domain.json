@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]"
+                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +91,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]"
+                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,13 +182,22 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]",
             "type": "vless",
-            "server": "91.107.179.8",
-            "server_port": 15003,
-            "uuid": "69d8dc73-20ff-4241-bdd8-a9d6d07553b6",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "pl6.moritech.net",
+            "server_port": 443,
+            "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pl6.moritech.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
