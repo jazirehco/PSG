@@ -23,13 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [33]","type":"vmess","server":"149.88.23.207","port":18000,"cipher":"auto","uuid":"f8c8dc3d-0d37-46b0-8b34-a7232882fcfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [38]","type":"vmess","server":"217.142.138.61","port":80,"cipher":"auto","uuid":"ac1b933d-afff-4487-93ef-f57130a55dff","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39]","type":"vmess","server":"57.129.132.223","port":80,"cipher":"auto","uuid":"a25cbf11-2908-4a1b-a3a8-9a571777dca3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"google.com"}}}
-  - {"name":"🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [40]","type":"vmess","server":"renderer-stream-2-62.mirra.now","port":443,"cipher":"auto","uuid":"db50a20e-7ff5-4e70-948f-17cc9ca7c154","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v1/gpu-stream/socket","headers":{"Host":""}}}
-  - {"name":"🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [41]","type":"vmess","server":"212.95.34.195","port":443,"cipher":"auto","uuid":"db50a20e-7ff5-4e70-948f-17cc9ca7c154","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v1/gpu-stream/socket","headers":{"Host":"renderer-stream-2-62.mirra.now"}}}
-  - {"name":"🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42]","type":"vmess","server":"47.244.120.197","port":23026,"cipher":"auto","uuid":"b9de1bc9-baa7-41ac-86f7-ccd59695cb21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":""}}}
+  - {"name":"🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [34]","type":"vmess","server":"149.88.23.207","port":18000,"cipher":"auto","uuid":"f8c8dc3d-0d37-46b0-8b34-a7232882fcfe","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [39]","type":"vmess","server":"217.142.138.61","port":80,"cipher":"auto","uuid":"ac1b933d-afff-4487-93ef-f57130a55dff","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]","type":"vmess","server":"57.129.132.223","port":80,"cipher":"auto","uuid":"a25cbf11-2908-4a1b-a3a8-9a571777dca3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"google.com"}}}
+  - {"name":"🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [41]","type":"vmess","server":"renderer-stream-2-62.mirra.now","port":443,"cipher":"auto","uuid":"db50a20e-7ff5-4e70-948f-17cc9ca7c154","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v1/gpu-stream/socket","headers":{"Host":""}}}
+  - {"name":"🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [42]","type":"vmess","server":"212.95.34.195","port":443,"cipher":"auto","uuid":"db50a20e-7ff5-4e70-948f-17cc9ca7c154","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v1/gpu-stream/socket","headers":{"Host":"renderer-stream-2-62.mirra.now"}}}
   - {"name":"🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [43]","type":"vmess","server":"47.244.120.197","port":23026,"cipher":"auto","uuid":"b9de1bc9-baa7-41ac-86f7-ccd59695cb21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":""}}}
+  - {"name":"🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [44]","type":"vmess","server":"47.244.120.197","port":23026,"cipher":"auto","uuid":"b9de1bc9-baa7-41ac-86f7-ccd59695cb21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":""}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +43,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [33]'
-      - '🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [38]'
-      - '🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39]'
-      - '🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [40]'
-      - '🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [41]'
-      - '🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [42]'
+      - '🇸🇬 SG | 🔓 VMESS | @NamiraConfigs [34]'
+      - '🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [39]'
+      - '🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]'
+      - '🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [41]'
+      - '🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [42]'
       - '🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [43]'
+      - '🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [44]'
 
   - name: 🌍 Global Media
     type: select
