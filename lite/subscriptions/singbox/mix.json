@@ -89,9 +89,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -99,9 +99,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]"
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -113,25 +113,7 @@
             "type": "direct"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
-            "type": "vmess",
-            "server": "82.198.246.233",
-            "server_port": 180,
-            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
-            "type": "vmess",
-            "server": "newrelax.relaxedboy.online",
-            "server_port": 110,
-            "uuid": "8e9687fc-a3a7-414a-8676-8e2136797cfe",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39]",
             "type": "vmess",
             "server": "57.129.132.223",
             "server_port": 80,
@@ -145,6 +127,24 @@
                     "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
+            "type": "vmess",
+            "server": "82.198.246.233",
+            "server_port": 180,
+            "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]",
+            "type": "vmess",
+            "server": "newrelax.relaxedboy.online",
+            "server_port": 110,
+            "uuid": "8e9687fc-a3a7-414a-8676-8e2136797cfe",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {

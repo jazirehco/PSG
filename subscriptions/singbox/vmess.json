@@ -92,15 +92,15 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [26]",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [27]",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [28]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [32]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [36]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [37]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]"
+                "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [27]",
+                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [28]",
+                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [29]",
+                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [30]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [38]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,15 +111,15 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [26]",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [27]",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [28]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [32]",
-                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [36]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [37]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
-                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]"
+                "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [27]",
+                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [28]",
+                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [29]",
+                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [30]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]",
+                "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [38]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -206,7 +206,32 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [26]",
+            "tag": "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [27]",
+            "type": "vmess",
+            "server": "renderer-stream-2-62.mirra.now",
+            "server_port": 443,
+            "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "renderer-stream-2-62.mirra.now",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api/v1/gpu-stream/socket",
+                "headers": {
+                    "Host": "renderer-stream-2-62.mirra.now"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [28]",
             "type": "vmess",
             "server": "212.95.34.195",
             "server_port": 443,
@@ -231,7 +256,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [27]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [29]",
             "type": "vmess",
             "server": "47.244.120.197",
             "server_port": 23026,
@@ -247,7 +272,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [28]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [30]",
             "type": "vmess",
             "server": "47.244.120.197",
             "server_port": 23026,
@@ -263,7 +288,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [32]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [34]",
             "type": "vmess",
             "server": "66.163.117.58",
             "server_port": 22324,
@@ -272,7 +297,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [36]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @NamiraConfigs [38]",
             "type": "vmess",
             "server": "94.184.21.218",
             "server_port": 80,
@@ -281,7 +306,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [37]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [39]",
             "type": "vmess",
             "server": "57.129.132.223",
             "server_port": 80,
@@ -297,7 +322,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [38]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [40]",
             "type": "vmess",
             "server": "82.198.246.233",
             "server_port": 180,
@@ -306,29 +331,13 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [39]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [41]",
             "type": "vmess",
             "server": "newrelax.relaxedboy.online",
             "server_port": 110,
             "uuid": "8e9687fc-a3a7-414a-8676-8e2136797cfe",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [40]",
-            "type": "vmess",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/vmess/",
-                "headers": {
-                    "Host": ""
-                }
-            }
         }
     ],
     "route": {
