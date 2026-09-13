@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name":"🇹🇼 TW | 🔒 VMESS | @NamiraConfigs [33]","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]","type":"vless","server":"pl6.moritech.net","port":443,"uuid":"cd3bb7d9-7df3-4644-ac05-c260990ac277","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"pl6.moritech.net","flow":"xtls-rprx-vision"}
   - {"name":"🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [37]","type":"vless","server":"138.197.190.97","port":443,"uuid":"18f1b94e-35f1-4c7f-953c-7b4681c52339","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [38]","type":"vless","server":"161.35.170.229","port":443,"uuid":"18f1b94e-35f1-4c7f-953c-7b4681c52339","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -47,6 +48,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇼 TW | 🔒 VMESS | @NamiraConfigs [33]'
       - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]'
       - '🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [37]'
       - '🇬🇧 GB | 🔓 VLESS | @NamiraConfigs [38]'
