@@ -92,14 +92,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇼 TW | 🔒 VMESS | @NamiraConfigs [39]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]",
-                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [46]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [47]",
-                "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [48]",
-                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [49]",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [50]"
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]",
+                "🇹🇼 TW | 🔒 VMESS | @NamiraConfigs [44]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [45]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46]",
+                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [50]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [51]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -110,14 +108,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇼 TW | 🔒 VMESS | @NamiraConfigs [39]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
-                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]",
-                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [46]",
-                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [47]",
-                "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [48]",
-                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [49]",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [50]"
+                "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]",
+                "🇹🇼 TW | 🔒 VMESS | @NamiraConfigs [44]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [45]",
+                "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46]",
+                "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [50]",
+                "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [51]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -204,7 +200,16 @@
             }
         },
         {
-            "tag": "🇹🇼 TW | 🔒 VMESS | @NamiraConfigs [39]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @NamiraConfigs [40]",
+            "type": "vmess",
+            "server": "178.104.201.75",
+            "server_port": 34597,
+            "uuid": "VPN_BattleX",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇹🇼 TW | 🔒 VMESS | @NamiraConfigs [44]",
             "type": "vmess",
             "server": "165.154.195.38",
             "server_port": 35034,
@@ -213,7 +218,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [41]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [45]",
             "type": "vmess",
             "server": "66.163.117.58",
             "server_port": 22324,
@@ -222,7 +227,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [42]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @NamiraConfigs [46]",
             "type": "vmess",
             "server": "165.140.217.2",
             "server_port": 443,
@@ -240,7 +245,7 @@
             }
         },
         {
-            "tag": "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [46]",
+            "tag": "🇰🇷 KR | 🔓 VMESS | @NamiraConfigs [50]",
             "type": "vmess",
             "server": "217.142.138.61",
             "server_port": 80,
@@ -249,7 +254,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [47]",
+            "tag": "🇬🇧 GB | 🔓 VMESS | @NamiraConfigs [51]",
             "type": "vmess",
             "server": "57.129.132.223",
             "server_port": 80,
@@ -259,72 +264,6 @@
             "transport": {
                 "type": "ws",
                 "path": "/vmess/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [48]",
-            "type": "vmess",
-            "server": "renderer-stream-2-62.mirra.now",
-            "server_port": 443,
-            "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "renderer-stream-2-62.mirra.now",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/v1/gpu-stream/socket",
-                "headers": {
-                    "Host": "renderer-stream-2-62.mirra.now"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [49]",
-            "type": "vmess",
-            "server": "212.95.34.195",
-            "server_port": 443,
-            "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "renderer-stream-2-62.mirra.now",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/v1/gpu-stream/socket",
-                "headers": {
-                    "Host": "renderer-stream-2-62.mirra.now"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [50]",
-            "type": "vmess",
-            "server": "47.244.120.197",
-            "server_port": 23026,
-            "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki",
                 "headers": {
                     "Host": ""
                 }
