@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]","type":"vless","server":"pl6.moritech.net","port":443,"uuid":"cd3bb7d9-7df3-4644-ac05-c260990ac277","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"pl6.moritech.net","flow":"xtls-rprx-vision"}
+  - {"name":"🚩 CF | 🔓 VLESS | @NamiraConfigs [37]","type":"vless","server":"skk.moe","port":8880,"uuid":"9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.JP.CMLiussss.net","headers":{"Host":"late-mountain-6801.355.workers.dev"}}}
+  - {"name":"🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"pl6.moritech.net","port":443,"uuid":"cd3bb7d9-7df3-4644-ac05-c260990ac277","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"pl6.moritech.net","flow":"xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]'
+      - '🚩 CF | 🔓 VLESS | @NamiraConfigs [37]'
+      - '🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [40]'
 
   - name: 🌍 Global Media
     type: select

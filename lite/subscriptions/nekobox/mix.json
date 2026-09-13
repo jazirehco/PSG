@@ -77,8 +77,9 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [45]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]"
+                "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [48]",
+                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [49]",
+                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -86,8 +87,9 @@
         {
             "interval": "10m",
             "outbounds": [
-                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [45]",
-                "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]"
+                "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [48]",
+                "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [49]",
+                "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -103,7 +105,57 @@
             "type": "direct"
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [45]",
+            "tag": "🇷🇺 RU | 🔒 VMESS | @NamiraConfigs [48]",
+            "type": "vmess",
+            "server": "renderer-stream-2-62.mirra.now",
+            "server_port": 443,
+            "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "renderer-stream-2-62.mirra.now",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api/v1/gpu-stream/socket",
+                "headers": {
+                    "Host": "renderer-stream-2-62.mirra.now"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @NamiraConfigs [49]",
+            "type": "vmess",
+            "server": "212.95.34.195",
+            "server_port": 443,
+            "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "renderer-stream-2-62.mirra.now",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api/v1/gpu-stream/socket",
+                "headers": {
+                    "Host": "renderer-stream-2-62.mirra.now"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @NamiraConfigs [50]",
             "type": "vmess",
             "server": "47.244.120.197",
             "server_port": 23026,
@@ -117,15 +169,6 @@
                     "Host": ""
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @NamiraConfigs [47]",
-            "type": "vless",
-            "server": "91.107.179.8",
-            "server_port": 15003,
-            "uuid": "69d8dc73-20ff-4241-bdd8-a9d6d07553b6",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
+                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [40]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -91,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]"
+                "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
+                "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [40]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -182,7 +184,23 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [34]",
+            "tag": "🚩 CF | 🔓 VLESS | @NamiraConfigs [37]",
+            "type": "vless",
+            "server": "skk.moe",
+            "server_port": 8880,
+            "uuid": "9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+                "headers": {
+                    "Host": "skk.moe"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @NamiraConfigs [40]",
             "type": "vless",
             "server": "pl6.moritech.net",
             "server_port": 443,
